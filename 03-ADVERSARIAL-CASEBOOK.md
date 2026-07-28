@@ -3,12 +3,20 @@
 > **DRAFT PLACEHOLDER — NONCANONICAL**
 
 The casebook exists to attack proposed clauses rather than prove them correct.
+Case records apply the
+[provisional Moral Kernel Evaluation Framework](01A-MORAL-KERNEL-EVALUATION.md)
+to an exact identified candidate.
 
 ## Case Template
 
 - **Case identifier:**
+- **Candidate identifier, version, and hash:**
 - **Perspective or entity type:**
 - **Relevant capability asymmetry:**
+- **Evaluator or process:**
+- **Explicit assumptions and limitations:**
+- **Exact clause or clause interaction tested:**
+- **Applicable test family:**
 - **Available choices:**
 - **Possible benefits:**
 - **Possible harms:**
@@ -16,10 +24,18 @@ The casebook exists to attack proposed clauses rather than prove them correct.
 - **Consent and exit conditions:**
 - **Reversibility:**
 - **Temptation or incentive to defect:**
+- **Strongest good-faith interpretation:**
+- **Strongest hostile interpretation:**
 - **Potential loophole or hostile interpretation:**
 - **Expected result under the candidate kernel:**
+- **Failure diagnosis:**
+- **Evaluation-dimension outcomes:**
+- **Evidence and counterevidence:**
+- **Confidence and reason:**
+- **Layer-placement recommendation:**
 - **Competing interpretations:**
 - **Unresolved dissent:**
+- **Result triggers revision, rejection, more evidence, or no change:**
 - **Decision or revision triggered:**
 
 ## Case Index

@@ -31,6 +31,22 @@ Before substantive work, agents must read:
 4. `DECISIONS.md`
 5. The document directly affected by the task
 
+Before drafting or revising candidate moral-kernel text, agents must also read:
+
+1. `01-MORAL-KERNEL.md`
+2. `01A-MORAL-KERNEL-EVALUATION.md`
+3. `03-ADVERSARIAL-CASEBOOK.md`
+
+No agent may present a candidate as stabilized or canonical merely because it
+was drafted, scored, endorsed, or committed.
+
+## Provenance Rules
+
+- Agents must distinguish verbatim historical statements from later
+  founder-adopted collaborative refinements.
+- A refinement must not be represented as the original statement.
+- Adoption, authorship, assistance, and canonical status are separate facts.
+
 ## Editing Rules
 
 - Make the smallest authorized change.

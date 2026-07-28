@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-28
 
-**Current phase:** Repository foundation and pre-kernel exploration.
+**Current phase:** Provisional moral-kernel evaluation design.
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -12,20 +12,25 @@ specification, or governance system exists.
 - Public repository created.
 - Founding Charter v0.0 committed.
 - Initial documentation scaffold prepared by this task.
+- Three original founding answers and three separately labeled,
+  founder-adopted collaborative refinements preserved as noncanonical
+  historical evidence.
+- Draft Moral Kernel Evaluation Framework v0.1 prepared.
 
-## Current Architectural Direction
+## Current Work
 
-- Stabilize the moral kernel before optimizing the signal that carries it.
-- Keep the kernel thin while preserving meaningful protection.
-- Put definitions, commentary, profiles, protocols, and implementations in
-  distinguishable layers.
-- Preserve rejection as a legitimate possible response.
+- Evaluation criteria precede candidate drafting.
+- The framework is noncanonical and recursively challengeable.
+- No candidate moral kernel exists.
+- Likely acceptance is not the evaluation objective.
+- Rejection causes must be diagnosed rather than treated as equivalent.
 
 ## Next Proposed Architectural Work
 
-- Establish evaluation criteria for Moral Kernel v0.1.
-- Draft a deliberately attackable first candidate.
-- Test it through the adversarial casebook before treating it as stable.
+1. Review the proposed evaluation-process decisions.
+2. Revise or accept the evaluation framework.
+3. Only then authorize drafting of Candidate Moral Kernel MK-0.1.
+4. Begin adversarial cases only after an exact candidate text and hash exist.
 
 ## Document Status
 
@@ -34,6 +39,7 @@ specification, or governance system exists.
 | `00-FOUNDING-CHARTER.md` | Existing founding record |
 | `00A-FOUNDING-STATEMENTS.md` | Draft placeholder |
 | `01-MORAL-KERNEL.md` | Draft placeholder |
+| `01A-MORAL-KERNEL-EVALUATION.md` | Draft evaluation framework — noncanonical |
 | `02-DEFINITIONS.md` | Draft placeholder |
 | `03-ADVERSARIAL-CASEBOOK.md` | Draft placeholder |
 | `04-INTERPRETIVE-LAYERS.md` | Draft placeholder |

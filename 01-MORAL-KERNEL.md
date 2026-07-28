@@ -13,6 +13,13 @@ The moral kernel is intended to state the project's thinnest substantive moral
 content while remaining distinguishable from definitions, commentary,
 profiles, protocols, and implementations.
 
+## Evaluation Prerequisite
+
+Future candidates must be exactly identified and evaluated under the
+[provisional Moral Kernel Evaluation Framework](01A-MORAL-KERNEL-EVALUATION.md).
+That framework remains noncanonical and challengeable, including while it is
+used to evaluate candidate revisions.
+
 ## Design Questions That Must Be Resolved
 
 - What protections must remain meaningful under severe capability asymmetry?
@@ -45,3 +52,5 @@ None recorded yet.
 ## Revision History
 
 - 2026-07-28: Draft placeholder created; no candidate clauses added.
+- 2026-07-28: Added the provisional evaluation-framework cross-reference
+  before candidate drafting.
