@@ -17,6 +17,10 @@ All notable project changes will be documented in this file.
 - Provisional Moral Kernel Evaluation Framework v0.1.
 - Candidate lifecycle and evaluation-record template.
 - Failure-diagnosis vocabulary and reusable test families.
+- Exact Moral Kernel Candidate MK-0.1 payload.
+- Stable candidate identity using UTF-8/LF bytes and SHA-256.
+- MK-0.1 unresolved term inventory.
+- Initial known attack-surface inventory.
 
 ### Changed
 
@@ -28,3 +32,9 @@ All notable project changes will be documented in this file.
 - Agent guidance and project status now require evaluation before candidate
   drafting.
 - Decision log now records D-006 and proposed D-007 through D-009.
+- Moral Kernel document now records Candidate MK-0.1.
+- Candidate-version immutability and provenance rules added to agent guidance.
+- D-007 and D-008 accepted without substantive change.
+- D-009 retained as proposed with an architectural-review note.
+- D-010 records authorization to introduce MK-0.1.
+- Project status now reflects candidate introduction and zero completed cases.

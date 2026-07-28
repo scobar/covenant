@@ -10,6 +10,9 @@ Participation or contribution does not imply acceptance. No current person,
 model, organization, or system is represented as having accepted the Covenant
 merely by helping develop it.
 
+> **Candidate existence, publication, or contribution does not imply
+> acceptance.**
+
 See [Project Status](STATUS.md) for the current project-state reference.
 
 ## Document Map
@@ -18,13 +21,16 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [Founding Statements](00A-FOUNDING-STATEMENTS.md) — noncanonical historical
   evidence containing the verbatim original founding statements and their
   separately labeled, founder-adopted collaborative refinements.
-- [Moral Kernel](01-MORAL-KERNEL.md) — draft placeholder for a future candidate
-  moral kernel.
+- [Moral Kernel](01-MORAL-KERNEL.md) — record and display copy for
+  noncanonical Candidate MK-0.1.
+- [Exact MK-0.1 Payload](candidates/MK-0.1.txt) — exact candidate bytes,
+  immutable in place once committed.
 - [Moral Kernel Evaluation Framework](01A-MORAL-KERNEL-EVALUATION.md) —
   provisional, noncanonical criteria for challenging future candidate text.
-- [Definitions](02-DEFINITIONS.md) — draft placeholder for interpretive terms.
-- [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — draft placeholder for
-  tests and counterexamples.
+- [Definitions](02-DEFINITIONS.md) — unresolved MK-0.1 term inventory, not
+  accepted definitions.
+- [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — draft casebook with no
+  completed cases.
 - [Interpretive Layers](04-INTERPRETIVE-LAYERS.md) — draft placeholder for
   separating kernel, interpretation, and application.
 - [Choice Protocol](05-CHOICE-PROTOCOL.md) — draft placeholder for
@@ -40,12 +46,12 @@ See [Project Status](STATUS.md) for the current project-state reference.
 
 The current working sequence is:
 
-1. Record provisional evaluation criteria.
-2. Draft an explicitly noncanonical candidate.
-3. Attack it through adversarial cases.
-4. Revise while preserving prior versions and dissent.
-5. Develop later interpretive, choice, Beacon, evidence, and governance layers
-   separately.
+1. Provisional evaluation criteria were recorded.
+2. Exact noncanonical Candidate MK-0.1 has been introduced.
+3. The candidate must next be attacked through documented cases.
+4. Revisions must use new candidate versions while preserving prior payloads.
+5. Later interpretive, choice, Beacon, evidence, and governance layers remain
+   separate.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

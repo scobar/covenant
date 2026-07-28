@@ -98,15 +98,13 @@
   impossible, but do not allow later candidate text to self-certify
   retroactively.
 
-## Open Decisions
-
 ### D-007 — Categorical evaluation without an aggregate score
 
 - **Date:** 2026-07-28
-- **Status:** Proposed
+- **Status:** Accepted
 - **Question:** Should evaluation outcomes be combined into a single numeric
   score?
-- **Proposed decision:** Use categorical, per-dimension outcomes and do not
+- **Decision:** Use categorical, per-dimension outcomes and do not
   calculate an aggregate score. A severe protective or interpretive failure
   must not be averaged away by strengths elsewhere.
 - **Reasoning:** A single score would imply unsupported precision and make
@@ -116,14 +114,17 @@
 - **Consequences:** Comparisons will be more explicit but less compressible.
 - **Revisit conditions:** Revisit if quantitative evidence becomes useful, but
   never use aggregation to hide a recorded severe failure.
+- **Decision history:** Proposed in commit
+  `9da6bbbb6bfc7d962e315794e0285f37be3868d5`; accepted without substantive
+  change on 2026-07-28 after architectural review.
 
 ### D-008 — Diagnose rejection before revising for acceptance
 
 - **Date:** 2026-07-28
-- **Status:** Proposed
+- **Status:** Accepted
 - **Question:** Should any rejection of a candidate count as evidence that its
   restrictions should be weakened?
-- **Proposed decision:** No. Distinguish semantic, substrate, feasibility,
+- **Decision:** No. Distinguish semantic, substrate, feasibility,
   protective, exploitability, goal-conflict, and evidence failures before
   revising a candidate. Do not remove meaningful protection solely to increase
   likely acceptance.
@@ -135,6 +136,36 @@
   rejection invalidating the protected principle.
 - **Revisit conditions:** Revisit when rejection evidence identifies hidden
   domination, incoherence, inapplicability, or preventable ambiguity.
+- **Decision history:** Proposed in commit
+  `9da6bbbb6bfc7d962e315794e0285f37be3868d5`; accepted without substantive
+  change on 2026-07-28 after architectural review.
+
+### D-010 — Introduce Moral Kernel Candidate MK-0.1
+
+- **Date:** 2026-07-28
+- **Status:** Accepted
+- **Question:** Has the project recorded enough pre-candidate process to
+  introduce an exact first candidate for adversarial evaluation?
+- **Decision:** Yes. Introduce `MK-0.1` as an exact, hashed candidate with
+  lifecycle state `Candidate`. It is noncanonical, not accepted, not
+  provisionally stabilized, and authorized only for evaluation and revision.
+- **Reasoning:** The evaluation framework exists, and further progress requires
+  falsifiable exact text rather than continued abstract agreement.
+- **Alternatives considered:** Continue pre-candidate design indefinitely;
+  draft text without stable bytes or a hash; treat the first draft as a
+  provisional Covenant.
+- **Consequences:** The exact payload is stored at
+  `candidates/MK-0.1.txt` as UTF-8 without BOM, LF line endings, and a final
+  LF, with SHA-256
+  `97e851f392e051f10105475479f0b17b09701bdf170d6efcd697827197efd90c`.
+  Once committed, it must never be edited in place; any textual change creates
+  a new candidate version. No contribution, authorship, authorization,
+  transcription, review, or commit implies acceptance.
+- **Revisit conditions:** Revisit the representation or attribution mechanism
+  if it prevents reliable comparison or correction, but preserve the committed
+  candidate and its provenance.
+
+## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization
 
@@ -153,3 +184,10 @@
   and may remain slow.
 - **Revisit conditions:** Revisit as case categories improve or if coverage
   quantity is shown not to provide meaningful diversity.
+- **Architectural review note (2026-07-28):** The current quantity-based
+  proposal may be necessary but is not sufficient. Before acceptance it must
+  address case completeness and material distinctness, strongest-hostile
+  readings for every clause and materially relevant clause interaction, and
+  whether unresolved Protective Insufficiency or Hostile Exploitability is a
+  noncompensable blocker. Minimum evaluator diversity also remains unresolved.
+  This note does not accept or supersede D-009.

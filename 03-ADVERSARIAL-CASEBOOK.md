@@ -7,6 +7,19 @@ Case records apply the
 [provisional Moral Kernel Evaluation Framework](01A-MORAL-KERNEL-EVALUATION.md)
 to an exact identified candidate.
 
+## Active Candidate
+
+- **Identifier:** `MK-0.1`
+- **Lifecycle state:** `Candidate`
+- **Payload:** [`candidates/MK-0.1.txt`](candidates/MK-0.1.txt)
+- **SHA-256:**
+  `97e851f392e051f10105475479f0b17b09701bdf170d6efcd697827197efd90c`
+- **Evaluation framework:**
+  [`01A-MORAL-KERNEL-EVALUATION.md`](01A-MORAL-KERNEL-EVALUATION.md)
+- **Completed case count:** `0`
+
+The candidate has not yet entered documented adversarial review.
+
 ## Case Template
 
 - **Case identifier:**

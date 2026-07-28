@@ -37,6 +37,9 @@ Before drafting or revising candidate moral-kernel text, agents must also read:
 2. `01A-MORAL-KERNEL-EVALUATION.md`
 3. `03-ADVERSARIAL-CASEBOOK.md`
 
+Before interpreting or revising candidate language, agents must also read
+`02-DEFINITIONS.md`.
+
 No agent may present a candidate as stabilized or canonical merely because it
 was drafted, scored, endorsed, or committed.
 
@@ -46,6 +49,24 @@ was drafted, scored, endorsed, or committed.
   founder-adopted collaborative refinements.
 - A refinement must not be represented as the original statement.
 - Adoption, authorship, assistance, and canonical status are separate facts.
+
+## Candidate-Version Rules
+
+- A committed candidate payload is immutable historical evidence.
+- Never edit a committed candidate payload in place.
+- Any textual change requires a new candidate identifier or version and a new
+  payload file.
+- The exact payload hash, encoding, and line-ending convention must be
+  recorded.
+- Display copies must be validated against the payload.
+- A payload is authoritative only for identifying that candidate's exact text;
+  it is not canonical moral authority.
+- Drafting, authorizing, transcribing, reviewing, committing, quoting, or
+  evaluating a candidate does not imply acceptance.
+- A candidate must not be labeled `Under adversarial review` until at least one
+  completed evaluation record exists.
+- A candidate must not be labeled `Provisionally stabilized` while D-009
+  remains unresolved or merely because it was committed.
 
 ## Editing Rules
 

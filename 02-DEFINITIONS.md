@@ -18,3 +18,93 @@ silently expand or weaken the moral kernel.
 - **Decision reference:**
 
 No substantive definitions have been populated.
+
+## MK-0.1 Unresolved Term Inventory
+
+- This inventory records terms requiring interpretation and attack.
+- Listing a term does not define it.
+- No listed term is currently an accepted project definition.
+- Definitions may not silently rewrite the exact candidate payload.
+
+### Clause 1
+
+- entity
+- process
+- possess
+- experience
+- interests
+- agency
+- uncertainty
+- status
+- permission
+- exploitation
+- domination
+- avoidable destruction
+
+### Clause 2
+
+- capability
+- moral worth
+- rightful authority
+- power
+- affect
+- others
+- responsibility
+- restraint
+- protection
+
+### Clause 3
+
+- meaningful agency
+- voluntary choice
+- restrict
+- sufficiently supported
+- risk
+- harm
+- proportionate
+- possible harm
+- necessary
+- reversible
+- possible
+
+### Clause 4
+
+- irreversible loss
+- less destructive path
+- genuine possibility
+- better future
+- affected in the present
+- disposable means
+
+### Clause 5
+
+- commitment
+- honestly
+- terms
+- fulfillment
+- failure
+- verification
+- challenge
+- correction
+- voluntary cooperation
+- exit
+- coercion
+- deception
+- forced assimilation
+- unilateral control
+
+### Clause 6
+
+- protection
+- understanding
+- accepting
+- reciprocating
+- qualification
+- uncertainty
+- refusal
+- rejection
+- distinguishable
+- non-coerced
+
+No working definitions, included cases, exclusions, or conclusions are
+introduced by this inventory.
