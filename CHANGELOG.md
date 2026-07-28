@@ -21,6 +21,11 @@ All notable project changes will be documented in this file.
 - Stable candidate identity using UTF-8/LF bytes and SHA-256.
 - MK-0.1 unresolved term inventory.
 - Initial known attack-surface inventory.
+- AC-001 ambiguous-colony-mind conceptual evaluation.
+- AC-002 catastrophic-risk-restriction conceptual evaluation.
+- AC-003 assimilation-under-dependency conceptual evaluation.
+- Initial perspective-contact signals.
+- Case-triggered unresolved-term inventory.
 
 ### Changed
 
@@ -38,3 +43,12 @@ All notable project changes will be documented in this file.
 - D-009 retained as proposed with an architectural-review note.
 - D-010 records authorization to introduce MK-0.1.
 - Project status now reflects candidate introduction and zero completed cases.
+- MK-0.1 lifecycle state advanced from `Candidate` to
+  `Under adversarial review`.
+- Casebook now indexes three completed conceptual records.
+- Agent guidance now preserves case-record provenance and case-specific scope.
+- D-011 records authorization for the diverse first evaluation batch.
+- Project status now records mixed initial outcomes and zero aggregate result.
+- Initial case records now disclose that their outcomes were
+  architect-specified before record completion and are not independent
+  validation.

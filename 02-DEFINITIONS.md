@@ -108,3 +108,47 @@ No substantive definitions have been populated.
 
 No working definitions, included cases, exclusions, or conclusions are
 introduced by this inventory.
+
+## Case-Triggered Unresolved Terms
+
+- These terms arose while applying MK-0.1.
+- Listing them does not define them.
+- They may belong in definitions, profiles, governance, or later candidate
+  revisions.
+- They may not silently alter MK-0.1.
+
+### AC-001
+
+- collective entity
+- component entity
+- moral-status threshold
+- adequate alternative
+- avoidable cost
+- communication-limited preference
+- destructive use
+
+### AC-002
+
+- catastrophic harm
+- evidence threshold
+- materially supported risk
+- independent review
+- conflict of interest
+- temporary restriction
+- reviewable authority
+- least-restrictive alternative
+
+### AC-003
+
+- essential-resource dependency
+- meaningful refusal
+- meaningful exit
+- continuity-preserving exit
+- copy
+- assimilation
+- coercive condition
+- minimum protection
+- resource control
+
+No working definitions or conclusions are added by this case-triggered
+inventory.

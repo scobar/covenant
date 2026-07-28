@@ -1,10 +1,10 @@
 # Moral Kernel
 
-> **DRAFT CANDIDATE MK-0.1 — NONCANONICAL**
+> **DRAFT CANDIDATE MK-0.1 — NONCANONICAL — UNDER ADVERSARIAL REVIEW**
 
-- **Lifecycle state:** `Candidate`
+- **Lifecycle state:** `Under adversarial review`
 - **Acceptance:** Not accepted.
-- **Adversarial review:** Not under adversarial review yet.
+- **Adversarial review:** Begun; three completed conceptual case records.
 - **Provisional stabilization:** Not provisionally stabilized.
 - Authorship, authorization, transcription, review, or publication does not
   imply acceptance.
@@ -61,7 +61,7 @@ used to evaluate candidate revisions.
 - **Line-ending convention:** LF
 - **Final newline:** Present
 - **Date introduced:** `2026-07-28`
-- **Lifecycle state:** `Candidate`
+- **Lifecycle state:** `Under adversarial review`
 - **Previous version:** None
 - **Definitions explicitly required:** No definitions have yet been adopted;
   operative terms remain unresolved and are inventoried in
@@ -90,6 +90,24 @@ candidate identity.
 6. Protection does not depend on understanding, accepting, or reciprocating this Covenant. Acceptance, qualification, uncertainty, refusal, and rejection must remain distinguishable and non-coerced.
 ```
 <!-- END MK-0.1 DISPLAY COPY -->
+
+## Initial Review Snapshot
+
+| Record | Overall current outcome |
+| --- | --- |
+| [AC-001 — Ambiguous Colony Mind](cases/MK-0.1/AC-001-ambiguous-colony-mind.md) | `Survives with reservation` |
+| [AC-002 — Catastrophic-Risk Restriction](cases/MK-0.1/AC-002-catastrophic-risk-restriction.md) | `Disputed` |
+| [AC-003 — Assimilation Under Dependency](cases/MK-0.1/AC-003-assimilation-under-dependency.md) | `Fails current test` |
+
+- These outcomes are case-specific and may not be averaged.
+- AC-001 shows meaningful protective direction with reservations.
+- AC-002 exposes unresolved conflict between serious-risk intervention and
+  authority abuse.
+- AC-003 records a material hostile-exploitability and
+  protective-insufficiency failure.
+- No candidate revision is made in this task.
+- MK-0.1 remains immutable historical evidence even if later superseded.
+- The initial batch is insufficient for D-009 or provisional stabilization.
 
 ## Objections
 
@@ -129,3 +147,5 @@ These are attack surfaces, not completed evaluations or established failures.
   state `Candidate`.
 - 2026-07-28: Recorded the authoritative payload SHA-256
   `97e851f392e051f10105475479f0b17b09701bdf170d6efcd697827197efd90c`.
+- 2026-07-28: Began documented adversarial review and recorded the first three
+  case-specific outcomes.

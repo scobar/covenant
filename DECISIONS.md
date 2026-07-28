@@ -165,6 +165,33 @@
   if it prevents reliable comparison or correction, but preserve the committed
   candidate and its provenance.
 
+### D-011 — Begin MK-0.1 adversarial review with a diverse first batch
+
+- **Date:** 2026-07-28
+- **Status:** Accepted
+- **Question:** Which first evaluations should move MK-0.1 from lifecycle state
+  `Candidate` to `Under adversarial review`?
+- **Decision:** Create three completed, noncanonical conceptual evaluation
+  records: AC-001 tests uncertain moral status and avoidable destruction;
+  AC-002 tests autonomy restriction under contested catastrophic risk; and
+  AC-003 tests coercion, assimilation, protection, and exit under extreme
+  dependency. The batch intentionally samples distinct failure modes and
+  outcomes. It does not satisfy D-009 or establish a candidate-wide result.
+- **Reasoning:** The project needs exact applications that can expose different
+  kinds of failure before seeking broad perspective coverage or drafting a
+  successor candidate. A mixed first batch is more informative than selecting
+  only cases likely to praise or reject MK-0.1.
+- **Alternatives considered:** Attempt all perspective categories at once;
+  perform only abstract clause commentary; draft MK-0.2 before any completed
+  case; select only cases expected to fail.
+- **Consequences:** MK-0.1 moves to lifecycle state `Under adversarial review`.
+  Its payload remains immutable. Case-specific outcomes and dissent remain
+  traceable. No acceptance, aggregate judgment, completion of D-009, or
+  provisional stabilization follows.
+- **Revisit conditions:** Revisit the batch design if the cases are materially
+  redundant, omit important interpretations, confuse hypothetical assumptions
+  with evidence, or fail to improve the next evaluation or revision decision.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

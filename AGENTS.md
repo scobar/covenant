@@ -68,6 +68,35 @@ was drafted, scored, endorsed, or committed.
 - A candidate must not be labeled `Provisionally stabilized` while D-009
   remains unresolved or merely because it was committed.
 
+## Case-Record Rules
+
+- Every completed case record must identify the exact candidate version and
+  hash.
+- A completed record is historical evaluation evidence, not moral authority.
+- “Completed” means required fields are populated, not that the issue is
+  settled.
+- Case outcomes apply only to the recorded scenario and tested text.
+- Hypothetical stipulations must not be represented as real-world evidence.
+- Modeling a perspective does not grant authority to speak for that entity.
+- Per-dimension outcomes must not be averaged into a universal score.
+- Competing interpretations and dissent must remain visible.
+- Once a case record is committed, substantive corrections must be explicit in
+  revision history or a successor record; prior conclusions must not be
+  silently erased.
+- Candidate payloads remain immutable during case evaluation.
+- One completed case permits lifecycle state `Under adversarial review`; it
+  does not permit `Provisionally stabilized`.
+- Perspective contact must not be described as sufficient coverage while D-009
+  remains unresolved.
+- Every completed evaluation record must disclose whether its scenario,
+  interpretations, and outcomes were pre-specified, independently derived,
+  externally supplied, or produced through another method.
+- A prescribed outcome must never be described as independently discovered.
+- Structural validation, internal-consistency review, and independent
+  substantive evaluation are distinct activities.
+- Evaluator multiplicity within one model or coordinated task must not be
+  represented as independent evaluator diversity without qualification.
+
 ## Editing Rules
 
 - Make the smallest authorized change.
