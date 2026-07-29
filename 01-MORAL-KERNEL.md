@@ -151,15 +151,23 @@ candidate identity.
 - **Candidate:** Exact noncanonical
   [MK-0.2](01B-MORAL-KERNEL-MK-0.2.md)
 - **Authoritative payload:** [`candidates/MK-0.2.txt`](candidates/MK-0.2.txt)
-- **Lifecycle:** `Candidate`
-- **Completed MK-0.2 cases:** `0`
-- **Adversarial review:** Not begun
+- **Lifecycle:** `Under adversarial review`
+- **Completed MK-0.2 cases:** `4`
+- **Mechanical/minimality reviews:** `1`
+- **Completed records:**
+  [M2-MR-001](reviews/MK-0.2/MR-001-MECHANICAL-AND-MINIMALITY-REVIEW.md),
+  [M2-AC-001](cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md),
+  [M2-AC-002](cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md),
+  [M2-AC-003](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md),
+  and
+  [M2-AC-004](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md)
 - **Preference:** None established
 - **Supersession:** MK-0.1 is not superseded
-- No MK-0.1 case result transfers to MK-0.2.
+- Candidate-specific results do not transfer between MK-0.1 and MK-0.2.
 - D-009 remains `Proposed`.
 - D-014 authorizes candidate introduction only.
-- Targeted evaluation remains required before comparative preference.
+- D-015 authorizes this first evaluation batch only.
+- No comparative recommendation exists.
 
 MK-0.2 is separately identified and does not alter this MK-0.1 payload,
 display copy, lifecycle, or evaluation history.
@@ -211,3 +219,6 @@ These are attack surfaces, not completed evaluations or established failures.
   outcome.
 - 2026-07-29: Linked exact exploratory Candidate MK-0.2 under D-014 without
   changing, preferring, or superseding MK-0.1; no case result transfers.
+- 2026-07-29: Linked the first five candidate-specific MK-0.2 evaluation
+  records under D-015 without changing MK-0.1 or creating a comparative
+  recommendation.

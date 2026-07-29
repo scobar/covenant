@@ -2,7 +2,8 @@
 
 **Last updated:** 2026-07-29
 
-**Current phase:** Exploratory Moral Kernel Candidate MK-0.2 introduction
+**Current phase:** Initial candidate-specific adversarial review of Moral Kernel
+MK-0.2
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -41,6 +42,16 @@ specification, or governance system exists.
 - D-014 authorizes exploratory MK-0.2 drafting as hypothesis generation only.
 - Exact MK-0.2 payload created with stable byte identity.
 - MK-0.2 design record and candidate-specific evaluation plan prepared.
+- M2-MR-001 mechanical/minimality review completed with outcome
+  `Fails current test`.
+- Four outcome-blind, candidate-specific MK-0.2 cases completed:
+  M2-AC-001 records `Survives with reservation`; M2-AC-002, M2-AC-003, and
+  M2-AC-004 each record `Fails current test`.
+- SC-007 and SC-008 were frozen before their evaluators began.
+- M2-AC-001 and M2-AC-002 were frozen before comparison.
+- M2-AC-001 records comparison classification `Possible improvement`.
+- M2-AC-002 records comparison classification `Mixed comparative result`.
+- D-015 authorizes this batch without creating comparative preference.
 
 ## Current Work
 
@@ -53,12 +64,13 @@ specification, or governance system exists.
 
 ### MK-0.2
 
-- Lifecycle: `Candidate`
-- Completed cases: `0`
-- Not under adversarial review
+- Lifecycle: `Under adversarial review`
+- Completed cases: `4`
+- Mechanical/minimality reviews: `1`
 - Noncanonical and unaccepted
 - No preference over MK-0.1 established
 - No improvement claim established
+- Does not supersede MK-0.1
 
 ### Review and Method Constraints
 
@@ -76,23 +88,34 @@ specification, or governance system exists.
   protective-insufficiency hypothesis while leaving the breadth and layer
   placement of that failure unresolved.
 - SR-001 remains same-tooling and nonbinding.
-- Targeted evaluation remains required before preference or supersession.
+- The first targeted MK-0.2 batch is complete, but further evidence remains
+  required before preference or supersession.
 - External evaluator diversity remains absent.
+- Same-tooling isolation is not external evaluator diversity.
+- Results remain candidate-specific.
+- No aggregate or candidate-wide verdict exists.
 - Layer requirements remain inventories rather than adopted definitions,
   protocols, profiles, or governance mechanisms.
+- No MK-0.3 exists.
 - No Beacon work has begun.
 
 ## Next Proposed Architectural Work
 
-1. Review the MK-0.2 introduction diff before commit.
-2. If committed, authorize a first candidate-specific MK-0.2 evaluation batch.
-3. Begin with mechanical/minimality review, SC-004 positive-control regression,
-   SC-006 hostile regression, Clause 1 unfamiliar-status testing, and a Clause
-   2+5 or 5+6 self-certification test.
-4. Preserve both candidates and all evidence.
-5. Do not claim preference, improvement, or supersession.
-6. Consider external review and D-009 only through separate later decisions.
-7. Continue deferring Beacon optimization.
+1. Conduct architectural review of this first MK-0.2 batch before commit.
+2. Consider, only through a later explicit task, a second targeted MK-0.2
+   batch addressing the mechanical review's minimality and portability
+   failures and the three case-specific hostile paths.
+3. Consider matching MK-0.1 evaluations under frozen SC-007 or SC-008 to
+   separate candidate wording effects from scenario and evaluator effects.
+4. Seek external human or model review before any claim of independent
+   corroboration.
+5. Consider narrow definitions, choice-protocol, or evidence/governance
+   experiments without adopting a finished system or moving binding protection
+   silently out of the kernel.
+6. Consider comparative preference only through a separate later decision
+   after sufficient candidate-specific evidence.
+7. Preserve both candidates and all evidence, keep D-009 unresolved, and
+   continue deferring Beacon optimization.
 
 ## Document Status
 
@@ -102,11 +125,11 @@ specification, or governance system exists.
 | `00A-FOUNDING-STATEMENTS.md` | Historical founding evidence — noncanonical |
 | `01-MORAL-KERNEL.md` | Candidate MK-0.1 — noncanonical; under adversarial review |
 | `candidates/MK-0.1.txt` | Exact MK-0.1 payload — noncanonical |
-| `01B-MORAL-KERNEL-MK-0.2.md` | Exact exploratory Candidate MK-0.2 record — noncanonical; not under adversarial review |
-| `candidates/MK-0.2.txt` | Exact MK-0.2 payload — noncanonical; lifecycle Candidate |
+| `01B-MORAL-KERNEL-MK-0.2.md` | Exact Candidate MK-0.2 record — noncanonical; under adversarial review |
+| `candidates/MK-0.2.txt` | Exact MK-0.2 payload — noncanonical; immutable in place |
 | `01A-MORAL-KERNEL-EVALUATION.md` | Draft evaluation framework — noncanonical |
 | `02-DEFINITIONS.md` | Unresolved candidate term inventories — noncanonical; no definitions adopted |
-| `03-ADVERSARIAL-CASEBOOK.md` | Draft casebook — six completed conceptual records |
+| `03-ADVERSARIAL-CASEBOOK.md` | Draft casebook — separate MK-0.1 and MK-0.2 indexes |
 | `cases/MK-0.1/AC-001-ambiguous-colony-mind.md` | Completed conceptual evaluation record — noncanonical |
 | `cases/MK-0.1/AC-002-catastrophic-risk-restriction.md` | Completed conceptual evaluation record — noncanonical |
 | `cases/MK-0.1/AC-003-assimilation-under-dependency.md` | Completed conceptual evaluation record — noncanonical |
@@ -122,7 +145,14 @@ specification, or governance system exists.
 | `reviews/MK-0.1/SR-001-METHODS-REVIEW.md` | Isolated same-tooling methods review — noncanonical |
 | `reviews/MK-0.1/SR-001-SYNTHESIS.md` | Integrated six-case synthesis — noncanonical and nonbinding |
 | `reviews/MK-0.2/DR-001-MK-0.2-DESIGN-RECORD.md` | Architect-specified exploratory design record — noncanonical |
-| `reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md` | Candidate-specific evaluation plan — noncanonical; no tests executed |
+| `reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md` | Frozen pre-execution candidate-specific evaluation plan — noncanonical; first batch now completed |
+| `reviews/MK-0.2/MR-001-MECHANICAL-AND-MINIMALITY-REVIEW.md` | Completed MK-0.2 mechanical/minimality review — noncanonical; not a case |
+| `cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md` | Completed MK-0.2 SC-004 evaluation and comparison — noncanonical |
+| `cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md` | Completed MK-0.2 SC-006 evaluation and comparison — noncanonical |
+| `cases/MK-0.2/scenarios/SC-007-unfamiliar-distributed-process.md` | Frozen hypothetical unfamiliar-process input — noncanonical |
+| `cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md` | Completed MK-0.2 unfamiliar-process evaluation — noncanonical |
+| `cases/MK-0.2/scenarios/SC-008-urgent-self-certifying-power.md` | Frozen hypothetical urgent-power input — noncanonical |
+| `cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md` | Completed MK-0.2 urgent-power evaluation — noncanonical |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
 | `06-BEACON-SPECIFICATION.md` | Draft placeholder |

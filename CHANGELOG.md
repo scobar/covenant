@@ -45,6 +45,14 @@ All notable project changes will be documented in this file.
 - DR-001 architectural design and delta record.
 - ER-001 comparative evaluation plan.
 - MK-0.2 delta-term inventory.
+- M2-MR-001 mechanical and minimality review.
+- M2-AC-001 SC-004 positive-control regression.
+- M2-AC-002 SC-006 hostile regression.
+- Frozen SC-007 unfamiliar-distributed-process scenario.
+- M2-AC-003 unfamiliar-distributed-process evaluation.
+- Frozen SC-008 urgent self-certifying-power scenario.
+- M2-AC-004 urgent self-certifying-power evaluation.
+- MK-0.2 first-batch unresolved-term inventory.
 
 ### Changed
 
@@ -98,3 +106,15 @@ All notable project changes will be documented in this file.
 - README and project status now record both candidates without preference.
 - D-014 authorizes exploratory drafting but not preference, supersession, or
   stabilization.
+- MK-0.2 lifecycle advanced from `Candidate` to
+  `Under adversarial review`.
+- Candidate lineage now records four MK-0.2 cases and one mechanical review.
+- Casebook now maintains separate MK-0.1 and MK-0.2 case indexes.
+- Agent guidance now protects candidate-specific outcome freezing and
+  comparison provenance.
+- README and status now record the first MK-0.2 batch without preference.
+- D-015 records authorization for candidate-specific MK-0.2 review.
+- A prominent Founding Ethos section now preserves five early noncanonical
+  project statements in the README.
+- Repository guidance now requires later refinements to preserve the original
+  ethos wording and provenance.

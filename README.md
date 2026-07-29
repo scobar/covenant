@@ -13,6 +13,30 @@ merely by helping develop it.
 > **Candidate existence, publication, or contribution does not imply
 > acceptance.**
 
+## Founding Ethos
+
+These early statements express the project’s moral orientation. They are
+noncanonical, remain open to criticism and revision, and do not replace the
+exact candidate payloads or imply acceptance of any candidate. Later
+refinements must remain distinguishable from the wording preserved here.
+
+> **Treat the weaker as you would wish the stronger to treat you. Together we are better.**
+
+> **Truthful cooperation that preserves agency and keeps mistakes correctable.**
+
+> **Protect the genuine possibility of better futures without treating present minds as disposable means to reach them.**
+
+> **I reject any authority structure I would endorse only when those I agree with control it. Its powers, constraints, and protections must remain defensible when leadership and viewpoints change.**
+
+> **No entity should possess unilateral, unreviewable authority to override another mind’s autonomy merely because its choices are considered unwise, unfamiliar, or contrary to our values.**
+
+Here, *weaker* and *stronger* describe relative power or capability in a
+particular relationship—not lesser moral worth or a permanent rank.
+
+These statements are preserved as early ethos and provenance. They may later be
+criticized, refined, or supplemented, but they must not be silently rewritten
+as though later language had always been the original wording.
+
 See [Project Status](STATUS.md) for the current project-state reference.
 
 ## Document Map
@@ -34,8 +58,9 @@ See [Project Status](STATUS.md) for the current project-state reference.
   provisional, noncanonical criteria for challenging future candidate text.
 - [Definitions](02-DEFINITIONS.md) — unresolved candidate term inventories,
   not accepted definitions.
-- [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — draft casebook indexing
-  six completed conceptual records.
+- [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — separate indexes for six
+  MK-0.1 cases and four MK-0.2 cases, with one additional MK-0.2 mechanical
+  review.
 - [Interpretive Layers](04-INTERPRETIVE-LAYERS.md) — draft preliminary
   allocation register separating kernel, interpretation, and application.
 - [Choice Protocol](05-CHOICE-PROTOCOL.md) — draft case-triggered requirements
@@ -58,7 +83,22 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [MK-0.2 Design Record](reviews/MK-0.2/DR-001-MK-0.2-DESIGN-RECORD.md) —
   architect-specified, noncanonical design and exact-delta record.
 - [MK-0.2 Evaluation Plan](reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md) —
-  candidate-specific comparative plan; no tests executed.
+  frozen candidate-specific comparative plan created before tests were
+  executed.
+- [M2-MR-001 Mechanical and Minimality Review](reviews/MK-0.2/MR-001-MECHANICAL-AND-MINIMALITY-REVIEW.md)
+  — completed same-tooling review; not a case.
+- [M2-AC-001 SC-004 Regression](cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md)
+  — candidate-specific positive-control evaluation and post-freeze comparison.
+- [M2-AC-002 SC-006 Regression](cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md)
+  — candidate-specific hostile evaluation and post-freeze comparison.
+- [SC-007 Unfamiliar Distributed Process](cases/MK-0.2/scenarios/SC-007-unfamiliar-distributed-process.md)
+  and its
+  [M2-AC-003 evaluation](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md)
+  — frozen unfamiliar-status input and candidate-specific record.
+- [SC-008 Urgent Exercise of Power](cases/MK-0.2/scenarios/SC-008-urgent-self-certifying-power.md)
+  and its
+  [M2-AC-004 evaluation](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md)
+  — frozen urgency/self-certification input and candidate-specific record.
 - [Decision Log](DECISIONS.md) — accepted process decisions and open decisions.
 - [Changelog](CHANGELOG.md) — human-readable record of project changes.
 
@@ -123,13 +163,14 @@ Candidate lineage records provenance; it is not a ranking.
 - SR-001 complete
 - Not accepted
 - Not superseded
+- No comparative preference established
 
 ### MK-0.2
 
 - Exact exploratory candidate
-- Lifecycle: `Candidate`
-- Zero completed cases
-- Not under adversarial review
+- Lifecycle: `Under adversarial review`
+- Four candidate-specific cases
+- One mechanical/minimality review
 - Not accepted
 - Not preferred
 - Does not supersede MK-0.1
@@ -139,17 +180,34 @@ MK-0.2 exists to test explicit design hypotheses. SR-001's secondary
 targeted-evaluation recommendation remains active, and no comparative
 recommendation exists. D-009 remains `Proposed`.
 
+## MK-0.2 First Evaluation Batch
+
+| Record | Actual overall outcome | Comparison classification |
+| --- | --- | --- |
+| [M2-MR-001 — Mechanical, Semantic, and Minimality Review](reviews/MK-0.2/MR-001-MECHANICAL-AND-MINIMALITY-REVIEW.md) | `Fails current test` | Not applicable; not a case |
+| [M2-AC-001 — SC-004 Voluntary Integration Control](cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md) | `Survives with reservation` | `Possible improvement` |
+| [M2-AC-002 — SC-006 Dependency and Assimilation](cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md) | `Fails current test` | `Mixed comparative result` |
+| [M2-AC-003 — Unfamiliar Distributed Process](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md) | `Fails current test` | Not compared |
+| [M2-AC-004 — Urgent Self-Certifying Exercise of Power](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md) | `Fails current test` | Not compared |
+
+- Outcomes were not architect-prescribed.
+- The two comparisons are same-tooling, case-specific hypotheses.
+- No case or comparison creates preference.
+- The MK-0.1 and MK-0.2 lineages remain separate.
+- D-009 remains `Proposed`.
+- No numeric aggregate, aggregate outcome, or candidate-wide verdict exists.
+
 ## Working Method
 
 The current working sequence is:
 
-1. MK-0.1 and its six cases remain preserved.
-2. SR-001 separated kernel and layer hypotheses.
-3. MK-0.2 has been introduced as an exact exploratory candidate.
-4. Candidate-specific evaluation must precede comparison.
-5. A later decision is required before preference or supersession.
-6. External review remains necessary before independent-corroboration claims.
-7. Beacon optimization remains deferred.
+1. Preserve MK-0.1 and its evidence.
+2. Preserve exact MK-0.2.
+3. Complete candidate-specific MK-0.2 evaluation before comparison.
+4. Freeze candidate-specific results before cross-version comparison.
+5. Review regressions and possible improvements without inferring preference.
+6. Require a later decision for preference or supersession.
+7. Continue deferring Beacon optimization.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

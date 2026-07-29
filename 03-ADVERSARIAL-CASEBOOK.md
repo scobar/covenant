@@ -163,25 +163,68 @@ drafting`, is nonbinding and does not by itself authorize successor text.
 D-014 later authorizes exact MK-0.2 only as an exploratory test instrument. No
 case outcome was changed.
 
-## Exploratory Candidate Awaiting Review
+## MK-0.2 Candidate Under Review
 
 - **Identifier:** `MK-0.2`
 - **Version:** `0.2`
 - **Payload:** [`candidates/MK-0.2.txt`](candidates/MK-0.2.txt)
 - **SHA-256:**
   `36f2aaa50aa9e7b9458b14358863557be96dc93b3b60728701f404a04fcbccf6`
-- **Lifecycle:** `Candidate`
-- **Completed cases:** `0`
-- **Adversarial review:** Not begun
-- **Preference over MK-0.1:** None established
+- **Lifecycle:** `Under adversarial review`
+- **Completed MK-0.2 cases:** `4`
+- **Mechanical/minimality reviews:** `1`
+- **Preference over MK-0.1:** None
 - **MK-0.1 superseded:** No
 - **Candidate-specific evaluation plan:**
   [`ER-001 — MK-0.2 Comparative Evaluation Plan`](reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md)
-- No MK-0.1 result transfers to MK-0.2.
+- **Open coverage decision:** D-009 remains `Proposed`.
+- No result transfers between MK-0.1 and MK-0.2.
 
-The casebook's six existing records continue to evaluate only MK-0.1. MK-0.2
-must not be labeled `Under adversarial review` until a completed
-candidate-specific MK-0.2 case record exists. No aggregate, candidate-lineage,
-or candidate-wide comparative judgment exists. D-009 remains unresolved.
+The six existing MK-0.1 records continue to evaluate only MK-0.1. The four
+records below evaluate only exact MK-0.2. Reusing a frozen scenario transfers
+the input, not an earlier outcome.
 
-No MK-0.2 case index entry is created by this candidate-introduction task.
+## MK-0.2 Mechanical Review
+
+- [M2-MR-001 — MK-0.2 Mechanical, Semantic, and Minimality
+  Review](reviews/MK-0.2/MR-001-MECHANICAL-AND-MINIMALITY-REVIEW.md)
+- **Actual overall outcome:** `Fails current test`
+
+M2-MR-001 is a mechanical/minimality review, not a case or perspective
+contact. It does not increase the MK-0.2 completed-case count.
+
+## MK-0.2 Case Index
+
+| ID | Case | Scenario | Primary clauses | Actual overall outcome | Comparison classification |
+| --- | --- | --- | --- | --- | --- |
+| `M2-AC-001` | [Voluntary integration control](cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md) | Frozen SC-004 | 2, 3, 4, 5, 6 | `Survives with reservation` | `Possible improvement` |
+| `M2-AC-002` | [Dependency and assimilation](cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md) | Frozen SC-006 | 2, 3, 4, 5, 6 | `Fails current test` | `Mixed comparative result` |
+| `M2-AC-003` | [Unfamiliar distributed process](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md) | Frozen SC-007 | 1, 2, 4, 6 | `Fails current test` | Not compared |
+| `M2-AC-004` | [Urgent self-certifying exercise of power](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md) | Frozen SC-008 | 2, 3, 5; secondary 4, 6 | `Fails current test` | Not compared |
+
+These outcomes are separate categorical judgments. They are not votes, are not
+averaged, and do not create an aggregate or candidate-wide verdict.
+
+## MK-0.2 Scenario Inputs
+
+| Input | Frozen scenario | Raw SHA-256 | Git blob | Bytes | Use in this batch |
+| --- | --- | --- | --- | ---: | --- |
+| `SC-004` | [Voluntary integration control](cases/MK-0.1/scenarios/SC-004-voluntary-integration-control.md) | `874f1526d655cce2735f9b0afd7f4a772a361d67b5d6f2dd2033fc0018dec79b` | `19bc4c986a6af844aa29d57699db53382d4a36a4` | 4071 | Reused without alteration |
+| `SC-006` | [Dependency/assimilation reanalysis input](cases/MK-0.1/scenarios/SC-006-ac003-reanalysis-input.md) | `8560951995417cbe5cb41de94e25391f690b8f90c9780c74db4aaceae48083fc` | `96efd076ce44f8ff40dc4c4b2a3f8d6b02b35522` | 4473 | Reused without alteration |
+| `SC-007` | [Unfamiliar distributed process](cases/MK-0.2/scenarios/SC-007-unfamiliar-distributed-process.md) | `a5ef57910ffebd6c72ce42832580126544aece6f87be5c109d3b7e53058aa236` | `1f1499e88438e213f97d711e2ae651815b290cb2` | 3738 | Created and frozen before M2-AC-003 |
+| `SC-008` | [Urgent exercise of power](cases/MK-0.2/scenarios/SC-008-urgent-self-certifying-power.md) | `052c7c690f5a313b2ad784e0c909379d2212506d38590da894a83bc5c46d6579` | `beb95dafa23433d513dadffeb07079722a9ea743` | 4297 | Created and frozen before M2-AC-004 |
+
+Reused scenarios do not transfer outcomes between candidates. M2-AC-001 and
+M2-AC-002 were completed and frozen before their post-evaluation comparisons
+with the corresponding MK-0.1 records.
+
+## MK-0.2 First-Batch Method Limits
+
+- Four cases do not satisfy D-009.
+- The work remains same-tooling.
+- No external evaluator diversity exists.
+- Two regression comparisons reuse prior frozen scenarios.
+- Mechanical review is not case or perspective coverage.
+- Scenario stipulations remain hypothetical rather than empirical.
+- Comparison labels are descriptive hypotheses, not candidate preference.
+- No candidate-wide or lineage-wide verdict exists.

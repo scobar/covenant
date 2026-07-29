@@ -49,6 +49,15 @@ was drafted, scored, endorsed, or committed.
   founder-adopted collaborative refinements.
 - A refinement must not be represented as the original statement.
 - Adoption, authorship, assistance, and canonical status are separate facts.
+- The README's Founding Ethos statements are preserved early project language.
+- Ethos statements, founding evidence, candidate payloads, and accepted
+  decisions are distinct record types.
+- A later refinement may be added and attributed, but must not silently replace
+  or be represented as the original statement.
+- Placement in the README does not make an ethos statement canonical or imply
+  acceptance.
+- Candidate evaluation must not treat an ethos statement as candidate text
+  unless a later explicit candidate includes it in its exact payload.
 
 ## Candidate-Version Rules
 
@@ -179,6 +188,33 @@ was drafted, scored, endorsed, or committed.
 - Targeted evaluation and preserved dissent are mandatory before comparative
   preference.
 - No successor candidate may be stabilized while D-009 remains unresolved.
+
+## Candidate-Specific Comparative Evaluation Rules
+
+- Every evaluation must identify exactly one candidate before comparison.
+- Results do not transfer between candidate versions.
+- Reused scenarios may be shared; outcomes may not.
+- Candidate-specific substantive results must freeze before cross-version
+  comparison.
+- Comparisons must preserve the frozen result as an unchanged prefix or
+  separately immutable record.
+- `Possible improvement` is a descriptive comparison label, not preference.
+- A favorable comparison does not establish improvement, recommendation, or
+  supersession.
+- A regression comparison must disclose scenario, tooling, framework, and
+  evaluator dependence.
+- Mechanical review does not count as a case or perspective coverage.
+- Reviewers must not receive prior candidate outcomes when conducting an
+  outcome-blind regression.
+- New scenarios must freeze before outcome derivation.
+- No outcome distribution may be imposed.
+- Main-process formatting corrections must not silently change substantive
+  evaluator judgments.
+- Candidate-specific case counts must remain separate.
+- Unexpected regressions must be preserved.
+- No comparative preference may be recorded without a later explicit decision.
+- Before evaluating either candidate on a shared scenario, agents must verify
+  the scenario's exact identity.
 
 ## Editing Rules
 

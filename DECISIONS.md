@@ -293,6 +293,43 @@
   candidate-specific evaluation cannot distinguish the proposed changes, or a
   later task incorrectly treats candidate creation as evidence of improvement.
 
+### D-015 — Begin candidate-specific adversarial review of MK-0.2
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** Which first records should evaluate exact MK-0.2 without
+  transferring MK-0.1 outcomes or prematurely creating comparative preference?
+- **Decision:** Create one completed mechanical and minimality review and four
+  completed outcome-blind, candidate-specific conceptual cases. M2-AC-001
+  evaluates MK-0.2 under frozen SC-004; M2-AC-002 evaluates it under frozen
+  SC-006; M2-AC-003 evaluates a new frozen unfamiliar-distributed-process
+  scenario; and M2-AC-004 evaluates a new frozen urgent self-certifying
+  exercise-of-power scenario. Freeze every MK-0.2 substantive result before
+  any comparison with MK-0.1. No target outcome or outcome distribution is
+  authorized.
+- **Reasoning:** ER-001 identifies this as the smallest batch capable of testing
+  minimality, positive-control preservation, the principal dependency and
+  assimilation hostile path, weak Clause 1 coverage, and the broadened
+  anti-self-certification and consequential-power language. Candidate-specific
+  evaluation is required before comparison because MK-0.1 results do not
+  transfer to MK-0.2.
+- **Alternatives considered:** Execute all ER-001 tests at once; compare wording
+  without candidate-specific evaluation; prescribe favorable regression
+  outcomes; seek external review before any internal test; evaluate only cases
+  expected to fail; treat the mechanical review as sufficient adversarial
+  coverage.
+- **Consequences:** After the first completed candidate-specific case, MK-0.2
+  advances to lifecycle state `Under adversarial review`. The completed
+  MK-0.2 case count becomes four, with one additional mechanical/minimality
+  review that is not a case. Comparison labels remain hypotheses and create no
+  preference, improvement, recommendation, supersession, acceptance, or
+  stabilization. MK-0.1 and all prior evidence remain unchanged.
+- **Revisit conditions:** Revisit if a reviewer received an MK-0.1 target
+  outcome, a scenario changed after evaluation began, a candidate-specific
+  result changed during comparison, mechanical review was counted as case
+  coverage, same-tooling comparison was overstated, or a comparison label was
+  treated as candidate preference.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization
