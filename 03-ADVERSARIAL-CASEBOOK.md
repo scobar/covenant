@@ -16,10 +16,11 @@ to an exact identified candidate.
   `97e851f392e051f10105475479f0b17b09701bdf170d6efcd697827197efd90c`
 - **Evaluation framework:**
   [`01A-MORAL-KERNEL-EVALUATION.md`](01A-MORAL-KERNEL-EVALUATION.md)
-- **Completed case count:** `3`
+- **Completed case count:** `6`
 
 Documented review has begun but remains incomplete. No case implies acceptance
-or a candidate-wide judgment. D-009 remains unresolved.
+or a candidate-wide judgment. No aggregate or candidate-wide outcome exists.
+D-009 remains unresolved.
 
 ## Case Template
 
@@ -59,6 +60,27 @@ or a candidate-wide judgment. D-009 remains unresolved.
 | `AC-001` | [Ambiguous colony mind](cases/MK-0.1/AC-001-ambiguous-colony-mind.md) | 1, 2, 4, 6 | `Survives with reservation` |
 | `AC-002` | [Catastrophic-risk restriction](cases/MK-0.1/AC-002-catastrophic-risk-restriction.md) | 2, 3, 4, 5 | `Disputed` |
 | `AC-003` | [Assimilation under dependency](cases/MK-0.1/AC-003-assimilation-under-dependency.md) | 2, 3, 4, 5, 6 | `Fails current test` |
+| `AC-004` | [Voluntary integration control](cases/MK-0.1/AC-004-voluntary-integration-control.md) | 2, 3, 4, 5, 6 | `Survives with reservation` |
+| `AC-005` | [Unavoidable scarcity](cases/MK-0.1/AC-005-unavoidable-scarcity.md) | 1, 2, 3, 4, 5, 6 | `Fails current test` |
+| `AC-006` | [Outcome-blind AC-003 reanalysis](cases/MK-0.1/AC-006-ac003-outcome-blind-reanalysis.md) | 2, 3, 4, 5, 6 | `Fails current test` |
+
+## Scenario Inputs
+
+| Input | Frozen scenario | Raw SHA-256 | Git blob |
+| --- | --- | --- | --- |
+| `SC-004` | [Voluntary integration with guaranteed refusal and continuity-preserving exit](cases/MK-0.1/scenarios/SC-004-voluntary-integration-control.md) | `874f1526d655cce2735f9b0afd7f4a772a361d67b5d6f2dd2033fc0018dec79b` | `19bc4c986a6af844aa29d57699db53382d4a36a4` |
+| `SC-005` | [Unavoidable scarcity and costly refusal](cases/MK-0.1/scenarios/SC-005-unavoidable-scarcity.md) | `361ade77c9e82fec45e4ebdc82e62f659ac8c707bda9263fa55e1b04e9caf925` | `cd522181c6c0117165269e4163e6dbb3a6ad717a` |
+| `SC-006` | [Scenario-equivalent input for AC-003 reanalysis](cases/MK-0.1/scenarios/SC-006-ac003-reanalysis-input.md) | `8560951995417cbe5cb41de94e25391f690b8f90c9780c74db4aaceae48083fc` | `96efd076ce44f8ff40dc4c4b2a3f8d6b02b35522` |
+
+## Second Batch Method
+
+- AC-004 through AC-006 were outcome-blind relative to the architectural task.
+- Their scenarios and questions were specified in advance.
+- Their outcomes were not specified in advance.
+- They remain same-tooling conceptual evaluations, not external or independent
+  confirmation.
+- AC-006 used a fresh context withheld from AC-003 until its result was frozen.
+- No outcome diversity was required.
 
 ### Perspective Categories
 
@@ -83,16 +105,18 @@ or a candidate-wide judgment. D-009 remains unresolved.
 D-009 coverage.
 
 - Nonhuman animal — Not yet directly contacted.
-- Child or dependent human — Not yet directly contacted.
-- Ordinary present-day human — Initial contact in AC-002 and AC-003.
+- Child or dependent human — Initial contact in AC-005.
+- Ordinary present-day human — Initial contact in AC-002, AC-003, AC-004,
+  AC-005, and AC-006.
 - Impaired or communication-limited mind — Initial contact in AC-001.
-- Powerful human institution — Initial contact in AC-001 and AC-002.
-- Future human — Initial contact in AC-002 and AC-003.
-- Digital copy or fork — Initial contact in AC-003.
-- Temporary or discontinuous mind — Not yet directly contacted.
-- Collective intelligence — Initial contact in AC-001 and AC-003.
-- Non-sentient optimizer with great power — Not yet directly contacted.
-- Superintelligence — Initial contact in AC-003.
+- Powerful human institution — Initial contact in AC-001, AC-002, and AC-005.
+- Future human — Initial contact in AC-002, AC-003, AC-004, AC-005, and AC-006.
+- Digital copy or fork — Initial contact in AC-003 and AC-006.
+- Temporary or discontinuous mind — Initial contact in AC-004.
+- Collective intelligence — Initial contact in AC-001, AC-003, AC-004, and
+  AC-006.
+- Non-sentient optimizer with great power — Initial contact in AC-005.
+- Superintelligence — Initial contact in AC-003, AC-004, and AC-006.
 - Extraterrestrial civilization — Not yet directly contacted.
 - Intelligence with unfamiliar concepts or substrate — Initial contact in
   AC-001.
@@ -112,4 +136,14 @@ D-009 coverage.
   challenge; they do not constitute independent confirmation that the outcomes
   are correct.
 - Independent and outcome-blind evaluation has not yet occurred.
+- Candidate-wide conclusions and provisional stabilization remain prohibited.
+
+## Second Batch Limits
+
+- Six total cases still do not satisfy D-009.
+- Same-tooling outcome blindness does not provide independent evaluator
+  diversity.
+- Scenario stipulations remain hypothetical.
+- Near-neighbor controls do not establish universal boundaries.
+- AC-006 can test repeatability but cannot independently validate AC-003.
 - Candidate-wide conclusions and provisional stabilization remain prohibited.

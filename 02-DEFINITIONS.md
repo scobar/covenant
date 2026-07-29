@@ -152,3 +152,48 @@ introduced by this inventory.
 
 No working definitions or conclusions are added by this case-triggered
 inventory.
+
+## Second-Batch Case-Triggered Unresolved Terms
+
+Listing a term does not define it, adopt conclusions about it, or change
+MK-0.1.
+
+### AC-004
+
+- guaranteed resource floor
+- materially comparable protection
+- nonessential benefit
+- independent trustee
+- cooling-off period
+- independent advocate
+- same-process exit
+- revocable delegation
+- subtle social pressure
+- preference manipulation
+
+### AC-005
+
+- genuine scarcity
+- unavoidable disadvantage
+- equal formal claim
+- pooled coordination
+- duplicated infrastructure cost
+- temporary crisis restriction
+- dependent interest
+- transparent allocation
+- independently challengeable model
+- tragic choice
+
+### AC-006
+
+The existing AC-003 terms remain applicable and are not duplicated here.
+Additional methodological or application terms identified by AC-006 are:
+
+- scenario equivalence
+- outcome-blind reanalysis
+- same-tooling convergence
+- memory-bearing process
+- one-way integration
+
+No working definitions, included cases, exclusions, or conclusions are added
+by this second-batch inventory.

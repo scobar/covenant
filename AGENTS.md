@@ -97,6 +97,35 @@ was drafted, scored, endorsed, or committed.
 - Evaluator multiplicity within one model or coordinated task must not be
   represented as independent evaluator diversity without qualification.
 
+## Outcome-Blind Evaluation Rules
+
+- Freeze and hash scenario inputs before outcome derivation.
+- Do not alter a scenario after seeing an outcome without restarting and
+  disclosing the evaluation.
+- Disclose which conclusions were prescribed and which were derived.
+- An outcome-blind evaluator must not receive a target result.
+- No desired distribution of outcomes may be imposed.
+- Materials visible to and withheld from an evaluator must be recorded.
+- A prior outcome must not be supplied to an evaluator expected to replicate
+  it blindly.
+- Same-model or same-tooling isolation is not independent evaluator diversity.
+- Structural validation is not substantive agreement.
+- Comparisons with earlier records occur only after the new substantive result
+  is frozen.
+- Unexpected results must be preserved rather than corrected toward an
+  architectural expectation.
+- Outcome-blind records remain case-specific and noncanonical.
+- Scenario and evaluation provenance must remain traceable after commit.
+- Any case or scenario file whose raw bytes, prefix, or raw hash are recorded
+  must be covered by an explicit line-ending rule in `.gitattributes` before
+  commit.
+- Git-blob identity and raw-file identity are distinct and must not be
+  conflated.
+- Reproducibility validation must confirm both the applicable Git attributes
+  and the exact raw bytes.
+- A line-ending normalization correction must never silently alter the
+  substantive historical text.
+
 ## Editing Rules
 
 - Make the smallest authorized change.

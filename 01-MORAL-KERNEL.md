@@ -4,7 +4,7 @@
 
 - **Lifecycle state:** `Under adversarial review`
 - **Acceptance:** Not accepted.
-- **Adversarial review:** Begun; three completed conceptual case records.
+- **Adversarial review:** Begun; six completed conceptual case records.
 - **Provisional stabilization:** Not provisionally stabilized.
 - Authorship, authorization, transcription, review, or publication does not
   imply acceptance.
@@ -109,6 +109,23 @@ candidate identity.
 - MK-0.1 remains immutable historical evidence even if later superseded.
 - The initial batch is insufficient for D-009 or provisional stabilization.
 
+## Outcome-Blind Countertest Snapshot
+
+| Record | Overall current outcome |
+| --- | --- |
+| [AC-004 — Voluntary Integration Control](cases/MK-0.1/AC-004-voluntary-integration-control.md) | `Survives with reservation` |
+| [AC-005 — Unavoidable Scarcity](cases/MK-0.1/AC-005-unavoidable-scarcity.md) | `Fails current test` |
+| [AC-006 — Outcome-Blind AC-003 Reanalysis](cases/MK-0.1/AC-006-ac003-outcome-blind-reanalysis.md) | `Fails current test` |
+
+- The second-batch outcomes were not prescribed by the architectural task.
+- They are same-tooling and do not constitute independent confirmation.
+- They must not be averaged with one another or with the first batch.
+- AC-006 records `Partial same-tooling convergence` with AC-003.
+- No candidate-wide verdict follows.
+- No MK-0.2 is created.
+- MK-0.1 remains immutable even if later superseded.
+- D-009 remains unresolved.
+
 ## Objections
 
 ### Known Attack Surfaces
@@ -149,3 +166,5 @@ These are attack surfaces, not completed evaluations or established failures.
   `97e851f392e051f10105475479f0b17b09701bdf170d6efcd697827197efd90c`.
 - 2026-07-28: Began documented adversarial review and recorded the first three
   case-specific outcomes.
+- 2026-07-28: Recorded the second, outcome-blind countertest batch and its
+  three case-specific outcomes.

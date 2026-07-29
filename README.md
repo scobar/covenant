@@ -30,7 +30,7 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [Definitions](02-DEFINITIONS.md) — unresolved MK-0.1 term inventory, not
   accepted definitions.
 - [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — draft casebook indexing
-  three completed conceptual records.
+  six completed conceptual records.
 - [Interpretive Layers](04-INTERPRETIVE-LAYERS.md) — draft placeholder for
   separating kernel, interpretation, and application.
 - [Choice Protocol](05-CHOICE-PROTOCOL.md) — draft placeholder for
@@ -57,16 +57,32 @@ The first three records are architect-specified conceptual test vectors whose
 outcomes were selected before record completion. They are case-specific
 hypotheses, not independent validation or consensus.
 
+## Outcome-Blind Countertest Records
+
+- [AC-004 — Voluntary Integration With Guaranteed Refusal and Continuity-Preserving Exit](cases/MK-0.1/AC-004-voluntary-integration-control.md):
+  `Survives with reservation`
+- [AC-005 — Unavoidable Scarcity and Costly Refusal](cases/MK-0.1/AC-005-unavoidable-scarcity.md):
+  `Fails current test`
+- [AC-006 — Outcome-Blind Reanalysis of the AC-003 Scenario](cases/MK-0.1/AC-006-ac003-outcome-blind-reanalysis.md):
+  `Fails current test`
+
+The scenarios and questions were specified in advance; the outcomes were not.
+These results are same-tooling, case-specific hypotheses, not independent
+validation, consensus, or empirical evidence. AC-006 was compared with AC-003
+only after its substantive result was frozen. No MK-0.2 exists.
+
 ## Working Method
 
 The current working sequence is:
 
 1. Evaluation criteria were recorded.
 2. Exact MK-0.1 was introduced.
-3. The first three documented adversarial cases now place it under review.
-4. Findings are reviewed before any successor candidate is drafted.
-5. Any successor preserves MK-0.1 and all prior case records.
-6. Later interpretive, choice, Beacon, evidence, and governance layers remain
+3. The first architect-specified test-vector batch began review.
+4. A second outcome-blind countertest batch tested near-neighbor conditions,
+   unavoidable scarcity, and repeatability of AC-003.
+5. The combined findings must be reviewed before any successor candidate.
+6. Any successor preserves MK-0.1 and all prior records.
+7. Later interpretive, choice, Beacon, evidence, and governance layers remain
    separate.
 
 The framework and all Covenant text remain incomplete and challengeable unless

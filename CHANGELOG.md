@@ -26,6 +26,12 @@ All notable project changes will be documented in this file.
 - AC-003 assimilation-under-dependency conceptual evaluation.
 - Initial perspective-contact signals.
 - Case-triggered unresolved-term inventory.
+- Frozen hypothetical scenario inputs SC-004 through SC-006.
+- AC-004 voluntary-integration-control evaluation.
+- AC-005 unavoidable-scarcity evaluation.
+- AC-006 outcome-blind AC-003 reanalysis.
+- Scenario identity and method-disclosure records.
+- Second-batch unresolved-term inventory.
 
 ### Changed
 
@@ -52,3 +58,12 @@ All notable project changes will be documented in this file.
 - Initial case records now disclose that their outcomes were
   architect-specified before record completion and are not independent
   validation.
+- Casebook now indexes six completed conceptual evaluations.
+- Moral Kernel record now includes an outcome-blind countertest snapshot.
+- Agent guidance now distinguishes outcome-blind derivation from independent
+  validation.
+- Project status now records the second batch's actual outcomes.
+- D-012 records authorization for outcome-blind countertests before successor
+  drafting.
+- Case and scenario Markdown is pinned to LF for reproducible raw hashes and
+  prefix verification.

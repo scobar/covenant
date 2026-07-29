@@ -192,6 +192,38 @@
   redundant, omit important interpretations, confuse hypothetical assumptions
   with evidence, or fail to improve the next evaluation or revision decision.
 
+### D-012 — Run outcome-blind countertests before drafting a successor
+
+- **Date:** 2026-07-28
+- **Status:** Accepted
+- **Question:** Should the project draft MK-0.2 immediately from the
+  architect-specified first batch, or first conduct countertests whose outcomes
+  are not prescribed?
+- **Decision:** Conduct three additional noncanonical conceptual evaluations
+  before authorizing successor text. AC-004 tests a less-coercive
+  near-neighbor integration arrangement; AC-005 tests costly refusal under
+  stipulated genuine scarcity; and AC-006 performs a scenario-equivalent
+  reanalysis of AC-003 without supplying its prior outcome to the evaluator.
+  Scenario inputs and questions are specified in advance, but interpretations,
+  dimension outcomes, overall outcomes, diagnoses, confidence, recommendations,
+  and layer placement are not.
+- **Reasoning:** The first batch established useful hypotheses but prescribed
+  its outcomes. Countertests can distinguish some candidate-text failures from
+  scenario assumptions, unresolved terminology, and missing profile or
+  governance layers before the project creates a successor candidate.
+- **Alternatives considered:** Draft MK-0.2 immediately; repeat only cases
+  expected to fail; treat the first batch as independent confirmation; defer
+  all further work until external reviewers participate.
+- **Consequences:** MK-0.1 remains immutable and under adversarial review. The
+  second batch may produce any allowed outcome pattern. Same-tooling
+  outcome-blind evaluation improves method separation but does not provide
+  independent evaluator diversity, empirical evidence, consensus, or
+  provisional stabilization. No successor candidate is authorized.
+- **Revisit conditions:** Revisit the method if evaluators received target
+  outcomes, prior conclusions contaminated AC-006, scenario inputs were changed
+  after outcome derivation, or the records do not improve the decision between
+  candidate revision and additional layer development.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization
