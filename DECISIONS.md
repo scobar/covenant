@@ -330,6 +330,39 @@
   coverage, same-tooling comparison was overstated, or a comparison label was
   treated as candidate preference.
 
+### D-016 — Run matched MK-0.1 evaluations before comparative preference
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** Can the project interpret MK-0.2’s SC-007 and SC-008 results
+  comparatively without first evaluating MK-0.1 under the same exact frozen
+  scenarios?
+- **Decision:** No. Create outcome-blind, candidate-specific MK-0.1 records
+  AC-007 under frozen SC-007 and AC-008 under frozen SC-008. Withhold the
+  corresponding MK-0.2 records and results until each MK-0.1 substantive record
+  is frozen. Then append scenario-specific comparisons and create CR-001 as a
+  noncanonical matched-scenario review. No target outcome, candidate
+  preference, improvement claim, supersession, or stabilization is authorized.
+- **Reasoning:** A failure or success under MK-0.2 alone cannot distinguish an
+  inherited candidate weakness from a changed-wording effect, scenario effect,
+  evaluator effect, or layer-placement dispute. Matched scenario inputs improve
+  comparative interpretability while preserving separate candidate evidence.
+- **Alternatives considered:** Infer comparison from MK-0.2 alone; prefer the
+  shorter or newer candidate; repeat only MK-0.2 evaluation; seek external
+  review before creating any internal matched record; decide preference from
+  the existing SC-004 and SC-006 comparisons.
+- **Consequences:** MK-0.1’s completed case count becomes eight. MK-0.2 remains
+  at four cases plus one mechanical review. Comparison labels remain
+  scenario-specific hypotheses and do not create an aggregate result,
+  comparative recommendation, preference, improvement status, supersession,
+  acceptance, or stabilization. Both payloads and all prior records remain
+  immutable.
+- **Revisit conditions:** Revisit if an MK-0.1 evaluator received the matching
+  MK-0.2 outcome before freezing, a frozen scenario differed between
+  candidates, a candidate-specific result was altered during comparison,
+  matched records were counted as independent replications or votes, or CR-001
+  overstated same-tooling evidence.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

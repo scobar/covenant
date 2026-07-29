@@ -2,8 +2,7 @@
 
 **Last updated:** 2026-07-29
 
-**Current phase:** Initial candidate-specific adversarial review of Moral Kernel
-MK-0.2
+**Current phase:** Matched-scenario cross-version review of MK-0.1 and MK-0.2
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -20,7 +19,7 @@ specification, or governance system exists.
 - D-007 and D-008 are accepted decisions.
 - Exact MK-0.1 remains committed and unchanged.
 - Its unresolved terms and known attack surfaces inventoried.
-- Six completed conceptual evaluation records now exist.
+- Eight completed conceptual evaluation records now exist.
 - The first batch contains one `Survives with reservation` outcome, one
   `Disputed` outcome, and one `Fails current test` outcome.
 - D-011 authorizes the first batch without implying coverage completion.
@@ -30,7 +29,7 @@ specification, or governance system exists.
 - AC-006 records `Partial same-tooling convergence` with AC-003.
 - D-012 authorizes the second batch without implying independence or
   stabilization.
-- Six case records remain committed and unchanged.
+- The first six case records remain committed and unchanged.
 - The audited SR-001 source matrix is complete.
 - Three isolated same-tooling SR-001 reviews are complete.
 - The integrated SR-001 synthesis is complete.
@@ -52,21 +51,34 @@ specification, or governance system exists.
 - M2-AC-001 records comparison classification `Possible improvement`.
 - M2-AC-002 records comparison classification `Mixed comparative result`.
 - D-015 authorizes this batch without creating comparative preference.
+- AC-007 and AC-008 were completed outcome-blind under frozen SC-007 and
+  SC-008.
+- AC-007 records `Survives with reservation` and comparison classification
+  `Mixed comparative result` against MK-0.2.
+- AC-008 records `Fails current test` and comparison classification
+  `Mixed comparative result` against MK-0.2.
+- CR-001 matched-scenario cross-version review completed.
+- CR-001's primary next-evidence recommendation is
+  `Recommend external review before comparative preference`.
+- CR-001's optional secondary next-evidence recommendation is
+  `Recommend a matched MK-0.1 mechanical/minimality review`.
+- D-016 authorizes matched evaluation and review without preference.
 
 ## Current Work
 
 ### MK-0.1
 
 - Lifecycle: `Under adversarial review`
-- Completed cases: `6`
+- Cases: `8`
 - Noncanonical and unaccepted
 - Not superseded
+- No preference established
 
 ### MK-0.2
 
 - Lifecycle: `Under adversarial review`
-- Completed cases: `4`
-- Mechanical/minimality reviews: `1`
+- Cases: `4`
+- Mechanical reviews: `1`
 - Noncanonical and unaccepted
 - No preference over MK-0.1 established
 - No improvement claim established
@@ -93,6 +105,8 @@ specification, or governance system exists.
 - External evaluator diversity remains absent.
 - Same-tooling isolation is not external evaluator diversity.
 - Results remain candidate-specific.
+- Candidate-specific results remain distinct.
+- CR-001 is nonbinding and same-tooling.
 - No aggregate or candidate-wide verdict exists.
 - Layer requirements remain inventories rather than adopted definitions,
   protocols, profiles, or governance mechanisms.
@@ -101,21 +115,11 @@ specification, or governance system exists.
 
 ## Next Proposed Architectural Work
 
-1. Conduct architectural review of this first MK-0.2 batch before commit.
-2. Consider, only through a later explicit task, a second targeted MK-0.2
-   batch addressing the mechanical review's minimality and portability
-   failures and the three case-specific hostile paths.
-3. Consider matching MK-0.1 evaluations under frozen SC-007 or SC-008 to
-   separate candidate wording effects from scenario and evaluator effects.
-4. Seek external human or model review before any claim of independent
-   corroboration.
-5. Consider narrow definitions, choice-protocol, or evidence/governance
-   experiments without adopting a finished system or moving binding protection
-   silently out of the kernel.
-6. Consider comparative preference only through a separate later decision
-   after sufficient candidate-specific evidence.
-7. Preserve both candidates and all evidence, keep D-009 unresolved, and
-   continue deferring Beacon optimization.
+1. `Recommend external review before comparative preference`.
+2. Optionally, `Recommend a matched MK-0.1 mechanical/minimality review`.
+
+These are CR-001's nonbinding next-evidence recommendations only. Neither work
+item begins here.
 
 ## Document Status
 
@@ -139,6 +143,8 @@ specification, or governance system exists.
 | `cases/MK-0.1/AC-004-voluntary-integration-control.md` | Completed outcome-blind conceptual evaluation record — noncanonical |
 | `cases/MK-0.1/AC-005-unavoidable-scarcity.md` | Completed outcome-blind conceptual evaluation record — noncanonical |
 | `cases/MK-0.1/AC-006-ac003-outcome-blind-reanalysis.md` | Completed outcome-blind conceptual evaluation record — noncanonical |
+| `cases/MK-0.1/AC-007-sc007-unfamiliar-distributed-process.md` | Completed outcome-blind matched-scenario evaluation record — noncanonical |
+| `cases/MK-0.1/AC-008-sc008-urgent-self-certifying-power.md` | Completed outcome-blind matched-scenario evaluation record — noncanonical |
 | `reviews/MK-0.1/SR-001-SOURCE-MATRIX.md` | Frozen audited six-case extraction — noncanonical |
 | `reviews/MK-0.1/SR-001-KERNEL-REVIEW.md` | Isolated same-tooling kernel review — noncanonical |
 | `reviews/MK-0.1/SR-001-LAYER-ALLOCATION-REVIEW.md` | Isolated same-tooling layer-allocation review — noncanonical |
@@ -147,6 +153,7 @@ specification, or governance system exists.
 | `reviews/MK-0.2/DR-001-MK-0.2-DESIGN-RECORD.md` | Architect-specified exploratory design record — noncanonical |
 | `reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md` | Frozen pre-execution candidate-specific evaluation plan — noncanonical; first batch now completed |
 | `reviews/MK-0.2/MR-001-MECHANICAL-AND-MINIMALITY-REVIEW.md` | Completed MK-0.2 mechanical/minimality review — noncanonical; not a case |
+| `reviews/comparative/CR-001-MK-0.1-MK-0.2-MATCHED-SCENARIOS.md` | Completed same-tooling matched-scenario cross-version review — noncanonical and nonbinding |
 | `cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md` | Completed MK-0.2 SC-004 evaluation and comparison — noncanonical |
 | `cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md` | Completed MK-0.2 SC-006 evaluation and comparison — noncanonical |
 | `cases/MK-0.2/scenarios/SC-007-unfamiliar-distributed-process.md` | Frozen hypothetical unfamiliar-process input — noncanonical |

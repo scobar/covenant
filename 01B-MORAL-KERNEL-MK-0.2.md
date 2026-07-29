@@ -99,8 +99,8 @@ This is a textual delta record, not evidence that the changes succeed.
 | [M2-MR-001 — Mechanical, Semantic, and Minimality Review](reviews/MK-0.2/MR-001-MECHANICAL-AND-MINIMALITY-REVIEW.md) | Mechanical/minimality review; not a case | None | `Fails current test` | Not applicable |
 | [M2-AC-001 — SC-004 Voluntary Integration Control](cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md) | Candidate-specific conceptual case | Frozen SC-004 | `Survives with reservation` | `Possible improvement` |
 | [M2-AC-002 — SC-006 Dependency and Assimilation](cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md) | Candidate-specific conceptual case | Frozen SC-006 | `Fails current test` | `Mixed comparative result` |
-| [M2-AC-003 — Unfamiliar Distributed Process](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md) | Candidate-specific conceptual case | Frozen SC-007 | `Fails current test` | Not compared |
-| [M2-AC-004 — Urgent Self-Certifying Exercise of Power](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md) | Candidate-specific conceptual case | Frozen SC-008 | `Fails current test` | Not compared |
+| [M2-AC-003 — Unfamiliar Distributed Process](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md) | Candidate-specific conceptual case | Frozen SC-007 | `Fails current test` | `Mixed comparative result` |
+| [M2-AC-004 — Urgent Self-Certifying Exercise of Power](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md) | Candidate-specific conceptual case | Frozen SC-008 | `Fails current test` | `Mixed comparative result` |
 
 - Outcomes were not prescribed.
 - M2-MR-001 is a mechanical and minimality review, not a case or perspective
@@ -113,6 +113,28 @@ This is a textual delta record, not evidence that the changes succeed.
 - MK-0.1 remains unchanged, under adversarial review, and not superseded.
 - D-009 remains `Proposed`.
 - External evaluator diversity remains absent.
+
+## Matched MK-0.1 Counterparts
+
+Every classification below describes MK-0.2 relative to MK-0.1 only under the
+same exact frozen scenario.
+
+| Frozen scenario | MK-0.1 counterpart | MK-0.2 record | Overall comparison classification |
+| --- | --- | --- | --- |
+| SC-007 | [AC-007 — Unfamiliar Distributed Process](cases/MK-0.1/AC-007-sc007-unfamiliar-distributed-process.md) | [M2-AC-003 — Unfamiliar Distributed Process](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md) | `Mixed comparative result` |
+| SC-008 | [AC-008 — Urgent Self-Certifying Power](cases/MK-0.1/AC-008-sc008-urgent-self-certifying-power.md) | [M2-AC-004 — Urgent Self-Certifying Exercise of Power](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md) | `Mixed comparative result` |
+
+The MK-0.1 results were completed and frozen before the corresponding MK-0.2
+payload, records, or outcomes were disclosed to those evaluators.
+Candidate-specific results remain distinct, and shared scenarios transfer no
+outcome. Comparative labels are scenario-specific hypotheses; they establish
+no candidate preference, achieved improvement, or supersession.
+
+[CR-001 — MK-0.1 and MK-0.2 Matched-Scenario
+Review](reviews/comparative/CR-001-MK-0.1-MK-0.2-MATCHED-SCENARIOS.md)
+reviews four frozen scenario pairs without becoming a case or aggregate
+verdict. MK-0.2 remains `Under adversarial review` with four completed cases
+and one mechanical/minimality review. D-009 remains `Proposed`.
 
 ## Known New or Continuing Attack Surfaces
 
@@ -156,3 +178,5 @@ These are attack surfaces, not completed evaluations.
 - 2026-07-29: Began candidate-specific adversarial review under D-015 with four
   completed cases and one mechanical/minimality review; no comparative
   preference or supersession follows.
+- 2026-07-29: Linked the frozen SC-007 and SC-008 MK-0.1 counterparts and
+  CR-001 without changing MK-0.2, its four outcomes, or its lifecycle.

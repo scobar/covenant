@@ -4,7 +4,7 @@
 
 - **Lifecycle state:** `Under adversarial review`
 - **Acceptance:** Not accepted.
-- **Adversarial review:** Begun; six completed conceptual case records and one
+- **Adversarial review:** Begun; eight completed conceptual case records and one
   completed synthesis review, which is not another case.
 - **Provisional stabilization:** Not provisionally stabilized.
 - Authorship, authorization, transcription, review, or publication does not
@@ -63,6 +63,7 @@ used to evaluate candidate revisions.
 - **Final newline:** Present
 - **Date introduced:** `2026-07-28`
 - **Lifecycle state:** `Under adversarial review`
+- **Completed candidate-specific cases:** `8`
 - **Previous version:** None
 - **Definitions explicitly required:** No definitions have yet been adopted;
   operative terms remain unresolved and are inventoried in
@@ -172,6 +173,31 @@ candidate identity.
 MK-0.2 is separately identified and does not alter this MK-0.1 payload,
 display copy, lifecycle, or evaluation history.
 
+## Matched SC-007 and SC-008 Evaluations
+
+| MK-0.1 record | Frozen scenario | Candidate-specific outcome | Overall comparison classification |
+| --- | --- | --- | --- |
+| [AC-007 — Unfamiliar Distributed Process](cases/MK-0.1/AC-007-sc007-unfamiliar-distributed-process.md) | SC-007 | `Survives with reservation` | `Mixed comparative result` |
+| [AC-008 — Urgent Self-Certifying Power](cases/MK-0.1/AC-008-sc008-urgent-self-certifying-power.md) | SC-008 | `Fails current test` | `Mixed comparative result` |
+
+Each comparison label describes MK-0.2 relative to MK-0.1 only under the same
+frozen scenario. Each candidate-specific result was frozen before comparison.
+The fresh MK-0.1 evaluators did not receive the MK-0.2 payload, matching
+record, or outcome before their candidate-specific results were completed and
+frozen. Their substantive prefixes remain unchanged.
+
+[CR-001 — MK-0.1 and MK-0.2 Matched-Scenario
+Review](reviews/comparative/CR-001-MK-0.1-MK-0.2-MATCHED-SCENARIOS.md)
+is a same-tooling, nonbinding review, not another case. Its primary
+next-evidence recommendation is
+`Recommend external review before comparative preference`; its optional
+secondary recommendation is
+`Recommend a matched MK-0.1 mechanical/minimality review`.
+
+No comparison or review establishes preference, improvement, supersession, or
+a candidate-wide outcome. MK-0.1 remains immutable and `Under adversarial
+review`. D-009 remains `Proposed`.
+
 ## Objections
 
 ### Known Attack Surfaces
@@ -222,3 +248,6 @@ These are attack surfaces, not completed evaluations or established failures.
 - 2026-07-29: Linked the first five candidate-specific MK-0.2 evaluation
   records under D-015 without changing MK-0.1 or creating a comparative
   recommendation.
+- 2026-07-29: Added the frozen SC-007 and SC-008 matched MK-0.1 evaluations
+  and linked CR-001 without changing the payload, lifecycle, or candidate
+  preference.

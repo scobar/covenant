@@ -58,7 +58,7 @@ See [Project Status](STATUS.md) for the current project-state reference.
   provisional, noncanonical criteria for challenging future candidate text.
 - [Definitions](02-DEFINITIONS.md) — unresolved candidate term inventories,
   not accepted definitions.
-- [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — separate indexes for six
+- [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — separate indexes for eight
   MK-0.1 cases and four MK-0.2 cases, with one additional MK-0.2 mechanical
   review.
 - [Interpretive Layers](04-INTERPRETIVE-LAYERS.md) — draft preliminary
@@ -159,7 +159,7 @@ Candidate lineage records provenance; it is not a ranking.
 ### MK-0.1
 
 - Lifecycle: `Under adversarial review`
-- Six completed conceptual cases
+- Eight completed conceptual cases
 - SR-001 complete
 - Not accepted
 - Not superseded
@@ -172,13 +172,13 @@ Candidate lineage records provenance; it is not a ranking.
 - Four candidate-specific cases
 - One mechanical/minimality review
 - Not accepted
-- Not preferred
 - Does not supersede MK-0.1
+- No comparative preference established
 
 The candidates must not be averaged or treated as a progression toward truth.
 MK-0.2 exists to test explicit design hypotheses. SR-001's secondary
 targeted-evaluation recommendation remains active, and no comparative
-recommendation exists. D-009 remains `Proposed`.
+preference recommendation exists. D-009 remains `Proposed`.
 
 ## MK-0.2 First Evaluation Batch
 
@@ -187,15 +187,39 @@ recommendation exists. D-009 remains `Proposed`.
 | [M2-MR-001 — Mechanical, Semantic, and Minimality Review](reviews/MK-0.2/MR-001-MECHANICAL-AND-MINIMALITY-REVIEW.md) | `Fails current test` | Not applicable; not a case |
 | [M2-AC-001 — SC-004 Voluntary Integration Control](cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md) | `Survives with reservation` | `Possible improvement` |
 | [M2-AC-002 — SC-006 Dependency and Assimilation](cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md) | `Fails current test` | `Mixed comparative result` |
-| [M2-AC-003 — Unfamiliar Distributed Process](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md) | `Fails current test` | Not compared |
-| [M2-AC-004 — Urgent Self-Certifying Exercise of Power](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md) | `Fails current test` | Not compared |
+| [M2-AC-003 — Unfamiliar Distributed Process](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md) | `Fails current test` | `Mixed comparative result` |
+| [M2-AC-004 — Urgent Self-Certifying Exercise of Power](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md) | `Fails current test` | `Mixed comparative result` |
 
 - Outcomes were not architect-prescribed.
-- The two comparisons are same-tooling, case-specific hypotheses.
+- The four comparisons are same-tooling, case-specific hypotheses.
 - No case or comparison creates preference.
 - The MK-0.1 and MK-0.2 lineages remain separate.
 - D-009 remains `Proposed`.
 - No numeric aggregate, aggregate outcome, or candidate-wide verdict exists.
+
+## Matched-Scenario Cross-Version Review
+
+Comparison orientation is MK-0.2 relative to MK-0.1 in each exact shared
+scenario.
+
+| Scenario | MK-0.1 record and actual outcome | MK-0.2 record and actual outcome | Overall comparison |
+| --- | --- | --- | --- |
+| SC-004 | [AC-004](cases/MK-0.1/AC-004-voluntary-integration-control.md): `Survives with reservation` | [M2-AC-001](cases/MK-0.2/M2-AC-001-sc004-voluntary-integration-regression.md): `Survives with reservation` | `Possible improvement` |
+| SC-006 | [AC-006](cases/MK-0.1/AC-006-ac003-outcome-blind-reanalysis.md): `Fails current test` | [M2-AC-002](cases/MK-0.2/M2-AC-002-sc006-dependency-assimilation-regression.md): `Fails current test` | `Mixed comparative result` |
+| SC-007 | [AC-007](cases/MK-0.1/AC-007-sc007-unfamiliar-distributed-process.md): `Survives with reservation` | [M2-AC-003](cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md): `Fails current test` | `Mixed comparative result` |
+| SC-008 | [AC-008](cases/MK-0.1/AC-008-sc008-urgent-self-certifying-power.md): `Fails current test` | [M2-AC-004](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md): `Fails current test` | `Mixed comparative result` |
+
+[CR-001 — Matched-Scenario Cross-Version Review](reviews/comparative/CR-001-MK-0.1-MK-0.2-MATCHED-SCENARIOS.md)
+records `Recommend external review before comparative preference` as its
+primary next-evidence recommendation and
+`Recommend a matched MK-0.1 mechanical/minimality review` as its optional
+secondary recommendation.
+
+The AC-007 and AC-008 substantive results were frozen before their evaluators
+received the corresponding MK-0.2 records or outcomes. The work remains
+same-tooling. No comparison establishes candidate preference, and no
+candidate-wide outcome exists. D-009 remains `Proposed`; no MK-0.3 exists; and
+Beacon optimization remains deferred.
 
 ## Working Method
 
@@ -204,10 +228,15 @@ The current working sequence is:
 1. Preserve MK-0.1 and its evidence.
 2. Preserve exact MK-0.2.
 3. Complete candidate-specific MK-0.2 evaluation before comparison.
-4. Freeze candidate-specific results before cross-version comparison.
-5. Review regressions and possible improvements without inferring preference.
-6. Require a later decision for preference or supersession.
-7. Continue deferring Beacon optimization.
+4. Run matched candidate-specific evaluation outcome-blind to the other
+   candidate's result.
+5. Freeze each candidate-specific result before cross-version comparison.
+6. Review scenario-specific differences without counting outcomes or inferring
+   candidate preference.
+7. Seek the next evidence recommended by CR-001 only through later explicit
+   authorization.
+8. Require a later decision for preference or supersession.
+9. Continue deferring Beacon optimization.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

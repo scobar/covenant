@@ -53,6 +53,10 @@ All notable project changes will be documented in this file.
 - Frozen SC-008 urgent self-certifying-power scenario.
 - M2-AC-004 urgent self-certifying-power evaluation.
 - MK-0.2 first-batch unresolved-term inventory.
+- AC-007 MK-0.1 evaluation under frozen SC-007.
+- AC-008 MK-0.1 evaluation under frozen SC-008.
+- CR-001 matched-scenario cross-version review.
+- Matched-scenario unresolved-term notes.
 
 ### Changed
 
@@ -118,3 +122,11 @@ All notable project changes will be documented in this file.
   project statements in the README.
 - Repository guidance now requires later refinements to preserve the original
   ethos wording and provenance.
+- MK-0.1 case count increased from six to eight.
+- Casebook now records four shared-scenario candidate comparisons.
+- Candidate records now link the frozen SC-007 and SC-008 comparisons.
+- Agent guidance now protects matched-scenario outcome blindness and comparison
+  provenance.
+- README and status now record the matched review without candidate preference.
+- D-016 records authorization for matched evaluation before comparative
+  preference.

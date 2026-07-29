@@ -216,6 +216,30 @@ was drafted, scored, endorsed, or committed.
 - Before evaluating either candidate on a shared scenario, agents must verify
   the scenario's exact identity.
 
+## Matched-Scenario Cross-Version Rules
+
+- A shared scenario may be reused, but candidate-specific results never
+  transfer.
+- The later evaluator must not receive the earlier candidate's outcome before
+  freezing its own result.
+- Candidate-specific results freeze before comparison.
+- Comparison orientation must be explicit.
+- Comparative labels are scenario-specific hypotheses.
+- `Possible improvement` does not establish improvement or preference.
+- `Possible regression` does not establish candidate-wide inferiority.
+- Four matched scenarios must not be counted as votes or independent
+  replications.
+- Duplicate scenario, tooling, framework, and evaluator influences must remain
+  visible.
+- Mechanical reviews are not cases.
+- An unmatched mechanical review cannot establish comparative minimality.
+- Cross-version review may recommend evidence collection but may not create
+  preference without a later explicit decision.
+- Exact scenario identities must be verified before shared use.
+- The Founding Ethos section must remain distinguishable from candidate text
+  and comparative evidence.
+- No candidate may be superseded by recency, length, or comparison count.
+
 ## Editing Rules
 
 - Make the smallest authorized change.
