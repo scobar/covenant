@@ -240,6 +240,60 @@ was drafted, scored, endorsed, or committed.
   and comparative evidence.
 - No candidate may be superseded by recency, length, or comparison count.
 
+## External Review Rules
+
+Require that:
+
+- External review preparation, assignment, execution, publication, integration,
+  and preference are separate stages.
+- Package preparation does not imply review execution.
+- Procedural label blinding must not be described as secrecy or guaranteed
+  blindness.
+- Public-repository discoverability and prior exposure must be disclosed.
+- Filled candidate-label mappings remain outside the repository until
+  applicable responses freeze.
+- Reviewer-facing packets must not contain canonical candidate or scenario
+  hashes while label mapping is withheld.
+- The raw hash of an exact candidate alias is a canonical-identifying value and
+  must remain administrator-only until applicable responses freeze.
+- Canonical scenario IDs, paths, and hashes must also remain administrator-only
+  during active procedural label blinding.
+- Reviewer-facing forms use opaque packet-local IDs and neutral labels.
+- Mapping commitments may precommit an administrator without revealing the
+  mapping.
+- A mapping commitment does not prove fair randomization, truth, blindness, or
+  moral authority.
+- A neutrality audit must simulate populated templates, not inspect blank
+  placeholders only.
+- Candidate-specific responses freeze before comparative review.
+- Reviewers must receive no target outcome or desired distribution.
+- No reviewer is asked to choose a winner.
+- External responses remain attached to exact candidate and scenario
+  identities.
+- Human-unassisted, human-AI-assisted, model, and hybrid reviews remain
+  separate method classes.
+- Multiple outputs from one provider, model family, coordinated system, or
+  operator are not automatically independent diversity.
+- External reviewers do not represent their field, community, species, or all
+  minds.
+- Reviewer credentials, affiliations, compensation, conflicts, prior exposure,
+  AI assistance, tools, and outside lookup must be disclosed.
+- Raw responses and prompts are preserved before normalization or synthesis.
+- Substantive reviewer text must not be silently edited.
+- Publication requires explicit consent and privacy review.
+- Git permanence must be disclosed before human-response publication.
+- External reviews must not be counted as votes or combined into a universal
+  score.
+- External review does not automatically satisfy D-009.
+- An external review or synthesis cannot create candidate preference,
+  supersession, acceptance, or stabilization without a later explicit
+  decision.
+- Before administering ERX-001, agents must read every ERX-001 file and verify
+  its frozen manifest.
+
+Do not grant any reviewer, administrator, Scott, ChatGPT, Codex, or model final
+interpretive authority.
+
 ## Editing Rules
 
 - Make the smallest authorized change.

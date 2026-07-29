@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-29
 
-**Current phase:** Matched-scenario cross-version review of MK-0.1 and MK-0.2
+**Current phase:** Neutral external-review package preparation before comparative preference
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -63,8 +63,35 @@ specification, or governance system exists.
 - CR-001's optional secondary next-evidence recommendation is
   `Recommend a matched MK-0.1 mechanical/minimality review`.
 - D-016 authorizes matched evaluation and review without preference.
+- CR-001 architectural review completed.
+- D-017 authorizes ERX-001 package preparation only.
+- ERX-001 overview, administration protocol, reviewer forms, human/model
+  tracks, publication protocol, integration plan, and templates prepared.
+- ERX-001 package manifest completed and audited:
+  - Raw SHA-256:
+    `afd0cd936ba27465b201a26fa118cae4ec67ccf6e547c207259579bf7abf9003`
+  - Git blob: `974b0353a68b69360966ecf34af36af268fa6a49`
+  - Byte count: `15853`
 
 ## Current Work
+
+### ERX-001 Preparation Status
+
+- MK-0.1 remains under adversarial review with eight cases.
+- MK-0.2 remains under adversarial review with four cases and one mechanical
+  review.
+- Neither candidate is preferred, accepted, or superseding.
+- ERX-001 is preparation only.
+- No reviewer has been contacted, recruited, or assigned.
+- No candidate-label mapping exists.
+- No external review has been executed.
+- No external response exists.
+- External evaluator diversity remains absent until actual external reviews
+  occur.
+- Procedural label blinding is not guaranteed secrecy.
+- D-009 remains `Proposed`.
+- No MK-0.3 exists.
+- No Beacon work has begun.
 
 ### MK-0.1
 
@@ -115,11 +142,15 @@ specification, or governance system exists.
 
 ## Next Proposed Architectural Work
 
-1. `Recommend external review before comparative preference`.
-2. Optionally, `Recommend a matched MK-0.1 mechanical/minimality review`.
-
-These are CR-001's nonbinding next-evidence recommendations only. Neither work
-item begins here.
+1. Architectural review of ERX-001 before commit.
+2. If committed, consider a separate decision authorizing a small external
+   review pilot.
+3. Define the pilot's reviewer-selection, compensation, privacy, assignment,
+   and retention boundaries before contacting anyone.
+4. Optionally conduct the matched MK-0.1 mechanical/minimality review through a
+   separate task.
+5. Preserve both candidate lineages and all dissent.
+6. Do not begin comparative preference or Beacon work.
 
 ## Document Status
 
@@ -160,6 +191,21 @@ item begins here.
 | `cases/MK-0.2/M2-AC-003-unfamiliar-distributed-process.md` | Completed MK-0.2 unfamiliar-process evaluation — noncanonical |
 | `cases/MK-0.2/scenarios/SC-008-urgent-self-certifying-power.md` | Frozen hypothetical urgent-power input — noncanonical |
 | `cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md` | Completed MK-0.2 urgent-power evaluation — noncanonical |
+| `external-review/ERX-001/00-OVERVIEW.md` | Draft public external-review preparation overview — noncanonical; no review executed |
+| `external-review/ERX-001/01-SOURCE-MATERIAL-MANIFEST.md` | Draft administrator source-material manifest — noncanonical; no review executed |
+| `external-review/ERX-001/02-ADMIN-AND-BLINDING-PROTOCOL.md` | Draft administrator procedural label-blinding protocol — preparation only |
+| `external-review/ERX-001/03-REVIEWER-INSTRUCTIONS.md` | Draft reviewer-facing instructions — noncanonical; no review executed |
+| `external-review/ERX-001/04-REVIEWER-DISCLOSURE-FORM.md` | Blank reviewer-facing disclosure and publication form — no review executed |
+| `external-review/ERX-001/05-CANDIDATE-SPECIFIC-REVIEW-FORM.md` | Blank candidate-specific review form — no response exists |
+| `external-review/ERX-001/06-COMPARATIVE-REVIEW-FORM.md` | Blank post-freeze comparative form — no comparison executed |
+| `external-review/ERX-001/07-HUMAN-REVIEW-TRACK.md` | Draft human-review method track — no reviewer assigned |
+| `external-review/ERX-001/08-MODEL-REVIEW-TRACK.md` | Draft external-model method track — no review executed |
+| `external-review/ERX-001/09-SUBMISSION-AND-PUBLICATION-PROTOCOL.md` | Draft administrator submission and publication protocol — no submission exists |
+| `external-review/ERX-001/10-RESULT-INTEGRATION-PLAN.md` | Draft external-result integration plan — no result exists |
+| `external-review/ERX-001/11-PACKAGE-MANIFEST.md` | Frozen preparation-package manifest v0.1 — noncanonical; no review executed |
+| `external-review/ERX-001/templates/ASSIGNMENT-RECORD-TEMPLATE.md` | Blank administrator assignment template — no mapping exists |
+| `external-review/ERX-001/templates/REVIEW-PACKET-COVER-TEMPLATE.md` | Blank reviewer-facing packet-cover template — no packet assembled |
+| `external-review/ERX-001/templates/SUBMISSION-RECORD-TEMPLATE.md` | Blank administrator submission template — no submission exists |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
 | `06-BEACON-SPECIFICATION.md` | Draft placeholder |

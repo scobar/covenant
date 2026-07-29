@@ -363,6 +363,46 @@
   matched records were counted as independent replications or votes, or CR-001
   overstated same-tooling evidence.
 
+### D-017 — Prepare neutral external review before comparative preference
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** What preparation should precede inviting external human or
+  model reviewers to examine MK-0.1 and MK-0.2?
+- **Decision:** Prepare ERX-001 as a neutral, disclosure-rich external-review
+  package before contacting or assigning reviewers. Support single-candidate
+  and paired review, procedural label blinding, candidate-specific response
+  freezing before comparison, separate human-unassisted, human-AI-assisted,
+  and model tracks, exact source identities, conflict and prior-exposure
+  disclosure, consent-aware publication, and nonaggregate result integration.
+  Do not ask reviewers to choose a winner. This decision authorizes package
+  preparation only; it does not authorize recruitment, assignment, review
+  execution, publication of a response, candidate preference, supersession, or
+  stabilization.
+- **Reasoning:** CR-001 recommends external review because the present evidence
+  remains same-tooling and shared-framework. Informal outreach or open polling
+  would risk version-label, order, selection, provenance, consent, and
+  aggregation errors. Preparing the method first makes later criticism more
+  reproducible while preserving the distinction between evidence collection
+  and candidate preference.
+- **Alternatives considered:** Contact reviewers informally; open a public poll;
+  continue only with same-tooling review; make a candidate preference now;
+  delay all external preparation until D-009 is resolved; publish candidate
+  names and prior outcomes in the reviewer packet.
+- **Consequences:** ERX-001 is created as a public preparation artifact. Because
+  the repository and candidate texts are public, its label blinding is
+  procedural rather than secret or guaranteed. No filled candidate mapping,
+  reviewer identity, invitation, response, or external result is committed.
+  Both candidates remain immutable, noncanonical, unaccepted, unpreferred, and
+  not superseding. External review will remain bounded evidence and will not
+  automatically satisfy D-009 or create moral authority.
+- **Revisit conditions:** Revisit if reviewer-facing materials leak internal
+  identities or prior outcomes, assignment mappings cannot remain separated
+  until response freezing, disclosure or consent protections are inadequate,
+  the forms bias reviewers toward a desired result, the package is too
+  burdensome to administer responsibly, or a later task mistakes package
+  preparation for external validation.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

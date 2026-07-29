@@ -57,6 +57,16 @@ All notable project changes will be documented in this file.
 - AC-008 MK-0.1 evaluation under frozen SC-008.
 - CR-001 matched-scenario cross-version review.
 - Matched-scenario unresolved-term notes.
+- ERX-001 neutral external-review preparation package.
+- Canonical source-material manifest.
+- Administration and procedural label-blinding protocol.
+- Reviewer instructions and disclosure form.
+- Candidate-specific and comparative review forms.
+- Separate human and model review tracks.
+- Submission, consent, and publication protocol.
+- External-result integration plan.
+- Assignment, packet-cover, and submission templates.
+- Frozen ERX-001 package manifest.
 
 ### Changed
 
@@ -130,3 +140,14 @@ All notable project changes will be documented in this file.
 - README and status now record the matched review without candidate preference.
 - D-016 records authorization for matched evaluation before comparative
   preference.
+- Repository guidance now separates external-review preparation, execution,
+  publication, integration, and preference.
+- README and project status now record external-review preparation without
+  claiming execution.
+- D-017 authorizes package preparation before comparative preference.
+- External-review Markdown is pinned to LF for reproducible identities.
+- ERX-001 now prevents reviewer-facing alias hashes and canonical scenario
+  identifiers from directly revealing candidate mappings.
+- ERX-001 now defines an off-repository salted mapping commitment for later
+  pilot use.
+- Reviewer-neutrality validation now includes populated-template simulation.

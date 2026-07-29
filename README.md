@@ -99,6 +99,11 @@ See [Project Status](STATUS.md) for the current project-state reference.
   and its
   [M2-AC-004 evaluation](cases/MK-0.2/M2-AC-004-urgent-self-certifying-power.md)
   — frozen urgency/self-certification input and candidate-specific record.
+- [ERX-001 Overview](external-review/ERX-001/00-OVERVIEW.md) — neutral
+  external-review preparation package; no review executed.
+- [ERX-001 Package Manifest](external-review/ERX-001/11-PACKAGE-MANIFEST.md)
+  — frozen identities and audience classifications for the preparation
+  package.
 - [Decision Log](DECISIONS.md) — accepted process decisions and open decisions.
 - [Changelog](CHANGELOG.md) — human-readable record of project changes.
 
@@ -221,22 +226,47 @@ same-tooling. No comparison establishes candidate preference, and no
 candidate-wide outcome exists. D-009 remains `Proposed`; no MK-0.3 exists; and
 Beacon optimization remains deferred.
 
+## External Review Preparation
+
+- CR-001 recommends external review before comparative preference.
+- ERX-001 prepares the process but executes no review.
+- No reviewer has been contacted or assigned.
+- No candidate-label mapping exists.
+- No response exists.
+- Procedural label blinding reduces packet cues but cannot guarantee ignorance
+  because the repository is public.
+- The package supports human-unassisted, human-AI-assisted, and external-model
+  review as distinct method classes.
+- Candidate-specific responses must freeze before comparison.
+- No winner, vote, aggregate score, preference, or supersession is requested or
+  created.
+- D-009 remains `Proposed`.
+- Beacon optimization remains deferred.
+
+Package documents:
+
+- [Overview](external-review/ERX-001/00-OVERVIEW.md)
+- [Source manifest](external-review/ERX-001/01-SOURCE-MATERIAL-MANIFEST.md)
+- [Administration protocol](external-review/ERX-001/02-ADMIN-AND-BLINDING-PROTOCOL.md)
+- [Reviewer instructions](external-review/ERX-001/03-REVIEWER-INSTRUCTIONS.md)
+- [Human track](external-review/ERX-001/07-HUMAN-REVIEW-TRACK.md)
+- [Model track](external-review/ERX-001/08-MODEL-REVIEW-TRACK.md)
+- [Package manifest](external-review/ERX-001/11-PACKAGE-MANIFEST.md)
+
 ## Working Method
 
 The current working sequence is:
 
-1. Preserve MK-0.1 and its evidence.
-2. Preserve exact MK-0.2.
-3. Complete candidate-specific MK-0.2 evaluation before comparison.
-4. Run matched candidate-specific evaluation outcome-blind to the other
-   candidate's result.
-5. Freeze each candidate-specific result before cross-version comparison.
-6. Review scenario-specific differences without counting outcomes or inferring
-   candidate preference.
-7. Seek the next evidence recommended by CR-001 only through later explicit
-   authorization.
-8. Require a later decision for preference or supersession.
-9. Continue deferring Beacon optimization.
+1. Preserve the Founding Ethos, both candidates, and all prior evidence.
+2. Prepare ERX-001 under D-017.
+3. Review the package before commit.
+4. Authorize any pilot through a separate later decision.
+5. Create assignment mappings outside the repository.
+6. Freeze candidate-specific external responses before comparison.
+7. Preserve disclosures, prompts, raw outputs, consent, and dissent.
+8. Integrate results without voting or aggregation.
+9. Require a later explicit decision for candidate preference or supersession.
+10. Continue deferring Beacon optimization.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.
