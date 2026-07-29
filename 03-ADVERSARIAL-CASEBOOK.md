@@ -159,5 +159,29 @@ D-009 coverage.
 SR-001 is a noncanonical synthesis review, not another case. It does not
 increase perspective coverage, satisfy D-009, or change the completed case
 count of `6`. Its primary recommendation, `Recommend exploratory successor
-drafting`, is nonbinding and does not authorize successor text. No case outcome
-was changed.
+drafting`, is nonbinding and does not by itself authorize successor text.
+D-014 later authorizes exact MK-0.2 only as an exploratory test instrument. No
+case outcome was changed.
+
+## Exploratory Candidate Awaiting Review
+
+- **Identifier:** `MK-0.2`
+- **Version:** `0.2`
+- **Payload:** [`candidates/MK-0.2.txt`](candidates/MK-0.2.txt)
+- **SHA-256:**
+  `36f2aaa50aa9e7b9458b14358863557be96dc93b3b60728701f404a04fcbccf6`
+- **Lifecycle:** `Candidate`
+- **Completed cases:** `0`
+- **Adversarial review:** Not begun
+- **Preference over MK-0.1:** None established
+- **MK-0.1 superseded:** No
+- **Candidate-specific evaluation plan:**
+  [`ER-001 — MK-0.2 Comparative Evaluation Plan`](reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md)
+- No MK-0.1 result transfers to MK-0.2.
+
+The casebook's six existing records continue to evaluate only MK-0.1. MK-0.2
+must not be labeled `Under adversarial review` until a completed
+candidate-specific MK-0.2 case record exists. No aggregate, candidate-lineage,
+or candidate-wide comparative judgment exists. D-009 remains unresolved.
+
+No MK-0.2 case index entry is created by this candidate-introduction task.

@@ -25,10 +25,15 @@ See [Project Status](STATUS.md) for the current project-state reference.
   noncanonical Candidate MK-0.1 under adversarial review.
 - [Exact MK-0.1 Payload](candidates/MK-0.1.txt) — exact candidate bytes,
   immutable in place once committed.
+- [Moral Kernel Candidate MK-0.2](01B-MORAL-KERNEL-MK-0.2.md) — exact
+  exploratory, noncanonical successor-candidate record; no preference or
+  supersession established.
+- [Exact MK-0.2 Payload](candidates/MK-0.2.txt) — exact exploratory candidate
+  bytes, separately identified from MK-0.1.
 - [Moral Kernel Evaluation Framework](01A-MORAL-KERNEL-EVALUATION.md) —
   provisional, noncanonical criteria for challenging future candidate text.
-- [Definitions](02-DEFINITIONS.md) — unresolved MK-0.1 term inventory, not
-  accepted definitions.
+- [Definitions](02-DEFINITIONS.md) — unresolved candidate term inventories,
+  not accepted definitions.
 - [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — draft casebook indexing
   six completed conceptual records.
 - [Interpretive Layers](04-INTERPRETIVE-LAYERS.md) — draft preliminary
@@ -50,6 +55,10 @@ See [Project Status](STATUS.md) for the current project-state reference.
   same-tooling review of evidence limits and warranted next steps.
 - [SR-001 Integrated Synthesis](reviews/MK-0.1/SR-001-SYNTHESIS.md) —
   noncanonical six-case synthesis and preliminary layer allocation.
+- [MK-0.2 Design Record](reviews/MK-0.2/DR-001-MK-0.2-DESIGN-RECORD.md) —
+  architect-specified, noncanonical design and exact-delta record.
+- [MK-0.2 Evaluation Plan](reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md) —
+  candidate-specific comparative plan; no tests executed.
 - [Decision Log](DECISIONS.md) — accepted process decisions and open decisions.
 - [Changelog](CHANGELOG.md) — human-readable record of project changes.
 
@@ -80,7 +89,8 @@ hypotheses, not independent validation or consensus.
 The scenarios and questions were specified in advance; the outcomes were not.
 These results are same-tooling, case-specific hypotheses, not independent
 validation, consensus, or empirical evidence. AC-006 was compared with AC-003
-only after its substantive result was frozen. No MK-0.2 exists.
+only after its substantive result was frozen. No MK-0.1 result transfers to
+MK-0.2.
 
 ## Six-Case Synthesis Review
 
@@ -98,19 +108,47 @@ AC-006 are scenario-equivalent and show partial same-tooling convergence, not
 independent replication. No empirical validation, external evaluator
 diversity, consensus, or candidate-wide moral verdict follows.
 
-No MK-0.2 exists, and this review does not authorize successor drafting.
+SR-001 itself does not authorize successor drafting. D-014 later authorizes
+exact MK-0.2 only as an exploratory test instrument for hypothesis generation.
 D-009 remains `Proposed`.
+
+## Candidate Lineage
+
+Candidate lineage records provenance; it is not a ranking.
+
+### MK-0.1
+
+- Lifecycle: `Under adversarial review`
+- Six completed conceptual cases
+- SR-001 complete
+- Not accepted
+- Not superseded
+
+### MK-0.2
+
+- Exact exploratory candidate
+- Lifecycle: `Candidate`
+- Zero completed cases
+- Not under adversarial review
+- Not accepted
+- Not preferred
+- Does not supersede MK-0.1
+
+The candidates must not be averaged or treated as a progression toward truth.
+MK-0.2 exists to test explicit design hypotheses. SR-001's secondary
+targeted-evaluation recommendation remains active, and no comparative
+recommendation exists. D-009 remains `Proposed`.
 
 ## Working Method
 
 The current working sequence is:
 
-1. The evaluation framework was recorded.
-2. Exact MK-0.1 was introduced.
-3. Two case batches were completed.
-4. SR-001 separates kernel findings from layer requirements.
-5. Architectural review follows before any successor task.
-6. Any successor preserves MK-0.1, all scenarios, all cases, and SR-001.
+1. MK-0.1 and its six cases remain preserved.
+2. SR-001 separated kernel and layer hypotheses.
+3. MK-0.2 has been introduced as an exact exploratory candidate.
+4. Candidate-specific evaluation must precede comparison.
+5. A later decision is required before preference or supersession.
+6. External review remains necessary before independent-corroboration claims.
 7. Beacon optimization remains deferred.
 
 The framework and all Covenant text remain incomplete and challengeable unless

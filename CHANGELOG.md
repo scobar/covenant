@@ -40,6 +40,11 @@ All notable project changes will be documented in this file.
 - Cross-case definition-priority inventory.
 - Case-triggered choice-protocol requirements inventory.
 - Case-triggered evidence-and-governance requirements inventory.
+- Exact exploratory Moral Kernel Candidate MK-0.2 payload.
+- MK-0.2 candidate record and display copy.
+- DR-001 architectural design and delta record.
+- ER-001 comparative evaluation plan.
+- MK-0.2 delta-term inventory.
 
 ### Changed
 
@@ -84,3 +89,12 @@ All notable project changes will be documented in this file.
 - Project status now reflects the SR-001 recommendation.
 - D-013 records authorization for synthesis before successor drafting.
 - Review Markdown is pinned to LF for reproducible identities.
+- Moral Kernel record now links the exploratory successor without superseding
+  MK-0.1.
+- Casebook now distinguishes MK-0.1’s completed review from MK-0.2’s zero-case
+  state.
+- Agent guidance now preserves separate candidate lineages and
+  candidate-specific evidence.
+- README and project status now record both candidates without preference.
+- D-014 authorizes exploratory drafting but not preference, supersession, or
+  stabilization.

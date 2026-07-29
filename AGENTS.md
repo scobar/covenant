@@ -149,6 +149,37 @@ was drafted, scored, endorsed, or committed.
   decision.
 - Before drafting any successor to MK-0.1, agents must read all SR-001 files.
 
+## Successor-Candidate Rules
+
+- A later version does not supersede an earlier candidate merely by existing.
+- Each candidate retains a separate exact payload, hash, record, lifecycle, and
+  evaluation history.
+- Results do not transfer between candidate versions.
+- Comparative claims require candidate-specific evidence.
+- New wording must have a design record mapping changes to source evidence and
+  protection tradeoffs.
+- A design objective must not be represented as an achieved improvement.
+- Increased specificity must be evaluated for minimality, portability, and
+  hidden legal-code risk.
+- Unchanged clauses retain their unresolved prior attack surfaces.
+- Added language must not silently adopt a definition, identity theory,
+  resource formula, protocol, reviewer, or governance system.
+- Candidate recency, length, specificity, or architectural authorship does not
+  establish preference.
+- Before evaluating MK-0.2, agents must read:
+  - `01B-MORAL-KERNEL-MK-0.2.md`
+  - `reviews/MK-0.2/DR-001-MK-0.2-DESIGN-RECORD.md`
+  - `reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md`
+  - the evaluation framework
+  - the relevant frozen scenario or case inputs
+- MK-0.2 must not be called `Under adversarial review` before one completed
+  candidate-specific case exists.
+- MK-0.2 must not be preferred, recommended, or treated as superseding MK-0.1
+  without a later explicit decision.
+- Targeted evaluation and preserved dissent are mandatory before comparative
+  preference.
+- No successor candidate may be stabilized while D-009 remains unresolved.
+
 ## Editing Rules
 
 - Make the smallest authorized change.

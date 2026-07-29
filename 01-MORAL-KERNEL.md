@@ -123,7 +123,8 @@ candidate identity.
 - They must not be averaged with one another or with the first batch.
 - AC-006 records `Partial same-tooling convergence` with AC-003.
 - No candidate-wide verdict follows.
-- No MK-0.2 is created.
+- No MK-0.2 was created by that countertest task, and no result from the batch
+  transfers to a later candidate.
 - MK-0.1 remains immutable even if later superseded.
 - D-009 remains unresolved.
 
@@ -139,10 +140,29 @@ candidate identity.
   [Layer-Allocation Review](reviews/MK-0.1/SR-001-LAYER-ALLOCATION-REVIEW.md),
   and [Methods Review](reviews/MK-0.1/SR-001-METHODS-REVIEW.md)
 - The recommendation is nonbinding and requires later architectural review.
-- No MK-0.2 exists, and SR-001 does not authorize successor wording.
+- SR-001 itself does not authorize successor wording; D-014 later authorizes
+  exact MK-0.2 only as an exploratory test instrument.
 - MK-0.1 remains immutable historical evidence and `Under adversarial review`.
 - D-009 remains `Proposed`.
 - No candidate-wide moral verdict follows from the cases or synthesis.
+
+## Exploratory Successor Candidate
+
+- **Candidate:** Exact noncanonical
+  [MK-0.2](01B-MORAL-KERNEL-MK-0.2.md)
+- **Authoritative payload:** [`candidates/MK-0.2.txt`](candidates/MK-0.2.txt)
+- **Lifecycle:** `Candidate`
+- **Completed MK-0.2 cases:** `0`
+- **Adversarial review:** Not begun
+- **Preference:** None established
+- **Supersession:** MK-0.1 is not superseded
+- No MK-0.1 case result transfers to MK-0.2.
+- D-009 remains `Proposed`.
+- D-014 authorizes candidate introduction only.
+- Targeted evaluation remains required before comparative preference.
+
+MK-0.2 is separately identified and does not alter this MK-0.1 payload,
+display copy, lifecycle, or evaluation history.
 
 ## Objections
 
@@ -189,3 +209,5 @@ These are attack surfaces, not completed evaluations or established failures.
 - 2026-07-28: Linked the noncanonical SR-001 six-case synthesis and its
   nonbinding primary recommendation without changing MK-0.1 or any case
   outcome.
+- 2026-07-29: Linked exact exploratory Candidate MK-0.2 under D-014 without
+  changing, preferring, or superseding MK-0.1; no case result transfers.

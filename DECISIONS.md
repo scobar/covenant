@@ -253,6 +253,46 @@
   recurrence was overstated, protection tradeoffs were hidden, or SR-001 does
   not improve the decision about successor drafting and layer development.
 
+### D-014 — Authorize exploratory Moral Kernel Candidate MK-0.2
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** Should SR-001’s primary recommendation authorize creation of an
+  exact exploratory successor candidate despite its secondary recommendation
+  for additional targeted evaluation?
+- **Decision:** Yes, but only for hypothesis generation. Introduce exact
+  Candidate `MK-0.2` with lifecycle state `Candidate` as a noncanonical,
+  unaccepted test instrument. Preserve SR-001’s targeted-evaluation
+  recommendation as a required constraint before any preference,
+  recommendation, supersession, or stabilization decision. MK-0.2 does not
+  supersede MK-0.1, and no MK-0.1 result transfers to it.
+- **Reasoning:** Creating a falsifiable alternative has a lower evidentiary
+  threshold than concluding that the alternative is better. SR-001 identifies
+  recurrent hostile-compliance hypotheses involving self-certification,
+  Clause 5’s scope and force, formal versus meaningful choice, nominal exit,
+  and acceptance-independent protection. Exact alternate wording makes those
+  hypotheses testable while preserving the kernel reviewer’s dissent and the
+  need for targeted evaluation.
+- **Alternatives considered:** Conduct all targeted evaluations before any
+  drafting; perform a non-kernel layer experiment first; seek external review
+  first; preserve MK-0.1 as the only candidate indefinitely; draft an
+  unversioned or unhashed alternative.
+- **Consequences:** The exact payload is stored at
+  `candidates/MK-0.2.txt` as six UTF-8-without-BOM, LF-terminated lines with
+  SHA-256
+  `36f2aaa50aa9e7b9458b14358863557be96dc93b3b60728701f404a04fcbccf6`
+  and Git blob `10eac7fc6ce3bc589b5fd202ba9ee150fe586d47`.
+  Once committed, it is immutable historical candidate evidence. MK-0.2 begins
+  with zero completed cases, is not under adversarial review, and has no
+  preference or improvement status. MK-0.1 remains immutable, not superseded,
+  and under adversarial review. No acceptance follows from drafting,
+  authorization, transcription, review, commit, or publication.
+- **Revisit conditions:** Revisit if exact-byte identity is unreliable, the
+  design record hides protection tradeoffs, MK-0.2 imports a hidden legal code,
+  the wording silently adopts a substrate-specific identity or resource rule,
+  candidate-specific evaluation cannot distinguish the proposed changes, or a
+  later task incorrectly treats candidate creation as evidence of improvement.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

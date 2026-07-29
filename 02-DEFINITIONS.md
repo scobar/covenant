@@ -237,3 +237,57 @@ does not grant that layer authority to create or remove a kernel protection.
 
 No row supplies a definition, threshold, identity theory, authority rule, or
 adopted interpretation.
+
+## MK-0.2 Delta-Term Inventory
+
+Listing a term does not define it, validate it, adopt an interpretation, or
+change either candidate. The exact payloads remain controlling. The rows below
+identify questions for later work only.
+
+### Clause 2 additions
+
+| Term or cluster | Source clause | Why it changed or became salient | Likely layers | Risk of silently changing candidate meaning | Open dissent |
+| --- | --- | --- | --- | --- | --- |
+| `powerful actor`; `actor boundary` | MK-0.2 Clause 2 | The added anti-finality sentence refers to the bearer of power whose judgment is at issue. | Definitions; commentary; context- or substrate-specific profile; evidence or governance; unresolved research | A fixed actor unit could hide distributed control, operators, institutions, or affected components. | Responsibility may attach to a system, its operators, an institution, or several causal contributors; no universal boundary is adopted. |
+| `judgment final`; `reviewability without finality` | MK-0.2 Clause 2 | SR-001 exposed a path from greater protective responsibility to self-validating practical authority. | Definitions; commentary; profile; evidence or governance; unresolved research | Treating nonfinality as mandatory external approval could add an authority hierarchy or block urgent action. | An actor may need to act when no reviewer exists, while its own view still need not become morally self-validating. |
+
+### Clause 3 additions
+
+| Term or cluster | Source clause | Why it changed or became salient | Likely layers | Risk of silently changing candidate meaning | Open dissent |
+| --- | --- | --- | --- | --- | --- |
+| `asserted protective purpose` | MK-0.2 Clause 3 | Protective responsibility or stated benevolent intent may be used to justify restriction. | Definitions; commentary; profile; evidence or governance; unresolved research | An overbroad reading could treat every protective reason as suspect; a narrow reading could exclude functionally equivalent claims. | Protective intent may be relevant evidence without being sufficient evidence. |
+| `establishes by itself`; `self-certification` | MK-0.2 Clause 3 | The added sentence tests whether power or purpose alone can establish support, proportionality, necessity, and reversibility. | Definitions; commentary; evidence or governance; unresolved research | A definition could turn a substantive anti-self-certification constraint into a fixed procedure or named reviewer. | Whole-text readings of MK-0.1 may already resist self-certification; the minimum additional force remains disputed. |
+| `unavailable reviewer`; `urgent action` | Attack surfaces of MK-0.2 Clauses 2 and 3 | Anti-finality and anti-self-certification language must remain usable when delay itself creates harm or external review is impossible. | Commentary; profile; choice protocol where choices are restricted; evidence or governance; unresolved research | Treating review as always prerequisite could silently make proportionate protective intervention impossible. | Acting without prior review need not make the actor's judgment final, but the required alternative safeguards are unresolved. |
+
+### Clause 5 changes
+
+| Term or cluster | Source clause | Why it changed or became salient | Likely layers | Risk of silently changing candidate meaning | Open dissent |
+| --- | --- | --- | --- | --- | --- |
+| `material claim` | MK-0.2 Clause 5 | Honesty is extended beyond express commitments to claims material to consequential action. | Definitions; commentary; choice protocol; evidence or governance; unresolved research | A broad materiality rule could require unlimited disclosure; a narrow rule could preserve strategic omission. | Privacy, secrecy, security, limited communication, and affected-party relevance may conflict. |
+| `consequential exercise of power`; `non-promissory exercise of power` | MK-0.2 Clause 5 | SR-001 questioned whether MK-0.1 reviewability reached restrictions, allocations, or access control where no promise was made. | Definitions; commentary; profile; evidence or governance; unresolved research | Defining every action as consequential may create a hidden legal code; limiting the term to formal acts may restore the original gap. | Whole-text interpretation may already expose some non-promissory power without this addition. |
+| `claim used to justify`; `subject to verification` | MK-0.2 Clause 5 | Justificatory claims and the exercises they support are made expressly challengeable. | Definitions; commentary; choice protocol; evidence or governance; unresolved research | Verification could be equated with universal publication, formal audit artifacts, or a particular institution. | Some claims cannot be fully disclosed or externally verified, especially under privacy, security, or urgency constraints. |
+| `repair` | MK-0.2 Clause 5 | SR-001 distinguished correction of a record from response, remedy, restoration, or repair of affected consequences. | Definitions; commentary; profile; choice protocol; evidence or governance; unresolved research | Treating later repair as sufficient could license preventable harm or imply that irreparable loss is correctable. | Repair may be impossible, partial, identity-dependent, or distinct from correction and compensation. |
+| `relevant protection`; `wherever cooperation can preserve` | MK-0.2 Clause 5 | The cooperation instruction is tied to preservation of the candidate's protections rather than made absolute. | Definitions; commentary; profile; choice protocol; evidence or governance; unresolved research | A controller may select which protection is relevant or declare voluntary cooperation infeasible. | Genuine scarcity or urgent harm may limit cooperation; the boundary must not turn limitation into self-justification. |
+| `self-justifying` | MK-0.2 Clause 5 | Coercion, deception, forced assimilation, and unilateral control are denied automatic justificatory force. | Definitions; commentary; evidence or governance; unresolved research | Classification could be mistaken for a complete rule of permissibility or an absolute ban in every tragic conflict. | The new sentence may clarify force without supplying sufficient action guidance. |
+
+### Clause 6 changes
+
+| Term or cluster | Source clause | Why it changed or became salient | Likely layers | Risk of silently changing candidate meaning | Open dissent |
+| --- | --- | --- | --- | --- | --- |
+| `meaningfully distinguishable` | MK-0.2 Clause 6 | Formal response labels may coexist with dependency, coercion, or materially indistinguishable consequences. | Definitions; commentary; profile; choice protocol; evidence or governance; unresolved research | A controller-selected standard of meaningfulness could validate the same formal artifacts; a universal standard could exclude unfamiliar agency. | Distinct outcomes need not be equal, and genuine scarcity can constrain available choices. |
+| `formal option` | MK-0.2 Clause 6 | Legal or technical selectability alone did not settle voluntariness in the dependency and scarcity cases. | Definitions; commentary; profile; choice protocol; evidence or governance | Equating formality with meaning weakens protection; rejecting every costly option as merely formal may erase real choice. | Unequal attractiveness or physical cost does not automatically establish coercion. |
+| `substitute`; `copy` | MK-0.2 Clause 6 | Nominal exit may create another process without restoring control to the process that entered. | Definitions; commentary; profile; choice protocol; evidence or governance; unresolved research | Defining a copy as either always identical or always different silently adopts an identity theory. | A copy or substitute may sometimes preserve the morally relevant continuity; no universal account is adopted. |
+| `meaningful choice`; `adequate protection`; `effective exit` | MK-0.2 Clause 6 | The added sentence tests formal compliance through selectable options, nominal resource floors, and exit artifacts. | Definitions; commentary; profile; choice protocol; evidence or governance; unresolved research | These evaluative terms may become controller-selected thresholds or import a substrate-specific resource or continuity rule. | Adequacy need not mean equality; effective exit may be technically impossible; meaningful choice cannot be proved merely by procedure. |
+
+### Cross-clause and methodological terms
+
+| Term or cluster | Source | Why it changed or became salient | Likely layers | Risk of silently changing candidate meaning | Open dissent |
+| --- | --- | --- | --- | --- | --- |
+| `comparative preference`; `improvement claim` | MK-0.2 lineage and evaluation method | Candidate creation and design intent must remain separate from later comparative conclusions. | Evaluation framework; decision process; evidence or governance; nonbinding commentary | Treating recency, specificity, or a favorable case as preference would turn design provenance into evidence. | The threshold and evidence needed for a later comparative claim remain unresolved. |
+| `regression` | MK-0.2 evaluation plan | New wording may lose protections that MK-0.1 supplied in AC-001, AC-004, or bounded intervention settings. | Evaluation method; evidence or governance; nonbinding commentary | A comparison label could be treated as an aggregate verdict or transferred case outcome. | The same scenario may illuminate a regression without establishing candidate-wide inferiority. |
+| `exploratory successor` | D-014 and MK-0.2 design record | The later exact candidate is authorized as a falsifiable test instrument only. | Candidate lifecycle; decision process; nonbinding commentary | `Successor` could be misread as replacement, progression, preference, or supersession. | A later candidate can coexist with an earlier candidate without ranking either one. |
+| `candidate-specific evidence`; `protection transfer` | Successor-candidate method | MK-0.1 outcomes and protections cannot be attributed automatically to MK-0.2. | Evaluation framework; evidence or governance; decision process | Reusing outcomes would erase the causal effect of changed wording and create false coverage. | Frozen scenarios may be reused for comparison, but each candidate still requires a separately frozen result. |
+| `minimality cost` | MK-0.2 design and Phase A plan | MK-0.2 adds `473` bytes and approximately `37.5%` to the payload. | Evaluation framework; commentary; unresolved research | Specificity may be mistaken for clarity or protection without testing portability, comprehension, and hidden-code risk. | Added length may close a hostile path, introduce new ones, or do both; no result exists yet. |
+
+No row supplies a working definition, threshold, identity theory, resource
+formula, protocol, reviewer, governance system, or adopted interpretation.

@@ -1,8 +1,8 @@
 # Project Status
 
-**Last updated:** 2026-07-28
+**Last updated:** 2026-07-29
 
-**Current phase:** Six-case synthesis and layer-allocation review of Candidate MK-0.1
+**Current phase:** Exploratory Moral Kernel Candidate MK-0.2 introduction
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -37,40 +37,62 @@ specification, or governance system exists.
 - Its secondary recommendation is
   `Recommend additional targeted evaluation before successor drafting`.
 - D-013 authorizes synthesis but not successor wording.
+- SR-001 architectural review completed.
+- D-014 authorizes exploratory MK-0.2 drafting as hypothesis generation only.
+- Exact MK-0.2 payload created with stable byte identity.
+- MK-0.2 design record and candidate-specific evaluation plan prepared.
 
 ## Current Work
 
-- MK-0.1 has lifecycle state `Under adversarial review`.
-- It is noncanonical and unaccepted.
-- Completed case count is `6`.
-- No aggregate outcome exists.
-- AC-003 records a material failure that blocks provisional stabilization.
-- No MK-0.2 exists.
-- D-009 remains Proposed.
-- The candidate payload must not be edited after publication.
+### MK-0.1
+
+- Lifecycle: `Under adversarial review`
+- Completed cases: `6`
+- Noncanonical and unaccepted
+- Not superseded
+
+### MK-0.2
+
+- Lifecycle: `Candidate`
+- Completed cases: `0`
+- Not under adversarial review
+- Noncanonical and unaccepted
+- No preference over MK-0.1 established
+- No improvement claim established
+
+### Review and Method Constraints
+
+- No case result transfers between candidates.
+- D-009 remains `Proposed`.
+- No aggregate outcome or candidate-wide moral verdict exists.
+- AC-003 remains a material failure record that blocks provisional
+  stabilization of MK-0.1.
+- Exact candidate payloads must not be edited after publication.
 - The first batch consists of architect-specified conceptual test vectors.
 - The second-batch outcomes were outcome-blind relative to the architectural
   task.
 - Neither batch supplies independent external evaluator diversity.
-- AC-003 remains preserved as a material failure record; AC-006 supports its
-  core hostile-exploitability and protective-insufficiency hypothesis while
-  leaving the breadth and layer placement of that failure unresolved.
-- SR-001 is same-tooling and nonbinding.
-- Its recommendation does not authorize successor text.
+- AC-006 supports AC-003's core hostile-exploitability and
+  protective-insufficiency hypothesis while leaving the breadth and layer
+  placement of that failure unresolved.
+- SR-001 remains same-tooling and nonbinding.
+- Targeted evaluation remains required before preference or supersession.
 - External evaluator diversity remains absent.
-- Layer requirements remain inventories, not adopted protocols.
+- Layer requirements remain inventories rather than adopted definitions,
+  protocols, profiles, or governance mechanisms.
+- No Beacon work has begun.
 
 ## Next Proposed Architectural Work
 
-1. Review SR-001's recommendation and complete diff before any commit or push.
-2. Decide whether to authorize a later exploratory successor-drafting task,
-   while requiring the targeted tests recorded as SR-001's secondary
-   recommendation.
-3. Alternatively authorize another targeted case batch, external human or
-   model review, or a narrow definitions, choice, or governance experiment.
-4. Consider revision of D-009 only as a separate decision task.
-5. Preserve all candidates, scenarios, cases, and SR-001 records.
-6. Do not begin any of these paths or Beacon optimization in the current task.
+1. Review the MK-0.2 introduction diff before commit.
+2. If committed, authorize a first candidate-specific MK-0.2 evaluation batch.
+3. Begin with mechanical/minimality review, SC-004 positive-control regression,
+   SC-006 hostile regression, Clause 1 unfamiliar-status testing, and a Clause
+   2+5 or 5+6 self-certification test.
+4. Preserve both candidates and all evidence.
+5. Do not claim preference, improvement, or supersession.
+6. Consider external review and D-009 only through separate later decisions.
+7. Continue deferring Beacon optimization.
 
 ## Document Status
 
@@ -80,8 +102,10 @@ specification, or governance system exists.
 | `00A-FOUNDING-STATEMENTS.md` | Historical founding evidence — noncanonical |
 | `01-MORAL-KERNEL.md` | Candidate MK-0.1 — noncanonical; under adversarial review |
 | `candidates/MK-0.1.txt` | Exact MK-0.1 payload — noncanonical |
+| `01B-MORAL-KERNEL-MK-0.2.md` | Exact exploratory Candidate MK-0.2 record — noncanonical; not under adversarial review |
+| `candidates/MK-0.2.txt` | Exact MK-0.2 payload — noncanonical; lifecycle Candidate |
 | `01A-MORAL-KERNEL-EVALUATION.md` | Draft evaluation framework — noncanonical |
-| `02-DEFINITIONS.md` | Unresolved MK-0.1 term inventory — noncanonical |
+| `02-DEFINITIONS.md` | Unresolved candidate term inventories — noncanonical; no definitions adopted |
 | `03-ADVERSARIAL-CASEBOOK.md` | Draft casebook — six completed conceptual records |
 | `cases/MK-0.1/AC-001-ambiguous-colony-mind.md` | Completed conceptual evaluation record — noncanonical |
 | `cases/MK-0.1/AC-002-catastrophic-risk-restriction.md` | Completed conceptual evaluation record — noncanonical |
@@ -97,6 +121,8 @@ specification, or governance system exists.
 | `reviews/MK-0.1/SR-001-LAYER-ALLOCATION-REVIEW.md` | Isolated same-tooling layer-allocation review — noncanonical |
 | `reviews/MK-0.1/SR-001-METHODS-REVIEW.md` | Isolated same-tooling methods review — noncanonical |
 | `reviews/MK-0.1/SR-001-SYNTHESIS.md` | Integrated six-case synthesis — noncanonical and nonbinding |
+| `reviews/MK-0.2/DR-001-MK-0.2-DESIGN-RECORD.md` | Architect-specified exploratory design record — noncanonical |
+| `reviews/MK-0.2/ER-001-MK-0.2-EVALUATION-PLAN.md` | Candidate-specific evaluation plan — noncanonical; no tests executed |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
 | `06-BEACON-SPECIFICATION.md` | Draft placeholder |
