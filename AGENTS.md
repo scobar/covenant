@@ -126,6 +126,29 @@ was drafted, scored, endorsed, or committed.
 - A line-ending normalization correction must never silently alter the
   substantive historical text.
 
+## Synthesis and Layer-Allocation Rules
+
+- Source extraction must be distinguishable from synthesis.
+- Exact source outcomes must not be silently harmonized.
+- Cases must not be counted as votes.
+- Same-tooling recurrence must not be called independent corroboration.
+- Architect-specified and outcome-blind records must remain distinguishable.
+- Duplicate or near-duplicate scenarios must be disclosed.
+- Reviewer outputs must disclose supplied and withheld materials.
+- Isolated review must not be claimed if isolation was not achieved.
+- Unexpected synthesis recommendations must be preserved.
+- Review disagreement must remain visible.
+- Layer allocation must identify the binding protection that remains in the
+  kernel.
+- Moving substantive protection to another layer requires an explicit
+  protection-tradeoff record.
+- Definitions, commentary, profiles, protocols, and governance may not
+  silently rewrite candidate bytes.
+- A synthesis recommendation does not authorize candidate wording.
+- No successor candidate may be drafted without a later explicit task and
+  decision.
+- Before drafting any successor to MK-0.1, agents must read all SR-001 files.
+
 ## Editing Rules
 
 - Make the smallest authorized change.

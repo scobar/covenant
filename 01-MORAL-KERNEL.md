@@ -4,7 +4,8 @@
 
 - **Lifecycle state:** `Under adversarial review`
 - **Acceptance:** Not accepted.
-- **Adversarial review:** Begun; six completed conceptual case records.
+- **Adversarial review:** Begun; six completed conceptual case records and one
+  completed synthesis review, which is not another case.
 - **Provisional stabilization:** Not provisionally stabilized.
 - Authorship, authorization, transcription, review, or publication does not
   imply acceptance.
@@ -126,6 +127,23 @@ candidate identity.
 - MK-0.1 remains immutable even if later superseded.
 - D-009 remains unresolved.
 
+## SR-001 Synthesis Snapshot
+
+- **Integrated synthesis:**
+  [SR-001 — MK-0.1 Six-Case Synthesis and Layer Allocation](reviews/MK-0.1/SR-001-SYNTHESIS.md)
+- **Primary recommendation:** `Recommend exploratory successor drafting`
+- **Source extraction:**
+  [SR-001 Source Matrix](reviews/MK-0.1/SR-001-SOURCE-MATRIX.md)
+- **Isolated reviews:**
+  [Kernel Review](reviews/MK-0.1/SR-001-KERNEL-REVIEW.md),
+  [Layer-Allocation Review](reviews/MK-0.1/SR-001-LAYER-ALLOCATION-REVIEW.md),
+  and [Methods Review](reviews/MK-0.1/SR-001-METHODS-REVIEW.md)
+- The recommendation is nonbinding and requires later architectural review.
+- No MK-0.2 exists, and SR-001 does not authorize successor wording.
+- MK-0.1 remains immutable historical evidence and `Under adversarial review`.
+- D-009 remains `Proposed`.
+- No candidate-wide moral verdict follows from the cases or synthesis.
+
 ## Objections
 
 ### Known Attack Surfaces
@@ -168,3 +186,6 @@ These are attack surfaces, not completed evaluations or established failures.
   case-specific outcomes.
 - 2026-07-28: Recorded the second, outcome-blind countertest batch and its
   three case-specific outcomes.
+- 2026-07-28: Linked the noncanonical SR-001 six-case synthesis and its
+  nonbinding primary recommendation without changing MK-0.1 or any case
+  outcome.

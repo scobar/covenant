@@ -224,6 +224,35 @@
   after outcome derivation, or the records do not improve the decision between
   candidate revision and additional layer development.
 
+### D-013 — Synthesize six cases before successor drafting
+
+- **Date:** 2026-07-28
+- **Status:** Accepted
+- **Question:** Should the project move directly from six conceptual case
+  records to successor wording, or first distinguish candidate-text concerns
+  from definitions, profiles, choice mechanisms, evidence, governance, and
+  unresolved research?
+- **Decision:** Create SR-001 as a noncanonical six-case source matrix, isolated
+  same-tooling kernel review, isolated layer-allocation review, isolated
+  methods review, and integrated synthesis. SR-001 may recommend a later path
+  but does not authorize successor candidate wording or alter any existing
+  candidate or case record.
+- **Reasoning:** The six records contain mixed protective, failure,
+  methodological, and layer-placement signals. A traceable synthesis is needed
+  to avoid solving every application problem by expanding the kernel, or
+  hiding a substantive kernel weakness in a nonbinding auxiliary layer.
+- **Alternatives considered:** Draft MK-0.2 immediately; continue adding cases
+  without synthesis; treat case outcomes as votes; defer all synthesis until
+  external review.
+- **Consequences:** MK-0.1 remains immutable, noncanonical, unaccepted, and
+  under adversarial review. Source extraction, reviewer judgments, disagreement,
+  and layer allocation remain separately traceable. Any recommendation remains
+  nonbinding until later architectural review and explicit authorization.
+- **Revisit conditions:** Revisit if the source matrix misstates a case, review
+  isolation was not achieved, method differences were collapsed, same-tooling
+  recurrence was overstated, protection tradeoffs were hidden, or SR-001 does
+  not improve the decision about successor drafting and layer development.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

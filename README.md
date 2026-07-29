@@ -22,7 +22,7 @@ See [Project Status](STATUS.md) for the current project-state reference.
   evidence containing the verbatim original founding statements and their
   separately labeled, founder-adopted collaborative refinements.
 - [Moral Kernel](01-MORAL-KERNEL.md) — record and display copy for
-  noncanonical Candidate MK-0.1 under initial adversarial review.
+  noncanonical Candidate MK-0.1 under adversarial review.
 - [Exact MK-0.1 Payload](candidates/MK-0.1.txt) — exact candidate bytes,
   immutable in place once committed.
 - [Moral Kernel Evaluation Framework](01A-MORAL-KERNEL-EVALUATION.md) —
@@ -31,14 +31,25 @@ See [Project Status](STATUS.md) for the current project-state reference.
   accepted definitions.
 - [Adversarial Casebook](03-ADVERSARIAL-CASEBOOK.md) — draft casebook indexing
   six completed conceptual records.
-- [Interpretive Layers](04-INTERPRETIVE-LAYERS.md) — draft placeholder for
-  separating kernel, interpretation, and application.
-- [Choice Protocol](05-CHOICE-PROTOCOL.md) — draft placeholder for
-  comprehension and response.
+- [Interpretive Layers](04-INTERPRETIVE-LAYERS.md) — draft preliminary
+  allocation register separating kernel, interpretation, and application.
+- [Choice Protocol](05-CHOICE-PROTOCOL.md) — draft case-triggered requirements
+  inventory for comprehension and response.
 - [Beacon Specification](06-BEACON-SPECIFICATION.md) — deferred draft
   placeholder for discovery and representation.
-- [Evidence and Governance](07-EVIDENCE-AND-GOVERNANCE.md) — draft placeholder
-  for provenance, evidence, correction, and institutional limits.
+- [Evidence and Governance](07-EVIDENCE-AND-GOVERNANCE.md) — draft
+  case-triggered requirements inventory for provenance, evidence, correction,
+  and institutional limits.
+- [SR-001 Source Matrix](reviews/MK-0.1/SR-001-SOURCE-MATRIX.md) — frozen,
+  audited extraction of six case records.
+- [SR-001 Kernel Review](reviews/MK-0.1/SR-001-KERNEL-REVIEW.md) — isolated
+  same-tooling candidate-text review.
+- [SR-001 Layer-Allocation Review](reviews/MK-0.1/SR-001-LAYER-ALLOCATION-REVIEW.md)
+  — isolated same-tooling allocation review.
+- [SR-001 Methods Review](reviews/MK-0.1/SR-001-METHODS-REVIEW.md) — isolated
+  same-tooling review of evidence limits and warranted next steps.
+- [SR-001 Integrated Synthesis](reviews/MK-0.1/SR-001-SYNTHESIS.md) —
+  noncanonical six-case synthesis and preliminary layer allocation.
 - [Decision Log](DECISIONS.md) — accepted process decisions and open decisions.
 - [Changelog](CHANGELOG.md) — human-readable record of project changes.
 
@@ -71,19 +82,36 @@ These results are same-tooling, case-specific hypotheses, not independent
 validation, consensus, or empirical evidence. AC-006 was compared with AC-003
 only after its substantive result was frozen. No MK-0.2 exists.
 
+## Six-Case Synthesis Review
+
+The six case records remain the source evaluations. SR-001 mechanically
+extracts their exact categorical outcomes and then keeps that extraction
+separate from three isolated same-tooling reviews and an integrated synthesis.
+Its primary recommendation is `Recommend exploratory successor drafting`.
+That recommendation is nonbinding and was derived without averaging outcomes
+or counting cases or reviewers as votes.
+
+SR-001 is conceptual and same-tooling. The first batch had
+architect-specified outcomes; the second batch was outcome-blind relative to
+its tasks but not independently selected or externally evaluated. AC-003 and
+AC-006 are scenario-equivalent and show partial same-tooling convergence, not
+independent replication. No empirical validation, external evaluator
+diversity, consensus, or candidate-wide moral verdict follows.
+
+No MK-0.2 exists, and this review does not authorize successor drafting.
+D-009 remains `Proposed`.
+
 ## Working Method
 
 The current working sequence is:
 
-1. Evaluation criteria were recorded.
+1. The evaluation framework was recorded.
 2. Exact MK-0.1 was introduced.
-3. The first architect-specified test-vector batch began review.
-4. A second outcome-blind countertest batch tested near-neighbor conditions,
-   unavoidable scarcity, and repeatability of AC-003.
-5. The combined findings must be reviewed before any successor candidate.
-6. Any successor preserves MK-0.1 and all prior records.
-7. Later interpretive, choice, Beacon, evidence, and governance layers remain
-   separate.
+3. Two case batches were completed.
+4. SR-001 separates kernel findings from layer requirements.
+5. Architectural review follows before any successor task.
+6. Any successor preserves MK-0.1, all scenarios, all cases, and SR-001.
+7. Beacon optimization remains deferred.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

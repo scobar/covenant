@@ -1,2 +1,3 @@
 candidates/*.txt text eol=lf
 cases/**/*.md text eol=lf
+reviews/**/*.md text eol=lf

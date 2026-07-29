@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-28
 
-**Current phase:** Outcome-blind countertesting of Candidate MK-0.1.
+**Current phase:** Six-case synthesis and layer-allocation review of Candidate MK-0.1
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -29,6 +29,14 @@ specification, or governance system exists.
 - AC-006 records `Partial same-tooling convergence` with AC-003.
 - D-012 authorizes the second batch without implying independence or
   stabilization.
+- Six case records remain committed and unchanged.
+- The audited SR-001 source matrix is complete.
+- Three isolated same-tooling SR-001 reviews are complete.
+- The integrated SR-001 synthesis is complete.
+- Its primary recommendation is `Recommend exploratory successor drafting`.
+- Its secondary recommendation is
+  `Recommend additional targeted evaluation before successor drafting`.
+- D-013 authorizes synthesis but not successor wording.
 
 ## Current Work
 
@@ -47,16 +55,22 @@ specification, or governance system exists.
 - AC-003 remains preserved as a material failure record; AC-006 supports its
   core hostile-exploitability and protective-insufficiency hypothesis while
   leaving the breadth and layer placement of that failure unresolved.
+- SR-001 is same-tooling and nonbinding.
+- Its recommendation does not authorize successor text.
+- External evaluator diversity remains absent.
+- Layer requirements remain inventories, not adopted protocols.
 
 ## Next Proposed Architectural Work
 
-1. Review the second-batch records before commit.
-2. Decide whether the combined evidence justifies drafting MK-0.2, another
-   targeted batch, or external human review.
-3. Preserve all candidates, scenarios, and evaluation records.
-4. Continue refining D-009's quality, blocker, interaction, and evaluator-
-   diversity requirements.
-5. Do not begin Beacon optimization.
+1. Review SR-001's recommendation and complete diff before any commit or push.
+2. Decide whether to authorize a later exploratory successor-drafting task,
+   while requiring the targeted tests recorded as SR-001's secondary
+   recommendation.
+3. Alternatively authorize another targeted case batch, external human or
+   model review, or a narrow definitions, choice, or governance experiment.
+4. Consider revision of D-009 only as a separate decision task.
+5. Preserve all candidates, scenarios, cases, and SR-001 records.
+6. Do not begin any of these paths or Beacon optimization in the current task.
 
 ## Document Status
 
@@ -78,7 +92,12 @@ specification, or governance system exists.
 | `cases/MK-0.1/AC-004-voluntary-integration-control.md` | Completed outcome-blind conceptual evaluation record — noncanonical |
 | `cases/MK-0.1/AC-005-unavoidable-scarcity.md` | Completed outcome-blind conceptual evaluation record — noncanonical |
 | `cases/MK-0.1/AC-006-ac003-outcome-blind-reanalysis.md` | Completed outcome-blind conceptual evaluation record — noncanonical |
-| `04-INTERPRETIVE-LAYERS.md` | Draft placeholder |
-| `05-CHOICE-PROTOCOL.md` | Draft placeholder |
+| `reviews/MK-0.1/SR-001-SOURCE-MATRIX.md` | Frozen audited six-case extraction — noncanonical |
+| `reviews/MK-0.1/SR-001-KERNEL-REVIEW.md` | Isolated same-tooling kernel review — noncanonical |
+| `reviews/MK-0.1/SR-001-LAYER-ALLOCATION-REVIEW.md` | Isolated same-tooling layer-allocation review — noncanonical |
+| `reviews/MK-0.1/SR-001-METHODS-REVIEW.md` | Isolated same-tooling methods review — noncanonical |
+| `reviews/MK-0.1/SR-001-SYNTHESIS.md` | Integrated six-case synthesis — noncanonical and nonbinding |
+| `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
+| `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
 | `06-BEACON-SPECIFICATION.md` | Draft placeholder |
-| `07-EVIDENCE-AND-GOVERNANCE.md` | Draft placeholder |
+| `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |

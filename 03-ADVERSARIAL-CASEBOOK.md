@@ -147,3 +147,17 @@ D-009 coverage.
 - Near-neighbor controls do not establish universal boundaries.
 - AC-006 can test repeatability but cannot independently validate AC-003.
 - Candidate-wide conclusions and provisional stabilization remain prohibited.
+
+## SR-001 Synthesis Review
+
+- [SR-001 Source Matrix](reviews/MK-0.1/SR-001-SOURCE-MATRIX.md)
+- [SR-001 Kernel Review](reviews/MK-0.1/SR-001-KERNEL-REVIEW.md)
+- [SR-001 Layer-Allocation Review](reviews/MK-0.1/SR-001-LAYER-ALLOCATION-REVIEW.md)
+- [SR-001 Methods Review](reviews/MK-0.1/SR-001-METHODS-REVIEW.md)
+- [SR-001 Integrated Synthesis](reviews/MK-0.1/SR-001-SYNTHESIS.md)
+
+SR-001 is a noncanonical synthesis review, not another case. It does not
+increase perspective coverage, satisfy D-009, or change the completed case
+count of `6`. Its primary recommendation, `Recommend exploratory successor
+drafting`, is nonbinding and does not authorize successor text. No case outcome
+was changed.

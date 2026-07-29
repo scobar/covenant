@@ -32,6 +32,14 @@ All notable project changes will be documented in this file.
 - AC-006 outcome-blind AC-003 reanalysis.
 - Scenario identity and method-disclosure records.
 - Second-batch unresolved-term inventory.
+- SR-001 six-case source matrix.
+- SR-001 isolated kernel review.
+- SR-001 isolated layer-allocation review.
+- SR-001 isolated methods review.
+- SR-001 integrated synthesis.
+- Cross-case definition-priority inventory.
+- Case-triggered choice-protocol requirements inventory.
+- Case-triggered evidence-and-governance requirements inventory.
 
 ### Changed
 
@@ -67,3 +75,12 @@ All notable project changes will be documented in this file.
   drafting.
 - Case and scenario Markdown is pinned to LF for reproducible raw hashes and
   prefix verification.
+- Moral Kernel record now links the SR-001 synthesis recommendation.
+- Casebook now links the six-case synthesis without changing case outcomes.
+- Interpretive Layers now contains a preliminary, noncanonical allocation
+  register.
+- Agent guidance now separates source extraction, synthesis, layer allocation,
+  and successor authorization.
+- Project status now reflects the SR-001 recommendation.
+- D-013 records authorization for synthesis before successor drafting.
+- Review Markdown is pinned to LF for reproducible identities.
