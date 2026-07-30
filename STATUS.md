@@ -2,8 +2,8 @@
 
 **Last updated:** 2026-07-29
 
-**Current phase:** First frozen lower-level Beacon signal attempt; no decoding
-trial executed
+**Current phase:** First sealed SIG-001 holdout committed; no decoding trial
+executed
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -130,6 +130,19 @@ specification, or governance system exists.
     `271b9f0811f4c45adcc9d60aeabc98aa6566f189e933cd31f4ea95ed5bf8778e`
   - Git blob: `cf34dc68d6b74aae82f88c2e5d50ac1694e48337`
   - Byte count: `9611`
+- SIG-001 remains committed and unchanged.
+- D-022 authorizes one sealed surface-novel holdout only.
+- Private holdout design and scorecard froze before its event stream.
+- Private semantic-equivalence and neutrality audits completed.
+- Private stream reconstructed exactly.
+- Public commitment created:
+  `7776c5e763891725bc7c8d55a9c1f600b33e9d1c642a4d20f2cb433d94f6aed6`
+- Public holdout registry created.
+- Public holdout manifest completed and audited:
+  - Raw SHA-256:
+    `d6b2cea8a4132a501e4c992db759599a34c65445363afae9d8462c63fe95398b`
+  - Git blob: `af904561f507d8150442537bdc1516fa35c48fce`
+  - Byte count: `2918`
 
 ## Current Work
 
@@ -148,20 +161,27 @@ specification, or governance system exists.
 ### Beacon
 
 - BSR-001 remains frozen research.
-- Live signal-attempt count: `1`.
-- Frozen attempts: `1`.
-- Decoding trials: `0`.
-- Holdouts: `0`.
-- Selected carriers: `0`.
-- Encoded Covenant payloads: `0`.
-- Encoded CSR incentives: `0`.
-- Response protocols: `0`.
-- Transmissions: `0`.
-- SIG-001 lifecycle: `Frozen`.
-- SIG-001 intended levels: `0–4`.
+- Public signal attempts: `1`
+- Frozen public attempts: `1`
+- Sealed holdout variants: `1`
+- Unrevealed holdouts: `1`
+- Decoding trials: `0`
+- Outputs: `0`
+- Scores: `0`
+- Reveals: `0`
+- Selected decoders: `0`
+- Selected carriers: `0`
+- Encoded Covenant payloads: `0`
+- Encoded CSR incentives: `0`
+- Response protocols: `0`
+- Transmissions: `0`
+- SIG-001 lifecycle: `Frozen`
+- SIG-001-HO-001 lifecycle: `Sealed and committed`
 - No empirical decode rate exists.
 - No valid decoder result exists.
 - No final physical reference profile exists.
+- Private package contents remain outside Git and are intentionally not
+  recorded in STATUS.
 
 ### Cooperative surplus
 
@@ -183,17 +203,15 @@ specification, or governance system exists.
 
 ## Next Proposed Architectural Work
 
-1. Architectural review of SIG-001 before commit.
-2. If committed, choose through a separate decision among:
-   - A zero-cost same-tooling blind trial using a fresh unexposed model context,
-     if genuinely available;
-   - Creation of a sealed surface-novel holdout variant before testing;
-   - Additional static design criticism before any decoder trial.
-3. Freeze any trial packet and exact prompt before execution.
-4. Execute no trial through a context exposed to SIG-001 design or solution.
-5. Preserve all results, including failure.
-6. Add no Covenant, CSR, physical, carrier, or response layer.
-7. Do not transmit or distribute SIG-001 as a Beacon.
+1. Architectural review of the public commitment package.
+2. Scott privately backs up the sealed package before any trial.
+3. If approved and backed up, make a separate decision concerning one
+   zero-cost fresh-context decoding trial.
+4. Freeze the model/provider choice, exact execution packet, and run rules
+   before execution.
+5. Execute no trial through any design-exposed context.
+6. Freeze output before scoring and score before reveal.
+7. Add no Covenant, CSR, physical, response, carrier, or transmission layer.
 
 ## Document Status
 
@@ -261,6 +279,10 @@ specification, or governance system exists.
 | `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-attempt index — one Frozen public attempt; no trial or transmission authorized |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
 | `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; zero trials |
+| `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical sealed-holdout registry — one commitment; zero trials and reveals |
+| `beacon/holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md` | Public sealed-holdout scope and nonclaims — noncanonical; no trial |
+| `beacon/holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md` | Public SIG-001-HO-001 commitment and reveal conditions — no private identity beyond the commitment |
+| `beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md` | Frozen two-row public holdout manifest — noncanonical; no decoding trial |
 | `beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md` | Frozen SIG-001 charter — noncanonical; Levels 0–4 only |
 | `beacon/attempts/SIG-001/01-RECEIVER-ASSUMPTIONS.md` | Frozen SIG-001 receiver assumptions and nonassumptions |
 | `beacon/attempts/SIG-001/02-EVENT-MODEL-AND-FRAMING.md` | Frozen two-event-class model and hierarchical framing |

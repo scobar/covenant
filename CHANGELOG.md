@@ -112,6 +112,13 @@ All notable project changes will be documented in this file.
 - Exact public SIG-001 event stream.
 - Frozen SIG-001 attempt record.
 - Frozen SIG-001 manifest.
+- Live sealed-holdout registry.
+- SIG-001-HO-001 public charter.
+- SIG-001-HO-001 public commitment record.
+- Frozen public holdout manifest.
+- Private off-repository holdout package with frozen transformation,
+  scorecard, validity policy, instruction, solution, chronology, stream,
+  manifest, and commitment preimage.
 
 ### Changed
 
@@ -223,3 +230,10 @@ All notable project changes will be documented in this file.
 - D-021 authorizes SIG-001 creation but no trial, payload, carrier, or
   transmission.
 - Beacon text event streams are pinned to LF.
+- Beacon records now distinguish one frozen public attempt from one sealed
+  unrevealed holdout.
+- Repository guidance now protects off-repository holdout custody and
+  output-before-reveal chronology.
+- README and STATUS now record a committed holdout without claiming a trial or
+  decode.
+- D-022 authorizes holdout creation but no decoder selection or execution.

@@ -66,7 +66,8 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [Choice Protocol](05-CHOICE-PROTOCOL.md) — draft case-triggered requirements
   inventory for comprehension and response.
 - [Beacon Specification and Bootstrap Research Index](06-BEACON-SPECIFICATION.md)
-  — noncanonical BSR-001 index; no signal attempt or transmission authorized.
+  — noncanonical BSR-001 and live-evidence index; no decoding trial or
+  transmission authorized.
 - [BSR-001 Beacon Design Goal](beacon/BSR-001/00-BEACON-DESIGN-GOAL.md) —
   exact engineering objective, limitation, and research boundary.
 - [BSR-001 Signal-Attempt Registry](beacon/BSR-001/03-SIGNAL-ATTEMPT-REGISTRY.md)
@@ -81,6 +82,14 @@ See [Project Status](STATUS.md) for the current project-state reference.
   frozen dependency identities, boundaries, and preparation audits.
 - [Live Signal-Attempt Registry](beacon/SIGNAL-ATTEMPT-REGISTRY.md) — current
   noncanonical attempt state without changing BSR-001's historical snapshot.
+- [Beacon Sealed-Holdout Registry](beacon/HOLDOUT-REGISTRY.md) — live
+  noncanonical commitment state, separate from public signal attempts.
+- [SIG-001-HO-001 Public Charter](beacon/holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md)
+  — public scope, invariants, custody boundary, and nonclaims.
+- [SIG-001-HO-001 Commitment Record](beacon/holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md)
+  — sole public cryptographic identity and reveal conditions.
+- [SIG-001-HO-001 Public Manifest](beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md)
+  — frozen two-row public-package identity and same-tooling audits.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -371,7 +380,7 @@ Plan documents:
   `b4e6a8b7a00b18e12e4816c44975ea0921cf4330504c744a72b8abf9dbf2b144`
 - Lifecycle: `Frozen`
 - Decoding trials: `0`
-- Holdouts: `0`
+- Holdouts at the SIG-001 freeze checkpoint: `0`
 - Empirical decode rate: None
 - No model or human has validly decoded it.
 - Scott Barbian, ChatGPT, Codex, and every design-exposed context are known
@@ -387,6 +396,33 @@ decoded, successful, validated, accepted, canonical, or suitable for
 transmission. Although the administrator solution is publicly discoverable,
 it must be withheld from an active decoder context until that context's output
 freezes.
+
+## SIG-001 Sealed Holdout
+
+> **SEALED HOLDOUT COMMITMENT SIG-001-HO-001 v0.1 — NONCANONICAL — NO DECODING TRIAL EXECUTED**
+
+- One sealed surface-novel holdout has been created for SIG-001.
+- It is a holdout variant, not a new signal-attempt lineage.
+- Only its cryptographic commitment is public.
+- Its stream, mapping, solution, scorecard answers, nonces, commitment
+  preimage, and private manifest remain outside the repository.
+- It targets Decoder Levels `0–4` only.
+- It contains no Covenant, CSR, physical, agency, choice, response, carrier,
+  distribution, or transmission content.
+- It has not been supplied to any decoder.
+- Trials: `0`
+- Outputs: `0`
+- Scores: `0`
+- Reveals: `0`
+- Selected decoders: `0`
+- No empirical decode rate exists.
+- No universal-decoding, equivalence, ignorance, independence, or authority
+  claim follows from the commitment.
+- A later accepted decision is required before model or provider selection and
+  before any trial.
+- SIG-001's public attempt and frozen historical zero-holdout snapshot remain
+  immutable.
+- D-009 remains Proposed.
 
 ## Cooperative Surplus and Adoption Research
 
@@ -428,17 +464,18 @@ freezes.
 
 The current working sequence is:
 
-1. Preserve all prior Covenant, external-review, BSR, and CSR evidence.
-2. Preserve SIG-001's pre-stream chronology and immutable bytes.
-3. Review and commit SIG-001 before any trial.
-4. Require a later accepted decision before creating a trial packet, holdout,
-   or running a decoder.
-5. Freeze decoder output before solution reveal.
-6. Preserve public-attempt and holdout evidence separately.
-7. Infer no higher-level or universal success from lower-level recovery.
-8. Add no Covenant or CSR payload without separate authorization.
-9. Select no carrier or transmission method without a later decision.
-10. Preserve failure, partial recovery, contamination, and dissent.
+1. Preserve all prior evidence.
+2. Preserve the public SIG-001 attempt.
+3. Preserve the sealed holdout outside Git.
+4. Commit only its public commitment and nonrevealing protocol.
+5. Require a later decision before decoder selection or execution.
+6. Supply only the frozen private instruction and stream to a fresh decoder.
+7. Freeze output before scoring.
+8. Freeze score before reveal.
+9. Verify the commitment during reveal.
+10. Preserve failures, contamination, and unexpected interpretations.
+11. Add no higher-layer content or carrier.
+12. Infer no universal probability.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

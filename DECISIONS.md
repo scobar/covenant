@@ -617,6 +617,51 @@
   payload integration, distribution, or transmission without later
   authorization.
 
+### D-022 — Create a sealed surface-novel SIG-001 holdout before decoder testing
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** Should the project create a privately sealed variant of SIG-001
+  before selecting or running a decoder?
+- **Decision:** Yes. Create SIG-001-HO-001 version 0.1 as a surface-novel,
+  semantically equivalent holdout derived from frozen SIG-001 and targeting
+  Decoder Levels 0 through 4 only. Freeze its private transformation record,
+  scorecard, trial-validity policy, neutral instruction, solution key, and
+  pre-stream chronology before generating its event stream. Store all private
+  material outside every Git repository. Publish only a SHA-256 commitment and
+  nonrevealing protocol metadata. Preserve SIG-001 unchanged. Register the
+  holdout with lifecycle `Sealed and committed`. This decision authorizes no
+  decoder selection, model execution, output, score, reveal, Covenant or CSR
+  payload, physical profile, response syntax, carrier, distribution,
+  transmission, candidate preference, acceptance, canonicality, supersession,
+  or stabilization.
+- **Reasoning:** SIG-001’s public stream and solution are useful for
+  transparency but vulnerable to recognition, retrieval, and future training
+  contamination. A committed surface-novel variant can later provide stronger
+  evidence of reconstruction, provided its formal equivalence and scorecard
+  are frozen before generation, its private materials remain sealed, and
+  decoder output and scoring freeze before reveal. Separating holdout creation
+  from trial execution prevents the chosen decoder or result from influencing
+  the variant.
+- **Alternatives considered:** Test public SIG-001 immediately; create and run
+  a holdout in one task; publish the holdout stream before trial; keep no
+  public commitment; create a new signal attempt rather than a semantic
+  variant; add physical, moral, Covenant, CSR, or response content now; defer
+  all testing indefinitely.
+- **Consequences:** The live Beacon records one frozen public attempt and one
+  sealed unrevealed holdout, with zero trials, outputs, scores, reveals,
+  carriers, encoded payloads, responses, distributions, or transmissions.
+  Scott becomes custodian of a private off-repository package. ChatGPT, the
+  current Codex thread, and all private audit contexts are protocol- or
+  design-exposed and may not later be represented as blind decoders. The
+  public commitment can detect substitution after reveal but does not prove
+  equivalence, fair randomization, decoder ignorance, or decodability.
+- **Revisit conditions:** Revisit if the private package is lost, copied into
+  Git, disclosed before output freeze, lacks a verifiable chronology, fails
+  semantic-equivalence reconstruction, leaks solution clues through the trial
+  instruction, cannot be backed up safely, produces an unverifiable
+  commitment, or a later task treats the commitment as a decoding result.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

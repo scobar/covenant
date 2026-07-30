@@ -64,7 +64,8 @@ Current live counts:
 - Signal attempts: `1`
 - Frozen attempts: `1`
 - Decoding trials: `0`
-- Holdouts: `0`
+- Sealed holdout variants: `1`
+- Unrevealed holdouts: `1`
 - Selected carriers: `0`
 - Encoded Covenant payloads: `0`
 - Encoded CSR incentives: `0`
@@ -77,6 +78,35 @@ Current live counts:
 - No trial has established any recovered level.
 - No moral or adoption content is encoded.
 - No carrier or transmission is authorized.
+
+## Sealed Holdout Evidence Track
+
+- [Beacon Sealed-Holdout Registry](beacon/HOLDOUT-REGISTRY.md)
+- [SIG-001-HO-001 Public Charter](beacon/holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md)
+- [SIG-001-HO-001 Commitment Record](beacon/holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md)
+- [SIG-001-HO-001 Public Manifest](beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md)
+
+Current evidence counts:
+
+- Public attempts: `1`
+- Frozen public attempts: `1`
+- Sealed holdout variants: `1`
+- Unrevealed holdouts: `1`
+- Decoding trials: `0`
+- Outputs: `0`
+- Scores: `0`
+- Reveals: `0`
+- Carriers: `0`
+- Covenant payloads: `0`
+- CSR payloads: `0`
+- Response protocols: `0`
+- Transmissions: `0`
+
+SIG-001-HO-001 is private and unexecuted; only its cryptographic commitment
+and nonrevealing protocol metadata are public. No recovered decoder level or
+empirical decode rate exists. The holdout contains no physical, agency, moral,
+Covenant, CSR, choice, response, carrier, distribution, or transmission
+layer. No carrier or transmission is authorized.
 
 ## Discovery
 
@@ -138,8 +168,9 @@ across the
 and
 [Holdout and Contamination Controls](beacon/BSR-001/06-HOLDOUT-AND-CONTAMINATION-CONTROLS.md).
 SIG-001 preserves a public administrator solution and pre-stream chronology.
-No sealed-holdout commitment, hidden mapping, holdout, prompt execution, or
-result exists.
+One sealed-holdout commitment now exists. Its private mapping and package
+remain unrevealed, and no decoder selection, prompt execution, output, score,
+or result exists.
 
 ## Error Correction and Redundancy
 
@@ -173,6 +204,9 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-29: Added the sealed-holdout evidence track and first public
+  commitment without authorizing decoder selection, trial execution, reveal,
+  higher-layer payload, carrier, distribution, or transmission.
 - 2026-07-29: Added the live registry and first Frozen public lower-level
   attempt, SIG-001, without authorizing a decoding trial, moral or cooperative
   payload, carrier, distribution, or transmission.

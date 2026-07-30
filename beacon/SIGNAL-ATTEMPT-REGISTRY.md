@@ -18,10 +18,9 @@ Frozen. No attempt is preferred merely because it is first or current.
 
 - Registered signal attempts: `1`
 - Frozen signal attempts: `1`
-- Attempts under decoding trial: `0`
-- Analyzed attempts: `0`
 - Decoding trials: `0`
-- Holdout variants: `0`
+- Sealed holdout variants: `1`
+- Unrevealed holdouts: `1`
 - Selected carriers: `0`
 - Encoded Covenant payloads: `0`
 - Encoded CSR incentives: `0`
@@ -40,5 +39,13 @@ SIG-001 is a public lower-level formal attempt targeting Decoder Levels 0–4.
 Its public solution must be withheld from an active decoder context until
 output freezes. Public availability creates contamination risk, and
 design-exposed people and model contexts cannot later be described as blind
-decoders. No decoding trial, output, score, empirical decode rate, holdout,
-carrier, payload, response protocol, distribution, or transmission exists.
+decoders.
+
+The [sealed-holdout registry](HOLDOUT-REGISTRY.md) records the later
+SIG-001-HO-001 commitment. SIG-001's frozen manifest and attempt row retain
+their historical zero-holdout snapshot; the live registry records the later
+variant without editing SIG-001. A holdout is not a new signal attempt, and a
+commitment is not a decoding-trial result.
+
+No decoding trial, output, score, empirical decode rate, reveal, carrier,
+payload, response protocol, distribution, or transmission exists.

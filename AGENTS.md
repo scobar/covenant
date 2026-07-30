@@ -422,6 +422,46 @@ Require that:
 Do not grant the designer, generator, decoder, scorer, Scott, ChatGPT, Codex,
 or any future model final interpretive authority.
 
+## Sealed Holdout Rules
+
+Require that:
+
+- Public attempts and sealed holdout variants remain distinct evidence
+  classes.
+- A holdout variant does not become a new signal attempt merely by changing
+  surface representation.
+- Formal equivalence must be audited before commitment.
+- The exact private scorecard, validity policy, solution, mapping, and trial
+  instruction freeze before the holdout stream.
+- A private pre-stream freeze record must prove chronology.
+- Private holdout material remains outside every Git repository before reveal.
+- Public repository files may contain only the authorized commitment and
+  nonrevealing metadata.
+- Private manifest hashes, mappings, nonces, stream identities, and answers
+  must not be copied into public records or ChatGPT handoff reports.
+- Design-exposed contexts cannot later be blind decoders.
+- A future decoder receives only the frozen neutral instruction and holdout
+  stream.
+- Decoder output freezes before scoring.
+- Score freezes before solution reveal.
+- Commitment verification occurs after output and score freeze.
+- An invalid commitment verification remains visible.
+- No result may be rerun, discarded, or hidden because it is unfavorable.
+- A holdout commitment does not prove formal equivalence, ignorance,
+  independence, or decodability.
+- Holdout loss before reveal makes the committed variant unusable and must be
+  reported.
+- Private material requires secure off-repository custody and backup before a
+  future trial.
+- Trial execution requires a later accepted decision.
+- No holdout may encode Covenant, CSR, physical, response, carrier, or
+  transmission content without separate authorization.
+- Before working on SIG-001-HO-001, agents must verify SIG-001, BSR-001, the
+  public holdout manifest, and private package custody.
+
+Do not grant a holdout designer, custodian, decoder, scorer, Scott, ChatGPT,
+Codex, or future model final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:
