@@ -127,9 +127,22 @@ All notable project changes will be documented in this file.
 - Private trial preparation and packet manifests.
 - Public trial-packet commitment.
 - Frozen public trial-preparation manifest.
+- TR-001 technical-invalidity and closure record.
+- Frozen TR-001 closure manifest.
+- SIG-001-HO-002 private sealed holdout package.
+- SIG-001-HO-002 public charter.
+- SIG-001-HO-002 public commitment record.
+- Frozen SIG-001-HO-002 public manifest.
 
 ### Changed
 
+- TR-001 is closed incomplete after one provider-side technical-invalidity run.
+- HO-001 now records known Anthropic provider-side exposure.
+- Beacon registries distinguish run attempts, valid outputs, technical
+  invalidities, provider exposure, and never-supplied holdouts.
+- Repository guidance prohibits scoring interrupted traces or using them to
+  tune future holdouts.
+- D-024 authorizes TR-001 closure and HO-002 creation but no Sonnet trial.
 - Beacon records now distinguish private custody-integrity verification,
   public commitment, execution, output freeze, scoring, authorized reveal,
   reveal-stage commitment verification, and publication.

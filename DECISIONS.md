@@ -736,6 +736,64 @@
   limit, or a later task treats preparation as execution or one result as
   universal evidence.
 
+### D-024 — Close the technically invalid Fable trial and create a fresh sealed holdout before another Anthropic model trial
+
+- **Date:** 2026-07-30
+- **Status:** Accepted
+- **Question:** How should the project respond after Fable 5 processed the
+  sealed HO-001 packet but a provider safeguard interrupted the run before a
+  completed final response?
+- **Decision:** Classify SIG-001-HO-001-TR-001 Run 1 as
+  `Invalid — technical`, preserve its private provider-visible partial trace
+  without scoring or publication, retire the unused D-023 technical retry, and
+  close TR-001 as incomplete with zero valid decoder outputs, scores, or
+  reveals. Preserve SIG-001-HO-001 unchanged but classify it as
+  `Known Anthropic provider-side exposure`, because its exact sequence reached
+  Anthropic’s systems and received substantive processing before interruption.
+  Create SIG-001-HO-002 version 0.1 as a new surface-novel, semantically
+  equivalent Levels 0–4 holdout derived mechanically from frozen SIG-001.
+  Freeze its private transformation, scorecard, validity policy, neutral
+  instruction, solution, and chronology before generating its stream; store it
+  outside Git; and publish only a cryptographic commitment and nonrevealing
+  metadata. Sonnet 5 with High effort was prospectively qualified before
+  HO-002 generation, so the package must disclose that it is not
+  model-selection-blind in chronology. The generator must use fixed generic
+  transformation families, fresh cryptographic randomness, and no Fable trace
+  content or model-specific tuning. This decision authorizes TR-001 closure and
+  HO-002 creation only. It does not authorize a Sonnet trial package, model
+  execution, output, scoring, reveal, empirical-rate interpretation, another
+  retry, model substitution, Covenant or CSR payload, physical profile,
+  response syntax, carrier, distribution, transmission, candidate preference,
+  acceptance, canonicality, supersession, or stabilization.
+- **Reasoning:** Continuing with Sonnet inside the Fable conversation would
+  violate the frozen model and fresh-context boundaries. Reusing HO-001 in
+  another Anthropic model would also provide weaker contamination control
+  because the exact sequence has already reached the provider. A mechanically
+  generated fresh variant preserves the formal experiment while reducing
+  exact-instance carryover. Retiring the unused Fable retry avoids spending
+  another run merely to confirm a likely repeated safeguard, while preserving
+  the first invalid run and all private incident evidence.
+- **Alternatives considered:** Exercise the Fable retry; click the provider’s
+  Sonnet continuation option; use HO-001 in a fresh Sonnet chat; classify the
+  partial trace as a decoder result; alter the prompt to avoid safeguards;
+  create a new signal-attempt lineage; reveal HO-001; abandon decoder testing;
+  prepare and execute Sonnet in the same task.
+- **Consequences:** TR-001 becomes a closed incomplete historical record with
+  one technical-invalidity run and no valid output. HO-001 remains sealed and
+  unrevealed publicly but carries a known Anthropic-exposure classification.
+  HO-002 becomes a second sealed holdout with zero trial preparations or
+  executions. The prospective Sonnet configuration was known before HO-002
+  generation, which remains a methodological limitation even though the
+  transformation is mechanically randomized. Another accepted decision is
+  required before preparing or executing a Sonnet trial.
+- **Revisit conditions:** Revisit if the Fable evidence record is incomplete,
+  the provider interruption actually produced a completed final response,
+  screenshot evidence or private records are lost, HO-001 exposure is
+  misclassified, HO-002 formal equivalence or novelty fails, the generator
+  consults the partial trace, private values leak publicly, HO-002 cannot be
+  backed up, or a later task treats closure, commitment, or prospective model
+  qualification as a decoder result.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

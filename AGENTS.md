@@ -536,6 +536,38 @@ under separate authorization, and cannot alter the frozen output or score.
 Do not grant Scott, ChatGPT, Codex, Anthropic, Claude, the browser operator,
 decoder, scorer, or any future model final interpretive authority.
 
+## Provider-Side Exposure and Trial-Closure Rules
+
+Require that:
+
+- Provider-side processing counts as exposure even if no final response is
+  returned.
+- A provider safeguard can create technical invalidity without creating a
+  scorable output.
+- Provider-visible partial traces are private incident evidence, not completed
+  decoder results.
+- Partial traces must not be scored, published, supplied to another decoder,
+  or used to tune a later holdout.
+- An unused technical retry may be retired only by an explicit decision.
+- A different model requires a distinct trial ID and decision.
+- A model must not be substituted inside a frozen trial.
+- A holdout exposed to one provider remains immutable but must carry that
+  exposure classification.
+- Same-provider isolation cannot be assumed after exposure.
+- A new holdout created after prospective model selection must disclose that
+  chronology.
+- Mechanically randomized generation must not be described as
+  model-selection-blind when the prospective model was already known.
+- New holdouts require fresh private manifests, nonces, preimages, and public
+  commitments.
+- A technically incomplete trial remains historical evidence and cannot later
+  receive an inserted output.
+- No invalid run becomes an empirical decode-rate numerator or denominator.
+- No higher-layer, carrier, or transmission work follows.
+
+Do not grant Scott, ChatGPT, Codex, Anthropic, Fable, Sonnet, an operator,
+decoder, scorer, or future model final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:

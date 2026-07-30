@@ -18,18 +18,18 @@ Frozen. No attempt is preferred merely because it is first or current.
 
 - Registered signal attempts: `1`
 - Frozen signal attempts: `1`
-- Sealed holdout variants: `1`
-- Unrevealed holdouts: `1`
-- Prepared trial records: `1`
-- Executed trials: `0`
-- Outputs: `0`
+- Sealed holdouts: `2`
+- Known provider-exposed holdouts: `1`
+- Trial records: `1`
+- Run attempts: `1`
+- Valid outputs: `0`
 - Scores: `0`
 - Reveals: `0`
-- Selected carriers: `0`
+- Carriers: `0`
 - Encoded Covenant payloads: `0`
-- Encoded CSR incentives: `0`
+- Encoded CSR payloads: `0`
 - Response protocols: `0`
-- Transmissions or distributions: `0`
+- Transmissions: `0`
 
 ## Attempt Registry
 
@@ -45,16 +45,16 @@ output freezes. Public availability creates contamination risk, and
 design-exposed people and model contexts cannot later be described as blind
 decoders.
 
-The [sealed-holdout registry](HOLDOUT-REGISTRY.md) records the later
-SIG-001-HO-001 commitment. SIG-001's frozen manifest and attempt row retain
-their historical zero-holdout snapshot; the live registry records the later
-variant without editing SIG-001. A holdout is not a new signal attempt, and a
-commitment is not a decoding-trial result.
+The [sealed-holdout registry](HOLDOUT-REGISTRY.md) records two later sealed
+variants. SIG-001's frozen manifest and attempt row retain their historical
+zero-holdout and zero-trial snapshot; this live registry records later state
+without editing SIG-001. A holdout is not a new signal attempt, and a
+commitment is not a decoding result.
 
-The [decoding-trial registry](TRIAL-REGISTRY.md) records one prepared and
-authorized trial configuration. The frozen SIG-001 manifest and public
-holdout manifest retain their historical checkpoint counts unchanged.
-Preparation and decoder selection are not execution or evidence.
+The [decoding-trial registry](TRIAL-REGISTRY.md) records one closed incomplete
+trial and one provider-side technical-invalidity run. Its frozen preparation
+files remain historical evidence. The run produced no completed, scorable, or
+valid output and enters no empirical-rate denominator.
 
-No executed trial, output, score, empirical decode rate, reveal, carrier,
-payload, response protocol, distribution, or transmission exists.
+No valid output, score, empirical decode rate, reveal, carrier, Covenant or
+CSR payload, response protocol, distribution, or transmission exists.
