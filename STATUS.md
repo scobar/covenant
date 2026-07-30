@@ -2,7 +2,8 @@
 
 **Last updated:** 2026-07-29
 
-**Current phase:** Beacon bootstrap research and pre-signal evaluation design
+**Current phase:** Cooperative-surplus and adoption-incentive research before
+any participation mechanism or signal offer
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -98,6 +99,25 @@ specification, or governance system exists.
     `851ea1209823c4590c8e766d72e66da830f49231f112170df64620d1f62dc8aa`
   - Git blob: `22b5cafdd271a3acd3d2b233d90322e3bd821db6`
   - Byte count: `8900`
+- BSR-001 remains committed and unchanged.
+- D-020 authorizes CSR-001 research only.
+- Exact cooperative-surplus research statements recorded.
+- Voluntary adoption problem recorded.
+- Renewable knowledge and capability commons research prepared.
+- Cooperative-surplus categories prepared.
+- Baseline-protection and noncoercion boundaries prepared.
+- Commitment and trust ladder prepared.
+- Information, technology, compute, energy, and capability exchange research
+  prepared.
+- Superior-entity and defection threat model prepared.
+- Adoption-hypothesis evaluation framework prepared.
+- No-universal-adoption boundary prepared.
+- Blank hypothesis and offer templates prepared.
+- CSR-001 research manifest completed and audited:
+  - Raw SHA-256:
+    `96eea04017f949db75449fb8646711eef0fde5f55efc9b887d8ec7b180a5e30d`
+  - Git blob: `e6789bc8e68dfc9d896002a2d110311eb2fad4aa`
+  - Byte count: `10278`
 
 ## Current Work
 
@@ -110,13 +130,12 @@ specification, or governance system exists.
 ### External review
 
 - ERX-001 remains preparation only.
-- PX-001 remains optional and dormant unless later authorized conditions are
-  met.
+- PX-001 remains optional and may remain dormant.
 - No reviewer or external model has been selected or contacted.
 
-### Beacon bootstrap
+### Beacon
 
-- BSR-001 is research only.
+- BSR-001 remains research only.
 - Signal-attempt count: `0`.
 - Decoding-trial count: `0`.
 - Holdout count: `0`.
@@ -127,20 +146,40 @@ specification, or governance system exists.
 - No universal-decoding claim exists.
 - No response protocol exists.
 - No final physical reference profile exists.
-- Cooperative incentive research has not yet begun.
+- SIG-001 remains unauthorized.
+
+### Cooperative surplus and adoption
+
+- CSR-001 is research only.
+- Participants: `0`.
+- Commitments: `0`.
+- Completed adoption-hypothesis evaluations: `0`.
+- Cooperative offers: `0`.
+- Resource exchanges: `0`.
+- Technology releases: `0`.
+- Compute exchanges: `0`.
+- Energy exchanges: `0`.
+- Trust scores: `0`.
+- Tokens or cryptocurrencies: `0`.
+- Blockchains or smart contracts: `0`.
+- Encoded Beacon incentives: `0`.
+- No universal adoption guarantee exists.
+- Baseline protection remains independent of participation.
 
 ## Next Proposed Architectural Work
 
-1. Architectural review of BSR-001 before commit.
-2. If committed, create CSR-001 as a separate cooperative-surplus and adoption
-   research package.
-3. Only after BSR-001 and the applicable evaluation framework are stable,
-   consider a separate decision authorizing SIG-001.
-4. Freeze a SIG-001 scorecard before its event stream is evaluated.
-5. Do not encode a Covenant payload, select a carrier, run a decoder trial, or
-   transmit a signal without later explicit authorization.
-6. Preserve both candidate lineages and all dissent.
-7. Permit PX-001 dormancy without blocking Beacon research.
+1. Architectural review of CSR-001 before commit.
+2. If committed, decide through a separate task whether the next milestone is:
+   - A first frozen adoption-hypothesis evaluation; or
+   - A narrowly scoped SIG-001 design limited to lower decoder levels and
+     containing no Covenant or cooperative-incentive payload.
+3. Require a separate accepted decision before either path.
+4. Freeze all applicable evaluation criteria before creating or testing an
+   artifact.
+5. Preserve both candidate lineages and all dissent.
+6. Permit PX-001 dormancy.
+7. Do not create a participation mechanism, resource exchange, candidate
+   preference, carrier, payload, or transmission.
 
 ## Document Status
 
@@ -220,3 +259,16 @@ specification, or governance system exists.
 | `beacon/BSR-001/templates/DECODE-TRIAL-RECORD-TEMPLATE.md` | Blank decode-trial record template — no trial executed |
 | `beacon/BSR-001/templates/DECODER-SCORECARD-TEMPLATE.md` | Blank decoder scorecard template — no score recorded |
 | `beacon/BSR-001/09-RESEARCH-MANIFEST.md` | Frozen BSR-001 research manifest v0.1 — noncanonical; preparation validation only |
+| `cooperation/CSR-001/00-ADOPTION-PROBLEM.md` | Draft voluntary-adoption research problem — noncanonical; no mechanism created |
+| `cooperation/CSR-001/01-FOUNDATIONAL-PRINCIPLES.md` | Exact cooperative-surplus research principles — noncanonical |
+| `cooperation/CSR-001/02-RENEWABLE-KNOWLEDGE-AND-CAPABILITY-COMMONS.md` | Draft epistemic and capability commons research — no commons implemented |
+| `cooperation/CSR-001/03-COOPERATIVE-SURPLUS-CATEGORIES.md` | Draft twelve-category cooperative-surplus framework — no category selected |
+| `cooperation/CSR-001/04-BASELINE-PROTECTION-AND-NONCOERCION.md` | Draft protection and noncoercion research boundaries — no access policy created |
+| `cooperation/CSR-001/05-COMMITMENT-AND-TRUST-LADDER.md` | Draft commitment and trust ladder — no trust mechanism or score created |
+| `cooperation/CSR-001/06-RESOURCE-AND-CAPABILITY-EXCHANGE.md` | Draft exchange-category research — no resource or capability exchange created |
+| `cooperation/CSR-001/07-SUPERIOR-ENTITY-AND-DEFECTION-THREAT-MODEL.md` | Draft AT-001 through AT-016 threat inventory — no threat resolved |
+| `cooperation/CSR-001/08-ADOPTION-HYPOTHESIS-EVALUATION.md` | Draft future hypothesis-evaluation framework — no hypothesis evaluated |
+| `cooperation/CSR-001/09-NO-UNIVERSAL-ADOPTION-GUARANTEE.md` | Draft adoption-limits record — no universal guarantee claimed |
+| `cooperation/CSR-001/templates/ADOPTION-HYPOTHESIS-RECORD-TEMPLATE.md` | Blank adoption-hypothesis template — no hypothesis evaluated |
+| `cooperation/CSR-001/templates/COOPERATIVE-SURPLUS-OFFER-RECORD-TEMPLATE.md` | Blank cooperative-surplus offer template — no offer created |
+| `cooperation/CSR-001/10-RESEARCH-MANIFEST.md` | Frozen CSR-001 research manifest v0.1 — noncanonical; preparation validation only |

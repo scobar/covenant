@@ -384,6 +384,58 @@ Require that:
 Do not grant the message designer, decoder, scorer, Scott, ChatGPT, Codex, or
 any future model final interpretive authority.
 
+## Cooperative-Surplus and Adoption Research Rules
+
+Require that:
+
+- Moral protection, choice, cooperative surplus, trust, resource access,
+  adoption incentive, and Beacon communication remain separate layers.
+- Baseline protection must not depend on participation.
+- Cooperative surplus must not be used as a disguised label for essential
+  resources withheld to manufacture assent.
+- Instrumental usefulness does not establish moral worth.
+- A powerful entity’s participation does not grant it final authority.
+- A participant’s refusal does not prove moral or intellectual inferiority.
+- Adoption research must preserve the possibility of informed rejection.
+- `Superior` refers to relevant capability, not moral rank.
+- Use participant, counterparty, contributor, or member of a cooperative
+  commons; do not describe participants as followers.
+- Trust remains scoped, contextual, evidence-dependent, revisable, and
+  fallible.
+- A declaration or registration does not by itself establish trust.
+- No single universal trust score may be inferred from CSR-001.
+- Severe deception or coercion must not be averaged away.
+- Cryptography or append-only records may support integrity but do not prove
+  truth, comprehension, voluntariness, fairness, identity continuity, or moral
+  legitimacy.
+- Knowledge and physical capability remain distinguishable.
+- Non-rival knowledge and rival physical resources must not be governed by
+  silently identical assumptions.
+- Present-life benefit and future-discovery value must both remain visible.
+- Minds must not be protected only because they may produce useful discoveries.
+- Safety-critical truth and essential life-preserving resources must not be
+  withheld merely to force participation.
+- Dangerous capabilities may require restrictions, but no permanent
+  unreviewable authority is authorized.
+- An unavailable or self-sufficient counterparty may reject every identified
+  incentive; no universal adoption guarantee may be claimed.
+- A research hypothesis must freeze before evaluation.
+- An offer template does not create an offer.
+- No participant, commitment, exchange, trust mechanism, token, blockchain,
+  market, or access system may be created without later explicit
+  authorization.
+- No CSR-001 content may be encoded in a Beacon without a later explicit
+  decision.
+- CSR-001 does not authorize SIG-001.
+- Before any CSR-001 work, agents must read every CSR-001 file and verify its
+  frozen manifest.
+- Before any future adoption hypothesis or cooperative offer, agents must read
+  CSR-001 and use the applicable frozen template and evaluation framework.
+
+Do not grant Scott, ChatGPT, Codex, an administrator, a participant, a
+counterparty, a powerful entity, or a future model final interpretive
+authority.
+
 ## Editing Rules
 
 - Make the smallest authorized change.

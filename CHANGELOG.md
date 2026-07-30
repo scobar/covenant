@@ -86,6 +86,20 @@ All notable project changes will be documented in this file.
 - Open-failure and hidden-assumption register.
 - Blank signal-attempt, decode-trial, and scorecard templates.
 - Frozen BSR-001 research manifest.
+- CSR-001 voluntary adoption problem.
+- Exact cooperative-surplus research principles.
+- Renewable knowledge and capability commons research.
+- Present-benefit and discovery-enabling technology analysis.
+- Cooperative-surplus category framework.
+- Baseline-protection and noncoercion boundaries.
+- Commitment and trust ladder.
+- Information, technology, compute, energy, and physical-capability exchange
+  research.
+- Superior-entity, capture, and defection threat model.
+- Adoption-hypothesis evaluation framework.
+- No-universal-adoption-guarantee record.
+- Blank adoption-hypothesis and cooperative-offer templates.
+- Frozen CSR-001 research manifest.
 
 ### Changed
 
@@ -182,3 +196,11 @@ All notable project changes will be documented in this file.
 - README and STATUS now record BSR-001 without claiming a signal exists.
 - D-019 authorizes bootstrap research before SIG-001.
 - Beacon Markdown is pinned to LF for reproducible identities.
+- Repository guidance now separates baseline protection, voluntary
+  participation, trust, cooperative surplus, resource access, and Beacon
+  communication.
+- README and STATUS now record CSR-001 without claiming a mechanism or
+  participant exists.
+- D-020 authorizes cooperative-surplus and adoption research before mechanism
+  design.
+- Cooperation Markdown is pinned to LF for reproducible identities.

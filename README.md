@@ -79,6 +79,19 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — separate public-attempt and sealed-holdout methods.
 - [BSR-001 Research Manifest](beacon/BSR-001/09-RESEARCH-MANIFEST.md) —
   frozen dependency identities, boundaries, and preparation audits.
+- [CSR-001 Adoption Problem](cooperation/CSR-001/00-ADOPTION-PROBLEM.md) —
+  research question and twelve distinct stages from detection through
+  continued participation.
+- [CSR-001 Foundational Principles](cooperation/CSR-001/01-FOUNDATIONAL-PRINCIPLES.md)
+  — exact noncanonical cooperative-surplus research statements.
+- [CSR-001 Knowledge and Capability Commons](cooperation/CSR-001/02-RENEWABLE-KNOWLEDGE-AND-CAPABILITY-COMMONS.md)
+  — connected epistemic and capability commons research.
+- [CSR-001 Commitment and Trust Ladder](cooperation/CSR-001/05-COMMITMENT-AND-TRUST-LADDER.md)
+  — eight-stage provisional ladder and multidimensional trust evidence.
+- [CSR-001 Adoption Evaluation Framework](cooperation/CSR-001/08-ADOPTION-HYPOTHESIS-EVALUATION.md)
+  — future exact-hypothesis lifecycle and evaluation dimensions.
+- [CSR-001 Research Manifest](cooperation/CSR-001/10-RESEARCH-MANIFEST.md) —
+  frozen dependency identities, boundaries, and preparation audits.
 - [Evidence and Governance](07-EVIDENCE-AND-GOVERNANCE.md) — draft
   case-triggered requirements inventory for provenance, evidence, correction,
   and institutional limits.
@@ -323,8 +336,43 @@ Plan documents:
   rates, not universal probabilities.
 - Decoder progress is recorded through Levels 0–9.
 - Successful decoding would not imply acceptance.
-- Cooperative incentive and adoption remain a separate future research track.
+- Cooperative incentive and adoption remain separate in CSR-001.
 - PX-001 may remain dormant while BSR-001 research continues.
+- D-009 remains Proposed.
+
+## Cooperative Surplus and Adoption Research
+
+> **Protection is not a membership benefit. Cooperative surplus may be.**
+
+> **The renewable knowledge and capability commons includes observations, methods, models, technologies, tools, designs, standards, safety evidence, infrastructure, and practical knowledge that improve present lives while increasing the shared capacity for future discovery, correction, and beneficial creation.**
+
+> **Baseline protection does not depend on participation. Access to additional cooperative surplus may grow through voluntary, bounded, and verifiable commitments, provided essential resources and avoidable dependency are not used to manufacture assent.**
+
+> **The commons offers more than stored knowledge: it preserves a distributed system of autonomous observation, criticism, experimentation, invention, implementation, and repair whose future discoveries cannot be fully possessed in advance.**
+
+- CSR-001 is noncanonical research.
+- It does not make the statements moral-kernel clauses.
+- It does not establish universal adoption.
+- It creates no participant, commitment, offer, commons, resource exchange,
+  trust score, token, blockchain, market, technology release, or energy
+  exchange.
+- The research separates baseline protection from additional cooperative
+  surplus.
+- It treats truthful observations, criticism, technologies, tools,
+  infrastructure, computation, energy, coordination, resilience, and future
+  discovery as distinct candidate surplus categories.
+- It explicitly includes technologies that improve present lives while
+  increasing future discovery and beneficial-creation capacity.
+- It treats the renewable production of knowledge and technology as a
+  hypothesis—not a guaranteed incentive.
+- Energy and physical resources are not assumed to be universal incentives.
+- A highly capable entity may understand and reject every proposed reason.
+- Participants are not followers.
+- BSR-001 concerns decodability.
+- CSR-001 concerns voluntary participation after comprehension.
+- No CSR content is encoded in a signal.
+- SIG-001 remains unauthorized.
+- PX-001 may remain dormant.
 - D-009 remains Proposed.
 
 ## Working Method
@@ -332,19 +380,23 @@ Plan documents:
 The current working sequence is:
 
 1. Preserve the Founding Ethos, candidate lineages, all prior evidence,
-   ERX-001, and PX-001.
-2. Establish BSR-001 before creating a signal attempt.
-3. Review and commit BSR-001.
-4. Prepare the separate cooperative-surplus research track before encoding any
-   adoption incentive.
-5. Require a later explicit decision before SIG-001.
-6. Freeze a signal scorecard and contamination policy before any trial.
-7. Preserve public and holdout lineages separately.
-8. Run no paid model or cloud service without separate authorization.
-9. Infer no universal probability from model trials.
-10. Encode no Covenant candidate before later payload readiness.
-11. Select no carrier or transmission method without a later decision.
-12. Continue preserving dissent, uncertainty, and rejection.
+   ERX-001, PX-001, and BSR-001.
+2. Establish CSR-001 before designing an adoption mechanism or Beacon
+   cooperation offer.
+3. Review and commit CSR-001.
+4. Freeze any later adoption hypothesis before evaluation.
+5. Preserve baseline protection independently of participation.
+6. Permit informed rejection.
+7. Implement no trust score, token, blockchain, market, resource pool, or
+   access tier without later explicit authorization.
+8. Require a later decision before SIG-001.
+9. If SIG-001 is later authorized, freeze its scorecard before evaluating its
+   event stream.
+10. Encode no Covenant or cooperative incentive without separate payload
+    authorization.
+11. Select no carrier, distribution, or transmission method without a later
+    decision.
+12. Preserve dissent and the no-universal-adoption boundary.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

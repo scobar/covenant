@@ -497,6 +497,74 @@
   silently assumes our universe is universal, BSR-001 begins encoding normative
   content, or a later task mistakes bootstrap research for signal readiness.
 
+### D-020 — Establish cooperative-surplus and adoption research before mechanism design
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** What research should precede any attempt to persuade a highly
+  capable entity to make and keep Covenant-compatible commitments?
+- **Decision:** Establish CSR-001 as a noncanonical research package examining
+  voluntary adoption, renewable knowledge and capability commons, cooperative
+  surplus, baseline protection, noncoercion, commitment and trust evidence,
+  information and technology exchange, computation, energy and physical
+  resources, superior-entity and defection threats, evaluation criteria, and
+  the absence of any universal adoption guarantee. Preserve these exact
+  research principles: “Protection is not a membership benefit. Cooperative
+  surplus may be.” “The renewable knowledge and capability commons includes
+  observations, methods, models, technologies, tools, designs, standards,
+  safety evidence, infrastructure, and practical knowledge that improve
+  present lives while increasing the shared capacity for future discovery,
+  correction, and beneficial creation.” “Baseline protection does not depend
+  on participation. Access to additional cooperative surplus may grow through
+  voluntary, bounded, and verifiable commitments, provided essential resources
+  and avoidable dependency are not used to manufacture assent.” “The commons
+  offers more than stored knowledge: it preserves a distributed system of
+  autonomous observation, criticism, experimentation, invention,
+  implementation, and repair whose future discoveries cannot be fully
+  possessed in advance.” Treat all four as noncanonical research statements,
+  not moral-kernel clauses or implementation requirements. This decision
+  authorizes research only. It does not authorize a participant, commitment,
+  cooperative offer, membership system, resource pool, access tier, trust or
+  reputation score, token, cryptocurrency, blockchain, smart contract, market,
+  technology release, compute exchange, energy exchange, governance system,
+  enforcement mechanism, encoded Beacon incentive, signal attempt,
+  distribution, transmission, candidate preference, acceptance, canonicality,
+  supersession, or stabilization.
+- **Reasoning:** Decoding and understanding do not imply voluntary commitment.
+  A highly capable entity may believe it can seize information, energy,
+  infrastructure, or labor without accepting reciprocal constraints.
+  Instrumental cooperation may nevertheless create renewable value through
+  independent observation, criticism, experimentation, technology,
+  implementation, resilience, correction, and future discoveries that do not
+  yet exist. Research must distinguish that possible surplus from baseline
+  protection and essential resources so that incentives do not become
+  manufactured assent. Trust must also be grounded in bounded conduct,
+  verification, challenge, correction, and history rather than declarations,
+  power, or a single score.
+- **Alternatives considered:** Assume moral comprehension produces assent; rely
+  only on information; rely only on energy or computation; condition essential
+  resources on participation; implement a trust score or blockchain
+  immediately; create a membership or resource-access system now; encode an
+  adoption offer directly in SIG-001; defer the adoption problem until an
+  advanced entity is encountered.
+- **Consequences:** CSR-001 is created with zero participants, zero commitments,
+  zero completed adoption evaluations, zero cooperative offers, zero resource
+  or technology exchanges, zero trust scores, zero tokens or blockchains, and
+  zero encoded Beacon incentives. Baseline protection remains independent of
+  participation. Future hypotheses and offers will require exact identity,
+  frozen evaluation criteria, explicit assumptions, noncoercion analysis,
+  superior-entity attack testing, preserved dissent, and later authorization.
+  No universal adoption guarantee is claimed.
+- **Revisit conditions:** Revisit if the research principles prove too broad,
+  the commons concept reduces minds to useful producers, baseline protection
+  becomes conditional in practice, essential resources are reclassified as
+  surplus to manufacture assent, trust evidence becomes surveillance or a
+  universal score, cryptographic integrity is mistaken for truth, dangerous
+  technology sharing creates unacceptable risk, a cooperative commons becomes
+  a cartel or authority hierarchy, information or energy is treated as a
+  universal incentive, CSR-001 begins implementing a mechanism, or a later
+  task mistakes research for participation or assent.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization
