@@ -331,6 +331,59 @@ Require that:
 Do not grant any volunteer, administrator, model, Scott, ChatGPT, or Codex
 final interpretive authority.
 
+## Beacon Bootstrap and Signal-Attempt Rules
+
+Require that:
+
+- Beacon bootstrap research, signal-attempt design, decoding trials, payload
+  integration, carrier profiles, distribution, and transmission are separate
+  stages.
+- BSR-001 authorizes research only.
+- The exact Beacon engineering objective must not be silently paraphrased as
+  though a later formulation were original.
+- Universal decodability must never be claimed from finite tests.
+- Every attempt must disclose receiver assumptions.
+- Every attempt must identify its exact event model.
+- A scorecard and contamination policy must freeze before trial execution.
+- An attempt must not define or weaken its own evaluation after results appear.
+- Committed frozen attempts are immutable historical evidence.
+- Any event-stream change requires a new version or attempt ID.
+- Public attempts and sealed holdouts remain distinct.
+- Holdout signals, mappings, and solutions remain outside the public repository
+  until applicable outputs freeze and later reveal is authorized.
+- Model outputs freeze before solution reveal.
+- No target outcome or decoder level is supplied.
+- No desired success distribution is imposed.
+- Trial prompts, tools, settings, model identity, outputs, retries, and
+  contamination must be preserved.
+- No private chain-of-thought is required; final decoding artifacts and
+  predictions are sufficient.
+- Failed, partial, indeterminate, and unexpected decodes remain valid evidence.
+- No selective rerunning or publication is permitted.
+- Multiple runs from one model or provider are correlated repetitions, not
+  automatically independent decoder diversity.
+- Empirical decode rates remain conditional on exact signal, decoder, context,
+  prompt, tools, and trial method.
+- Mathematics and physical anchors remain distinguishable.
+- The formal mathematical branch remains distinguishable from an
+  our-universe-specific physical profile.
+- Mathematical or physical constants do not by themselves establish grammar or
+  moral semantics.
+- No Covenant candidate is encoded before later explicit payload authorization.
+- Beacon work does not make a candidate canonical, accepted, preferred, or
+  stabilized.
+- No response may be represented as assent without a later valid choice
+  protocol.
+- No carrier, distribution, or transmission occurs without a later accepted
+  decision.
+- Before any BSR-001 work, agents must read all BSR-001 files and verify the
+  frozen manifest.
+- Before any future SIG attempt, agents must read BSR-001 and the applicable
+  attempt template, scorecard, trial protocol, and contamination controls.
+
+Do not grant the message designer, decoder, scorer, Scott, ChatGPT, Codex, or
+any future model final interpretive authority.
+
 ## Editing Rules
 
 - Make the smallest authorized change.

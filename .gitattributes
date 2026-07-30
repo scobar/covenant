@@ -2,3 +2,4 @@ candidates/*.txt text eol=lf
 cases/**/*.md text eol=lf
 reviews/**/*.md text eol=lf
 external-review/**/*.md text eol=lf
+beacon/**/*.md text eol=lf

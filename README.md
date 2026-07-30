@@ -65,8 +65,20 @@ See [Project Status](STATUS.md) for the current project-state reference.
   allocation register separating kernel, interpretation, and application.
 - [Choice Protocol](05-CHOICE-PROTOCOL.md) — draft case-triggered requirements
   inventory for comprehension and response.
-- [Beacon Specification](06-BEACON-SPECIFICATION.md) — deferred draft
-  placeholder for discovery and representation.
+- [Beacon Specification and Bootstrap Research Index](06-BEACON-SPECIFICATION.md)
+  — noncanonical BSR-001 index; no signal attempt or transmission authorized.
+- [BSR-001 Beacon Design Goal](beacon/BSR-001/00-BEACON-DESIGN-GOAL.md) —
+  exact engineering objective, limitation, and research boundary.
+- [BSR-001 Signal-Attempt Registry](beacon/BSR-001/03-SIGNAL-ATTEMPT-REGISTRY.md)
+  — empty registry and future immutable lifecycle.
+- [BSR-001 Decoder Ladder and Scoring](beacon/BSR-001/04-DECODER-LADDER-AND-SCORING.md)
+  — diagnostic Levels 0–9 and conditional empirical reporting.
+- [BSR-001 Model Trial Protocol](beacon/BSR-001/05-MODEL-TRIAL-PROTOCOL.md)
+  — future-only model-decoding trial controls.
+- [BSR-001 Holdout Controls](beacon/BSR-001/06-HOLDOUT-AND-CONTAMINATION-CONTROLS.md)
+  — separate public-attempt and sealed-holdout methods.
+- [BSR-001 Research Manifest](beacon/BSR-001/09-RESEARCH-MANIFEST.md) —
+  frozen dependency identities, boundaries, and preparation audits.
 - [Evidence and Governance](07-EVIDENCE-AND-GOVERNANCE.md) — draft
   case-triggered requirements inventory for provenance, evidence, correction,
   and institutional limits.
@@ -291,23 +303,48 @@ Plan documents:
 - [Readiness checklist](external-review/PX-001/05-READINESS-CHECKLIST.md)
 - [Pilot manifest](external-review/PX-001/06-PILOT-MANIFEST.md)
 
+## Beacon Bootstrap Research
+
+> **Create a carrier-neutral, self-synchronizing, progressively self-interpreting formal message that permits a sufficiently capable observer to infer its artificiality, recover its symbols and grammar, reconstruct mathematics and a physical reference system, execute shared models, decode the Covenant’s layers, and issue an unmistakable response.**
+
+> **This is an engineering objective, not a claim of universal decodability. Every signal attempt must disclose its receiver assumptions and be tested without supplying an Earth-language explanation of the signal’s content.**
+
+- BSR-001 establishes research and evaluation before SIG-001.
+- No signal attempt exists.
+- No decoder trial has run.
+- No carrier has been selected.
+- No Covenant candidate has been encoded.
+- No physical constants have been selected.
+- No response protocol exists.
+- No transmission or distribution has begun.
+- Future signal attempts will use immutable identifiers such as `SIG-001`.
+- Public attempts and sealed holdouts will remain distinct.
+- Future AI-model results will be reported as conditional empirical decode
+  rates, not universal probabilities.
+- Decoder progress is recorded through Levels 0–9.
+- Successful decoding would not imply acceptance.
+- Cooperative incentive and adoption remain a separate future research track.
+- PX-001 may remain dormant while BSR-001 research continues.
+- D-009 remains Proposed.
+
 ## Working Method
 
 The current working sequence is:
 
-1. Preserve the Founding Ethos, both candidate lineages, all prior evidence,
-   and ERX-001.
-2. Prepare PX-001 under D-018.
-3. Review and commit the zero-budget plan.
-4. Permit dormancy without blocking other Covenant work.
-5. Require a later decision before any invitation or model selection.
-6. Require readiness gates before packet assembly or execution.
-7. Freeze candidate-specific responses before comparison.
-8. Preserve exposure, dissent, partial completion, and method classification.
-9. Integrate no result through voting or aggregation.
-10. Require a later explicit decision for candidate preference or
-    supersession.
-11. Continue deferring Beacon optimization.
+1. Preserve the Founding Ethos, candidate lineages, all prior evidence,
+   ERX-001, and PX-001.
+2. Establish BSR-001 before creating a signal attempt.
+3. Review and commit BSR-001.
+4. Prepare the separate cooperative-surplus research track before encoding any
+   adoption incentive.
+5. Require a later explicit decision before SIG-001.
+6. Freeze a signal scorecard and contamination policy before any trial.
+7. Preserve public and holdout lineages separately.
+8. Run no paid model or cloud service without separate authorization.
+9. Infer no universal probability from model trials.
+10. Encode no Covenant candidate before later payload readiness.
+11. Select no carrier or transmission method without a later decision.
+12. Continue preserving dissent, uncertainty, and rejection.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

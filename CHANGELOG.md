@@ -74,6 +74,18 @@ All notable project changes will be documented in this file.
 - Zero-budget administration, privacy, retention, and stop rules.
 - Micro-pilot readiness checklist.
 - Frozen PX-001 plan manifest.
+- BSR-001 exact Beacon engineering objective.
+- Receiver-assumption framework.
+- Carrier-neutral event-model research.
+- Empty signal-attempt registry and lifecycle.
+- Decoder Levels 0–9 and scoring framework.
+- Conditional empirical decode-rate reporting.
+- AI-model trial protocol.
+- Public-attempt and sealed-holdout controls.
+- Mathematical and physical anchor research.
+- Open-failure and hidden-assumption register.
+- Blank signal-attempt, decode-trial, and scorecard templates.
+- Frozen BSR-001 research manifest.
 
 ### Changed
 
@@ -163,3 +175,10 @@ All notable project changes will be documented in this file.
 - README and project status now record zero-budget pilot planning without
   claiming outreach or execution.
 - D-018 records the optional zero-budget scope and USD `0` spending boundary.
+- Beacon Specification is now a bootstrap-research index rather than an empty
+  placeholder.
+- Repository guidance now separates research, signal attempts, trials, payload
+  integration, carriers, distribution, and transmission.
+- README and STATUS now record BSR-001 without claiming a signal exists.
+- D-019 authorizes bootstrap research before SIG-001.
+- Beacon Markdown is pinned to LF for reproducible identities.

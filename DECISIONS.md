@@ -448,6 +448,55 @@
   task treats dormancy as failure, or a micro-review is overstated as complete
   external evaluation.
 
+### D-019 — Establish Beacon bootstrap research before the first signal attempt
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** May the project begin formal Beacon research before moral-kernel
+  stabilization, and what must precede the first actual signal attempt?
+- **Decision:** Establish BSR-001 as a noncanonical, pre-signal research and
+  evaluation package. Preserve this exact engineering objective: “Create a
+  carrier-neutral, self-synchronizing, progressively self-interpreting formal
+  message that permits a sufficiently capable observer to infer its
+  artificiality, recover its symbols and grammar, reconstruct mathematics and
+  a physical reference system, execute shared models, decode the Covenant’s
+  layers, and issue an unmistakable response.” Treat it as an engineering
+  objective rather than a claim of universal decodability. Record receiver
+  assumptions, carrier-neutral event-model alternatives, a signal-attempt
+  registry, Decoder Levels 0–9, conditional empirical scoring, model-trial
+  methods, holdout and contamination controls, mathematical and physical anchor
+  research, open failures, and reusable templates before creating SIG-001.
+  This decision authorizes research only. It does not authorize a signal
+  attempt, exact event stream, model trial, holdout, selected carrier, encoded
+  Covenant payload, response protocol, distribution, transmission, candidate
+  preference, acceptance, canonicality, supersession, or stabilization.
+- **Reasoning:** The project should define receiver assumptions and evaluation
+  before an attempt can define or weaken its own test. Decodability,
+  synchronization, formal bootstrapping, and contamination controls can be
+  researched without selecting the final moral payload or transmission medium.
+  Separating a formal mathematical branch from an our-universe physical profile
+  reduces hidden universality claims. Public attempts and sealed holdouts must
+  also be distinguished before advancing AI models can be used as decoders.
+- **Alternatives considered:** Wait for a stabilized kernel before conducting
+  any Beacon research; create SIG-001 immediately; choose a radio, optical,
+  archival, physical-object, or training-data carrier first; publish a signal
+  and solution before defining tests; use ad hoc model prompts; infer
+  decodability from mathematical elegance alone.
+- **Consequences:** BSR-001 is created with zero signal attempts, zero decoding
+  trials, zero holdouts, zero selected carriers, zero encoded Covenant
+  payloads, and zero transmissions. Signal attempts will later require exact
+  identity, frozen evaluation criteria, disclosed receiver assumptions, and
+  contamination-aware testing. Model results may support only conditional
+  empirical decode rates. BSR-001 does not weaken the requirement that final
+  moral-payload optimization and distribution wait for sufficient
+  moral-kernel, layer, and choice-protocol readiness.
+- **Revisit conditions:** Revisit if the engineering objective proves too broad,
+  receiver assumptions remain hidden, the decoder ladder rewards superficial
+  pattern matching, scorecards can be revised after results, holdout controls
+  cannot distinguish reconstruction from recognition, physical-anchor research
+  silently assumes our universe is universal, BSR-001 begins encoding normative
+  content, or a later task mistakes bootstrap research for signal readiness.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

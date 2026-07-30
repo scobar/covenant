@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-29
 
-**Current phase:** Zero-budget external-review micro-pilot planning
+**Current phase:** Beacon bootstrap research and pre-signal evaluation design
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -81,105 +81,66 @@ specification, or governance system exists.
     `910f92865679db326eeaa8ed3c8765fc784d6159e2d1f1bb6f0e37f61b402912`
   - Git blob: `3ce90c40a8e2d22b5b96d7b6d107b04473ca5032`
   - Byte count: `10213`
+- PX-001 remains committed and may remain dormant.
+- D-019 authorizes BSR-001 research only.
+- Exact Beacon engineering objective recorded.
+- Receiver-assumption framework prepared.
+- Carrier-neutral event-model alternatives prepared.
+- Empty signal-attempt registry and lifecycle prepared.
+- Decoder Levels 0–9 and scoring framework prepared.
+- Model-trial protocol prepared.
+- Holdout and contamination controls prepared.
+- Mathematical and physical anchor research prepared.
+- Open-failure register prepared.
+- Blank attempt, trial, and scorecard templates prepared.
+- BSR-001 research manifest completed and audited:
+  - Raw SHA-256:
+    `851ea1209823c4590c8e766d72e66da830f49231f112170df64620d1f62dc8aa`
+  - Git blob: `22b5cafdd271a3acd3d2b233d90322e3bd821db6`
+  - Byte count: `8900`
 
 ## Current Work
 
-### PX-001 Planning Status
+### Covenant
 
-- No human reviewer has been selected, contacted, recruited, invited, or
-  assigned.
-- No external model provider or model has been selected.
-- No mapping, nonce, commitment, packet, response, payment, consent record, or
-  review exists.
-- No micro-pilot execution has begun.
-- Human compensation budget is USD `0`.
-- Incremental model, cloud, API, and token budget is USD `0`.
-- Unit H is optional.
-- Unit M is optional.
-- Required completed-unit count is `0`.
-- PX-001 may remain dormant indefinitely.
-- Neither candidate is preferred, accepted, or superseding.
-- D-009 remains `Proposed`.
-- No MK-0.3 exists.
-- No Beacon work has begun.
+- MK-0.1 and MK-0.2 remain under adversarial review.
+- Neither is preferred, accepted, canonical, or superseding.
+- D-009 remains Proposed.
 
-### ERX-001 Preparation Status
+### External review
 
-- MK-0.1 remains under adversarial review with eight cases.
-- MK-0.2 remains under adversarial review with four cases and one mechanical
-  review.
-- Neither candidate is preferred, accepted, or superseding.
-- ERX-001 is preparation only.
-- No reviewer has been contacted, recruited, or assigned.
-- No candidate-label mapping exists.
-- No external review has been executed.
-- No external response exists.
-- External evaluator diversity remains absent until actual external reviews
-  occur.
-- Procedural label blinding is not guaranteed secrecy.
-- D-009 remains `Proposed`.
-- No MK-0.3 exists.
-- No Beacon work has begun.
+- ERX-001 remains preparation only.
+- PX-001 remains optional and dormant unless later authorized conditions are
+  met.
+- No reviewer or external model has been selected or contacted.
 
-### MK-0.1
+### Beacon bootstrap
 
-- Lifecycle: `Under adversarial review`
-- Cases: `8`
-- Noncanonical and unaccepted
-- Not superseded
-- No preference established
-
-### MK-0.2
-
-- Lifecycle: `Under adversarial review`
-- Cases: `4`
-- Mechanical reviews: `1`
-- Noncanonical and unaccepted
-- No preference over MK-0.1 established
-- No improvement claim established
-- Does not supersede MK-0.1
-
-### Review and Method Constraints
-
-- No case result transfers between candidates.
-- D-009 remains `Proposed`.
-- No aggregate outcome or candidate-wide moral verdict exists.
-- AC-003 remains a material failure record that blocks provisional
-  stabilization of MK-0.1.
-- Exact candidate payloads must not be edited after publication.
-- The first batch consists of architect-specified conceptual test vectors.
-- The second-batch outcomes were outcome-blind relative to the architectural
-  task.
-- Neither batch supplies independent external evaluator diversity.
-- AC-006 supports AC-003's core hostile-exploitability and
-  protective-insufficiency hypothesis while leaving the breadth and layer
-  placement of that failure unresolved.
-- SR-001 remains same-tooling and nonbinding.
-- The first targeted MK-0.2 batch is complete, but further evidence remains
-  required before preference or supersession.
-- External evaluator diversity remains absent.
-- Same-tooling isolation is not external evaluator diversity.
-- Results remain candidate-specific.
-- Candidate-specific results remain distinct.
-- CR-001 is nonbinding and same-tooling.
-- No aggregate or candidate-wide verdict exists.
-- Layer requirements remain inventories rather than adopted definitions,
-  protocols, profiles, or governance mechanisms.
-- No MK-0.3 exists.
-- No Beacon work has begun.
+- BSR-001 is research only.
+- Signal-attempt count: `0`.
+- Decoding-trial count: `0`.
+- Holdout count: `0`.
+- Selected-carrier count: `0`.
+- Encoded-Covenant-payload count: `0`.
+- Transmission count: `0`.
+- No empirical decode rate exists.
+- No universal-decoding claim exists.
+- No response protocol exists.
+- No final physical reference profile exists.
+- Cooperative incentive research has not yet begun.
 
 ## Next Proposed Architectural Work
 
-1. Architectural review of PX-001 before commit.
-2. If committed, leave PX-001 dormant unless a suitable volunteer independently
-   and freely agrees or qualifying zero-cost external-model access is available.
-3. Require a separate later decision before any invitation, provider/model
-   selection, mapping, packet assembly, or review execution.
-4. Do not spend money or activate paid services.
-5. Continue other Covenant work without treating external-review dormancy as a
-   failure.
+1. Architectural review of BSR-001 before commit.
+2. If committed, create CSR-001 as a separate cooperative-surplus and adoption
+   research package.
+3. Only after BSR-001 and the applicable evaluation framework are stable,
+   consider a separate decision authorizing SIG-001.
+4. Freeze a SIG-001 scorecard before its event stream is evaluated.
+5. Do not encode a Covenant payload, select a carrier, run a decoder trial, or
+   transmit a signal without later explicit authorization.
 6. Preserve both candidate lineages and all dissent.
-7. Do not begin comparative preference or Beacon work.
+7. Permit PX-001 dormancy without blocking Beacon research.
 
 ## Document Status
 
@@ -244,5 +205,18 @@ specification, or governance system exists.
 | `external-review/PX-001/06-PILOT-MANIFEST.md` | Frozen PX-001 plan manifest v0.1 — no reviewer or model selected |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
-| `06-BEACON-SPECIFICATION.md` | Draft placeholder |
+| `06-BEACON-SPECIFICATION.md` | Draft Beacon bootstrap-research index — noncanonical; no signal attempt or transmission authorized |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
+| `beacon/BSR-001/00-BEACON-DESIGN-GOAL.md` | Draft exact design goal and research boundary — noncanonical; no signal attempt |
+| `beacon/BSR-001/01-RECEIVER-ASSUMPTIONS.md` | Draft receiver-assumption framework — research only |
+| `beacon/BSR-001/02-CARRIER-NEUTRAL-EVENT-MODEL.md` | Draft carrier-neutral event-model alternatives — no model selected |
+| `beacon/BSR-001/03-SIGNAL-ATTEMPT-REGISTRY.md` | Empty signal-attempt registry and lifecycle — zero attempts |
+| `beacon/BSR-001/04-DECODER-LADDER-AND-SCORING.md` | Draft Decoder Levels 0–9 and conditional scoring framework |
+| `beacon/BSR-001/05-MODEL-TRIAL-PROTOCOL.md` | Draft future AI-model trial protocol — no model or trial selected |
+| `beacon/BSR-001/06-HOLDOUT-AND-CONTAMINATION-CONTROLS.md` | Draft public-attempt and sealed-holdout controls — no holdout created |
+| `beacon/BSR-001/07-MATHEMATICAL-AND-PHYSICAL-ANCHORS.md` | Draft anchor-family research — no anchor or value selected |
+| `beacon/BSR-001/08-OPEN-FAILURES-AND-ASSUMPTIONS.md` | Draft unresolved failure, risk, and assumption register |
+| `beacon/BSR-001/templates/SIGNAL-ATTEMPT-RECORD-TEMPLATE.md` | Blank signal-attempt record template — no attempt created |
+| `beacon/BSR-001/templates/DECODE-TRIAL-RECORD-TEMPLATE.md` | Blank decode-trial record template — no trial executed |
+| `beacon/BSR-001/templates/DECODER-SCORECARD-TEMPLATE.md` | Blank decoder scorecard template — no score recorded |
+| `beacon/BSR-001/09-RESEARCH-MANIFEST.md` | Frozen BSR-001 research manifest v0.1 — noncanonical; preparation validation only |
