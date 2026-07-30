@@ -1,6 +1,6 @@
 # Beacon Specification and Bootstrap Research Index
 
-> **NONCANONICAL RESEARCH AND LIVE-ATTEMPT INDEX — ONE CLOSED INCOMPLETE TRIAL — NO VALID OUTPUT OR TRANSMISSION AUTHORIZED**
+> **NONCANONICAL RESEARCH AND LIVE-ATTEMPT INDEX — ONE CLOSED INCOMPLETE TRIAL — ONE PREPARED TRIAL — NO VALID OUTPUT OR TRANSMISSION AUTHORIZED**
 
 ## Boundary
 
@@ -15,9 +15,10 @@ specification. It creates no signal attempt and supplies no evidence that an
 unknown intelligence decodes or accepts the Covenant.
 
 SIG-001 is a narrow public formal attempt created after BSR-001. Its one
-closed trial produced no valid decoder output and supplies no evidence that an
-unknown intelligence decodes it. It authorizes no moral payload, carrier,
-distribution, or transmission.
+closed trial produced no valid decoder output. A distinct second trial is
+prepared but not executed. Neither supplies evidence that an unknown
+intelligence decodes SIG-001. No moral payload, carrier, distribution, or
+transmission is authorized.
 
 ## Engineering Objective
 
@@ -67,7 +68,8 @@ Current live counts:
 - Sealed holdouts: `2`
 - Known provider-exposed holdouts: `1`
 - Never-supplied holdouts: `1`
-- Trial records: `1`
+- Trial records: `2`
+- Active prepared trials: `1`
 - Closed incomplete trials: `1`
 - Run attempts: `1`
 - Valid outputs: `0`
@@ -104,6 +106,8 @@ Current evidence counts:
 - Sealed holdouts: `2`
 - Known provider-exposed holdouts: `1`
 - Never-supplied holdouts: `1`
+- Trial records: `2`
+- Active prepared trials: `1`
 - Closed incomplete trials: `1`
 - Run attempts: `1`
 - Valid outputs: `0`
@@ -145,7 +149,8 @@ Current trial counts:
 
 - Public attempts: `1`
 - Sealed holdouts: `2`
-- Trial records: `1`
+- Trial records: `2`
+- Active prepared trials: `1`
 - Closed incomplete trials: `1`
 - Run attempts: `1`
 - Valid runs: `0`
@@ -171,14 +176,57 @@ records remain exact historical evidence. HO-001 now carries
 `Known Anthropic provider-side exposure`; this does not prove successful
 decoding or cross-session, cross-model, training, or retrieval transfer.
 
-No Sonnet trial is prepared. Sonnet 5 / High has only prospective
-qualification. Any later use requires a separate accepted decision, distinct
-trial ID, fresh private two-file packet, committed public packet commitment,
-and another new Claude Incognito Chat. The current qualification chat remains
-unused.
+TR-002 is a distinct Sonnet 5 / High trial prepared under D-025. It does not
+reopen, retry, or substitute into TR-001. HO-002 remains never supplied, and
+the current qualification chat remains unused.
 
 No valid output, score, reveal, empirical decode rate, higher-layer payload,
 carrier, distribution, or transmission exists or follows.
+
+## Prepared Sonnet Holdout Trial
+
+- [Live Decoding-Trial Registry](beacon/TRIAL-REGISTRY.md)
+- [TR-002 Public Charter](beacon/trials/SIG-001-HO-002-TR-002/00-PUBLIC-TRIAL-CHARTER.md)
+- [TR-002 Decoder Selection, Effort, and Cost Record](beacon/trials/SIG-001-HO-002-TR-002/01-DECODER-SELECTION-RECORD.md)
+- [TR-002 Execution and Freeze Protocol](beacon/trials/SIG-001-HO-002-TR-002/02-EXECUTION-AND-FREEZE-PROTOCOL.md)
+- [TR-002 Packet Commitment Record](beacon/trials/SIG-001-HO-002-TR-002/03-PACKET-COMMITMENT-RECORD.md)
+- [TR-002 Public Trial-Preparation Manifest](beacon/trials/SIG-001-HO-002-TR-002/04-PUBLIC-TRIAL-PREPARATION-MANIFEST.md)
+
+Current prepared-trial counts:
+
+- Public attempts: `1`
+- Sealed holdouts: `2`
+- Known provider-exposed holdouts: `1`
+- Never-supplied holdouts: `1`
+- Trial records: `2`
+- Active prepared trials: `1`
+- Closed incomplete trials: `1`
+- Run attempts: `1`
+- Valid outputs: `0`
+- Scores: `0`
+- Reveals: `0`
+- Empirical decode rates: `0`
+- Carriers: `0`
+- Covenant payloads: `0`
+- CSR payloads: `0`
+- Response protocols: `0`
+- Transmissions: `0`
+
+HO-002 remains never supplied. Sonnet 5 and High are selected by displayed UI
+labels only; no backend model identity or hidden effort implementation is
+verified. No input has been supplied, and no valid recovered Decoder Level
+exists. TR-001 remains closed incomplete.
+
+Both trial records use Anthropic, so same-provider isolation is not claimed.
+Sonnet 5 / High qualification preceded HO-002 generation, so
+model-selection-blind HO-002 chronology is not claimed. Execution requires the
+public package to be reviewed and committed, a separate private-package backup
+to be verified, and every custody, configuration, isolation, and cost gate to
+be reconfirmed.
+
+TR-002 is prepared and authorized but not executed. No output, validity
+classification, score, reveal, or empirical result exists. No higher-layer,
+carrier, distribution, or transmission work is authorized.
 
 ## Discovery
 
@@ -242,9 +290,10 @@ and
 [Holdout and Contamination Controls](beacon/BSR-001/06-HOLDOUT-AND-CONTAMINATION-CONTROLS.md).
 SIG-001 preserves a public administrator solution and pre-stream chronology.
 Two sealed-holdout commitments now exist. Their private mappings and packages
-remain unrevealed. One input-packet commitment remains frozen as historical
-TR-001 preparation evidence. One technically invalid run was attempted, but no
-completed valid output, score, reveal, or empirical result exists.
+remain unrevealed. The TR-001 packet commitment remains frozen as historical
+preparation evidence, and a distinct TR-002 packet commitment binds the
+prepared Sonnet 5 / High package. One technically invalid run was attempted,
+but no completed valid output, score, reveal, or empirical result exists.
 
 ## Error Correction and Redundancy
 
@@ -278,6 +327,11 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-30: Prepared and authorized distinct TR-002 for the never-supplied
+  HO-002 holdout using displayed Sonnet 5 / High under a USD `0` incremental
+  boundary, without executing a decoder, creating an output or score,
+  revealing private material, or authorizing any higher layer, carrier,
+  distribution, or transmission.
 - 2026-07-30: Closed TR-001 incomplete after one provider-side
   technical-invalidity run with no valid output; classified HO-001 as known
   Anthropic provider-side exposure; and added sealed, never-supplied HO-002

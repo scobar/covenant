@@ -133,9 +133,25 @@ All notable project changes will be documented in this file.
 - SIG-001-HO-002 public charter.
 - SIG-001-HO-002 public commitment record.
 - Frozen SIG-001-HO-002 public manifest.
+- TR-002 public trial charter.
+- Sonnet 5 / High decoder-selection, effort, and cost record.
+- TR-002 browser execution and output-freeze protocol.
+- Private HO-002 two-file trial packet.
+- Private TR-002 packet and preparation manifests.
+- Public TR-002 packet commitment.
+- Frozen public TR-002 preparation manifest.
 
 ### Changed
 
+- Trial registry now distinguishes one closed incomplete Fable trial from one
+  prepared, unexecuted Sonnet trial.
+- HO-002 now records a prepared trial without decoder exposure.
+- Repository guidance freezes model effort and preserves same-provider and
+  prospective-model chronology limitations.
+- README and STATUS record one prepared Sonnet 5 / High trial without claiming
+  execution or evidence.
+- D-025 authorizes one later zero-incremental-cost manual execution after
+  public commit, private backup, and complete gate verification.
 - TR-001 is closed incomplete after one provider-side technical-invalidity run.
 - HO-001 now records known Anthropic provider-side exposure.
 - Beacon registries distinguish run attempts, valid outputs, technical

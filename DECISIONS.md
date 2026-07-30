@@ -794,6 +794,74 @@
   backed up, or a later task treats closure, commitment, or prospective model
   qualification as a decoder result.
 
+### D-025 — Prepare and authorize one zero-incremental-cost Sonnet 5 / High sealed-holdout trial
+
+- **Date:** 2026-07-30
+- **Status:** Accepted
+- **Question:** Which exact decoder configuration and execution protocol may be
+  used for the first trial of the never-supplied SIG-001-HO-002 holdout?
+- **Decision:** Prepare and authorize SIG-001-HO-002-TR-002 version 0.1 as one
+  zero-incremental-cost external-model sealed-holdout decoding trial. Use
+  Anthropic through ordinary `claude.ai` standard Chat with displayed model
+  label `Sonnet 5` and displayed effort level `High`, in another newly created
+  Claude Incognito Chat outside every Project, with web search, connectors,
+  Claude Code, Cowork, browser control, memory-bearing prior conversation, and
+  unrelated tools disabled or absent. Use only Scott’s existing paid
+  `claude.ai` account; auto-reload remains off, paid spillover remains
+  disabled, and authorized incremental project spending is USD 0. Freeze a
+  private packet containing only the exact HO-002 neutral instruction and
+  sealed sequence, publish only a cryptographic packet commitment, request one
+  valid run, and permit at most one retry solely for technical invalidity.
+  Preserve TR-001 as closed incomplete and do not use HO-001 or the private
+  Fable trace. The public preparation package must be reviewed and committed,
+  and the private TR-002 package must be backed up and custody-verified before
+  execution. The future output and execution metadata freeze before validity
+  classification or scoring; the complete score freezes before authorized
+  reveal and reveal-stage commitment verification. This decision authorizes
+  one later manual execution only after every gate is reconfirmed. It does not
+  authorize execution during preparation, a second substantive run, model or
+  effort substitution, paid usage, follow-up prompting, output scoring in the
+  decoder conversation, reveal, publication, empirical-rate interpretation,
+  Covenant or CSR payload, physical or agency profile, response syntax,
+  carrier, distribution, transmission, candidate preference, acceptance,
+  canonicality, supersession, or stabilization.
+- **Reasoning:** HO-002 is a fresh surface-novel Levels 0–4 variant that has
+  never been supplied to a decoder, making it a better exact-instance test
+  than provider-exposed HO-001. Freezing the exact Sonnet 5 / High
+  configuration, two-file packet, run count, retry rule, tool state,
+  output-preservation method, and reveal chronology before execution reduces
+  post-result adaptation. Standard Claude web Chat provides a cleaner
+  local-filesystem boundary than Claude Code. The displayed model and effort
+  labels honestly record what is observable without claiming an unavailable
+  backend identifier. Sonnet 5 / High was known before HO-002 generation and
+  both trials use Anthropic, so model-selection-blind chronology and
+  same-provider independence are not claimed.
+- **Alternatives considered:** Reuse HO-001; reopen or retry TR-001; continue
+  inside the Fable conversation; use the qualification chat; use Sonnet 5 at a
+  different effort level; use Fable, another model, an API, Claude Code,
+  Cowork, web search, connectors, multiple samples, best-of-N, follow-up
+  prompting, paid spillover, or execution before public commitment; score
+  before output preservation; reveal before score freeze; defer testing
+  indefinitely.
+- **Consequences:** The live Beacon records two trial records: TR-001 remains
+  closed incomplete after one technical-invalidity run, and TR-002 is prepared
+  and authorized but not executed. HO-002 remains never supplied, with zero
+  outputs, scores, or reveals. Scott becomes prospective manual operator but
+  gains no interpretive authority. The browser interface does not expose
+  temperature, seed, hidden system prompt, backend routing, or immutable model
+  identity. A refusal, failed decode, partial decode, or unexpected
+  interpretation is preserved as a valid substantive output rather than
+  rerun. One later run cannot establish universal decodability or any higher
+  layer.
+- **Revisit conditions:** Revisit if Sonnet 5 or High is unavailable, displayed
+  labels change, existing-account zero-incremental-cost use is unavailable,
+  payment or spillover becomes possible, Incognito or tool isolation cannot be
+  confirmed, HO-002 or the private packet fails verification, the private
+  package or backup is unavailable, the output cannot be preserved completely,
+  an unauthorized context sees HO-002, the provider safeguard prevents a final
+  response, a retry would exceed the authorized limit, or a later task treats
+  preparation or one result as universal evidence.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

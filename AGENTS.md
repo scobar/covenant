@@ -568,6 +568,71 @@ Require that:
 Do not grant Scott, ChatGPT, Codex, Anthropic, Fable, Sonnet, an operator,
 decoder, scorer, or future model final interpretive authority.
 
+## Prepared Sonnet 5 / High Trial Rules
+
+Require that:
+
+- TR-002 is distinct from the closed TR-001.
+- TR-001 cannot be reopened, retried, or receive an inserted output.
+- HO-002 is the only authorized TR-002 holdout.
+- HO-001 must not be substituted.
+- The Fable partial trace must not be opened, supplied, summarized, or used.
+- Provider, displayed model label, effort level, interface, style, and tool
+  state cannot change without another decision.
+- `Sonnet 5` is a displayed label, not a verified backend ID.
+- `High` is a displayed effort setting, not a separate model identity.
+- The qualification chat is not the execution chat.
+- Another new empty Incognito Chat is required.
+- Only the frozen neutral instruction and sealed HO-002 sequence may be
+  supplied.
+- No follow-up message is permitted.
+- Web search, connectors, Projects, Claude Code, Cowork, browser control, and
+  unrelated tools remain disabled.
+- Existing-account zero-incremental-cost, auto-reload-off, and
+  paid-spillover-off states are rechecked before sending.
+- Payment, upgrade, metered-use, or extra-credit prompts stop execution.
+- Exactly one valid run is requested.
+- At most one retry is allowed, solely for technical invalidity.
+- Provider safeguard before a completed final response is technical
+  invalidity.
+- Refusal, failure, partial decoding, criticism, indeterminacy, and unexpected
+  conclusions remain valid substantive outputs.
+- Every run is preserved.
+- Output and metadata freeze before validity classification and scoring.
+- Complete score freezes before authorized reveal.
+- Reveal-stage commitment verification follows reveal and preserves every
+  mismatch or failure.
+- Output is not supplied to design-exposed ChatGPT before score freeze.
+- Browser-copy limitations and unavailable settings remain disclosed.
+- Same-provider independence is not claimed.
+- Model-selection-blind chronology is not claimed.
+- No result becomes a universal probability.
+- No Levels 0–4 result establishes Levels 5–9.
+- No carrier or transmission follows.
+- Before executing TR-002, verify the public preparation manifest, private
+  trial manifest, packet commitment, HO-002 holdout commitment, packet-source
+  identity, and private custody without revealing private material to the
+  decoder or scoring context.
+
+Use this chronology:
+
+1. Freeze private configuration and packet.
+2. Perform private custody-integrity verification.
+3. Publish and commit the public preparation package.
+4. Back up and verify the private TR-002 package.
+5. Reconfirm custody and execution gates.
+6. Execute exactly one permitted run.
+7. Freeze complete raw output and execution metadata.
+8. Classify validity and score.
+9. Freeze complete score.
+10. Reveal authorized private materials.
+11. Perform reveal-stage commitment verification.
+12. Preserve every mismatch, deviation, failure, and alternative.
+13. Consider publication only through later explicit authorization.
+
+Do not grant Scott, ChatGPT, Codex, Anthropic, Claude, Fable, Sonnet, browser
+operator, decoder, scorer, or future model final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:

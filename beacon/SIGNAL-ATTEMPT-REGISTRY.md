@@ -16,18 +16,22 @@ Frozen. No attempt is preferred merely because it is first or current.
 
 ## Current Counts
 
-- Registered signal attempts: `1`
-- Frozen signal attempts: `1`
+- Signal attempts: `1`
+- Frozen attempts: `1`
 - Sealed holdouts: `2`
 - Known provider-exposed holdouts: `1`
-- Trial records: `1`
+- Never-supplied holdouts: `1`
+- Trial records: `2`
+- Active prepared trials: `1`
+- Closed incomplete trials: `1`
 - Run attempts: `1`
 - Valid outputs: `0`
 - Scores: `0`
 - Reveals: `0`
+- Empirical decode rates: `0`
 - Carriers: `0`
-- Encoded Covenant payloads: `0`
-- Encoded CSR payloads: `0`
+- Covenant payloads: `0`
+- CSR payloads: `0`
 - Response protocols: `0`
 - Transmissions: `0`
 
@@ -52,9 +56,14 @@ without editing SIG-001. A holdout is not a new signal attempt, and a
 commitment is not a decoding result.
 
 The [decoding-trial registry](TRIAL-REGISTRY.md) records one closed incomplete
-trial and one provider-side technical-invalidity run. Its frozen preparation
-files remain historical evidence. The run produced no completed, scorable, or
-valid output and enters no empirical-rate denominator.
+trial, one active prepared trial, and one provider-side technical-invalidity
+run. TR-002 is prepared and authorized but not executed, and HO-002 remains
+never supplied. Prepared does not mean executed, selected does not mean
+evaluated, and a commitment is not a result.
+
+The frozen SIG-001, HO-001, HO-002, and TR-001 manifests retain their
+historical checkpoint counts unchanged. This live registry records the later
+state without rewriting those records.
 
 No valid output, score, empirical decode rate, reveal, carrier, Covenant or
 CSR payload, response protocol, distribution, or transmission exists.
