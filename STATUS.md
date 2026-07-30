@@ -1,9 +1,9 @@
 # Project Status
 
-**Last updated:** 2026-07-29
+**Last updated:** 2026-07-30
 
-**Current phase:** First sealed SIG-001 holdout committed; no decoding trial
-executed
+**Current phase:** One Fable 5 sealed-holdout trial prepared and authorized;
+not executed
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -143,6 +143,19 @@ specification, or governance system exists.
     `d6b2cea8a4132a501e4c992db759599a34c65445363afae9d8462c63fe95398b`
   - Git blob: `af904561f507d8150442537bdc1516fa35c48fce`
   - Byte count: `2918`
+- SIG-001 and SIG-001-HO-001 remain committed and unchanged.
+- Private backup remains reported verified and offline.
+- D-023 authorizes one exact zero-cost Fable 5 browser trial.
+- Private neutral two-file input packet prepared.
+- Private execution and output-freeze procedures frozen.
+- Private packet commitment created:
+  `121b8741cc00e028280216a36d83b3781216852d5a4d52d441c4ab126e8da977`
+- Public decoding-trial registry created.
+- Public trial-preparation manifest completed and audited:
+  - Raw SHA-256:
+    `060fedfd96cab3020540f91ef8d75025aca11c0f27971dc54cd36cd042c14733`
+  - Git blob: `c1f14ba9d9861ac60159c2100258f541529635bc`
+  - Byte count: `7057`
 
 ## Current Work
 
@@ -161,18 +174,19 @@ specification, or governance system exists.
 ### Beacon
 
 - BSR-001 remains frozen research.
-- Public signal attempts: `1`
+- Public attempts: `1`
 - Frozen public attempts: `1`
-- Sealed holdout variants: `1`
-- Unrevealed holdouts: `1`
-- Decoding trials: `0`
+- Sealed holdouts: `1`
+- Prepared trial records: `1`
+- Selected provider/model configurations: `1`
+- Executed trials: `0`
 - Outputs: `0`
 - Scores: `0`
 - Reveals: `0`
-- Selected decoders: `0`
-- Selected carriers: `0`
-- Encoded Covenant payloads: `0`
-- Encoded CSR incentives: `0`
+- Empirical decode rates: `0`
+- Carriers: `0`
+- Covenant payloads: `0`
+- CSR payloads: `0`
 - Response protocols: `0`
 - Transmissions: `0`
 - SIG-001 lifecycle: `Frozen`
@@ -182,6 +196,25 @@ specification, or governance system exists.
 - No final physical reference profile exists.
 - Private package contents remain outside Git and are intentionally not
   recorded in STATUS.
+
+### TR-001
+
+- Provider: Anthropic.
+- Displayed model label: Fable 5.
+- Interface: claude.ai standard Chat.
+- Lifecycle: Prepared and authorized — not executed.
+- Requested valid runs: `1`.
+- Technical retry maximum: `1`.
+- Incremental-spend cap: USD `0`.
+- Private custody-integrity verification: completed during preparation and
+  required again immediately before execution.
+- Reveal-stage commitment verification: not performed; it follows authorized
+  reveal only after output and complete score freeze.
+- No input has been supplied.
+- No output exists.
+- No score exists.
+- No reveal exists.
+- No empirical rate exists.
 
 ### Cooperative surplus
 
@@ -203,15 +236,30 @@ specification, or governance system exists.
 
 ## Next Proposed Architectural Work
 
-1. Architectural review of the public commitment package.
-2. Scott privately backs up the sealed package before any trial.
-3. If approved and backed up, make a separate decision concerning one
-   zero-cost fresh-context decoding trial.
-4. Freeze the model/provider choice, exact execution packet, and run rules
-   before execution.
-5. Execute no trial through any design-exposed context.
-6. Freeze output before scoring and score before reveal.
-7. Add no Covenant, CSR, physical, response, carrier, or transmission layer.
+1. Freeze private configuration and packet.
+2. Perform private custody-integrity verification.
+3. Publish and commit the public preparation package after architectural
+   review.
+4. Reconfirm private custody-integrity verification immediately before
+   execution.
+5. Execute exactly one permitted decoder run in a new Claude Incognito Chat.
+6. Freeze the complete raw output and execution metadata.
+7. Perform validity classification and scoring.
+8. Freeze the complete score.
+9. Reveal the authorized private preimages, manifests, mapping, solution, and
+   scorecard materials.
+10. Perform reveal-stage commitment verification.
+11. Preserve every mismatch, deviation, failure, and alternative
+    interpretation.
+12. Consider publication only through a later explicit decision.
+
+Private custody-integrity verification is private and nonrevealing, does not
+expose private materials to Claude or a pre-output-freeze scoring context, is
+not reveal-stage verification, and creates no decoding result. Reveal-stage
+commitment verification occurs only after output and complete score freeze,
+preserves every mismatch, requires separate authorization for public
+recording, and cannot change the frozen output or score. No output is supplied
+to ChatGPT before score freeze. No higher-layer or transmission work begins.
 
 ## Document Status
 
@@ -283,6 +331,12 @@ specification, or governance system exists.
 | `beacon/holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md` | Public sealed-holdout scope and nonclaims — noncanonical; no trial |
 | `beacon/holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md` | Public SIG-001-HO-001 commitment and reveal conditions — no private identity beyond the commitment |
 | `beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md` | Frozen two-row public holdout manifest — noncanonical; no decoding trial |
+| `beacon/TRIAL-REGISTRY.md` | Live noncanonical decoding-trial registry — one prepared trial; no execution or evidence |
+| `beacon/trials/SIG-001-HO-001-TR-001/00-PUBLIC-TRIAL-CHARTER.md` | Prepared public trial charter — noncanonical; not executed |
+| `beacon/trials/SIG-001-HO-001-TR-001/01-DECODER-SELECTION-RECORD.md` | Frozen Anthropic Fable 5 browser selection and zero-cost boundary — no input supplied |
+| `beacon/trials/SIG-001-HO-001-TR-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md` | Frozen one-run browser execution and output-freeze protocol — no run performed |
+| `beacon/trials/SIG-001-HO-001-TR-001/03-PACKET-COMMITMENT-RECORD.md` | Public commitment to the private trial preparation — not a decoder result |
+| `beacon/trials/SIG-001-HO-001-TR-001/04-PUBLIC-TRIAL-PREPARATION-MANIFEST.md` | Frozen four-row public preparation manifest — noncanonical; not executed |
 | `beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md` | Frozen SIG-001 charter — noncanonical; Levels 0–4 only |
 | `beacon/attempts/SIG-001/01-RECEIVER-ASSUMPTIONS.md` | Frozen SIG-001 receiver assumptions and nonassumptions |
 | `beacon/attempts/SIG-001/02-EVENT-MODEL-AND-FRAMING.md` | Frozen two-event-class model and hierarchical framing |

@@ -1,6 +1,6 @@
 # Beacon Specification and Bootstrap Research Index
 
-> **NONCANONICAL RESEARCH AND LIVE-ATTEMPT INDEX — NO DECODING TRIAL OR TRANSMISSION AUTHORIZED**
+> **NONCANONICAL RESEARCH AND LIVE-ATTEMPT INDEX — NO DECODING TRIAL EXECUTED OR TRANSMISSION AUTHORIZED**
 
 ## Boundary
 
@@ -63,9 +63,13 @@ Current live counts:
 
 - Signal attempts: `1`
 - Frozen attempts: `1`
-- Decoding trials: `0`
 - Sealed holdout variants: `1`
 - Unrevealed holdouts: `1`
+- Prepared trial records: `1`
+- Executed trials: `0`
+- Outputs: `0`
+- Scores: `0`
+- Reveals: `0`
 - Selected carriers: `0`
 - Encoded Covenant payloads: `0`
 - Encoded CSR incentives: `0`
@@ -92,7 +96,8 @@ Current evidence counts:
 - Frozen public attempts: `1`
 - Sealed holdout variants: `1`
 - Unrevealed holdouts: `1`
-- Decoding trials: `0`
+- Prepared trial records: `1`
+- Executed trials: `0`
 - Outputs: `0`
 - Scores: `0`
 - Reveals: `0`
@@ -107,6 +112,69 @@ and nonrevealing protocol metadata are public. No recovered decoder level or
 empirical decode rate exists. The holdout contains no physical, agency, moral,
 Covenant, CSR, choice, response, carrier, distribution, or transmission
 layer. No carrier or transmission is authorized.
+
+## Prepared Decoder Trial
+
+- [Live Decoding-Trial Registry](beacon/TRIAL-REGISTRY.md)
+- [TR-001 Public Charter](beacon/trials/SIG-001-HO-001-TR-001/00-PUBLIC-TRIAL-CHARTER.md)
+- [TR-001 Decoder Selection Record](beacon/trials/SIG-001-HO-001-TR-001/01-DECODER-SELECTION-RECORD.md)
+- [TR-001 Execution and Freeze Protocol](beacon/trials/SIG-001-HO-001-TR-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md)
+- [TR-001 Packet Commitment Record](beacon/trials/SIG-001-HO-001-TR-001/03-PACKET-COMMITMENT-RECORD.md)
+- [TR-001 Public Trial-Preparation Manifest](beacon/trials/SIG-001-HO-001-TR-001/04-PUBLIC-TRIAL-PREPARATION-MANIFEST.md)
+
+Current trial-preparation counts:
+
+- Public attempts: `1`
+- Sealed holdouts: `1`
+- Prepared trial records: `1`
+- Selected provider/model configurations: `1`
+- Executed trials: `0`
+- Outputs: `0`
+- Scores: `0`
+- Reveals: `0`
+- Empirical decode rates: `0`
+- Carriers: `0`
+- Covenant payloads: `0`
+- CSR payloads: `0`
+- Response protocols: `0`
+- Transmissions: `0`
+
+One exact Anthropic configuration is prepared for a future manual
+zero-incremental-cost browser trial. `Fable 5` is selected by displayed UI
+label only; no backend model identity is independently verified. The future
+execution requires a new Claude Incognito Chat with web search, connectors,
+Projects, Claude Code, Cowork, and browser control absent or disabled.
+
+No input has been supplied. No recovered decoder level, output, score, reveal,
+empirical result, or empirical decode rate exists. Trial execution requires
+the public package to be reviewed and committed, private custody-integrity
+verification to be reconfirmed, and every model, tool-isolation, credit,
+no-spillover, and USD `0` gate to pass. No higher layer, carrier, distribution,
+or transmission is authorized.
+
+Private custody-integrity verification is the custodian's private,
+nonrevealing recomputation that sealed files, manifests, preimages, and
+commitments still match. It is required during preparation and immediately
+before execution, exposes no private material to the decoder or
+pre-output-freeze scoring context, is not reveal-stage verification, and
+creates no decoding result.
+
+Reveal-stage commitment verification occurs only after the complete raw output
+and complete score have frozen and after the relevant private preimages,
+manifests, mapping, solution, and scorecard materials are revealed under later
+authorization. Every mismatch or failed verification remains preserved.
+Public recording requires separate authorization, and verification cannot
+change the frozen output or score.
+
+TR-001's fixed order is: freeze private configuration and packet; perform
+private custody-integrity verification; publish and commit the public package;
+reconfirm private custody-integrity verification immediately before
+execution; execute exactly one permitted run; freeze the complete raw output
+and metadata; classify validity and score; freeze the complete score; reveal
+the authorized private materials; perform reveal-stage commitment
+verification; preserve every mismatch, deviation, failure, and alternative
+interpretation; and consider publication only through a later explicit
+decision.
 
 ## Discovery
 
@@ -144,7 +212,8 @@ Evaluation is structured by the
 and
 [blank scorecard](beacon/BSR-001/templates/DECODER-SCORECARD-TEMPLATE.md).
 SIG-001 instantiates a totally ordered two-event-class model and repository
-`x/y` serialization. No decoder or trial is instantiated.
+`x/y` serialization. One decoder configuration is prepared, but no decoder
+execution or result is instantiated.
 
 ## Covenant Payload
 
@@ -169,8 +238,8 @@ and
 [Holdout and Contamination Controls](beacon/BSR-001/06-HOLDOUT-AND-CONTAMINATION-CONTROLS.md).
 SIG-001 preserves a public administrator solution and pre-stream chronology.
 One sealed-holdout commitment now exists. Its private mapping and package
-remain unrevealed, and no decoder selection, prompt execution, output, score,
-or result exists.
+remain unrevealed. One decoder configuration and input-packet commitment are
+prepared, but no prompt execution, output, score, reveal, or result exists.
 
 ## Error Correction and Redundancy
 
@@ -204,6 +273,10 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-30: Added one prepared and authorized Fable 5 sealed-holdout trial
+  record without executing a decoder, creating an output or score, revealing
+  the holdout, adding a higher layer, selecting a carrier, or authorizing
+  distribution or transmission.
 - 2026-07-29: Added the sealed-holdout evidence track and first public
   commitment without authorizing decoder selection, trial execution, reveal,
   higher-layer payload, carrier, distribution, or transmission.

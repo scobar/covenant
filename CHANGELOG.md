@@ -119,9 +119,26 @@ All notable project changes will be documented in this file.
 - Private off-repository holdout package with frozen transformation,
   scorecard, validity policy, instruction, solution, chronology, stream,
   manifest, and commitment preimage.
+- Live Beacon decoding-trial registry.
+- TR-001 public trial charter.
+- Anthropic Fable 5 decoder-selection and cost record.
+- Browser execution and output-freeze protocol.
+- Private two-file trial packet.
+- Private trial preparation and packet manifests.
+- Public trial-packet commitment.
+- Frozen public trial-preparation manifest.
 
 ### Changed
 
+- Beacon records now distinguish private custody-integrity verification,
+  public commitment, execution, output freeze, scoring, authorized reveal,
+  reveal-stage commitment verification, and publication.
+- Repository guidance now protects one-run browser trials and prohibits
+  substantive retries or follow-up prompting.
+- README and STATUS now record one prepared Fable 5 trial without claiming
+  execution or evidence.
+- D-023 authorizes one later zero-cost manual execution after public commit and
+  full private custody-integrity and execution-gate verification.
 - Separately labeled refinements to the three founding statements are
   preserved alongside the original answers.
 - Moral-kernel placeholder now links to its evaluation framework.

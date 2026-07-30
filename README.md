@@ -66,8 +66,8 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [Choice Protocol](05-CHOICE-PROTOCOL.md) — draft case-triggered requirements
   inventory for comprehension and response.
 - [Beacon Specification and Bootstrap Research Index](06-BEACON-SPECIFICATION.md)
-  — noncanonical BSR-001 and live-evidence index; no decoding trial or
-  transmission authorized.
+  — noncanonical BSR-001 and live-evidence index; one trial is prepared, no
+  decoding trial is executed, and no transmission is authorized.
 - [BSR-001 Beacon Design Goal](beacon/BSR-001/00-BEACON-DESIGN-GOAL.md) —
   exact engineering objective, limitation, and research boundary.
 - [BSR-001 Signal-Attempt Registry](beacon/BSR-001/03-SIGNAL-ATTEMPT-REGISTRY.md)
@@ -90,6 +90,18 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — sole public cryptographic identity and reveal conditions.
 - [SIG-001-HO-001 Public Manifest](beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md)
   — frozen two-row public-package identity and same-tooling audits.
+- [Live Decoding-Trial Registry](beacon/TRIAL-REGISTRY.md) — current
+  noncanonical trial-preparation state, separate from execution and evidence.
+- [TR-001 Public Charter](beacon/trials/SIG-001-HO-001-TR-001/00-PUBLIC-TRIAL-CHARTER.md)
+  — scope, configuration, chronology, limitations, and nonclaims.
+- [TR-001 Decoder Selection Record](beacon/trials/SIG-001-HO-001-TR-001/01-DECODER-SELECTION-RECORD.md)
+  — exact Anthropic Fable 5 browser selection and zero-cost boundary.
+- [TR-001 Execution and Freeze Protocol](beacon/trials/SIG-001-HO-001-TR-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md)
+  — nonrevealing one-run, retry, output-freeze, and reveal chronology.
+- [TR-001 Packet Commitment Record](beacon/trials/SIG-001-HO-001-TR-001/03-PACKET-COMMITMENT-RECORD.md)
+  — sole authorized public commitment to the private trial preparation.
+- [TR-001 Public Trial-Preparation Manifest](beacon/trials/SIG-001-HO-001-TR-001/04-PUBLIC-TRIAL-PREPARATION-MANIFEST.md)
+  — frozen four-row public preparation-package identity.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -410,11 +422,12 @@ freezes.
 - It contains no Covenant, CSR, physical, agency, choice, response, carrier,
   distribution, or transmission content.
 - It has not been supplied to any decoder.
-- Trials: `0`
+- Prepared trial records: `1`
+- Executed trials: `0`
 - Outputs: `0`
 - Scores: `0`
 - Reveals: `0`
-- Selected decoders: `0`
+- Selected provider/model configurations: `1`
 - No empirical decode rate exists.
 - No universal-decoding, equivalence, ignorance, independence, or authority
   claim follows from the commitment.
@@ -423,6 +436,46 @@ freezes.
 - SIG-001's public attempt and frozen historical zero-holdout snapshot remain
   immutable.
 - D-009 remains Proposed.
+
+## Prepared Fable 5 Holdout Trial
+
+> **PREPARED HOLDOUT DECODING TRIAL SIG-001-HO-001-TR-001 v0.1 — NONCANONICAL — NOT EXECUTED**
+
+- One trial package is prepared and authorized but not executed.
+- Provider: Anthropic.
+- Displayed model label: Fable 5.
+- Interface: claude.ai standard Chat.
+- Conversation mode: new Claude Incognito Chat.
+- Web search and connectors must remain disabled.
+- Promotional credit was available at qualification.
+- Auto-reload is off.
+- Paid spillover is disabled.
+- Incremental-spend cap is USD `0`.
+- Requested valid runs: `1`.
+- Maximum technical retries: `1`.
+- Substantive retries: `0`.
+- The selected model label is not a verified backend identifier.
+- No input has been supplied.
+- No output, score, reveal, or empirical decode rate exists.
+- The decoder later receives only a neutral instruction and sealed sequence.
+- Output freezes before scoring.
+- Private custody-integrity verification is required during preparation and
+  immediately before execution; it is nonrevealing and is not decoding
+  evidence.
+- Complete score freezes before authorized reveal.
+- Reveal-stage commitment verification follows authorized reveal and preserves
+  every mismatch or failure without changing the frozen output or score.
+- Current ChatGPT and Codex contexts cannot be blind decoders.
+- No higher-layer content or carrier is involved.
+- D-009 remains Proposed.
+
+Claude Incognito Chat reduces some visible prior-conversation exposure but
+does not prove absent hidden context or training exposure. Promotional credit
+avoids incremental project spending but does not create independent evaluator
+diversity. One future model run is one bounded datapoint. Success at a
+lower level would not establish Levels 5–9; failure would not establish
+universal undecodability. No candidate, Covenant, CSR, response, distribution,
+or transmission follows.
 
 ## Cooperative Surplus and Adoption Research
 
@@ -464,18 +517,30 @@ freezes.
 
 The current working sequence is:
 
-1. Preserve all prior evidence.
-2. Preserve the public SIG-001 attempt.
-3. Preserve the sealed holdout outside Git.
-4. Commit only its public commitment and nonrevealing protocol.
-5. Require a later decision before decoder selection or execution.
-6. Supply only the frozen private instruction and stream to a fresh decoder.
-7. Freeze output before scoring.
-8. Freeze score before reveal.
-9. Verify the commitment during reveal.
-10. Preserve failures, contamination, and unexpected interpretations.
-11. Add no higher-layer content or carrier.
-12. Infer no universal probability.
+1. Freeze private configuration and packet.
+2. Perform private custody-integrity verification.
+3. Publish and commit the public preparation package.
+4. Reconfirm private custody-integrity verification immediately before
+   execution.
+5. Execute exactly one permitted decoder run.
+6. Freeze the complete raw output and execution metadata.
+7. Perform validity classification and scoring.
+8. Freeze the complete score.
+9. Reveal the authorized private preimages, manifests, mapping, solution, and
+   scorecard materials.
+10. Perform reveal-stage commitment verification.
+11. Preserve every mismatch, deviation, failure, and alternative
+    interpretation.
+12. Consider publication only through a later explicit decision.
+
+Private custody-integrity verification is a private custodian recomputation
+that reveals nothing publicly, supplies no private material to the decoder or
+pre-output-freeze scoring context, is not reveal-stage verification, and
+creates no decoding result. Reveal-stage commitment verification occurs only
+after output and complete score freeze; preserves every failed verification;
+requires separate authorization for public recording; and cannot change the
+frozen output or score. No private solution or mapping may be supplied to
+Claude, and no output may be supplied to ChatGPT before score freeze.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

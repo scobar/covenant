@@ -442,10 +442,17 @@ Require that:
 - Design-exposed contexts cannot later be blind decoders.
 - A future decoder receives only the frozen neutral instruction and holdout
   stream.
+- Private custody-integrity verification is required during preparation and
+  immediately before execution. It is a private, nonrevealing custodian check,
+  not reveal-stage verification or decoding evidence.
 - Decoder output freezes before scoring.
 - Score freezes before solution reveal.
-- Commitment verification occurs after output and score freeze.
-- An invalid commitment verification remains visible.
+- Authorized private preimages, manifests, mappings, solutions, and scorecard
+  materials remain unrevealed until after complete score freeze.
+- Reveal-stage commitment verification occurs only after authorized reveal and
+  after both output and complete score freeze.
+- Every mismatch or failed reveal-stage commitment verification remains
+  visible and cannot retroactively change the frozen output or score.
 - No result may be rerun, discarded, or hidden because it is unfavorable.
 - A holdout commitment does not prove formal equivalence, ignorance,
   independence, or decodability.
@@ -461,6 +468,73 @@ Require that:
 
 Do not grant a holdout designer, custodian, decoder, scorer, Scott, ChatGPT,
 Codex, or future model final interpretive authority.
+
+## Prepared Browser Decoder Trial Rules
+
+Require that:
+
+- Trial preparation, private custody-integrity verification, public commit,
+  execution, output freeze, scoring, score freeze, authorized reveal,
+  reveal-stage commitment verification, and publication remain separate.
+- A browser model label is not an independently verified backend ID.
+- The selected provider, label, interface, and tool state cannot change without
+  another decision.
+- A qualification chat is not an execution chat.
+- A new empty Incognito Chat is required.
+- Only the frozen neutral instruction and sealed sequence may be supplied.
+- No follow-up message is permitted.
+- Web search, connectors, Projects, Claude Code, Cowork, browser control, and
+  unrelated tools remain disabled.
+- Promotional credit and no-spillover state are rechecked before sending.
+- Any payment or upgrade prompt stops the trial.
+- Exactly one valid run is requested.
+- At most one retry is allowed, solely for technical invalidity.
+- Refusal, failure, partial decoding, criticism, indeterminacy, and unexpected
+  conclusions remain valid outputs.
+- Every run is preserved.
+- Output freezes before scoring.
+- Complete score freezes before authorized reveal.
+- Reveal-stage commitment verification follows authorized reveal and preserves
+  every mismatch or failure.
+- Output must not be supplied to a design-exposed ChatGPT context before score
+  freeze.
+- Browser-copy limitations and unavailable settings remain disclosed.
+- No result becomes a universal probability.
+- No lower-level result establishes physical, agency, moral, Covenant, CSR,
+  choice, or response recovery.
+- No carrier or transmission follows from preparation.
+- Before executing TR-001, perform private custody-integrity verification of
+  the public preparation manifest, private trial manifest, packet commitment,
+  holdout commitment, and private custody without revealing private material
+  to the decoder or scoring context.
+
+The required TR-001 chronology is:
+
+1. Freeze private configuration and packet.
+2. Perform private custody-integrity verification.
+3. Publish and commit the public preparation package.
+4. Reconfirm private custody-integrity verification immediately before
+   execution.
+5. Execute exactly one permitted decoder run.
+6. Freeze the complete raw output and execution metadata.
+7. Perform validity classification and scoring.
+8. Freeze the complete score.
+9. Reveal the authorized private preimages, manifests, mapping, solution, and
+   scorecard materials.
+10. Perform reveal-stage commitment verification.
+11. Preserve every mismatch, deviation, failure, and alternative
+    interpretation.
+12. Consider publication only through a later explicit decision.
+
+Private custody-integrity verification reveals nothing publicly; exposes no
+mapping, solution, scorecard, preimage, or private identity to the decoder or
+pre-output-freeze scoring context; does not count as reveal; and creates no
+decoding result. Reveal-stage commitment verification requires later
+authorization, preserves failed verification, may be recorded publicly only
+under separate authorization, and cannot alter the frozen output or score.
+
+Do not grant Scott, ChatGPT, Codex, Anthropic, Claude, the browser operator,
+decoder, scorer, or any future model final interpretive authority.
 
 ## Cooperative-Surplus and Adoption Research Rules
 

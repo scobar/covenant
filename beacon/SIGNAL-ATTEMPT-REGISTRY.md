@@ -18,9 +18,13 @@ Frozen. No attempt is preferred merely because it is first or current.
 
 - Registered signal attempts: `1`
 - Frozen signal attempts: `1`
-- Decoding trials: `0`
 - Sealed holdout variants: `1`
 - Unrevealed holdouts: `1`
+- Prepared trial records: `1`
+- Executed trials: `0`
+- Outputs: `0`
+- Scores: `0`
+- Reveals: `0`
 - Selected carriers: `0`
 - Encoded Covenant payloads: `0`
 - Encoded CSR incentives: `0`
@@ -47,5 +51,10 @@ their historical zero-holdout snapshot; the live registry records the later
 variant without editing SIG-001. A holdout is not a new signal attempt, and a
 commitment is not a decoding-trial result.
 
-No decoding trial, output, score, empirical decode rate, reveal, carrier,
+The [decoding-trial registry](TRIAL-REGISTRY.md) records one prepared and
+authorized trial configuration. The frozen SIG-001 manifest and public
+holdout manifest retain their historical checkpoint counts unchanged.
+Preparation and decoder selection are not execution or evidence.
+
+No executed trial, output, score, empirical decode rate, reveal, carrier,
 payload, response protocol, distribution, or transmission exists.

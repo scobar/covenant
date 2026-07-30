@@ -662,6 +662,80 @@
   instruction, cannot be backed up safely, produces an unverifiable
   commitment, or a later task treats the commitment as a decoding result.
 
+### D-023 — Prepare and authorize one zero-cost Claude Fable 5 sealed-holdout trial
+
+- **Date:** 2026-07-30
+- **Status:** Accepted
+- **Question:** Which exact decoder configuration and execution protocol may be
+  used for the first contamination-reduced trial of SIG-001-HO-001?
+- **Decision:** Prepare and authorize SIG-001-HO-001-TR-001 version 0.1 as one
+  zero-incremental-cost external-model sealed-holdout decoding trial. Use
+  Anthropic through ordinary `claude.ai` standard Chat with the exact displayed
+  model label `Fable 5`, in a newly created Claude Incognito Chat outside every
+  Project, with web search, connectors, Claude Code, Cowork, browser control,
+  memory-bearing prior conversation, and unrelated tools disabled or absent.
+  Use only promotional Fable 5 credit already available to Scott’s paid Claude
+  account; auto-reload remains off, paid spillover remains disabled, and the
+  authorized incremental spend is USD 0. Freeze a private packet containing
+  only the exact neutral instruction and sealed holdout sequence, publish only
+  a cryptographic packet commitment, request one valid run, and permit at most
+  one retry solely for technical invalidity. The public preparation package
+  must be reviewed and committed before execution. Private custody-integrity
+  verification is required during preparation and immediately before
+  execution: the authorized custodian privately recomputes sealed-file,
+  manifest, preimage, and commitment relationships without revealing private
+  contents publicly or exposing the mapping, solution, scorecard, preimage, or
+  private identities to the decoder or pre-output-freeze scoring context.
+  That check is not reveal-stage verification and creates no decoding result.
+  The future output freezes before validity review or scoring; the complete
+  score freezes before the holdout mapping, solution, private scorecard
+  answers, private manifests, or commitment preimages are revealed.
+  Reveal-stage commitment verification occurs only after that authorized
+  reveal, preserves every mismatch or failed verification, requires separate
+  authorization for public recording, and cannot retroactively change the
+  frozen output or score. This decision authorizes one later manual execution
+  after every gate is reconfirmed. It does not authorize execution during the
+  preparation task, a second substantive run, model substitution, paid usage,
+  output scoring during the decoder conversation, reveal, publication,
+  empirical-rate interpretation, Covenant or CSR payload, physical profile,
+  response syntax, carrier, distribution, transmission, candidate preference,
+  acceptance, canonicality, supersession, or stabilization.
+- **Reasoning:** A sealed surface-novel holdout can provide stronger evidence
+  of reconstruction than the public SIG-001 stream only if the decoder
+  configuration, exact input packet, run count, retry rules, tool state,
+  output-preservation method, and reveal chronology are fixed before execution.
+  Ordinary Claude web Chat provides a cleaner local-filesystem boundary than
+  Claude Code, while Claude Incognito Chat reduces—but does not prove the
+  absence of—memory and training exposure. Promotional credits permit this
+  single trial without incremental project spending. Naming the displayed
+  model label and browser interface honestly preserves what is observable
+  without claiming an unavailable backend identifier.
+- **Alternatives considered:** Use Claude Code; use an existing conversation;
+  test public SIG-001 first; select Sonnet 5; select an API model; permit web or
+  connectors; ask follow-up questions; permit multiple samples or best-of-N;
+  allow paid spillover; score before preserving output; reveal before score
+  freeze; defer every decoder trial indefinitely.
+- **Consequences:** The live Beacon records one prepared and authorized trial
+  configuration, zero executions, zero outputs, zero scores, and zero reveals.
+  Scott becomes the manual operator but gains no interpretive authority.
+  ChatGPT and the current Codex thread remain design-exposed and cannot be the
+  blind decoder. The browser interface does not expose temperature, seed,
+  hidden system prompt, backend routing, or an immutable model identifier;
+  those limitations remain part of the evidence record. A substantive refusal,
+  failed decode, partial decode, or unexpected interpretation is preserved as
+  the single valid result rather than rerun. No universal probability or
+  higher-layer conclusion follows.
+- **Revisit conditions:** Revisit if Fable 5 is no longer selectable, the
+  displayed label changes, promotional credit is unavailable, payment or
+  spillover becomes possible, Incognito Chat or tool isolation cannot be
+  confirmed, browser-control or connectors cannot be disabled, the input
+  packet or a private custody-integrity verification fails, the private
+  package or backup is unavailable, the output cannot be preserved completely,
+  an unauthorized context sees the holdout, reveal-stage commitment
+  verification later fails, a technical retry would exceed the authorized
+  limit, or a later task treats preparation as execution or one result as
+  universal evidence.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization
