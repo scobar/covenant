@@ -294,6 +294,43 @@ Require that:
 Do not grant any reviewer, administrator, Scott, ChatGPT, Codex, or model final
 interpretive authority.
 
+## Zero-Budget External Review Micro-Pilot Rules
+
+Require that:
+
+- PX-001 is optional and may remain dormant indefinitely.
+- Project progress must not depend on obtaining unpaid human labor.
+- USD `0` compensation must be disclosed before any human agreement.
+- No unpaid reviewer may be selected from a relationship where refusal carries
+  a meaningful employment, financial, educational, housing, family, or
+  opportunity cost.
+- Silence or nonresponse is treated as decline.
+- No repeated solicitation is permitted.
+- Expected time and a requested maximum must be disclosed.
+- A volunteer may stop without consequence.
+- Publication consent remains separate from participation.
+- No payment, gift, future work, endorsement, or benefit depends on outcome or
+  publication.
+- Human-unassisted and human-AI-assisted reviews remain separate method
+  classes.
+- A zero-cost model unit must create no incremental API, token, cloud,
+  subscription-upgrade, or trial cost.
+- No scarce paid credits needed elsewhere may be consumed.
+- An unavailable human or model unit is deferred, not silently replaced.
+- No unit quota must be met.
+- A micro-review is not a complete ERX-001 review and does not satisfy D-009.
+- Candidate-specific responses freeze before comparison.
+- The short-form dimension subset must not be represented as full framework
+  coverage.
+- Process learning must not be converted into candidate preference.
+- Before administering PX-001, agents must read all PX-001 and ERX-001 files
+  and verify both manifests.
+- No invitation, provider selection, packet assembly, or execution occurs
+  without later explicit authorization.
+
+Do not grant any volunteer, administrator, model, Scott, ChatGPT, or Codex
+final interpretive authority.
+
 ## Editing Rules
 
 - Make the smallest authorized change.

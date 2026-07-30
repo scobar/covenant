@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-29
 
-**Current phase:** Neutral external-review package preparation before comparative preference
+**Current phase:** Zero-budget external-review micro-pilot planning
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -72,8 +72,36 @@ specification, or governance system exists.
     `afd0cd936ba27465b201a26fa118cae4ec67ccf6e547c207259579bf7abf9003`
   - Git blob: `974b0353a68b69360966ecf34af36af268fa6a49`
   - Byte count: `15853`
+- ERX-001 remains committed and unchanged.
+- D-018 authorizes PX-001 zero-budget planning only.
+- PX-001 micro-pilot charter, optional human and model tracks, short review
+  form, administration/privacy/stop rules, and readiness checklist prepared.
+- PX-001 manifest completed and audited:
+  - Raw SHA-256:
+    `910f92865679db326eeaa8ed3c8765fc784d6159e2d1f1bb6f0e37f61b402912`
+  - Git blob: `3ce90c40a8e2d22b5b96d7b6d107b04473ca5032`
+  - Byte count: `10213`
 
 ## Current Work
+
+### PX-001 Planning Status
+
+- No human reviewer has been selected, contacted, recruited, invited, or
+  assigned.
+- No external model provider or model has been selected.
+- No mapping, nonce, commitment, packet, response, payment, consent record, or
+  review exists.
+- No micro-pilot execution has begun.
+- Human compensation budget is USD `0`.
+- Incremental model, cloud, API, and token budget is USD `0`.
+- Unit H is optional.
+- Unit M is optional.
+- Required completed-unit count is `0`.
+- PX-001 may remain dormant indefinitely.
+- Neither candidate is preferred, accepted, or superseding.
+- D-009 remains `Proposed`.
+- No MK-0.3 exists.
+- No Beacon work has begun.
 
 ### ERX-001 Preparation Status
 
@@ -142,15 +170,16 @@ specification, or governance system exists.
 
 ## Next Proposed Architectural Work
 
-1. Architectural review of ERX-001 before commit.
-2. If committed, consider a separate decision authorizing a small external
-   review pilot.
-3. Define the pilot's reviewer-selection, compensation, privacy, assignment,
-   and retention boundaries before contacting anyone.
-4. Optionally conduct the matched MK-0.1 mechanical/minimality review through a
-   separate task.
-5. Preserve both candidate lineages and all dissent.
-6. Do not begin comparative preference or Beacon work.
+1. Architectural review of PX-001 before commit.
+2. If committed, leave PX-001 dormant unless a suitable volunteer independently
+   and freely agrees or qualifying zero-cost external-model access is available.
+3. Require a separate later decision before any invitation, provider/model
+   selection, mapping, packet assembly, or review execution.
+4. Do not spend money or activate paid services.
+5. Continue other Covenant work without treating external-review dormancy as a
+   failure.
+6. Preserve both candidate lineages and all dissent.
+7. Do not begin comparative preference or Beacon work.
 
 ## Document Status
 
@@ -206,6 +235,13 @@ specification, or governance system exists.
 | `external-review/ERX-001/templates/ASSIGNMENT-RECORD-TEMPLATE.md` | Blank administrator assignment template — no mapping exists |
 | `external-review/ERX-001/templates/REVIEW-PACKET-COVER-TEMPLATE.md` | Blank reviewer-facing packet-cover template — no packet assembled |
 | `external-review/ERX-001/templates/SUBMISSION-RECORD-TEMPLATE.md` | Blank administrator submission template — no submission exists |
+| `external-review/PX-001/00-MICRO-PILOT-CHARTER.md` | Draft zero-budget micro-pilot charter — planning only |
+| `external-review/PX-001/01-VOLUNTEER-HUMAN-TRACK.md` | Draft optional volunteer human-unassisted track — no reviewer selected |
+| `external-review/PX-001/02-ZERO-COST-MODEL-TRACK.md` | Draft optional zero-incremental-cost model track — no provider or model selected |
+| `external-review/PX-001/03-MICRO-REVIEW-FORM.md` | Blank short eight-dimension micro-review form — no response exists |
+| `external-review/PX-001/04-ADMINISTRATION-PRIVACY-AND-STOP-RULES.md` | Draft administration, privacy, retention, and stop rules — no administration begun |
+| `external-review/PX-001/05-READINESS-CHECKLIST.md` | Draft gated readiness checklist — execution gates not satisfied |
+| `external-review/PX-001/06-PILOT-MANIFEST.md` | Frozen PX-001 plan manifest v0.1 — no reviewer or model selected |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
 | `06-BEACON-SPECIFICATION.md` | Draft placeholder |

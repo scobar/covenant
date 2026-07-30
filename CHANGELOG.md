@@ -67,6 +67,13 @@ All notable project changes will be documented in this file.
 - External-result integration plan.
 - Assignment, packet-cover, and submission templates.
 - Frozen ERX-001 package manifest.
+- PX-001 zero-budget external-review micro-pilot charter.
+- Optional uncompensated volunteer human-unassisted track.
+- Optional zero-incremental-cost non-OpenAI model track.
+- Short eight-dimension micro-review form.
+- Zero-budget administration, privacy, retention, and stop rules.
+- Micro-pilot readiness checklist.
+- Frozen PX-001 plan manifest.
 
 ### Changed
 
@@ -151,3 +158,8 @@ All notable project changes will be documented in this file.
 - ERX-001 now defines an off-repository salted mapping commitment for later
   pilot use.
 - Reviewer-neutrality validation now includes populated-template simulation.
+- Repository guidance now protects voluntary refusal and prevents project
+  dependence on unpaid review labor.
+- README and project status now record zero-budget pilot planning without
+  claiming outreach or execution.
+- D-018 records the optional zero-budget scope and USD `0` spending boundary.

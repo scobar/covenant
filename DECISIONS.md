@@ -403,6 +403,51 @@
   burdensome to administer responsibly, or a later task mistakes package
   preparation for external validation.
 
+### D-018 — Define a zero-budget voluntary external-review micro-pilot
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** What external-review pilot can the project responsibly plan
+  when no budget is available for human compensation, paid model access, cloud
+  services, APIs, or additional token purchases?
+- **Decision:** Create PX-001 as a preparation-only, zero-incremental-cost
+  micro-pilot plan. It may later support at most one uncompensated volunteer
+  human-unassisted paired micro-review and at most one paired external-model
+  micro-review using already-available non-OpenAI access that creates no
+  incremental charge. Both units are optional and may remain unavailable
+  indefinitely. Each unit uses frozen SC-008 only and a deliberately shortened
+  eight-dimension review form. Human compensation, model usage, cloud, API, and
+  token budgets are each fixed at USD `0`. No reviewer or provider selection,
+  outreach, assignment, mapping, packet assembly, execution, publication,
+  result integration, candidate preference, supersession, or stabilization is
+  authorized.
+- **Reasoning:** External criticism remains valuable, but the project must not
+  create financial strain, imply entitlement to unpaid labor, or block progress
+  on unavailable resources. A single-scenario short-form micro-pilot can test
+  consent, burden, packet integrity, response freezing, and disclosure without
+  pretending to complete the external-review program. Making both units
+  optional preserves the ability to wait for genuinely voluntary participation
+  or qualifying zero-cost model access.
+- **Alternatives considered:** Commit to compensated review without available
+  funds; request several unpaid reviewers; use paid APIs or cloud services;
+  run only internal OpenAI-family reviews; abandon all external-review
+  preparation; require a volunteer before other project work may continue;
+  use the complete fifteen-dimension ERX form despite the unpaid burden.
+- **Consequences:** PX-001 becomes a public noncanonical plan that may remain
+  dormant. No human is owed or expected to contribute labor. No project money
+  is committed or spent. Any later volunteer review must disclose USD `0`
+  compensation, expected burden, withdrawal rights, and separate publication
+  consent. Any model review must incur zero incremental cost and use a
+  non-OpenAI provider under fresh-context rules. A micro-review is bounded
+  process evidence, not complete external validation, candidate preference,
+  D-009 satisfaction, consensus, or moral authority.
+- **Revisit conditions:** Revisit if project funding becomes available, a
+  suitable reviewer requests compensation, the short form remains too
+  burdensome, no qualifying zero-cost model access exists, voluntary refusal
+  cannot be protected, procedural label blinding proves impractical, a later
+  task treats dormancy as failure, or a micro-review is overstated as complete
+  external evaluation.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

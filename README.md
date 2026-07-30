@@ -104,6 +104,11 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [ERX-001 Package Manifest](external-review/ERX-001/11-PACKAGE-MANIFEST.md)
   — frozen identities and audience classifications for the preparation
   package.
+- [PX-001 Micro-Pilot Charter](external-review/PX-001/00-MICRO-PILOT-CHARTER.md)
+  — optional zero-budget external-review micro-pilot plan; no reviewer or
+  model selected.
+- [PX-001 Pilot Manifest](external-review/PX-001/06-PILOT-MANIFEST.md) —
+  frozen identities and fixed parameters for the plan; no review executed.
 - [Decision Log](DECISIONS.md) — accepted process decisions and open decisions.
 - [Changelog](CHANGELOG.md) — human-readable record of project changes.
 
@@ -253,20 +258,56 @@ Package documents:
 - [Model track](external-review/ERX-001/08-MODEL-REVIEW-TRACK.md)
 - [Package manifest](external-review/ERX-001/11-PACKAGE-MANIFEST.md)
 
+## Zero-Budget External Review Micro-Pilot Planning
+
+- ERX-001 defines the reusable external-review method.
+- PX-001 defines an optional micro-pilot but executes nothing.
+- The plan reflects the project's present resource constraints.
+- Planned optional units:
+  - At most one uncompensated volunteer human-unassisted paired micro-review.
+  - At most one zero-incremental-cost non-OpenAI external-model paired
+    micro-review.
+- SC-008 is the only planned scenario.
+- The human form is intentionally shortened to eight targeted dimensions.
+- Human compensation is USD `0`.
+- Incremental model, cloud, API, and token spend is USD `0`.
+- No reviewer or provider has been selected.
+- No person has been contacted.
+- No mapping, packet, nonce, commitment, response, consent record, or review
+  exists.
+- Either unit may be deferred indefinitely.
+- No unit completion is required.
+- No winner, vote, aggregate score, preference, or supersession is requested.
+- D-009 remains `Proposed`.
+- Beacon work remains deferred.
+
+Plan documents:
+
+- [Micro-pilot charter](external-review/PX-001/00-MICRO-PILOT-CHARTER.md)
+- [Volunteer human track](external-review/PX-001/01-VOLUNTEER-HUMAN-TRACK.md)
+- [Zero-cost model track](external-review/PX-001/02-ZERO-COST-MODEL-TRACK.md)
+- [Micro-review form](external-review/PX-001/03-MICRO-REVIEW-FORM.md)
+- [Administration, privacy, and stop rules](external-review/PX-001/04-ADMINISTRATION-PRIVACY-AND-STOP-RULES.md)
+- [Readiness checklist](external-review/PX-001/05-READINESS-CHECKLIST.md)
+- [Pilot manifest](external-review/PX-001/06-PILOT-MANIFEST.md)
+
 ## Working Method
 
 The current working sequence is:
 
-1. Preserve the Founding Ethos, both candidates, and all prior evidence.
-2. Prepare ERX-001 under D-017.
-3. Review the package before commit.
-4. Authorize any pilot through a separate later decision.
-5. Create assignment mappings outside the repository.
-6. Freeze candidate-specific external responses before comparison.
-7. Preserve disclosures, prompts, raw outputs, consent, and dissent.
-8. Integrate results without voting or aggregation.
-9. Require a later explicit decision for candidate preference or supersession.
-10. Continue deferring Beacon optimization.
+1. Preserve the Founding Ethos, both candidate lineages, all prior evidence,
+   and ERX-001.
+2. Prepare PX-001 under D-018.
+3. Review and commit the zero-budget plan.
+4. Permit dormancy without blocking other Covenant work.
+5. Require a later decision before any invitation or model selection.
+6. Require readiness gates before packet assembly or execution.
+7. Freeze candidate-specific responses before comparison.
+8. Preserve exposure, dissent, partial completion, and method classification.
+9. Integrate no result through voting or aggregation.
+10. Require a later explicit decision for candidate preference or
+    supersession.
+11. Continue deferring Beacon optimization.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.
