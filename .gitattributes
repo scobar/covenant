@@ -3,4 +3,5 @@ cases/**/*.md text eol=lf
 reviews/**/*.md text eol=lf
 external-review/**/*.md text eol=lf
 beacon/**/*.md text eol=lf
+beacon/**/*.txt text eol=lf
 cooperation/**/*.md text eol=lf

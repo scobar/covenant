@@ -79,6 +79,20 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — separate public-attempt and sealed-holdout methods.
 - [BSR-001 Research Manifest](beacon/BSR-001/09-RESEARCH-MANIFEST.md) —
   frozen dependency identities, boundaries, and preparation audits.
+- [Live Signal-Attempt Registry](beacon/SIGNAL-ATTEMPT-REGISTRY.md) — current
+  noncanonical attempt state without changing BSR-001's historical snapshot.
+- [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
+  scope, intended Decoder Levels 0–4, and non-goals.
+- [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
+  — frozen objective recovery thresholds.
+- [SIG-001 Trial-Validity Policy](beacon/attempts/SIG-001/05-TRIAL-VALIDITY-AND-CONTAMINATION.md)
+  — frozen validity, retry, and contamination rules.
+- [SIG-001 Event Stream](beacon/attempts/SIG-001/08-EVENT-STREAM.txt) — exact
+  public two-event-class sequence.
+- [SIG-001 Attempt Record](beacon/attempts/SIG-001/09-ATTEMPT-RECORD.md) —
+  frozen identity, chronology, scope, and nonclaims.
+- [SIG-001 Manifest](beacon/attempts/SIG-001/10-ATTEMPT-MANIFEST.md) — frozen
+  ten-file dependency identities and conformance evidence.
 - [CSR-001 Adoption Problem](cooperation/CSR-001/00-ADOPTION-PROBLEM.md) —
   research question and twelve distinct stages from detection through
   continued participation.
@@ -323,7 +337,8 @@ Plan documents:
 > **This is an engineering objective, not a claim of universal decodability. Every signal attempt must disclose its receiver assumptions and be tested without supplying an Earth-language explanation of the signal’s content.**
 
 - BSR-001 establishes research and evaluation before SIG-001.
-- No signal attempt exists.
+- BSR-001's historical registry remains frozen at zero attempts.
+- The live registry now records SIG-001 as the first Frozen public attempt.
 - No decoder trial has run.
 - No carrier has been selected.
 - No Covenant candidate has been encoded.
@@ -339,6 +354,39 @@ Plan documents:
 - Cooperative incentive and adoption remain separate in CSR-001.
 - PX-001 may remain dormant while BSR-001 research continues.
 - D-009 remains Proposed.
+
+## SIG-001 — First Lower-Level Signal Attempt
+
+> **FROZEN PUBLIC SIGNAL ATTEMPT SIG-001 v0.1 — NONCANONICAL — NO DECODING TRIAL EXECUTED**
+
+- SIG-001 is the first exact public event-stream attempt.
+- It targets Decoder Levels 0–4 only.
+- It teaches artificiality, framing, positive-integer quantity, arithmetic,
+  Boolean relations, and prefix grammar.
+- Its scorecard, validity policy, contamination policy, receiver assumptions,
+  event model, and solution key were frozen before the event stream.
+- It contains no physical reference, agents, moral semantics, Covenant text,
+  cooperative incentive, response syntax, carrier, or transmission plan.
+- Event-stream SHA-256:
+  `b4e6a8b7a00b18e12e4816c44975ea0921cf4330504c744a72b8abf9dbf2b144`
+- Lifecycle: `Frozen`
+- Decoding trials: `0`
+- Holdouts: `0`
+- Empirical decode rate: None
+- No model or human has validly decoded it.
+- Scott Barbian, ChatGPT, Codex, and every design-exposed context are known
+  contaminated for blind exact-SIG-001 decoding.
+- Public availability creates recognition, retrieval, and future
+  training-contamination risk.
+- No decoding result or universal probability follows.
+- D-009 remains Proposed.
+- Both moral-kernel candidates remain unchanged and unpreferred.
+
+`Frozen` identifies exact historical signal evidence. It does not mean
+decoded, successful, validated, accepted, canonical, or suitable for
+transmission. Although the administrator solution is publicly discoverable,
+it must be withheld from an active decoder context until that context's output
+freezes.
 
 ## Cooperative Surplus and Adoption Research
 
@@ -371,7 +419,8 @@ Plan documents:
 - BSR-001 concerns decodability.
 - CSR-001 concerns voluntary participation after comprehension.
 - No CSR content is encoded in a signal.
-- SIG-001 remains unauthorized.
+- D-021 authorizes SIG-001 only; it authorizes no cooperative content or
+  participation mechanism.
 - PX-001 may remain dormant.
 - D-009 remains Proposed.
 
@@ -379,24 +428,17 @@ Plan documents:
 
 The current working sequence is:
 
-1. Preserve the Founding Ethos, candidate lineages, all prior evidence,
-   ERX-001, PX-001, and BSR-001.
-2. Establish CSR-001 before designing an adoption mechanism or Beacon
-   cooperation offer.
-3. Review and commit CSR-001.
-4. Freeze any later adoption hypothesis before evaluation.
-5. Preserve baseline protection independently of participation.
-6. Permit informed rejection.
-7. Implement no trust score, token, blockchain, market, resource pool, or
-   access tier without later explicit authorization.
-8. Require a later decision before SIG-001.
-9. If SIG-001 is later authorized, freeze its scorecard before evaluating its
-   event stream.
-10. Encode no Covenant or cooperative incentive without separate payload
-    authorization.
-11. Select no carrier, distribution, or transmission method without a later
-    decision.
-12. Preserve dissent and the no-universal-adoption boundary.
+1. Preserve all prior Covenant, external-review, BSR, and CSR evidence.
+2. Preserve SIG-001's pre-stream chronology and immutable bytes.
+3. Review and commit SIG-001 before any trial.
+4. Require a later accepted decision before creating a trial packet, holdout,
+   or running a decoder.
+5. Freeze decoder output before solution reveal.
+6. Preserve public-attempt and holdout evidence separately.
+7. Infer no higher-level or universal success from lower-level recovery.
+8. Add no Covenant or CSR payload without separate authorization.
+9. Select no carrier or transmission method without a later decision.
+10. Preserve failure, partial recovery, contamination, and dissent.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

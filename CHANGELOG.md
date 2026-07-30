@@ -100,6 +100,18 @@ All notable project changes will be documented in this file.
 - No-universal-adoption-guarantee record.
 - Blank adoption-hypothesis and cooperative-offer templates.
 - Frozen CSR-001 research manifest.
+- Live Beacon signal-attempt registry.
+- SIG-001 lower-level attempt charter.
+- SIG-001 receiver-assumption ledger.
+- Two-event-class event model and hierarchical framing.
+- Exact arithmetic, Boolean, and prefix-language specification.
+- Frozen pretrial Decoder Levels 0–4 scorecard.
+- Frozen trial-validity and contamination policy.
+- Administrator solution and query key.
+- Pre-stream design freeze record.
+- Exact public SIG-001 event stream.
+- Frozen SIG-001 attempt record.
+- Frozen SIG-001 manifest.
 
 ### Changed
 
@@ -204,3 +216,10 @@ All notable project changes will be documented in this file.
 - D-020 authorizes cooperative-surplus and adoption research before mechanism
   design.
 - Cooperation Markdown is pinned to LF for reproducible identities.
+- Beacon Specification now indexes one Frozen public attempt.
+- Repository guidance now requires a verifiable pre-stream scorecard and
+  validity freeze.
+- README and STATUS now record SIG-001 without claiming a decode or trial.
+- D-021 authorizes SIG-001 creation but no trial, payload, carrier, or
+  transmission.
+- Beacon text event streams are pinned to LF.

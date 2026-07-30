@@ -2,8 +2,8 @@
 
 **Last updated:** 2026-07-29
 
-**Current phase:** Cooperative-surplus and adoption-incentive research before
-any participation mechanism or signal offer
+**Current phase:** First frozen lower-level Beacon signal attempt; no decoding
+trial executed
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -118,6 +118,18 @@ specification, or governance system exists.
     `96eea04017f949db75449fb8646711eef0fde5f55efc9b887d8ec7b180a5e30d`
   - Git blob: `e6789bc8e68dfc9d896002a2d110311eb2fad4aa`
   - Byte count: `10278`
+- CSR-001 remains committed and unchanged.
+- D-021 authorizes SIG-001 only.
+- SIG-001 pre-stream design package completed.
+- Two fresh, separate, read-only pre-stream audits completed.
+- Pre-stream freeze record completed before event-stream creation.
+- Exact SIG-001 event stream generated and verified.
+- SIG-001 attempt record and live registry created.
+- SIG-001 manifest completed and audited:
+  - Raw SHA-256:
+    `271b9f0811f4c45adcc9d60aeabc98aa6566f189e933cd31f4ea95ed5bf8778e`
+  - Git blob: `cf34dc68d6b74aae82f88c2e5d50ac1694e48337`
+  - Byte count: `9611`
 
 ## Current Work
 
@@ -135,20 +147,23 @@ specification, or governance system exists.
 
 ### Beacon
 
-- BSR-001 remains research only.
-- Signal-attempt count: `0`.
-- Decoding-trial count: `0`.
-- Holdout count: `0`.
-- Selected-carrier count: `0`.
-- Encoded-Covenant-payload count: `0`.
-- Transmission count: `0`.
+- BSR-001 remains frozen research.
+- Live signal-attempt count: `1`.
+- Frozen attempts: `1`.
+- Decoding trials: `0`.
+- Holdouts: `0`.
+- Selected carriers: `0`.
+- Encoded Covenant payloads: `0`.
+- Encoded CSR incentives: `0`.
+- Response protocols: `0`.
+- Transmissions: `0`.
+- SIG-001 lifecycle: `Frozen`.
+- SIG-001 intended levels: `0–4`.
 - No empirical decode rate exists.
-- No universal-decoding claim exists.
-- No response protocol exists.
+- No valid decoder result exists.
 - No final physical reference profile exists.
-- SIG-001 remains unauthorized.
 
-### Cooperative surplus and adoption
+### Cooperative surplus
 
 - CSR-001 is research only.
 - Participants: `0`.
@@ -168,18 +183,17 @@ specification, or governance system exists.
 
 ## Next Proposed Architectural Work
 
-1. Architectural review of CSR-001 before commit.
-2. If committed, decide through a separate task whether the next milestone is:
-   - A first frozen adoption-hypothesis evaluation; or
-   - A narrowly scoped SIG-001 design limited to lower decoder levels and
-     containing no Covenant or cooperative-incentive payload.
-3. Require a separate accepted decision before either path.
-4. Freeze all applicable evaluation criteria before creating or testing an
-   artifact.
-5. Preserve both candidate lineages and all dissent.
-6. Permit PX-001 dormancy.
-7. Do not create a participation mechanism, resource exchange, candidate
-   preference, carrier, payload, or transmission.
+1. Architectural review of SIG-001 before commit.
+2. If committed, choose through a separate decision among:
+   - A zero-cost same-tooling blind trial using a fresh unexposed model context,
+     if genuinely available;
+   - Creation of a sealed surface-novel holdout variant before testing;
+   - Additional static design criticism before any decoder trial.
+3. Freeze any trial packet and exact prompt before execution.
+4. Execute no trial through a context exposed to SIG-001 design or solution.
+5. Preserve all results, including failure.
+6. Add no Covenant, CSR, physical, carrier, or response layer.
+7. Do not transmit or distribute SIG-001 as a Beacon.
 
 ## Document Status
 
@@ -244,8 +258,20 @@ specification, or governance system exists.
 | `external-review/PX-001/06-PILOT-MANIFEST.md` | Frozen PX-001 plan manifest v0.1 — no reviewer or model selected |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
-| `06-BEACON-SPECIFICATION.md` | Draft Beacon bootstrap-research index — noncanonical; no signal attempt or transmission authorized |
+| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-attempt index — one Frozen public attempt; no trial or transmission authorized |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
+| `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; zero trials |
+| `beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md` | Frozen SIG-001 charter — noncanonical; Levels 0–4 only |
+| `beacon/attempts/SIG-001/01-RECEIVER-ASSUMPTIONS.md` | Frozen SIG-001 receiver assumptions and nonassumptions |
+| `beacon/attempts/SIG-001/02-EVENT-MODEL-AND-FRAMING.md` | Frozen two-event-class model and hierarchical framing |
+| `beacon/attempts/SIG-001/03-FORMAL-LANGUAGE-SPECIFICATION.md` | Frozen seven-section mathematical and prefix-language specification |
+| `beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md` | Frozen pretrial Decoder Levels 0–4 scorecard — no score exists |
+| `beacon/attempts/SIG-001/05-TRIAL-VALIDITY-AND-CONTAMINATION.md` | Frozen trial-validity, retry, and contamination policy — no trial executed |
+| `beacon/attempts/SIG-001/06-SOLUTION-AND-QUERY-KEY.md` | Public administrator solution — withhold from an active decoder until output freezes |
+| `beacon/attempts/SIG-001/07-PRE-STREAM-FREEZE-RECORD.md` | Frozen chronology and identities created before the event stream |
+| `beacon/attempts/SIG-001/08-EVENT-STREAM.txt` | Exact Frozen SIG-001 public event stream — 10864 bytes |
+| `beacon/attempts/SIG-001/09-ATTEMPT-RECORD.md` | Frozen SIG-001 identity, chronology, scope, attack surfaces, and nonclaims |
+| `beacon/attempts/SIG-001/10-ATTEMPT-MANIFEST.md` | Frozen ten-row SIG-001 manifest — noncanonical; no decoding trial executed |
 | `beacon/BSR-001/00-BEACON-DESIGN-GOAL.md` | Draft exact design goal and research boundary — noncanonical; no signal attempt |
 | `beacon/BSR-001/01-RECEIVER-ASSUMPTIONS.md` | Draft receiver-assumption framework — research only |
 | `beacon/BSR-001/02-CARRIER-NEUTRAL-EVENT-MODEL.md` | Draft carrier-neutral event-model alternatives — no model selected |

@@ -565,6 +565,58 @@
   universal incentive, CSR-001 begins implementing a mechanism, or a later
   task mistakes research for participation or assent.
 
+### D-021 — Create SIG-001 as a frozen lower-level mathematical bootstrap attempt
+
+- **Date:** 2026-07-29
+- **Status:** Accepted
+- **Question:** Is the project ready to create a first exact signal attempt
+  without encoding a moral payload, cooperative incentive, physical profile,
+  response protocol, carrier, or transmission plan?
+- **Decision:** Yes, within a narrowly bounded experiment. Create SIG-001
+  version 0.1 as a public, noncanonical, two-event-class, totally ordered
+  formal sequence targeting Decoder Levels 0 through 4 only: artificiality,
+  framing, numeracy, mathematics, and grammar/logic. Freeze its receiver
+  assumptions, event model, formal-language specification, pretrial scorecard,
+  trial-validity and contamination policy, solution key, and pre-stream freeze
+  record before generating the event stream. The exact event stream must have
+  SHA-256
+  `b4e6a8b7a00b18e12e4816c44975ea0921cf4330504c744a72b8abf9dbf2b144`
+  and Git blob `4884d0466c52c25a148a7b59239fa1539f27bdd2`.
+  Register the successful attempt with lifecycle state `Frozen`. This decision
+  does not authorize a decoding trial, model selection, holdout, physical
+  reference, Covenant or CSR payload, response syntax, carrier, distribution,
+  transmission, candidate preference, acceptance, canonicality, supersession,
+  or stabilization.
+- **Reasoning:** BSR-001 established that evaluation criteria and contamination
+  controls must precede an attempt. A limited Levels 0–4 artifact can test
+  artificiality, framing, quantity, arithmetic, and formal syntax without
+  prematurely encoding unsettled moral, adoption, physical, or response
+  content. Freezing the scorecard before the event stream prevents the attempt
+  from weakening its own tests after construction. Preserving the first
+  attempt even if it fails creates a concrete baseline for later signal
+  versions and holdout variants.
+- **Alternatives considered:** Evaluate an adoption hypothesis first; continue
+  research without creating an artifact; include physical constants now;
+  include a Covenant candidate now; include CSR incentives now; create and test
+  the signal in one task; choose a transmission carrier first; permit the
+  signal designer to score an unfrozen test after seeing results.
+- **Consequences:** SIG-001 becomes immutable historical signal evidence after
+  commit. It remains public and therefore vulnerable to recognition,
+  retrieval, and future training contamination. Scott, ChatGPT, Codex, and
+  design-exposed contexts cannot serve as blind decoders. No empirical result
+  exists, and no success at lower decoder levels would establish recoverability
+  of physical, agency, moral, Covenant, or response layers. The live signal
+  registry records one Frozen attempt and zero trials, holdouts, carriers,
+  encoded payloads, responses, or transmissions.
+- **Revisit conditions:** Revisit if the pre-stream chronology cannot be
+  verified, the exact event stream fails its declared identity, the scorecard
+  is ambiguous or rewards surface recognition, the public solution makes
+  useful testing impossible without a holdout, the two-event total-order model
+  proves too anthropocentric, the prefix grammar is underdetermined, a later
+  task treats Frozen as decoded or validated, or SIG-001 is used to justify
+  payload integration, distribution, or transmission without later
+  authorization.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

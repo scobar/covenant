@@ -384,6 +384,44 @@ Require that:
 Do not grant the message designer, decoder, scorer, Scott, ChatGPT, Codex, or
 any future model final interpretive authority.
 
+## Frozen Signal-Attempt Rules
+
+Require that:
+
+- A pretrial scorecard, validity policy, contamination policy, receiver
+  assumptions, event model, and solution key freeze before an event stream.
+- A pre-stream freeze record must prove chronology.
+- No pre-stream evaluation file may be edited to fit a generated stream or
+  decoder result.
+- If a post-stream defect is found, agents must stop rather than silently
+  rewrite the test.
+- A committed event stream is immutable historical evidence.
+- Any event-stream change requires a new version or attempt ID.
+- Repository serialization glyphs are not semantic content.
+- Public attempts and sealed holdouts remain distinct evidence classes.
+- Design-exposed people and model contexts cannot later be described as blind
+  decoders.
+- A public attempt's solution must be withheld from the active decoder context
+  until output freezes, even though the solution is publicly discoverable.
+- Decoder outputs freeze before solution reveal and scoring.
+- Trial execution requires later explicit authorization.
+- A frozen attempt is not decoded, validated, preferred, or transmissible.
+- Lower-level decoding success does not establish higher-level semantic
+  recovery.
+- No mathematical bootstrap may be described as a Covenant or moral message.
+- No candidate or CSR content may be added without separate payload
+  authorization.
+- No carrier, distribution, or transmission follows from attempt creation.
+- No finite trial establishes universal decodability.
+- Failed and partial attempts remain preserved.
+- Before working on SIG-001, agents must verify its manifest and pre-stream
+  freeze record.
+- Before any later SIG version or attempt, agents must verify BSR-001 and all
+  prior attempt records.
+
+Do not grant the designer, generator, decoder, scorer, Scott, ChatGPT, Codex,
+or any future model final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:
