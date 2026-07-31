@@ -320,6 +320,55 @@ No raw evidence is public. These are abstract experiment classes, not a
 SIG-002 or redesign. No SIG-002 exists, and no Levels 5–9 analysis,
 higher-layer inference, carrier, distribution, or transmission follows.
 
+## Selected Successor-Design Research Target
+
+- [Beacon Successor-Design Research
+  Registry](beacon/DESIGN-RESEARCH-REGISTRY.md)
+- [SDR-001 Charter](beacon/SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md)
+- [Decision Basis and
+  Traceability](beacon/SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md)
+- [Controlled Semantic-Equivalence
+  Baseline](beacon/SDR-001/02-CONTROLLED-SEMANTIC-EQUIVALENCE-BASELINE.md)
+- [Primary Framing-Locality
+  Hypothesis](beacon/SDR-001/03-PRIMARY-FRAMING-LOCALITY-HYPOTHESIS.md)
+- [Treatment-Family Research
+  Space](beacon/SDR-001/04-TREATMENT-FAMILY-SPACE.md)
+- [Paired Experiment
+  Architecture](beacon/SDR-001/05-PAIRED-EXPERIMENT-ARCHITECTURE.md)
+- [Scorecard Continuity and
+  Guardrails](beacon/SDR-001/06-SCORECARD-CONTINUITY-AND-GUARDRAILS.md)
+- [Holdout, Provider, and Contamination
+  Plan](beacon/SDR-001/07-HOLDOUT-PROVIDER-AND-CONTAMINATION-PLAN.md)
+- [Overfitting and Stop
+  Rules](beacon/SDR-001/08-OVERFITTING-AND-STOP-RULES.md)
+- [Next Gate and
+  Nonexecution](beacon/SDR-001/09-NEXT-GATE-AND-NONEXECUTION.md)
+- [Frozen Research
+  Manifest](beacon/SDR-001/10-RESEARCH-MANIFEST.md)
+- [Blank Treatment Candidate
+  Template](beacon/SDR-001/templates/TREATMENT-CANDIDATE-RECORD-TEMPLATE.md)
+- [Blank Paired Experiment Protocol
+  Template](beacon/SDR-001/templates/PAIRED-EXPERIMENT-PROTOCOL-TEMPLATE.md)
+
+D-029 selects framing-cue locality as the first primary successor-design
+research variable under controlled semantic equivalence. A future baseline
+would concentrate framing information globally, while a future treatment
+would redistribute the same framing-cue multiset to locally adjacent
+boundary-role positions. The cue-pattern multiset, total framing-event budget,
+nonframing bytes, semantic graph, curriculum, truth assignments, examples,
+queries, duplicate-body policy, neutral instruction, and scoring philosophy
+remain controlled.
+
+Level 1 framing/hierarchy recovery is the primary endpoint. Level 0
+artificiality and Level 2 structured numeracy are nonregression guardrails;
+Levels 3 and 4 are exploratory. Provider-independent replication and clean
+no-known-exposure holdouts remain separate future controls.
+
+No exact baseline or treatment, event byte, candidate stream, SIG-002,
+holdout, provider/model selection, trial, output, score, empirical result,
+higher layer, carrier, distribution, or transmission exists. All successor
+implementation and execution counts are zero.
+
 ## Discovery
 
 Receiver observability, capability, and motivation assumptions are explicit
@@ -422,6 +471,11 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-31: Added D-029 and frozen noncanonical SDR-001, selecting
+  framing-cue locality under controlled semantic equivalence and a matched
+  framing-cue multiset and event budget, without creating an exact design,
+  SIG-002, stream, holdout, provider/model selection, trial, score, higher
+  layer, carrier, distribution, or transmission.
 - 2026-07-31: Integrated the closed private DA-001 diagnostic through a
   nonrevealing sixteen-family vector, bounded causal-strength register,
   same-tooling audit with preserved dissent, and eight abstract future

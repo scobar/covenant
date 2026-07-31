@@ -34,3 +34,15 @@ preparation records remain frozen and unchanged after closure.
 DA-001 reopens no trial, changes no validity, score, or dissent, and authorizes
 no new run or signal design. Its public preparation package is historical and
 remains frozen.
+
+## Downstream research
+
+- [SDR-001 successor-design research
+  charter](SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md)
+- [Beacon successor-design research
+  registry](DESIGN-RESEARCH-REGISTRY.md)
+
+DA-001 remains closed. D-029 selects framing-cue locality as one controlled
+research variable without changing the diagnostic vector, causal-strength
+register, audit, dissent, validity, or score. The selection is not causal
+proof, and no exact design, SIG-002, holdout, provider, model, or trial follows.

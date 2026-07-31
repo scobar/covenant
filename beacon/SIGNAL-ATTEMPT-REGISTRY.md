@@ -31,6 +31,9 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Diagnostic plans: `1`
 - Executed diagnostics: `1`
 - Frozen diagnostic results: `1`
+- Successor-design research packages: `1`
+- Selected successor research targets: `1`
+- Exact successor designs: `0`
 - SIG-002 attempts: `0`
 - Signal redesigns: `0`
 - Aggregate empirical decode rates: `0`
@@ -80,6 +83,13 @@ manifest](diagnostics/DA-001/05-PUBLIC-DIAGNOSTIC-RESULT-MANIFEST.md) identify
 controlled experiment classes but select no successor signal design.
 Diagnostic preparation or closure is not a signal attempt, redesign, score
 change, or new model run.
+
+The [successor-design research
+registry](DESIGN-RESEARCH-REGISTRY.md) records
+[SDR-001](SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md) as one selected
+research target under D-029. It selects framing-cue locality as a controlled
+variable without instantiating an exact design. No attempt, holdout, model,
+trial, output, score, or SIG-002 follows.
 
 One valid output, one frozen categorical Levels 0–4 score, and one private
 reveal-stage verification exist. No aggregate empirical decode rate, public

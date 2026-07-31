@@ -730,6 +730,41 @@ Do not grant Scott, ChatGPT, Codex, Anthropic, Fable, Sonnet, an observer,
 diagnostician, synthesizer, auditor, scorer, founder, or future model final
 interpretive authority.
 
+## Successor-Design Research Rules
+
+Require that:
+
+- A separate accepted decision exists before successor-design research.
+- One primary hypothesis-bearing variable is selected where practical.
+- Semantic content and nonframing content remain equivalent across a paired
+  comparison.
+- The framing-cue multiset and total framing-event budget remain matched.
+- Every design claim has exact traceability to frozen public evidence.
+- A diagnostic status is not treated as causal proof.
+- Model vocabulary must not be copied into a successor design merely because
+  it appeared in an output or diagnostic trace.
+- Arithmetic teaching, grammar, query marking, duplication, event-class count,
+  provider, and other downstream dimensions must not change simultaneously
+  with the primary variable.
+- The primary endpoint and nonregression guardrails freeze before
+  implementation.
+- Future paired holdouts are surface-novel and generated from one shared
+  abstract semantic source.
+- Candidate-specific outputs freeze before scoring and comparison.
+- Exposure-stratified reporting remains mandatory.
+- Provider-independent replication is used where feasible as a separate
+  replication control.
+- Clean no-known-exposure evidence is used where feasible as a separate
+  contamination control.
+- SDR-001 creates no SIG-002 stream.
+- Separate later accepted decisions govern exact design, attempt creation,
+  holdout creation, trial preparation, and execution.
+- No higher layer, carrier, distribution, or transmission follows from
+  successor-design research.
+
+Do not grant a designer, researcher, auditor, provider, model, decoder,
+scorer, Scott, ChatGPT, Codex, or future actor final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:

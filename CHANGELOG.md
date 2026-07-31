@@ -6,6 +6,17 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- Beacon successor-design research registry.
+- SDR-001 successor-design research charter.
+- Controlled semantic-equivalence baseline.
+- Framing-cue-locality hypothesis.
+- Treatment-family research space.
+- Paired experiment architecture.
+- Scorecard continuity and guardrails.
+- Holdout/provider/contamination strategy.
+- Overfitting and stop rules.
+- Two blank future design/protocol templates.
+- Frozen SDR-001 research manifest.
 - DA-001 public diagnostic result and closure record.
 - Frozen DA-001 public result manifest.
 - Beacon diagnostic registry.
@@ -155,6 +166,12 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- D-029 selects framing-cue locality as a controlled research target without
+  declaring it causal proof.
+- Beacon guidance now requires one-variable isolation and matched framing-cue
+  budgets.
+- DA-001 remains closed and unchanged.
+- No SIG-002, holdout, model, or trial was created.
 - DA-001 is closed complete after three isolated observations, three
   truth-relative diagnoses, one cross-run synthesis, and one diagnostic audit.
 - Beacon records now include the sixteen-family diagnostic vector, bounded

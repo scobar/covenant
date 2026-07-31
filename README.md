@@ -142,6 +142,39 @@ See [Project Status](STATUS.md) for the current project-state reference.
   limits, and permanent closure.
 - [DA-001 Public Diagnostic Result Manifest](beacon/diagnostics/DA-001/05-PUBLIC-DIAGNOSTIC-RESULT-MANIFEST.md)
   — frozen one-row public result-package identity.
+- [Beacon Successor-Design Research Registry](beacon/DESIGN-RESEARCH-REGISTRY.md)
+  — live noncanonical registry for research packages, selected targets, and
+  zero implementation or execution.
+- [SDR-001 Successor-Design Research Charter](beacon/SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md)
+  — D-029 scope, exact research question, lifecycle, and noncausal boundary.
+- [SDR-001 Decision Basis and Traceability](beacon/SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md)
+  — public evidence traceability, limitations, and all eight experiment-class
+  dispositions.
+- [SDR-001 Controlled Semantic-Equivalence Baseline](beacon/SDR-001/02-CONTROLLED-SEMANTIC-EQUIVALENCE-BASELINE.md)
+  — eighteen invariants, definitions, proof checklist, and stop conditions.
+- [SDR-001 Framing-Locality Hypothesis](beacon/SDR-001/03-PRIMARY-FRAMING-LOCALITY-HYPOTHESIS.md)
+  — primary, null, regression, and alternative hypotheses without a result.
+- [SDR-001 Treatment-Family Space](beacon/SDR-001/04-TREATMENT-FAMILY-SPACE.md)
+  — six abstract unselected implementation families and a blank D-030 gate.
+- [SDR-001 Paired Experiment Architecture](beacon/SDR-001/05-PAIRED-EXPERIMENT-ARCHITECTURE.md)
+  — future source equality, opaque conditions, isolation, freeze, and
+  comparison chronology.
+- [SDR-001 Scorecard Continuity and Guardrails](beacon/SDR-001/06-SCORECARD-CONTINUITY-AND-GUARDRAILS.md)
+  — Level 1 primary endpoint, Level 0/2 guardrails, and five comparison labels.
+- [SDR-001 Holdout, Provider, and Contamination Plan](beacon/SDR-001/07-HOLDOUT-PROVIDER-AND-CONTAMINATION-PLAN.md)
+  — future surface novelty, provider replication, exposure, and USD `0`
+  boundaries.
+- [SDR-001 Overfitting and Stop Rules](beacon/SDR-001/08-OVERFITTING-AND-STOP-RULES.md)
+  — one-variable isolation, anti-tuning rules, and mandatory return gates.
+- [SDR-001 Next Gate and Nonexecution](beacon/SDR-001/09-NEXT-GATE-AND-NONEXECUTION.md)
+  — limits on a possible D-030 and the separate later SIG-002 gate.
+- [SDR-001 Frozen Research Manifest](beacon/SDR-001/10-RESEARCH-MANIFEST.md)
+  — twelve dependency identities, fixed research parameters, and audit record.
+- [Blank SDR-001 Treatment Candidate Template](beacon/SDR-001/templates/TREATMENT-CANDIDATE-RECORD-TEMPLATE.md)
+  — unpopulated future candidate-equivalence and disposition record.
+- [Blank SDR-001 Paired Experiment Protocol Template](beacon/SDR-001/templates/PAIRED-EXPERIMENT-PROTOCOL-TEMPLATE.md)
+  — unpopulated future conditions, provider, holdout, freeze, and comparison
+  protocol.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -584,6 +617,40 @@ prerequisite for any quantity recovery as `Contradicted`; and exposure,
 hidden-backend, early-lock-in, and instruction/report-strategy effects as
 `Unresolved`. The family vector and causal register remain separate.
 
+## Selected Successor-Design Research Target
+
+> **SDR-001 v0.1 — NONCANONICAL SUCCESSOR-DESIGN RESEARCH — NO SIG-002 ATTEMPT, STREAM, HOLDOUT, OR MODEL TRIAL**
+
+D-029 selects framing-cue locality as the first controlled successor-design
+research variable: globally concentrated framing cues versus locally repeated
+boundary-role cues under controlled semantic equivalence and a matched
+framing-cue multiset and event budget.
+
+This is a controllable research choice, not a causal conclusion. The frozen
+result and DA-001 make framing locality relevant to study, but incomplete
+hierarchy is only weakly supported causally, a strict hierarchy-before-any-
+numeracy claim is contradicted, and provider, exposure, backend, instruction,
+and early-lock-in alternatives remain unresolved. Five diagnostic-family
+disagreements also remain preserved.
+
+- Primary endpoint: Decoder Level 1 framing/hierarchy recovery.
+- Nonregression guardrails: Level 0 artificiality and Level 2 structured
+  numeracy.
+- Exploratory only: Levels 3 and 4.
+- Out of scope: Levels 5–9.
+- Exact treatment: not selected.
+- Exact baseline: not instantiated.
+- Candidate streams and SIG-002 attempts: `0`.
+- Holdouts, provider/model selections, trials, outputs, scores, and empirical
+  results: `0`.
+- Carriers and transmissions: `0`.
+
+Provider-independent replication and clean no-known-exposure holdouts remain
+separate future validity controls. D-009 remains `Proposed`. A later D-030 may
+evaluate one exact treatment family only after architectural review and public
+commit; a separate later accepted decision remains necessary for any SIG-002
+attempt.
+
 ## Cooperative Surplus and Adoption Research
 
 > **Protection is not a membership benefit. Cooperative surplus may be.**
@@ -624,22 +691,31 @@ hidden-backend, early-lock-in, and instruction/report-strategy effects as
 
 The current working sequence is:
 
-1. Preserve DA-001’s private nineteen-file package and backup.
-2. Preserve the public diagnostic result manifest.
-3. Keep raw evidence and private diagnostics outside Git.
-4. Treat family statuses as nonaggregate diagnostic classifications.
-5. Preserve causal-strength labels separately.
-6. Preserve audit dissent.
-7. Require a separate decision to select one controlled experiment class.
-8. Require preregistration before a successor signal or holdout.
-9. Prefer provider-independent and clean no-known-exposure testing.
-10. Keep Levels 5–9, Covenant encoding, carriers, and transmission separate.
+1. Preserve the frozen TR-002 result, DA-001 result, validity, score, audit,
+   exposure, and dissent unchanged.
+2. Treat D-029 as selection of one controllable research variable, not causal
+   proof or an exact design.
+3. Preserve all eighteen semantic-equivalence invariants.
+4. Require identical framing-cue multisets, total framing-event budgets, and
+   nonframing bytes across a future pair.
+5. Freeze the Level 1 endpoint, Level 0/2 guardrails, and nonaggregate
+   comparison vocabulary before implementation.
+6. Keep exact treatment selection and paired-design work behind a later D-030
+   after architectural review and public commit.
+7. Generate any future paired holdouts from one source, with opaque labels,
+   surface novelty, and fresh isolated contexts.
+8. Freeze candidate-specific outputs and scores before unblinding or
+   comparison.
+9. Prefer provider-independent replication and clean no-known-exposure
+   evidence while reporting exposure strata explicitly.
+10. Require separate decisions for SIG-002, holdouts, trials, execution,
+    Levels 5–9, higher layers, carriers, distribution, and transmission.
 
 Same-provider architecture, hidden backend identity, hidden platform state,
 unprovable Incognito isolation, prospective model selection, and the
 single-trial sample remain limitations. DA-001 is post-hoc and same-tooling;
 its diagnostic classifications and bounded causal register do not provide
-external independent validation or select a successor design.
+external independent validation or prove the selected research target causal.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

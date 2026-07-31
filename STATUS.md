@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-31
 
-**Current phase:** DA-001 private diagnostic analysis frozen; public nonrevealing integration prepared; no SIG-002 design
+**Current phase:** Boundary/framing successor-design research selected and frozen; exact SIG-002 design not begun
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -264,6 +264,24 @@ FAMILY_15=Instruction interpretation and response completeness|Supported
 FAMILY_16=Provider safeguard or interface interruption effects|Supported
 ```
 
+- D-029 accepted.
+- SDR-001 v0.1 public research package created.
+- Framing-cue locality selected as the primary controlled successor-design
+  research target.
+- Eighteen controlled semantic-equivalence invariants frozen.
+- Future paired baseline/treatment experiment architecture frozen.
+- Primary Level 1 endpoint and Level 0/2 nonregression guardrails frozen.
+- Holdout, provider-diversity, exposure, and contamination plan frozen.
+- Overfitting controls and mandatory stop rules frozen.
+- Two blank future design/protocol templates created.
+- Frozen SDR-001 research manifest completed and audited.
+- Public SDR-001 research-manifest identity:
+  - Raw SHA-256:
+    `0300515923c988816d13971e5d46ec80b314fc6a96cca17a8e6a0c8d7c28128a`
+  - Git blob:
+    `9492e4a501b9bd6478f711c57f12751824787fc6`
+  - Byte count: `7052`
+
 ## Current Work
 
 ### Covenant
@@ -331,6 +349,26 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
 - Validity changes: `0`.
 - Dissent changes: `0`.
 - Public raw-evidence reveals: `0`.
+
+### SDR-001
+
+- Lifecycle: `Research target selected — exact design not begun`.
+- Registered design-research packages: `1`.
+- Selected primary research targets: `1`.
+- Exact treatment designs: `0`.
+- Exact baselines instantiated: `0`.
+- Candidate streams: `0`.
+- SIG-002 attempts: `0`.
+- Successor holdouts: `0`.
+- Provider/model selections: `0`.
+- Trials: `0`.
+- Outputs: `0`.
+- Scores: `0`.
+- Empirical results: `0`.
+- Levels 5–9 analyses: `0`.
+- Carriers: `0`.
+- Transmissions: `0`.
+- Authorized incremental spend: USD `0`.
 
 ### TR-001
 
@@ -407,14 +445,13 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
 ## Next Proposed Architectural Work
 
 1. Architectural review before commit.
-2. After public commit, choose one controlled experiment class under a new
-   accepted decision.
-3. Recommended first successor-design research question: boundary/framing
-   legibility under controlled content equivalence.
-4. Do not select exact symbols, delimiters, mappings, examples, or queries in
-   D-028.
-5. Before any SIG-002 attempt, create a separate design-research package,
-   frozen scorecard, holdout plan, and provider-diversity strategy.
+2. After public commit, D-030 may evaluate and select one exact treatment
+   family.
+3. D-030 must preserve the framing-cue multiset and event budget or stop and
+   return to design research.
+4. D-030 may prepare a paired baseline/treatment design and scorecard but must
+   not execute a trial.
+5. No SIG-002 event stream may exist without another accepted decision.
 6. Add no higher layer or carrier.
 
 Same-provider architecture, unknown backend identity and platform state,
@@ -487,6 +524,20 @@ select a successor design.
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
 | `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — DA-001 closed with a frozen nonrevealing result; no SIG-002 or transmission |
+| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — one selected target and zero exact designs or executions |
+| `beacon/SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md` | SDR-001 charter — framing-cue locality selected; exact design not begun |
+| `beacon/SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md` | Frozen public evidence traceability and eight-class disposition without causal proof |
+| `beacon/SDR-001/02-CONTROLLED-SEMANTIC-EQUIVALENCE-BASELINE.md` | Eighteen frozen equivalence invariants, definitions, proof checklist, and stop rules |
+| `beacon/SDR-001/03-PRIMARY-FRAMING-LOCALITY-HYPOTHESIS.md` | Primary, null, regression, and alternative framing-locality hypotheses — no result |
+| `beacon/SDR-001/04-TREATMENT-FAMILY-SPACE.md` | Six abstract unselected treatment families and blank future D-030 gate |
+| `beacon/SDR-001/05-PAIRED-EXPERIMENT-ARCHITECTURE.md` | Frozen future paired source, condition, isolation, output, score, and comparison chronology |
+| `beacon/SDR-001/06-SCORECARD-CONTINUITY-AND-GUARDRAILS.md` | Level 1 primary endpoint, Level 0/2 guardrails, exploratory Levels 3/4, and five labels |
+| `beacon/SDR-001/07-HOLDOUT-PROVIDER-AND-CONTAMINATION-PLAN.md` | Future surface-novel holdout, provider replication, exposure, and USD 0 plan |
+| `beacon/SDR-001/08-OVERFITTING-AND-STOP-RULES.md` | One-variable isolation, anti-tuning constraints, and mandatory return gates |
+| `beacon/SDR-001/09-NEXT-GATE-AND-NONEXECUTION.md` | Later D-030 boundary and separate SIG-002 decision gate — zero execution |
+| `beacon/SDR-001/10-RESEARCH-MANIFEST.md` | Frozen twelve-row SDR-001 research manifest v0.1 — noncanonical and nonexecuted |
+| `beacon/SDR-001/templates/TREATMENT-CANDIDATE-RECORD-TEMPLATE.md` | Blank future treatment-candidate record — no candidate or exact design |
+| `beacon/SDR-001/templates/PAIRED-EXPERIMENT-PROTOCOL-TEMPLATE.md` | Blank future paired protocol — no condition, provider, trial, or result |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
 | `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; one valid prior-exposed output and frozen score |
 | `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical sealed-holdout registry — two commitments; two provider-exposed; one private reveal-stage verification |

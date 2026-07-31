@@ -1038,6 +1038,70 @@
   another trial, Levels 5–9 work, carrier selection, distribution, or
   transmission.
 
+### D-029 — Select framing-cue locality as the first controlled successor-design research target before SIG-002
+
+- **Date:** 2026-07-31
+- **Status:** Accepted
+- **Question:** Which single hypothesis-bearing variable should the first
+  successor-design research package investigate after the frozen SIG-001
+  result and DA-001 diagnostic analysis?
+- **Decision:** Establish SDR-001 version 0.1 and select framing-cue locality as
+  the first primary controlled variable: globally concentrated framing cues
+  versus locally repeated boundary-role cues under controlled semantic
+  equivalence and a matched framing-cue multiset and event budget. Preserve the
+  two-event-class total-order model, Levels 0–4 semantic curriculum, truth
+  assignments, token-role semantics, example and query meanings,
+  duplicate-body policy, neutral instruction, nonframing content, scoring
+  philosophy, validity rules, chronology, and exposure-stratified reporting as
+  practical. Treat Level 1 framing recovery as the primary endpoint; treat
+  Level 0 artificiality and Level 2 numeracy as nonregression guardrails; treat
+  Levels 3 and 4 as exploratory; keep Levels 5–9 out of scope. Prepare only
+  abstract treatment families, semantic-equivalence requirements, paired
+  comparison architecture, scorecard-continuity rules, surface-novel holdout
+  and provider-diversity strategy, contamination controls, overfitting rules,
+  stop conditions, and blank templates. This selection is a controllable
+  research choice, not proof that framing caused all downstream nonrecovery.
+  Provider-independent replication and clean no-known-exposure holdouts remain
+  separate future validity controls. This decision does not authorize exact
+  symbols, delimiter values, boundary patterns, headers, sentinels, token
+  maps, examples, queries, streams, packets, commitments, holdouts, provider or
+  model selection, trials, outputs, scores, SIG-002, another signal attempt,
+  Levels 5–9 analysis, Covenant or CSR payload, physical or agency profile,
+  shared executable model, response syntax, carrier, distribution,
+  transmission, candidate preference, acceptance, canonicality,
+  supersession, or stabilization.
+- **Reasoning:** The public result recovered artificiality and partially
+  recovered numeracy while failing the framing level. DA-001 identifies
+  delimiter/data separation, boundary hierarchy, header interpretation, and
+  local-to-global integration as material diagnostic sites, while only weakly
+  supporting incomplete hierarchy causally and contradicting the claim that
+  complete hierarchy is required before any quantity recovery. Framing-cue
+  locality is therefore a relevant, manipulable variable that can be studied
+  while holding semantic content and cue strength fixed. Selecting one
+  variable reduces confounding and overfitting without declaring it the sole
+  cause. Downstream arithmetic, grammar, query-marking, duplication, provider,
+  and exposure questions remain separate experiments or validity controls.
+- **Alternatives considered:** Increase boundary redundancy without matching
+  cue budget; change section differentiation; remove duplicate-body cues;
+  vary arithmetic teaching; vary grammar/query marking; rerun another provider
+  before design research; redesign the full signal at once; begin SIG-002
+  immediately; abandon Beacon research.
+- **Consequences:** The public Beacon records one frozen successor-design
+  research package, one selected primary research target, and zero exact
+  designs, streams, holdouts, providers, trials, outputs, scores, or SIG-002
+  attempts. A later accepted decision may select one exact treatment family
+  and prepare a paired baseline/treatment design. If semantic equivalence,
+  cue-budget equality, or single-variable isolation cannot be shown, the
+  project must return to design research rather than claim a framing-locality
+  experiment.
+- **Revisit conditions:** Revisit if the selected variable cannot be isolated,
+  the framing-cue multiset or event budget cannot be matched, semantic or
+  nonframing equivalence fails, scorecard continuity cannot be preserved,
+  surface novelty cannot be established, provider/holdout controls are
+  infeasible, later evidence contradicts the target’s relevance, or the
+  package silently expands into exact SIG-002 design, trial execution,
+  higher-layer work, carrier selection, distribution, or transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization
