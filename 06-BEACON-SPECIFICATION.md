@@ -364,10 +364,41 @@ artificiality and Level 2 structured numeracy are nonregression guardrails;
 Levels 3 and 4 are exploratory. Provider-independent replication and clean
 no-known-exposure holdouts remain separate future controls.
 
-No exact baseline or treatment, event byte, candidate stream, SIG-002,
-holdout, provider/model selection, trial, output, score, empirical result,
-higher layer, carrier, distribution, or transmission exists. All successor
-implementation and execution counts are zero.
+At SDR-001's frozen checkpoint, no exact baseline or treatment existed.
+SDR-001 remains unchanged historical research; D-030 and SDR-002 record the
+later exact symbolic preparation gate without rewriting it.
+
+## Privately Frozen Exact Symbolic Paired Design
+
+- [SDR-002 Public Exact-Pair
+  Charter](beacon/SDR-002/00-PUBLIC-EXACT-PAIR-CHARTER.md)
+- [Treatment-Family Selection
+  Record](beacon/SDR-002/01-TREATMENT-FAMILY-SELECTION-RECORD.md)
+- [Private Design Commitment
+  Record](beacon/SDR-002/02-PRIVATE-DESIGN-COMMITMENT-RECORD.md)
+- [Frozen Public Preparation
+  Manifest](beacon/SDR-002/03-PUBLIC-EXACT-PAIR-PREPARATION-MANIFEST.md)
+
+**SDR-002 v0.1 — EXACT SYMBOLIC PAIRED DESIGN PRIVATELY FROZEN — NO SERIALIZED STREAM, HOLDOUT, PROVIDER, TRIAL, RESULT, OR SIG-002 ATTEMPT**
+
+D-030 selects `Nested local framing signatures` as the uniquely qualifying
+family after six isolated candidate derivations, three feasibility hard-gate
+reviews, and a scratch-before-synthesis audit. One exact symbolic pair is
+frozen privately under a public commitment. The two conditions preserve the
+same semantic graph, nonframing content, cue-instance multiset, framing-event
+budget, and abstract length; only framing-cue locality changes.
+
+Level 1 framing/hierarchy remains the primary endpoint. Level 0 artificiality
+and Level 2 structured numeracy remain nonregression guardrails. The exact
+placement maps and surface values remain private and unselected,
+respectively. This is a design-feasibility record, not a causal or empirical
+claim.
+
+Serialized streams, holdouts, provider/model selections, trials, outputs,
+scores, results, and SIG-002 attempts remain `0`. Separate later decisions are
+required for serialization, attempt creation, sealed holdouts, trial
+preparation, and execution. No higher layer, carrier, distribution, or
+transmission follows.
 
 ## Discovery
 
@@ -471,6 +502,11 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-31: Added D-030 and SDR-002, selecting `Nested local framing
+  signatures` through frozen feasibility gates and publicly committing one
+  privately frozen exact symbolic pair without creating a surface
+  serialization, stream, holdout, provider/model selection, trial, result,
+  SIG-002, higher layer, carrier, distribution, or transmission.
 - 2026-07-31: Added D-029 and frozen noncanonical SDR-001, selecting
   framing-cue locality under controlled semantic equivalence and a matched
   framing-cue multiset and event budget, without creating an exact design,

@@ -6,6 +6,10 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- SDR-002 public exact-pair charter.
+- Treatment-family selection record.
+- Private design commitment record.
+- Frozen public SDR-002 preparation manifest.
 - Beacon successor-design research registry.
 - SDR-001 successor-design research charter.
 - Controlled semantic-equivalence baseline.
@@ -166,6 +170,11 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- D-030 records one uniquely qualifying treatment family.
+- One exact symbolic paired design is privately frozen.
+- Design-research guidance now separates symbolic pair design from
+  serialization, holdout generation, attempt creation, and execution.
+- No SIG-002, stream, holdout, provider, trial, or result was created.
 - D-029 selects framing-cue locality as a controlled research target without
   declaring it causal proof.
 - Beacon guidance now requires one-variable isolation and matched framing-cue

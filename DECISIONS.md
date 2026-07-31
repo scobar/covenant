@@ -1102,6 +1102,73 @@
   package silently expands into exact SIG-002 design, trial execution,
   higher-layer work, carrier selection, distribution, or transmission.
 
+### D-030 — Select the uniquely qualifying framing-locality treatment family and freeze an exact symbolic pair before any SIG-002 serialization
+
+- **Date:** 2026-07-31
+- **Status:** Accepted
+- **Question:** Which exact symbolic framing-locality treatment family, if any,
+  satisfies D-029's controlled-equivalence requirements before any successor
+  surface serialization or SIG-002 attempt?
+- **Decision:** Establish SDR-002 version 0.1 and select `Nested local framing
+  signatures`. Six fresh isolated candidate contexts each attempted one exact
+  symbolic proposal from a bounded roles-and-counts source packet. Candidate
+  identities froze before three fresh isolated feasibility reviews: mechanical
+  equivalence/bijection, parse/semantic continuity, and experiment design/
+  contamination. A candidate qualified only if its own disposition was
+  eligible and all three reviews passed it. Exactly one qualified, so the
+  predeclared lexicographic tie-break was not used. A fresh no-history auditor
+  applied the hard gates before seeing the synthesis and returned
+  `PASS WITH PRESERVED DISSENT`. Freeze one exact symbolic baseline/treatment
+  pair privately and publish only its selected family, nonrevealing proof
+  status, nonexecution metadata, public commitment, and public preparation
+  manifest. The pair preserves the same semantic graph, truth assignments,
+  framing-cue multiset, total framing-event budget, nonframing content and
+  order, abstract length, eighteen controlled invariants, Level 1 functions,
+  denominator and threshold policy, Level 0/2 guardrails, and one unique
+  intended parse per condition. Only cue placement/locality changes. This
+  decision authorizes no surface value, event byte, serialized stream,
+  holdout, provider/model selection, trial, output, score, result, SIG-002,
+  Levels 5–9 work, Covenant or CSR payload, physical or agency profile, shared
+  executable model, response syntax, higher layer, carrier, distribution,
+  transmission, candidate acceptance, canonicality, supersession, or final
+  interpretive authority. Separate later accepted decisions remain required
+  for deterministic surface serialization, attempt creation, sealed holdout
+  generation, provider/model selection, trial preparation, and execution.
+- **Reasoning:** The selection rule tests formal feasibility and single-variable
+  control, not expected decoder performance. `Nested local framing signatures`
+  alone supplied an exact source-preserving proposal that cleared all three
+  review gates while maintaining cue identity, cue order, budget, nonframing
+  identity, semantic equality, unique parses, scorecard continuity, and future
+  novelty/contamination feasibility. The five other frozen proposals failed at
+  least one mandatory proof; reviewer agreement is not treated as a vote, and
+  rejection does not show that a treatment family could never support another
+  future proposal. The selected family remains a research instrument rather
+  than an empirical improvement or causal conclusion.
+- **Alternatives considered:** Boundary-adjacent role recurrence; section-local
+  header echoes; record/block/section role echoes; locally repeated
+  synchronization cues; matched-budget framing redistribution; select no
+  family and return to design research. Also rejected were selection by family
+  order, reviewer count, intuition, narrative attractiveness, expected result,
+  or model-specific tuning.
+- **Consequences:** SDR-001 remains frozen historical target-selection
+  research. SDR-002 records one privately frozen exact symbolic pair, one
+  public commitment, eighteen private files, sixteen private manifest
+  dependencies, four public preparation records, and zero serialized streams,
+  holdouts, provider/model selections, trials, outputs, scores, results, or
+  SIG-002 attempts. Level 1 remains primary; Level 0/2 remain nonregression
+  guardrails; Levels 3/4 remain exploratory; Levels 5–9 remain absent.
+  Candidate-versus-review and reviewer-emphasis dissent remains preserved.
+- **Revisit conditions:** Return to exact design research without serializing
+  if a later generator cannot reproduce the frozen source identity, eighteen
+  invariants, cue-instance bijection, cue multiset, framing-event budget,
+  nonframing identity, equal length, one-variable isolation, condition-
+  invariant cue order, unique parses, Level 1 denominator/threshold policy,
+  Level 0/2 guardrails, or surface novelty. Revisit if the public commitment
+  fails, private custody or backup fails, private design details leak,
+  same-tooling limitations become material, new evidence defeats feasibility,
+  or a later task silently expands into a model trial, SIG-002 attempt, higher
+  layer, carrier, distribution, or transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-31
 
-**Current phase:** Boundary/framing successor-design research selected and frozen; exact SIG-002 design not begun
+**Current phase:** One exact symbolic framing-locality pair privately frozen and publicly committed; no serialized stream or SIG-002
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -281,6 +281,29 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
   - Git blob:
     `9492e4a501b9bd6478f711c57f12751824787fc6`
   - Byte count: `7052`
+- D-030 accepted.
+- SDR-002 v0.1 public package created.
+- Six isolated treatment-family candidates frozen and reviewed.
+- Three isolated feasibility reviews completed.
+- Fresh scratch-before-synthesis unique-selection audit completed with
+  `PASS WITH PRESERVED DISSENT`.
+- `Nested local framing signatures` selected as the uniquely qualifying
+  treatment family; no tie-break was used.
+- Exact symbolic baseline/treatment pair frozen privately.
+- All eighteen invariants, cue-instance bijection, matched cue multiset and
+  event budget, fixed nonframing content, equal length, and unique parses
+  proven.
+- Paired scorecard, Level 0/2 guardrails, and dormant holdout/provider plan
+  frozen.
+- Public SDR-002 design commitment:
+  `0adc1c91c3de6ed23b1161b9a01d7a7caedb21f7536bdc84cd2654430fb41dba`.
+- Private SDR-002 files: `18`; private manifest dependencies: `16`.
+- Public SDR-002 preparation-manifest identity:
+  - Raw SHA-256:
+    `4628f09cc12759a33517ba442d98426a4ecfb7c4d541734cc83d28c706f0240d`
+  - Git blob:
+    `ee440b63a42f9b8131f9096a7d376ed572dbf56a`
+  - Byte count: `2711`
 
 ## Current Work
 
@@ -350,14 +373,17 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
 - Dissent changes: `0`.
 - Public raw-evidence reveals: `0`.
 
-### SDR-001
+### Successor design research
 
-- Lifecycle: `Research target selected — exact design not begun`.
-- Registered design-research packages: `1`.
+- SDR-001 lifecycle: `Research target selected — exact design not begun`
+  (frozen historical research).
+- SDR-002 lifecycle:
+  `Exact symbolic pair selected and privately frozen — no stream or attempt`.
+- Registered design-research packages: `2`.
 - Selected primary research targets: `1`.
-- Exact treatment designs: `0`.
-- Exact baselines instantiated: `0`.
-- Candidate streams: `0`.
+- Exact symbolic paired designs: `1`.
+- Selected treatment family: `Nested local framing signatures`.
+- Serialized candidate streams: `0`.
 - SIG-002 attempts: `0`.
 - Successor holdouts: `0`.
 - Provider/model selections: `0`.
@@ -445,14 +471,13 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
 ## Next Proposed Architectural Work
 
 1. Architectural review before commit.
-2. After public commit, D-030 may evaluate and select one exact treatment
-   family.
-3. D-030 must preserve the framing-cue multiset and event budget or stop and
-   return to design research.
-4. D-030 may prepare a paired baseline/treatment design and scorecard but must
-   not execute a trial.
-5. No SIG-002 event stream may exist without another accepted decision.
-6. Add no higher layer or carrier.
+2. Back up and verify the eighteen-file private SDR-002 package offline.
+3. Commit D-030 only after review and backup.
+4. A later D-031 may authorize deterministic surface serialization and paired
+   sealed-holdout generation.
+5. D-031 must still stop before any model trial.
+6. A later separate SIG-002 decision remains required for a public attempt.
+7. Add no higher layer or carrier.
 
 Same-provider architecture, unknown backend identity and platform state,
 unprovable Incognito isolation, one-run limits, private-package loss, and
@@ -524,7 +549,7 @@ select a successor design.
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
 | `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — DA-001 closed with a frozen nonrevealing result; no SIG-002 or transmission |
-| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — one selected target and zero exact designs or executions |
+| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — one selected target, one exact symbolic pair, and zero execution |
 | `beacon/SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md` | SDR-001 charter — framing-cue locality selected; exact design not begun |
 | `beacon/SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md` | Frozen public evidence traceability and eight-class disposition without causal proof |
 | `beacon/SDR-001/02-CONTROLLED-SEMANTIC-EQUIVALENCE-BASELINE.md` | Eighteen frozen equivalence invariants, definitions, proof checklist, and stop rules |
@@ -538,6 +563,10 @@ select a successor design.
 | `beacon/SDR-001/10-RESEARCH-MANIFEST.md` | Frozen twelve-row SDR-001 research manifest v0.1 — noncanonical and nonexecuted |
 | `beacon/SDR-001/templates/TREATMENT-CANDIDATE-RECORD-TEMPLATE.md` | Blank future treatment-candidate record — no candidate or exact design |
 | `beacon/SDR-001/templates/PAIRED-EXPERIMENT-PROTOCOL-TEMPLATE.md` | Blank future paired protocol — no condition, provider, trial, or result |
+| `beacon/SDR-002/00-PUBLIC-EXACT-PAIR-CHARTER.md` | SDR-002 public charter — exact symbolic pair privately frozen; no stream or attempt |
+| `beacon/SDR-002/01-TREATMENT-FAMILY-SELECTION-RECORD.md` | Six-family hard-gate selection record — nested local framing signatures uniquely selected |
+| `beacon/SDR-002/02-PRIVATE-DESIGN-COMMITMENT-RECORD.md` | Public commitment to the eighteen-file private exact-design package |
+| `beacon/SDR-002/03-PUBLIC-EXACT-PAIR-PREPARATION-MANIFEST.md` | Frozen three-row public SDR-002 preparation manifest — noncanonical and nonexecuted |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
 | `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; one valid prior-exposed output and frozen score |
 | `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical sealed-holdout registry — two commitments; two provider-exposed; one private reveal-stage verification |

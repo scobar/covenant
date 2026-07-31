@@ -765,6 +765,40 @@ Require that:
 Do not grant a designer, researcher, auditor, provider, model, decoder,
 scorer, Scott, ChatGPT, Codex, or future actor final interpretive authority.
 
+## Exact Paired-Design Preparation Rules
+
+Require that:
+
+- Feasibility criteria freeze before candidate design.
+- Each treatment family receives its own isolated candidate context.
+- Candidate identities freeze before any cross-family review.
+- Selection uses an eligible-plus-all-required-reviews hard gate, not majority,
+  reviewer count, family order, expected performance, intuition, or narrative
+  attractiveness.
+- Exactly one eligible family qualifies or no family is selected.
+- Exact symbolic source, cue-instance, baseline-slot, treatment-slot, and parse
+  maps remain private.
+- Public records disclose only the selected family, nonrevealing proof status,
+  counts, audit outcome, and cryptographic commitment.
+- Every cue instance has a one-to-one baseline/treatment mapping.
+- Framing-cue multiset and total framing-event budget match exactly.
+- Every nonframing slot, meaning, truth assignment, role, arity, and source
+  order remains fixed.
+- Both conditions have one unique intended parse and no hidden grammar.
+- Level 1 functions, denominator, and threshold policy remain continuous.
+- Level 0 and Level 2 remain nonregression guardrails.
+- Public records contain no exact surface values, event bytes, private maps,
+  nonce, preimage, or private manifest identity.
+- Serialization, attempt creation, holdout generation, trial preparation, and
+  execution each require a separate later accepted decision.
+- The complete private exact-design package is backed up and verified before
+  public commit.
+- No higher layer, carrier, distribution, or transmission follows.
+
+Do not grant a candidate designer, reviewer, auditor, integrator, provider,
+model, decoder, scorer, Scott, ChatGPT, Codex, or future actor final
+interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:

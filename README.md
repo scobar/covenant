@@ -175,6 +175,14 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [Blank SDR-001 Paired Experiment Protocol Template](beacon/SDR-001/templates/PAIRED-EXPERIMENT-PROTOCOL-TEMPLATE.md)
   — unpopulated future conditions, provider, holdout, freeze, and comparison
   protocol.
+- [SDR-002 Public Exact-Pair Charter](beacon/SDR-002/00-PUBLIC-EXACT-PAIR-CHARTER.md)
+  — public scope, selected family, lifecycle, proof boundary, and nonexecution.
+- [SDR-002 Treatment-Family Selection Record](beacon/SDR-002/01-TREATMENT-FAMILY-SELECTION-RECORD.md)
+  — six-family hard-gate dispositions and audited unique selection.
+- [SDR-002 Private Design Commitment Record](beacon/SDR-002/02-PRIVATE-DESIGN-COMMITMENT-RECORD.md)
+  — public cryptographic commitment and private-package counts.
+- [SDR-002 Public Exact-Pair Preparation Manifest](beacon/SDR-002/03-PUBLIC-EXACT-PAIR-PREPARATION-MANIFEST.md)
+  — frozen three-row public package identity and audit status.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -638,18 +646,49 @@ disagreements also remain preserved.
   numeracy.
 - Exploratory only: Levels 3 and 4.
 - Out of scope: Levels 5–9.
-- Exact treatment: not selected.
-- Exact baseline: not instantiated.
+- At the SDR-001 checkpoint, the exact treatment was not selected and the
+  exact baseline was not instantiated.
 - Candidate streams and SIG-002 attempts: `0`.
 - Holdouts, provider/model selections, trials, outputs, scores, and empirical
   results: `0`.
 - Carriers and transmissions: `0`.
 
 Provider-independent replication and clean no-known-exposure holdouts remain
-separate future validity controls. D-009 remains `Proposed`. A later D-030 may
-evaluate one exact treatment family only after architectural review and public
-commit; a separate later accepted decision remains necessary for any SIG-002
-attempt.
+separate future validity controls. SDR-001 remains frozen historical research.
+D-009 remains `Proposed`. D-030 and SDR-002 now record the later exact symbolic
+preparation gate without rewriting SDR-001.
+
+## Exact Symbolic Paired Design Privately Frozen
+
+> **SDR-002 v0.1 — EXACT SYMBOLIC PAIRED DESIGN PRIVATELY FROZEN — NO SERIALIZED STREAM, HOLDOUT, PROVIDER, TRIAL, RESULT, OR SIG-002 ATTEMPT**
+
+D-030 selects `Nested local framing signatures` as the only one of six frozen
+candidate proposals to pass its own eligibility disposition plus all three
+independent feasibility reviews. The scratch-before-synthesis selection audit
+returned `PASS WITH PRESERVED DISSENT`; no tie-break, reviewer majority, family
+order, expected result, or performance prediction selected it.
+
+One exact symbolic baseline/treatment pair is frozen privately in an
+eighteen-file package with a sixteen-dependency manifest. A public SHA-256
+commitment binds the private preparation. Public records disclose the selected
+family and nonrevealing proof status, not the exact symbolic maps, source
+expansion, surface values, event bytes, or private integrity values.
+
+The pair preserves all eighteen invariants, the same semantic graph,
+framing-cue multiset and event budget, identical nonframing content, unique
+parses, the Level 1 denominator and threshold policy, and Level 0/2 guardrails.
+That is formal feasibility, not expected improvement or causal truth.
+
+- Serialized streams and SIG-002 attempts: `0`.
+- Holdouts and provider/model selections: `0`.
+- Trials, outputs, scores, and results: `0`.
+- Levels 5–9 analyses, higher layers, carriers, distributions, and
+  transmissions: `0`.
+- D-009 remains `Proposed`.
+
+Separate later decisions remain required for surface serialization, sealed
+holdout generation, provider/model selection, trial preparation, execution,
+and any public SIG-002 attempt.
 
 ## Cooperative Surplus and Adoption Research
 
@@ -691,25 +730,28 @@ attempt.
 
 The current working sequence is:
 
-1. Preserve the frozen TR-002 result, DA-001 result, validity, score, audit,
-   exposure, and dissent unchanged.
-2. Treat D-029 as selection of one controllable research variable, not causal
-   proof or an exact design.
-3. Preserve all eighteen semantic-equivalence invariants.
-4. Require identical framing-cue multisets, total framing-event budgets, and
-   nonframing bytes across a future pair.
-5. Freeze the Level 1 endpoint, Level 0/2 guardrails, and nonaggregate
-   comparison vocabulary before implementation.
-6. Keep exact treatment selection and paired-design work behind a later D-030
-   after architectural review and public commit.
-7. Generate any future paired holdouts from one source, with opaque labels,
-   surface novelty, and fresh isolated contexts.
-8. Freeze candidate-specific outputs and scores before unblinding or
-   comparison.
-9. Prefer provider-independent replication and clean no-known-exposure
-   evidence while reporting exposure strata explicitly.
-10. Require separate decisions for SIG-002, holdouts, trials, execution,
-    Levels 5–9, higher layers, carriers, distribution, and transmission.
+1. Preserve the frozen TR-002 result, DA-001 result, SDR-001 research package,
+   validity, score, audit, exposure, and dissent unchanged.
+2. Treat D-029 as selection of one controllable research variable and D-030 as
+   exact symbolic feasibility selection, neither as causal proof.
+3. Preserve the privately frozen SDR-002 pair, all eighteen invariants,
+   cue-instance bijection, cue multiset, event budget, nonframing identity, and
+   unique parses.
+4. Keep the Level 1 endpoint, Level 0/2 guardrails, denominator, threshold
+   policy, and nonaggregate comparison vocabulary frozen.
+5. Complete architectural review and verify an offline backup of all eighteen
+   private files before public commit.
+6. Keep deterministic surface serialization and paired sealed-holdout
+   generation behind a later D-031 decision.
+7. If later authorized, generate both opaque surface-novel conditions from the
+   one frozen source and stop on any equivalence, identity, novelty, or parse
+   mismatch.
+8. Keep provider/model selection and model-trial execution behind later
+   separate decisions; D-031 must stop before any trial.
+9. Freeze candidate-specific outputs and scores before unblinding or
+   comparison, and report exposure strata explicitly.
+10. Require a separate later decision for any public SIG-002 attempt, Levels
+    5–9 work, higher layer, carrier, distribution, or transmission.
 
 Same-provider architecture, hidden backend identity, hidden platform state,
 unprovable Incognito isolation, prospective model selection, and the
