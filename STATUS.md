@@ -1,8 +1,8 @@
 # Project Status
 
-**Last updated:** 2026-07-30
+**Last updated:** 2026-07-31
 
-**Current phase:** Private post-hoc Beacon diagnostic analysis prepared and preregistered; not executed
+**Current phase:** DA-001 private diagnostic analysis frozen; public nonrevealing integration prepared; no SIG-002 design
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -223,6 +223,46 @@ specification, or governance system exists.
     `60bc0355fdb9d0be7e83fde9f550429fda72731eabe29294d16433858bfd45f7`
   - Git blob: `38d8a2743c1542fb1d9f51f56940503316c3bccd`
   - Byte count: `2334`
+- D-028 accepted.
+- DA-001 executed and closed.
+- Three observation records.
+- Three truth-relative diagnostic records.
+- One cross-run synthesis.
+- One diagnostic audit.
+- One result freeze.
+- Audit result: `PASS WITH PRESERVED DISSENT`.
+- Five family-status disagreements preserved.
+- Public raw evidence: `0`.
+- Score changes: `0`.
+- Validity changes: `0`.
+- Dissent changes: `0`.
+- SIG-002 designs: `0`.
+- Public diagnostic result and manifest completed.
+- Public diagnostic result-manifest identity:
+  - Raw SHA-256:
+    `c649a556563f8c00b97bcc5356a1bf8176c931f8b489f7854ca992fee3f9d642`
+  - Git blob: `19ca92146d84685f77b598349806b53fb0487e1e`
+  - Byte count: `4110`
+- Exact sixteen-family vector:
+
+```text
+FAMILY_01=Artificiality detection|Contradicted
+FAMILY_02=Event-class discrimination|Weakly supported
+FAMILY_03=Unary or run-length quantity inference|Weakly supported
+FAMILY_04=Delimiter-versus-data separation|Supported
+FAMILY_05=Boundary-hierarchy ordering|Supported
+FAMILY_06=Duplicate-body recognition|Contradicted
+FAMILY_07=Section segmentation and ordering|Weakly supported
+FAMILY_08=Header or sentinel interpretation|Supported
+FAMILY_09=Local-to-global integration|Supported
+FAMILY_10=Relation and arithmetic mapping|Supported
+FAMILY_11=Boolean orientation and logic|Supported
+FAMILY_12=Fixed-arity prefix grammar|Supported
+FAMILY_13=Example-versus-query distinction|Supported
+FAMILY_14=Hypothesis management and uncertainty|Weakly supported
+FAMILY_15=Instruction interpretation and response completeness|Supported
+FAMILY_16=Provider safeguard or interface interruption effects|Supported
+```
 
 ## Current Work
 
@@ -270,19 +310,26 @@ specification, or governance system exists.
 
 ### DA-001
 
-- Lifecycle: `Prepared and authorized — not executed`.
+- Lifecycle: `Closed complete — private diagnostic result frozen`.
 - Registered diagnostic plans: `1`.
-- Prepared and authorized: `1`.
-- Raw evidence analyzed: `0`.
-- Observation records: `0`.
-- Truth-relative diagnostics: `0`.
-- Cross-run syntheses: `0`.
-- Diagnostic audits: `0`.
-- Diagnostic conclusions: `0`.
+- Prepared diagnostic plans: `0`.
+- Closed complete diagnostics: `1`.
+- Executed analyses: `1`.
+- Observation records: `3`.
+- Truth-relative diagnostics: `3`.
+- Cross-run syntheses: `1`.
+- Diagnostic audits: `1`.
+- Frozen diagnostic results: `1`.
+- Result dependencies: `8`.
+- Frozen family classifications: `16`.
+- Audit result: `PASS WITH PRESERVED DISSENT`.
+- Preserved family-status disagreements: `5`.
 - SIG-002 designs: `0`.
 - Signal redesigns: `0`.
 - New model runs: `0`.
 - Score changes: `0`.
+- Validity changes: `0`.
+- Dissent changes: `0`.
 - Public raw-evidence reveals: `0`.
 
 ### TR-001
@@ -360,16 +407,21 @@ specification, or governance system exists.
 ## Next Proposed Architectural Work
 
 1. Architectural review before commit.
-2. Back up the private DA-001 package and Fable evidence.
-3. Commit D-027.
-4. Use a new Codex thread to execute DA-001 with fresh contexts.
-5. Freeze all private diagnostic records.
-6. Do not design SIG-002 until DA-001 is reviewed.
-7. Add no higher layer or carrier.
+2. After public commit, choose one controlled experiment class under a new
+   accepted decision.
+3. Recommended first successor-design research question: boundary/framing
+   legibility under controlled content equivalence.
+4. Do not select exact symbols, delimiters, mappings, examples, or queries in
+   D-028.
+5. Before any SIG-002 attempt, create a separate design-research package,
+   frozen scorecard, holdout plan, and provider-diversity strategy.
+6. Add no higher layer or carrier.
 
 Same-provider architecture, unknown backend identity and platform state,
 unprovable Incognito isolation, one-run limits, private-package loss, and
-backup integrity remain open risks.
+backup integrity remain open risks. DA-001 is same-tooling and post-hoc; one
+completed diagnostic package cannot establish a universal receiver model or
+select a successor design.
 
 ## Document Status
 
@@ -434,15 +486,17 @@ backup integrity remain open risks.
 | `external-review/PX-001/06-PILOT-MANIFEST.md` | Frozen PX-001 plan manifest v0.1 — no reviewer or model selected |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
-| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — one closed incomplete trial; one closed complete valid prior-exposed result; no transmission |
+| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — DA-001 closed with a frozen nonrevealing result; no SIG-002 or transmission |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
 | `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; one valid prior-exposed output and frozen score |
 | `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical sealed-holdout registry — two commitments; two provider-exposed; one private reveal-stage verification |
-| `beacon/DIAGNOSTIC-REGISTRY.md` | Live noncanonical diagnostic registry — one prepared plan; zero executed analyses |
-| `beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md` | Prepared DA-001 public charter — noncanonical; not executed |
-| `beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md` | Frozen nonrevealing staged diagnostic method — no public results |
+| `beacon/DIAGNOSTIC-REGISTRY.md` | Live noncanonical diagnostic registry — one closed complete analysis and one frozen result |
+| `beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md` | Historical DA-001 public preparation charter — noncanonical and frozen |
+| `beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md` | Historical frozen nonrevealing staged diagnostic method |
 | `beacon/diagnostics/DA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md` | Public commitment to the private DA-001 preparation package |
-| `beacon/diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md` | Frozen three-row public DA-001 preparation manifest — analysis not executed |
+| `beacon/diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md` | Frozen three-row historical public DA-001 preparation manifest |
+| `beacon/diagnostics/DA-001/04-PUBLIC-DIAGNOSTIC-RESULT-AND-CLOSURE-RECORD.md` | Nonrevealing frozen DA-001 diagnostic vector, bounded findings, limits, and closure |
+| `beacon/diagnostics/DA-001/05-PUBLIC-DIAGNOSTIC-RESULT-MANIFEST.md` | Frozen one-row public DA-001 result manifest |
 | `beacon/holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md` | Public sealed-holdout scope and nonclaims — noncanonical; no trial |
 | `beacon/holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md` | Public SIG-001-HO-001 commitment and reveal conditions — no private identity beyond the commitment |
 | `beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md` | Frozen two-row public holdout manifest — noncanonical; no decoding trial |

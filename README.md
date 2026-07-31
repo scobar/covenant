@@ -127,8 +127,8 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — nonrevealing frozen score, private-verification status, and closure.
 - [TR-002 Public Result Manifest](beacon/trials/SIG-001-HO-002-TR-002/06-PUBLIC-RESULT-MANIFEST.md)
   — frozen one-row public result-package identity.
-- [Beacon Diagnostic Registry](beacon/DIAGNOSTIC-REGISTRY.md) — prepared and
-  executed post-hoc diagnostic lifecycles without treating them as evidence.
+- [Beacon Diagnostic Registry](beacon/DIAGNOSTIC-REGISTRY.md) — one closed
+  private post-hoc diagnostic with a frozen nonrevealing public result.
 - [DA-001 Public Diagnostic Charter](beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md)
   — public scope, questions, evidence boundary, limitations, and nonclaims.
 - [DA-001 Staged Method and Blinding Protocol](beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md)
@@ -136,7 +136,12 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [DA-001 Diagnostic Commitment Record](beacon/diagnostics/DA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md)
   — public commitment to the private preparation package.
 - [DA-001 Public Diagnostic-Preparation Manifest](beacon/diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md)
-  — frozen three-row public preparation-package identity.
+  — frozen three-row historical preparation-package identity.
+- [DA-001 Public Diagnostic Result and Closure Record](beacon/diagnostics/DA-001/04-PUBLIC-DIAGNOSTIC-RESULT-AND-CLOSURE-RECORD.md)
+  — nonrevealing frozen sixteen-family vector, bounded findings, audit status,
+  limits, and permanent closure.
+- [DA-001 Public Diagnostic Result Manifest](beacon/diagnostics/DA-001/05-PUBLIC-DIAGNOSTIC-RESULT-MANIFEST.md)
+  — frozen one-row public result-package identity.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -535,25 +540,49 @@ inference follows. D-009 remains Proposed.
 - No universal or higher-layer conclusion follows.
 - D-009 remains Proposed.
 
-## Prepared Private Diagnostic Analysis
+## Completed Private Diagnostic Analysis
 
-> **DA-001 PREPARED AND AUTHORIZED — NONCANONICAL — NOT EXECUTED**
+> **DA-001 CLOSED COMPLETE — PRIVATE POST-HOC DIAGNOSTIC RESULT FROZEN — NO RAW EVIDENCE OR SIG-002 DESIGN PUBLISHED**
 
-- DA-001 will analyze the frozen Fable and Sonnet evidence privately only
-  after public commit, private backup, and custody verification.
-- Fable remains non-scorable auxiliary evidence.
-- Sonnet RUN-001 remains technical invalidity and non-scorable.
-- Sonnet RUN-002 validity, frozen score, and dissent remain unchanged.
-- The sixteen-family result-informed taxonomy froze before raw-evidence access
-  and remains raw-evidence-content-blind.
+- DA-001 executed privately and is closed.
+- Three observations, three truth-relative diagnoses, one synthesis, and one
+  audit froze.
+- Fable remained non-scorable.
+- Sonnet RUN-001 remained technical invalidity.
+- Sonnet RUN-002’s public result remains unchanged.
 - No raw evidence is public.
-- No observation, truth-relative diagnosis, synthesis, audit, diagnostic
-  conclusion, SIG-002 design, signal redesign, or model run exists.
-- D-009 remains Proposed.
+- The audit result is `PASS WITH PRESERVED DISSENT`.
+- No SIG-002 design exists.
+- D-009 remains `Proposed`.
 
-DA-001 separates evidence-only observation, truth-relative diagnosis, causal
-hypothesis, and design implication. Its same-provider and post-hoc limitations
-remain explicit, and preparation is not evidence.
+The frozen sixteen-family diagnostic vector is:
+
+```text
+FAMILY_01=Artificiality detection|Contradicted
+FAMILY_02=Event-class discrimination|Weakly supported
+FAMILY_03=Unary or run-length quantity inference|Weakly supported
+FAMILY_04=Delimiter-versus-data separation|Supported
+FAMILY_05=Boundary-hierarchy ordering|Supported
+FAMILY_06=Duplicate-body recognition|Contradicted
+FAMILY_07=Section segmentation and ordering|Weakly supported
+FAMILY_08=Header or sentinel interpretation|Supported
+FAMILY_09=Local-to-global integration|Supported
+FAMILY_10=Relation and arithmetic mapping|Supported
+FAMILY_11=Boolean orientation and logic|Supported
+FAMILY_12=Fixed-arity prefix grammar|Supported
+FAMILY_13=Example-versus-query distinction|Supported
+FAMILY_14=Hypothesis management and uncertainty|Weakly supported
+FAMILY_15=Instruction interpretation and response completeness|Supported
+FAMILY_16=Provider safeguard or interface interruption effects|Supported
+```
+
+The bounded causal-strength register records provider/interface events as
+`Supported` causes of observable noncompletion in the two technically invalid
+runs; incomplete hierarchy, delimiter/data-role confusion, and duplication's
+insufficiency by itself as `Weakly supported`; a strict full-hierarchy
+prerequisite for any quantity recovery as `Contradicted`; and exposure,
+hidden-backend, early-lock-in, and instruction/report-strategy effects as
+`Unresolved`. The family vector and causal register remain separate.
 
 ## Cooperative Surplus and Adoption Research
 
@@ -595,25 +624,22 @@ remain explicit, and preparation is not evidence.
 
 The current working sequence is:
 
-1. Preserve both closed trials.
-2. Preserve all private evidence and post-reveal backup.
-3. Preserve the public result manifest.
-4. Keep raw response and sealed contents private.
-5. Treat the score vector as exposure-stratified and nonaggregate.
-6. Keep DA-001 prepared but unexecuted until architectural review, public
-   commit, private backup, and custody verification are complete.
-7. Execute DA-001 only in a new thread with the frozen observation-before-truth
-   sequence and isolated fresh contexts.
-8. Freeze every private diagnostic record before later-stage access.
-9. Do not design SIG-002 until DA-001 is complete and reviewed under a
-   separate decision.
-10. Require a separate decision for another model/provider trial.
-11. Keep Levels 5–9, Covenant encoding, carriers, and transmission separate.
+1. Preserve DA-001’s private nineteen-file package and backup.
+2. Preserve the public diagnostic result manifest.
+3. Keep raw evidence and private diagnostics outside Git.
+4. Treat family statuses as nonaggregate diagnostic classifications.
+5. Preserve causal-strength labels separately.
+6. Preserve audit dissent.
+7. Require a separate decision to select one controlled experiment class.
+8. Require preregistration before a successor signal or holdout.
+9. Prefer provider-independent and clean no-known-exposure testing.
+10. Keep Levels 5–9, Covenant encoding, carriers, and transmission separate.
 
 Same-provider architecture, hidden backend identity, hidden platform state,
 unprovable Incognito isolation, prospective model selection, and the
-single-trial sample remain limitations. The result is one bounded,
-prior-exposed conditional datapoint.
+single-trial sample remain limitations. DA-001 is post-hoc and same-tooling;
+its diagnostic classifications and bounded causal register do not provide
+external independent validation or select a successor design.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

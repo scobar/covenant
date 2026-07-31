@@ -983,6 +983,61 @@
   signal redesign, another trial, higher-layer work, carrier selection,
   distribution, or transmission.
 
+### D-028 — Publish the nonrevealing DA-001 diagnostic result before choosing a successor signal experiment
+
+- **Date:** 2026-07-31
+- **Status:** Accepted
+- **Question:** What may be integrated publicly after DA-001’s staged private
+  post-hoc analysis and audit have frozen?
+- **Decision:** Publish a nonrevealing public result and closure record for
+  DA-001 version 0.1. Record the execution counts, evidence boundaries,
+  sixteen-family diagnostic vector, shared and divergent decoding paths,
+  bounded causal-strength findings, same-tooling audit status, preserved
+  dissent count, methodological limitations, and abstract future controlled
+  experiment classes. Close DA-001 as
+  `Closed complete — private diagnostic result frozen`. Keep all raw
+  screenshots, videos, decoder responses, provider-visible reasoning,
+  mappings, transformation values, examples, queries, answers, scorecard
+  details, solutions, private manifests, preimages, nonces, private
+  identities, and dissent detail outside Git and unpublished. Preserve
+  TR-001’s technical-invalidity and non-scorable status, TR-002 RUN-001’s
+  technical-invalidity status, and TR-002 RUN-002’s validity, exposure class,
+  five categorical score outcomes, score audit, reveal verification, and
+  dissent exactly. Treat the diagnostic statuses as nonaggregate explanatory
+  classifications rather than decoder scores, and keep the causal-strength
+  register distinct from the family-status vector. This decision authorizes
+  only nonrevealing diagnostic-result integration and DA-001 closure. It does
+  not authorize raw-evidence publication, rescoring, validity change, dissent
+  removal, another model run, SIG-002 design, another attempt or holdout,
+  Levels 5–9 analysis, Covenant or CSR payload, physical or agency profile,
+  shared executable model, response syntax, carrier, distribution,
+  transmission, candidate preference, acceptance, canonicality,
+  supersession, or stabilization.
+- **Reasoning:** DA-001 froze its hypothesis taxonomy before evidence access,
+  separated evidence-only observation from truth-relative diagnosis, delayed
+  cross-run synthesis until six source records froze, and used a
+  scratch-before-comparison audit. Publishing the bounded vector and
+  high-level findings improves public provenance without exposing private
+  evidence or silently turning one provider’s behavior into a universal
+  receiver model. The result supports several controlled experiment classes
+  but does not identify one uniquely correct redesign.
+- **Alternatives considered:** Keep all diagnostic findings private; publish
+  raw reasoning; publish private mappings or answers; treat family statuses as
+  scores; claim framing as the proven cause; design SIG-002 immediately; rerun
+  Anthropic before integration; suppress dissent; begin higher-layer encoding.
+- **Consequences:** The public Beacon records one completed private diagnostic
+  analysis with sixteen frozen diagnostic-family statuses, one bounded causal
+  register, one same-tooling audit with preserved dissent, and eight abstract
+  controlled experiment classes. No successor signal, new holdout, provider,
+  or execution plan is selected. A later accepted decision must choose and
+  preregister a successor experiment.
+- **Revisit conditions:** Revisit if a frozen result identity fails, the public
+  vector differs from the private freeze, status semantics are misreported,
+  private evidence leaks, dissent is altered, a family status is treated as
+  causal proof, or public integration silently expands into exact redesign,
+  another trial, Levels 5–9 work, carrier selection, distribution, or
+  transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

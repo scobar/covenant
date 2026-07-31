@@ -249,20 +249,76 @@ absence of hidden provider context. The result does not establish universal
 decodability, any Level 5–9 result, or any higher layer. No signal redesign,
 carrier, distribution, or transmission is authorized here.
 
-## Prepared Post-Hoc Diagnostic Analysis
+## Completed Post-Hoc Diagnostic Analysis
 
 - [Beacon Diagnostic Registry](beacon/DIAGNOSTIC-REGISTRY.md)
 - [DA-001 Public Diagnostic Charter](beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md)
 - [DA-001 Staged Method and Blinding Protocol](beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md)
 - [DA-001 Diagnostic Commitment Record](beacon/diagnostics/DA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md)
 - [DA-001 Public Diagnostic-Preparation Manifest](beacon/diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md)
+- [DA-001 Public Diagnostic Result and Closure Record](beacon/diagnostics/DA-001/04-PUBLIC-DIAGNOSTIC-RESULT-AND-CLOSURE-RECORD.md)
+- [DA-001 Public Diagnostic Result Manifest](beacon/diagnostics/DA-001/05-PUBLIC-DIAGNOSTIC-RESULT-MANIFEST.md)
 
-The frozen public result remains unchanged. DA-001 is prepared and authorized
-but not executed, and raw evidence has not been analyzed under DA-001. Its
-sixteen-family taxonomy is result-informed but raw-evidence-content-blind.
-No bottleneck or causal conclusion, SIG-002 attempt, signal redesign, model
-run, or score change exists. No Levels 5–9 result, higher layer, carrier,
-distribution, or transmission follows.
+The prior public decoder result and all scores remain unchanged. DA-001 was
+executed privately and is `Closed complete — private diagnostic result
+frozen`. Its diagnostic classifications are:
+
+```text
+FAMILY_01=Artificiality detection|Contradicted
+FAMILY_02=Event-class discrimination|Weakly supported
+FAMILY_03=Unary or run-length quantity inference|Weakly supported
+FAMILY_04=Delimiter-versus-data separation|Supported
+FAMILY_05=Boundary-hierarchy ordering|Supported
+FAMILY_06=Duplicate-body recognition|Contradicted
+FAMILY_07=Section segmentation and ordering|Weakly supported
+FAMILY_08=Header or sentinel interpretation|Supported
+FAMILY_09=Local-to-global integration|Supported
+FAMILY_10=Relation and arithmetic mapping|Supported
+FAMILY_11=Boolean orientation and logic|Supported
+FAMILY_12=Fixed-arity prefix grammar|Supported
+FAMILY_13=Example-versus-query distinction|Supported
+FAMILY_14=Hypothesis management and uncertainty|Weakly supported
+FAMILY_15=Instruction interpretation and response completeness|Supported
+FAMILY_16=Provider safeguard or interface interruption effects|Supported
+```
+
+The shared paths were artificiality recognition, event/run decomposition,
+local quantity recovery, recognition of large repeated structure,
+section-like cue detection, and explicit uncertainty. The paths diverged most
+strongly in framing, functional orientation, boundary hierarchy, integration
+into relations and arithmetic, Boolean logic, grammar, and query
+interpretation.
+
+The separate bounded causal-strength register is:
+
+- `Supported`: provider/interface events caused observable noncompletion in
+  the two technically invalid runs.
+- `Weakly supported`: incomplete hierarchy, delimiter/data-role confusion,
+  and duplication being insufficient by itself for later semantic recovery.
+- `Contradicted`: a strict requirement that complete hierarchy must be
+  recovered before any quantity recovery can occur.
+- `Unresolved`: exposure effects, hidden-backend differences, early
+  hypothesis lock-in, and instruction/report-strategy effects.
+
+The same-tooling audit records `PASS WITH PRESERVED DISSENT`; five
+family-status disagreements and additional abstract experiment-class scope
+dissent remain preserved privately. The vector is not a decoder score, and
+family status does not by itself establish causation.
+
+The frozen future controlled experiment classes are:
+
+1. Boundary-redundancy strength.
+2. Local versus global framing.
+3. Explicit versus emergent section differentiation.
+4. Duplicate-body cue presence versus ablation.
+5. Fixed framing with varied arithmetic teaching.
+6. Fixed grammar with varied query marking.
+7. Provider-independent replication.
+8. Clean no-known-exposure holdout testing.
+
+No raw evidence is public. These are abstract experiment classes, not a
+SIG-002 or redesign. No SIG-002 exists, and no Levels 5–9 analysis,
+higher-layer inference, carrier, distribution, or transmission follows.
 
 ## Discovery
 
@@ -366,6 +422,12 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-31: Integrated the closed private DA-001 diagnostic through a
+  nonrevealing sixteen-family vector, bounded causal-strength register,
+  same-tooling audit with preserved dissent, and eight abstract future
+  experiment classes, without changing a score or validity state, publishing
+  raw evidence, designing SIG-002, running a model, or advancing Levels 5–9,
+  a higher layer, carrier, distribution, or transmission.
 - 2026-07-30: Prepared and authorized noncanonical DA-001 with a frozen
   content-blind diagnostic method and public commitment, without analyzing raw
   evidence, creating a diagnostic conclusion, changing a score, designing

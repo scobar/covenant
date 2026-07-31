@@ -23,8 +23,9 @@ independently verified.
 - Scores: `1`
 - Private reveal-stage verifications: `1`
 - Public raw-content reveals: `0`
-- Prepared diagnostic plans: `1`
-- Executed diagnostics: `0`
+- Diagnostic plans: `1`
+- Executed diagnostics: `1`
+- Frozen diagnostic results: `1`
 - Signal redesigns: `0`
 
 ## Holdout Registry
@@ -59,9 +60,10 @@ Sonnet 5 / High was known prospectively before HO-002 generation, so
 model-selection-blind chronology is not claimed. Because TR-001 and TR-002 use
 Anthropic, same-provider independence is not established.
 
-DA-001 is one prepared and authorized diagnostic plan and has not been
-executed. Its preparation reveals neither holdout and creates no signal
-redesign.
+DA-001 was executed privately and is closed with one frozen diagnostic result.
+It did not reveal either holdout publicly, and neither holdout lifecycle,
+exposure class, score, or commitment changed. No successor holdout or SIG-002
+exists, and the diagnostic created no signal redesign.
 
 ## Evidence and Secrecy Boundary
 

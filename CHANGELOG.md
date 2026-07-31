@@ -6,6 +6,8 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- DA-001 public diagnostic result and closure record.
+- Frozen DA-001 public result manifest.
 - Beacon diagnostic registry.
 - DA-001 public diagnostic charter.
 - Staged method and blinding protocol.
@@ -153,6 +155,14 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- DA-001 is closed complete after three isolated observations, three
+  truth-relative diagnoses, one cross-run synthesis, and one diagnostic audit.
+- Beacon records now include the sixteen-family diagnostic vector, bounded
+  causal-strength findings, and abstract controlled experiment classes without
+  publishing raw evidence.
+- Repository guidance distinguishes family status from causal proof and
+  requires a separate decision before successor design.
+- D-028 authorizes nonrevealing diagnostic integration only.
 - Repository guidance now separates observation, truth-relative diagnosis,
   causal inference, and design implication.
 - Trial and holdout registries link the prepared diagnostic plan without

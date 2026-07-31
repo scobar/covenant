@@ -29,7 +29,8 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Private reveal-stage verifications: `1`
 - Public raw-output reveals: `0`
 - Diagnostic plans: `1`
-- Executed diagnostics: `0`
+- Executed diagnostics: `1`
+- Frozen diagnostic results: `1`
 - SIG-002 attempts: `0`
 - Signal redesigns: `0`
 - Aggregate empirical decode rates: `0`
@@ -71,9 +72,14 @@ The frozen SIG-001, HO-001, HO-002, TR-001, and TR-002 preparation manifests
 retain their historical checkpoint counts unchanged. This live registry
 records the later result without rewriting those records.
 
-The [diagnostic registry](DIAGNOSTIC-REGISTRY.md) records DA-001 as prepared
-and authorized but not executed. Diagnostic preparation is not a signal
-attempt, redesign, score change, or new model run.
+The [diagnostic registry](DIAGNOSTIC-REGISTRY.md) records DA-001 as executed
+and closed. Its nonrevealing [result and closure
+record](diagnostics/DA-001/04-PUBLIC-DIAGNOSTIC-RESULT-AND-CLOSURE-RECORD.md)
+and frozen [result
+manifest](diagnostics/DA-001/05-PUBLIC-DIAGNOSTIC-RESULT-MANIFEST.md) identify
+controlled experiment classes but select no successor signal design.
+Diagnostic preparation or closure is not a signal attempt, redesign, score
+change, or new model run.
 
 One valid output, one frozen categorical Levels 0–4 score, and one private
 reveal-stage verification exist. No aggregate empirical decode rate, public

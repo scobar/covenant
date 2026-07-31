@@ -697,6 +697,39 @@ Do not grant Scott, ChatGPT, Codex, Anthropic, Fable, Sonnet, an observer,
 diagnostician, synthesizer, auditor, scorer, or future model final
 interpretive authority.
 
+## Diagnostic-Result Integration and Successor-Experiment Rules
+
+Require that:
+
+- Public diagnostic integration may include only frozen family statuses,
+  high-level shared/divergent paths, bounded causal-strength findings, audit
+  status, methodological limits, and abstract experiment classes.
+- Raw evidence, reasoning traces, responses, mappings, examples, queries,
+  answers, scorecard details, solutions, manifests, preimages, nonces, and
+  private identities remain private.
+- Family statuses are diagnostic classifications, not decoder scores.
+- `Contradicted` must be phrased as contradiction of the proposed concern, not
+  contradiction of observed decoder recovery.
+- Family status does not by itself establish causation.
+- Causal-strength findings remain separately labeled.
+- Preserved dissent cannot be silently removed.
+- Fable remains non-scorable.
+- Sonnet RUN-001 remains technically invalid.
+- Sonnet RUN-002 validity, exposure, score, and dissent remain immutable.
+- No diagnostic result authorizes a new signal.
+- A successor experiment requires a separate accepted decision.
+- A successor design must select one primary hypothesis-bearing variable where
+  practical and hold other frozen content constant.
+- Future tests should prefer provider-independent and clean no-known-exposure
+  evidence where feasible.
+- No exact SIG-002 design occurs in D-028.
+- No new model run, Levels 5–9 work, higher layer, carrier, distribution, or
+  transmission follows.
+
+Do not grant Scott, ChatGPT, Codex, Anthropic, Fable, Sonnet, an observer,
+diagnostician, synthesizer, auditor, scorer, founder, or future model final
+interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:
