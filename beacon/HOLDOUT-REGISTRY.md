@@ -23,6 +23,9 @@ independently verified.
 - Scores: `1`
 - Private reveal-stage verifications: `1`
 - Public raw-content reveals: `0`
+- Prepared diagnostic plans: `1`
+- Executed diagnostics: `0`
+- Signal redesigns: `0`
 
 ## Holdout Registry
 
@@ -34,6 +37,7 @@ independently verified.
 ## Trial and Exposure State
 
 - [Live decoding-trial registry](TRIAL-REGISTRY.md)
+- [Live diagnostic registry](DIAGNOSTIC-REGISTRY.md)
 - [SIG-001-HO-001-TR-001 closure record](trials/SIG-001-HO-001-TR-001/05-TECHNICAL-INVALIDITY-AND-CLOSURE-RECORD.md)
 - [SIG-001-HO-001-TR-001 closure manifest](trials/SIG-001-HO-001-TR-001/06-CLOSURE-MANIFEST.md)
 - [SIG-001-HO-002-TR-002 public charter](trials/SIG-001-HO-002-TR-002/00-PUBLIC-TRIAL-CHARTER.md)
@@ -54,6 +58,10 @@ Provider exposure does not prove cross-session transfer.
 Sonnet 5 / High was known prospectively before HO-002 generation, so
 model-selection-blind chronology is not claimed. Because TR-001 and TR-002 use
 Anthropic, same-provider independence is not established.
+
+DA-001 is one prepared and authorized diagnostic plan and has not been
+executed. Its preparation reveals neither holdout and creates no signal
+redesign.
 
 ## Evidence and Secrecy Boundary
 

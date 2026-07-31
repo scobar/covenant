@@ -28,6 +28,10 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Scores: `1`
 - Private reveal-stage verifications: `1`
 - Public raw-output reveals: `0`
+- Diagnostic plans: `1`
+- Executed diagnostics: `0`
+- SIG-002 attempts: `0`
+- Signal redesigns: `0`
 - Aggregate empirical decode rates: `0`
 - Carriers: `0`
 - Covenant payloads: `0`
@@ -66,6 +70,10 @@ conditional datapoint. It is not a universal probability.
 The frozen SIG-001, HO-001, HO-002, TR-001, and TR-002 preparation manifests
 retain their historical checkpoint counts unchanged. This live registry
 records the later result without rewriting those records.
+
+The [diagnostic registry](DIAGNOSTIC-REGISTRY.md) records DA-001 as prepared
+and authorized but not executed. Diagnostic preparation is not a signal
+attempt, redesign, score change, or new model run.
 
 One valid output, one frozen categorical Levels 0–4 score, and one private
 reveal-stage verification exist. No aggregate empirical decode rate, public

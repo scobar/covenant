@@ -127,6 +127,16 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — nonrevealing frozen score, private-verification status, and closure.
 - [TR-002 Public Result Manifest](beacon/trials/SIG-001-HO-002-TR-002/06-PUBLIC-RESULT-MANIFEST.md)
   — frozen one-row public result-package identity.
+- [Beacon Diagnostic Registry](beacon/DIAGNOSTIC-REGISTRY.md) — prepared and
+  executed post-hoc diagnostic lifecycles without treating them as evidence.
+- [DA-001 Public Diagnostic Charter](beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md)
+  — public scope, questions, evidence boundary, limitations, and nonclaims.
+- [DA-001 Staged Method and Blinding Protocol](beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md)
+  — nonrevealing observation-before-truth chronology and isolation controls.
+- [DA-001 Diagnostic Commitment Record](beacon/diagnostics/DA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md)
+  — public commitment to the private preparation package.
+- [DA-001 Public Diagnostic-Preparation Manifest](beacon/diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md)
+  — frozen three-row public preparation-package identity.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -525,6 +535,26 @@ inference follows. D-009 remains Proposed.
 - No universal or higher-layer conclusion follows.
 - D-009 remains Proposed.
 
+## Prepared Private Diagnostic Analysis
+
+> **DA-001 PREPARED AND AUTHORIZED — NONCANONICAL — NOT EXECUTED**
+
+- DA-001 will analyze the frozen Fable and Sonnet evidence privately only
+  after public commit, private backup, and custody verification.
+- Fable remains non-scorable auxiliary evidence.
+- Sonnet RUN-001 remains technical invalidity and non-scorable.
+- Sonnet RUN-002 validity, frozen score, and dissent remain unchanged.
+- The sixteen-family result-informed taxonomy froze before raw-evidence access
+  and remains raw-evidence-content-blind.
+- No raw evidence is public.
+- No observation, truth-relative diagnosis, synthesis, audit, diagnostic
+  conclusion, SIG-002 design, signal redesign, or model run exists.
+- D-009 remains Proposed.
+
+DA-001 separates evidence-only observation, truth-relative diagnosis, causal
+hypothesis, and design implication. Its same-provider and post-hoc limitations
+remain explicit, and preparation is not evidence.
+
 ## Cooperative Surplus and Adoption Research
 
 > **Protection is not a membership benefit. Cooperative surplus may be.**
@@ -570,9 +600,15 @@ The current working sequence is:
 3. Preserve the public result manifest.
 4. Keep raw response and sealed contents private.
 5. Treat the score vector as exposure-stratified and nonaggregate.
-6. Require a separate decision for post-hoc diagnostic analysis.
-7. Require a separate decision for SIG-002 or another model/provider trial.
-8. Keep Levels 5–9, Covenant encoding, carriers, and transmission separate.
+6. Keep DA-001 prepared but unexecuted until architectural review, public
+   commit, private backup, and custody verification are complete.
+7. Execute DA-001 only in a new thread with the frozen observation-before-truth
+   sequence and isolated fresh contexts.
+8. Freeze every private diagnostic record before later-stage access.
+9. Do not design SIG-002 until DA-001 is complete and reviewed under a
+   separate decision.
+10. Require a separate decision for another model/provider trial.
+11. Keep Levels 5–9, Covenant encoding, carriers, and transmission separate.
 
 Same-provider architecture, hidden backend identity, hidden platform state,
 unprovable Incognito isolation, prospective model selection, and the

@@ -668,6 +668,35 @@ Require that:
 Do not grant Scott, ChatGPT, Codex, Anthropic, Sonnet, a scorer, verifier, or
 future model final interpretive authority.
 
+## Post-Hoc Decoder-Diagnostic Rules
+
+Require that:
+
+- A separate accepted decision exists before diagnostic analysis.
+- The preparation taxonomy freezes before raw-evidence access.
+- Evidence-only observation precedes scoring-truth access.
+- The Fable trace remains non-scorable.
+- Invalid Sonnet RUN-001 remains non-scorable.
+- Valid Sonnet RUN-002 score and dissent remain immutable.
+- Raw reasoning is not publicly transcribed.
+- Observation, truth-relative diagnosis, causal hypothesis, and design
+  implication remain separate.
+- Run-specific contexts remain isolated through truth-relative diagnosis.
+- Cross-run synthesis begins only after source records freeze.
+- Diagnostic statuses use only `Supported`, `Weakly supported`,
+  `Contradicted`, and `Unresolved`.
+- Same-provider and prior-exposure limits remain explicit.
+- No causal story is selected by reviewer count.
+- No future signal copies a model's vocabulary merely because it appeared.
+- No SIG-002 design occurs inside DA-001.
+- No new run, higher layer, carrier, distribution, or transmission follows.
+- Before DA-001 execution, verify the public manifest, private manifest,
+  commitment, evidence custody, and backup.
+
+Do not grant Scott, ChatGPT, Codex, Anthropic, Fable, Sonnet, an observer,
+diagnostician, synthesizer, auditor, scorer, or future model final
+interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:

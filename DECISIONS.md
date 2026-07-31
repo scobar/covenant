@@ -921,6 +921,68 @@
   redesign, another trial, higher-layer content, carrier work, distribution, or
   transmission.
 
+### D-027 — Prepare and authorize a preregistered private post-hoc diagnostic analysis before any SIG-002 design
+
+- **Date:** 2026-07-30
+- **Status:** Accepted
+- **Question:** How should the project investigate the first Fable and Sonnet
+  decoding traces without altering the frozen experiment or overfitting a
+  successor signal to one provider’s behavior?
+- **Decision:** Prepare and authorize DA-001 version 0.1 as a private,
+  preregistered, staged post-hoc diagnostic analysis of the frozen evidence
+  from SIG-001-HO-001-TR-001 and SIG-001-HO-002-TR-002. Freeze a
+  result-informed but raw-evidence-content-blind sixteen-family hypothesis
+  taxonomy, exact evidence inventory and access matrix, observation templates,
+  truth-relative diagnostic templates, cross-run synthesis template,
+  source-isolation rules, and overfitting and causal-inference controls before
+  any raw trace, response, screenshot, or video is substantively inspected
+  under DA-001. Analyze the Fable provider-visible interrupted trace only as
+  non-scorable auxiliary evidence; preserve Sonnet RUN-001 as technical
+  invalidity; preserve Sonnet RUN-002 as the existing valid but prior-exposed
+  output with its frozen score and dissent unchanged. Require three isolated
+  evidence-only observation contexts, three new run-isolated truth-relative
+  contexts, a later cross-run synthesis context, and an independent
+  scratch-before-comparison audit context. Publish only a nonrevealing
+  preparation commitment and method. This decision authorizes one later
+  private DA-001 execution after public commit, private backup, and custody
+  verification. It does not authorize raw-evidence publication, rescoring,
+  validity change, dissent removal, another model run, exact SIG-002 design,
+  another signal attempt or holdout, Levels 5–9 analysis, Covenant or CSR
+  payload, physical or agency profile, shared executable model, response
+  syntax, carrier, distribution, transmission, candidate preference,
+  acceptance, canonicality, supersession, or stabilization.
+- **Reasoning:** The frozen result shows artificiality recovery, partial
+  numeracy, and nonrecovery at framing, relations, and grammar, but the
+  categorical vector alone cannot establish why. Freezing the diagnostic
+  taxonomy and access sequence before raw evidence inspection reduces
+  hindsight adaptation. Separating evidence-only extraction from
+  truth-relative diagnosis prevents scoring truth from rewriting the observed
+  decoding path. Source-isolated records and an independent audit reduce—but
+  do not eliminate—same-tooling and post-hoc bias. Diagnostic findings should
+  inform later controlled experiment hypotheses before any successor signal is
+  designed.
+- **Alternatives considered:** Design SIG-002 immediately; analyze only the
+  valid Sonnet output; publish or freely summarize raw reasoning; use one
+  context with all evidence and solutions at once; rescore the output; rerun
+  models; infer framing as the cause from the public vector alone; abandon
+  signal research.
+- **Consequences:** The public Beacon records one prepared diagnostic plan and
+  no executed diagnostic analysis. The private preparation package binds the
+  evidence inventory, taxonomy, templates, source separation, and
+  anti-overfitting rules before evidence inspection. Existing trials, scores,
+  dissent, commitments, and public result remain immutable. A later DA-001
+  execution may produce private diagnostic hypotheses and controlled
+  experiment classes, but no SIG-002 design or public conclusion follows
+  automatically.
+- **Revisit conditions:** Revisit if evidence or backups are incomplete,
+  frozen identities fail, raw evidence was already inspected while drafting
+  the taxonomy, stage isolation cannot be maintained, a context receives
+  unauthorized scoring truth or another run’s evidence, the analysis alters
+  a frozen score or validity record, private reasoning leaks publicly, causal
+  claims outrun the evidence, or diagnostic preparation silently becomes
+  signal redesign, another trial, higher-layer work, carrier selection,
+  distribution, or transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

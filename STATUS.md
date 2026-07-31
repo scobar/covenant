@@ -2,8 +2,7 @@
 
 **Last updated:** 2026-07-30
 
-**Current phase:** First valid prior-exposed Beacon decoder result frozen and
-privately verified; public nonrevealing integration prepared
+**Current phase:** Private post-hoc Beacon diagnostic analysis prepared and preregistered; not executed
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -210,6 +209,20 @@ specification, or governance system exists.
     `fbb6df64d08273aa3af9e10e63bbedc72aeca6f4ebba8fed8abf166ce48f222b`
   - Git blob: `224267a69cd02062c2717959d2147778e0bd263e`
   - Byte count: `3393`
+- D-027 accepted.
+- DA-001 private preparation package created.
+- Evidence inventory and access matrix frozen.
+- Sixteen-family result-informed/content-blind taxonomy frozen.
+- Staged observation/truth/synthesis/audit protocol frozen.
+- Overfitting and causal-inference controls frozen.
+- Public diagnostic commitment created:
+  `29171f6664858dcc5649905797db89bfb5e1a94d104b851973b80caadb17bebf`
+- Public preparation manifest completed and audited.
+- Public diagnostic-preparation manifest identity:
+  - Raw SHA-256:
+    `60bc0355fdb9d0be7e83fde9f550429fda72731eabe29294d16433858bfd45f7`
+  - Git blob: `38d8a2743c1542fb1d9f51f56940503316c3bccd`
+  - Byte count: `2334`
 
 ## Current Work
 
@@ -254,6 +267,23 @@ specification, or governance system exists.
 - No final physical reference profile exists.
 - Private package contents remain outside Git and are intentionally not
   recorded in STATUS.
+
+### DA-001
+
+- Lifecycle: `Prepared and authorized — not executed`.
+- Registered diagnostic plans: `1`.
+- Prepared and authorized: `1`.
+- Raw evidence analyzed: `0`.
+- Observation records: `0`.
+- Truth-relative diagnostics: `0`.
+- Cross-run syntheses: `0`.
+- Diagnostic audits: `0`.
+- Diagnostic conclusions: `0`.
+- SIG-002 designs: `0`.
+- Signal redesigns: `0`.
+- New model runs: `0`.
+- Score changes: `0`.
+- Public raw-evidence reveals: `0`.
 
 ### TR-001
 
@@ -330,12 +360,12 @@ specification, or governance system exists.
 ## Next Proposed Architectural Work
 
 1. Architectural review before commit.
-2. After public commit, separately decide whether to authorize a private
-   post-hoc diagnostic analysis of the frozen Fable/Sonnet evidence.
-3. Use that analysis only after an explicit decision.
-4. Separately decide whether to prepare SIG-002 or another provider trial.
-5. Do not start another trial or signal attempt in this task.
-6. Add no higher layer or carrier.
+2. Back up the private DA-001 package and Fable evidence.
+3. Commit D-027.
+4. Use a new Codex thread to execute DA-001 with fresh contexts.
+5. Freeze all private diagnostic records.
+6. Do not design SIG-002 until DA-001 is reviewed.
+7. Add no higher layer or carrier.
 
 Same-provider architecture, unknown backend identity and platform state,
 unprovable Incognito isolation, one-run limits, private-package loss, and
@@ -408,6 +438,11 @@ backup integrity remain open risks.
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
 | `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; one valid prior-exposed output and frozen score |
 | `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical sealed-holdout registry — two commitments; two provider-exposed; one private reveal-stage verification |
+| `beacon/DIAGNOSTIC-REGISTRY.md` | Live noncanonical diagnostic registry — one prepared plan; zero executed analyses |
+| `beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md` | Prepared DA-001 public charter — noncanonical; not executed |
+| `beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md` | Frozen nonrevealing staged diagnostic method — no public results |
+| `beacon/diagnostics/DA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md` | Public commitment to the private DA-001 preparation package |
+| `beacon/diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md` | Frozen three-row public DA-001 preparation manifest — analysis not executed |
 | `beacon/holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md` | Public sealed-holdout scope and nonclaims — noncanonical; no trial |
 | `beacon/holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md` | Public SIG-001-HO-001 commitment and reveal conditions — no private identity beyond the commitment |
 | `beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md` | Frozen two-row public holdout manifest — noncanonical; no decoding trial |

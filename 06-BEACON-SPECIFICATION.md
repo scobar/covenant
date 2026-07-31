@@ -249,6 +249,21 @@ absence of hidden provider context. The result does not establish universal
 decodability, any Level 5–9 result, or any higher layer. No signal redesign,
 carrier, distribution, or transmission is authorized here.
 
+## Prepared Post-Hoc Diagnostic Analysis
+
+- [Beacon Diagnostic Registry](beacon/DIAGNOSTIC-REGISTRY.md)
+- [DA-001 Public Diagnostic Charter](beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md)
+- [DA-001 Staged Method and Blinding Protocol](beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md)
+- [DA-001 Diagnostic Commitment Record](beacon/diagnostics/DA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md)
+- [DA-001 Public Diagnostic-Preparation Manifest](beacon/diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md)
+
+The frozen public result remains unchanged. DA-001 is prepared and authorized
+but not executed, and raw evidence has not been analyzed under DA-001. Its
+sixteen-family taxonomy is result-informed but raw-evidence-content-blind.
+No bottleneck or causal conclusion, SIG-002 attempt, signal redesign, model
+run, or score change exists. No Levels 5–9 result, higher layer, carrier,
+distribution, or transmission follows.
+
 ## Discovery
 
 Receiver observability, capability, and motivation assumptions are explicit
@@ -351,6 +366,11 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-30: Prepared and authorized noncanonical DA-001 with a frozen
+  content-blind diagnostic method and public commitment, without analyzing raw
+  evidence, creating a diagnostic conclusion, changing a score, designing
+  SIG-002, running a model, or advancing a higher layer, carrier, distribution,
+  or transmission.
 - 2026-07-30: Recorded the first valid frozen Decoder Levels 0–4 result as one
   prior-exposed, same-provider-dependent, nonaggregate datapoint; closed TR-002
   complete; and published only categorical outcomes and private-verification

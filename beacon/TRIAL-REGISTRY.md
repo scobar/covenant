@@ -34,6 +34,16 @@ output. Future models require distinct trial IDs and decisions.
 | `SIG-001-HO-001-TR-001` | `SIG-001 v0.1` | `SIG-001-HO-001 v0.1` | Anthropic | `Fable 5` | Not recorded separately | claude.ai standard Chat | `Closed incomplete — technical invalidity` | `1` | `0` | None | `Retired unused` | `No` | [Technical-invalidity and closure record](trials/SIG-001-HO-001-TR-001/05-TECHNICAL-INVALIDITY-AND-CLOSURE-RECORD.md) | None | [Closure manifest](trials/SIG-001-HO-001-TR-001/06-CLOSURE-MANIFEST.md) |
 | `SIG-001-HO-002-TR-002` | `SIG-001 v0.1` | `SIG-001-HO-002 v0.1` | Anthropic | `Sonnet 5` | `High` | claude.ai standard Chat | `Closed complete — valid prior-exposed result` | `2` | `1` | `Levels 0–4 frozen` | `Used and exhausted` | `No` | [Frozen preparation manifest](trials/SIG-001-HO-002-TR-002/04-PUBLIC-TRIAL-PREPARATION-MANIFEST.md) | [Public result and closure record](trials/SIG-001-HO-002-TR-002/05-PUBLIC-RESULT-AND-CLOSURE-RECORD.md) | [Public result manifest](trials/SIG-001-HO-002-TR-002/06-PUBLIC-RESULT-MANIFEST.md) |
 
+## Prepared Diagnostic Links
+
+- TR-001 non-outcome diagnostic link:
+  [DA-001 public charter](diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md).
+- TR-002 non-outcome diagnostic link:
+  [DA-001 public charter](diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md).
+- [DA-001](DIAGNOSTIC-REGISTRY.md) is prepared and authorized, not executed.
+  It reopens neither trial, changes no validity, score, or dissent, and
+  authorizes no new run.
+
 ## Evidence boundary
 
 The frozen preparation and closure files remain exact historical evidence.
