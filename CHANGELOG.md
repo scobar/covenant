@@ -6,6 +6,8 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- TR-002 public result and closure record.
+- Frozen TR-002 public result manifest.
 - Initial repository documentation scaffold.
 - Durable agent instructions.
 - Project status record.
@@ -143,6 +145,15 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- TR-002 is closed complete after one technical-invalidity run and one valid
+  prior-exposed retry.
+- Beacon registries now record one valid output, one frozen Levels 0–4 score,
+  and one private reveal-stage verification without publishing raw output or
+  sealed contents.
+- HO-002 is now classified as known Anthropic provider-side exposure.
+- README and STATUS now record the five categorical outcomes and all
+  methodological limitations.
+- D-026 authorizes nonrevealing public integration only.
 - Trial registry now distinguishes one closed incomplete Fable trial from one
   prepared, unexecuted Sonnet trial.
 - HO-002 now records a prepared trial without decoder exposure.

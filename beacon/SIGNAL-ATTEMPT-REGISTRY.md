@@ -19,16 +19,16 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Signal attempts: `1`
 - Frozen attempts: `1`
 - Sealed holdouts: `2`
-- Known provider-exposed holdouts: `1`
-- Never-supplied holdouts: `1`
+- Known provider-exposed holdouts: `2`
 - Trial records: `2`
-- Active prepared trials: `1`
+- Closed complete trials: `1`
 - Closed incomplete trials: `1`
-- Run attempts: `1`
-- Valid outputs: `0`
-- Scores: `0`
-- Reveals: `0`
-- Empirical decode rates: `0`
+- Run attempts: `3`
+- Valid outputs: `1`
+- Scores: `1`
+- Private reveal-stage verifications: `1`
+- Public raw-output reveals: `0`
+- Aggregate empirical decode rates: `0`
 - Carriers: `0`
 - Covenant payloads: `0`
 - CSR payloads: `0`
@@ -56,14 +56,18 @@ without editing SIG-001. A holdout is not a new signal attempt, and a
 commitment is not a decoding result.
 
 The [decoding-trial registry](TRIAL-REGISTRY.md) records one closed incomplete
-trial, one active prepared trial, and one provider-side technical-invalidity
-run. TR-002 is prepared and authorized but not executed, and HO-002 remains
-never supplied. Prepared does not mean executed, selected does not mean
-evaluated, and a commitment is not a result.
+trial and one
+[closed complete TR-002 result](trials/SIG-001-HO-002-TR-002/05-PUBLIC-RESULT-AND-CLOSURE-RECORD.md).
+The frozen public result is bound by its
+[public result manifest](trials/SIG-001-HO-002-TR-002/06-PUBLIC-RESULT-MANIFEST.md).
+TR-002 contains one valid but prior-exposed, same-provider-dependent
+conditional datapoint. It is not a universal probability.
 
-The frozen SIG-001, HO-001, HO-002, and TR-001 manifests retain their
-historical checkpoint counts unchanged. This live registry records the later
-state without rewriting those records.
+The frozen SIG-001, HO-001, HO-002, TR-001, and TR-002 preparation manifests
+retain their historical checkpoint counts unchanged. This live registry
+records the later result without rewriting those records.
 
-No valid output, score, empirical decode rate, reveal, carrier, Covenant or
-CSR payload, response protocol, distribution, or transmission exists.
+One valid output, one frozen categorical Levels 0–4 score, and one private
+reveal-stage verification exist. No aggregate empirical decode rate, public
+raw-output reveal, carrier, Covenant or CSR payload, response protocol,
+distribution, or transmission exists.

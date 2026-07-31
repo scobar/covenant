@@ -862,6 +862,65 @@
   response, a retry would exceed the authorized limit, or a later task treats
   preparation or one result as universal evidence.
 
+### D-026 — Publish the nonrevealing TR-002 result and close the first completed Beacon decoding experiment
+
+- **Date:** 2026-07-30
+- **Status:** Accepted
+- **Question:** What may be integrated publicly after RUN-002’s valid
+  prior-exposed score and both private commitment chains have frozen and
+  verified?
+- **Decision:** Publish a nonrevealing public result and closure record for
+  SIG-001-HO-002-TR-002 version 0.1. Record the provider and displayed
+  configuration, two-run accounting, technical-invalidity history, frozen
+  validity and exposure class, exposure-stratified denominator eligibility,
+  five categorical Decoder Levels 0–4 outcomes, absence of an aggregate score,
+  absence of Levels 5–9 scoring, same-tooling scoring-audit status, preserved
+  dissent, successful post-score private verification of the HO-002 and TR-002
+  packet commitments and their dependency chains, packet/source equality, and
+  score immutability. Close TR-002 as
+  `Closed complete — valid prior-exposed result`. Keep the raw decoder output,
+  videos, screenshots, mappings, transformation values, examples, queries,
+  answers, scorecard details, solution, private manifests, preimages, nonces,
+  and private identities outside Git and unpublished. Treat this as one
+  same-provider-dependent, prior-exposed conditional datapoint—not a universal
+  probability, aggregate verdict, external independent validation, or evidence
+  for Decoder Levels 5–9. This decision authorizes only nonrevealing result
+  integration and trial closure. It does not authorize raw-output publication,
+  post-hoc reasoning analysis, rescoring, dissent removal, another run, a new
+  holdout, SIG-002, another provider trial, Covenant or CSR payload, physical
+  or agency profile, shared executable model, response syntax, carrier,
+  distribution, transmission, candidate preference, acceptance, canonicality,
+  supersession, or stabilization.
+- **Reasoning:** The output, validity, score, scoring audit, private reveal
+  verification, and reveal audit were frozen in sequence before public
+  integration. Publishing the bounded categorical result and verification
+  status improves public provenance without exposing the sealed experiment or
+  enabling retroactive score changes. The result identifies where the current
+  lower-level bootstrap did and did not meet its own frozen criteria while
+  preserving the known prior-exposure, same-provider, hidden-backend,
+  same-tooling, and single-trial limitations.
+- **Alternatives considered:** Publish the raw response; publish private
+  mappings or query answers; suppress the result; treat the technical-invalid
+  first run as valid; call the retry no-known-exposure; aggregate the five
+  levels; infer universal undecodability; begin SIG-002 immediately; analyze
+  the model reasoning in the same task; run another model before integration;
+  reveal higher-layer content.
+- **Consequences:** The public Beacon now contains its first completed valid
+  lower-level decoder result: Level 0 recovered, Level 2 partially recovered,
+  and Levels 1, 3, and 4 not recovered under the frozen criteria. TR-001 remains
+  closed incomplete. TR-002 is permanently closed complete. HO-002 remains
+  sealed and immutable but known Anthropic provider-exposed. One public
+  exposure-stratified categorical datapoint exists; no aggregate empirical rate
+  or higher-layer evidence exists. Future diagnostic analysis or signal design
+  requires another accepted decision.
+- **Revisit conditions:** Revisit if a frozen identity or commitment later
+  fails, the private/public result diverges, the score or dissent is altered,
+  raw content leaks, the exposure class is misreported, the result is treated
+  as provider-independent or universal, a later record inserts a replacement
+  output, or public integration silently expands into diagnostic analysis,
+  redesign, another trial, higher-layer content, carrier work, distribution, or
+  transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

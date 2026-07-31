@@ -67,8 +67,8 @@ See [Project Status](STATUS.md) for the current project-state reference.
   inventory for comprehension and response.
 - [Beacon Specification and Bootstrap Research Index](06-BEACON-SPECIFICATION.md)
   — noncanonical BSR-001 and live-evidence index; one trial is closed
-  incomplete, one is prepared and unexecuted, no valid decoder output exists,
-  and no transmission is authorized.
+  incomplete, one is closed complete with a valid prior-exposed result, and no
+  transmission is authorized.
 - [BSR-001 Beacon Design Goal](beacon/BSR-001/00-BEACON-DESIGN-GOAL.md) —
   exact engineering objective, limitation, and research boundary.
 - [BSR-001 Signal-Attempt Registry](beacon/BSR-001/03-SIGNAL-ATTEMPT-REGISTRY.md)
@@ -92,7 +92,7 @@ See [Project Status](STATUS.md) for the current project-state reference.
 - [SIG-001-HO-001 Public Manifest](beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md)
   — frozen two-row public-package identity and same-tooling audits.
 - [SIG-001-HO-002 Public Charter](beacon/holdouts/SIG-001-HO-002/00-PUBLIC-HOLDOUT-CHARTER.md)
-  — second sealed Levels 0–4 holdout; never supplied to a decoder.
+  — second sealed Levels 0–4 holdout, now known Anthropic provider-exposed.
 - [SIG-001-HO-002 Commitment Record](beacon/holdouts/SIG-001-HO-002/01-COMMITMENT-RECORD.md)
   — sole public cryptographic identity and reveal conditions for HO-002.
 - [SIG-001-HO-002 Public Manifest](beacon/holdouts/SIG-001-HO-002/02-PUBLIC-MANIFEST.md)
@@ -123,6 +123,10 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — sole authorized public commitment to the private TR-002 preparation.
 - [TR-002 Public Trial-Preparation Manifest](beacon/trials/SIG-001-HO-002-TR-002/04-PUBLIC-TRIAL-PREPARATION-MANIFEST.md)
   — frozen four-row public preparation-package identity.
+- [TR-002 Public Result and Closure Record](beacon/trials/SIG-001-HO-002-TR-002/05-PUBLIC-RESULT-AND-CLOSURE-RECORD.md)
+  — nonrevealing frozen score, private-verification status, and closure.
+- [TR-002 Public Result Manifest](beacon/trials/SIG-001-HO-002-TR-002/06-PUBLIC-RESULT-MANIFEST.md)
+  — frozen one-row public result-package identity.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -381,7 +385,8 @@ Plan documents:
 - BSR-001 establishes research and evaluation before SIG-001.
 - BSR-001's historical registry remains frozen at zero attempts.
 - The live registry now records SIG-001 as the first Frozen public attempt.
-- No decoder trial has run.
+- Two decoder trials are closed; one valid prior-exposed output and one frozen
+  Levels 0–4 score exist.
 - No carrier has been selected.
 - No Covenant candidate has been encoded.
 - No physical constants have been selected.
@@ -471,19 +476,19 @@ another Fable run would fail.
 
 ## Second Sealed Holdout
 
-> **SEALED HOLDOUT COMMITMENT SIG-001-HO-002 v0.1 — NONCANONICAL — TR-002 PREPARED — NOT EXECUTED**
+> **SEALED HOLDOUT COMMITMENT SIG-001-HO-002 v0.1 — NONCANONICAL — KNOWN ANTHROPIC PROVIDER-EXPOSED**
 
 - HO-002 is sealed and committed.
 - It remains a SIG-001 Levels 0–4 variant, not a new attempt lineage.
-- It has never been supplied to a decoder.
+- It is known Anthropic provider-exposed through TR-002.
 - It was generated mechanically without using the Fable trace.
 - Sonnet 5 / High was known prospectively before generation.
 - That chronology is disclosed and limits model-selection-blindness claims.
 - Generation used fixed generic transformations and cryptographic randomness,
   not model-specific tuning.
-- A distinct Sonnet 5 / High trial packet is prepared outside Git under D-025.
-- Trial preparation did not supply HO-002 to a decoder.
-- No output, score, reveal, or empirical rate exists.
+- The distinct Sonnet 5 / High trial packet remains private.
+- One valid prior-exposed output and one frozen nonaggregate score exist.
+- Its commitment and private dependency chain verified after score freeze.
 
 The exact stream, mapping, examples, queries, answers, nonces, preimage, and
 private identities remain outside Git. The public commitment does not prove
@@ -494,50 +499,31 @@ Neither holdout contains a physical, agency, moral, Covenant, CSR, response,
 carrier, distribution, or transmission layer. No higher-layer or transmission
 inference follows. D-009 remains Proposed.
 
-## Prepared Sonnet 5 / High Holdout Trial
+## First Completed Valid Beacon Decoder Result
 
-> **PREPARED HOLDOUT DECODING TRIAL SIG-001-HO-002-TR-002 v0.1 — NONCANONICAL — NOT EXECUTED**
+> **TR-002 CLOSED COMPLETE — ONE VALID PRIOR-EXPOSED OUTPUT — LEVELS 0–4 SCORE FROZEN — PRIVATE COMMITMENTS VERIFIED**
 
-One Sonnet trial package is prepared and authorized but not executed.
-
-- Trial ID: `SIG-001-HO-002-TR-002`
-- Provider: Anthropic.
-- Displayed model label: Sonnet 5.
-- Effort level: High.
-- Interface: claude.ai standard Chat.
-- Conversation mode: another new Claude Incognito Chat.
-- Web search and connectors must remain disabled.
-- No Project, Claude Code, Cowork, Claude Desktop, or browser control.
-- Response style: Default.
-- Account route: existing-account access only.
-- Auto-reload: off.
-- Paid spillover: disabled.
-- Incremental-spend cap: USD `0`.
-- Requested valid runs: `1`.
-- Maximum technical retries: `1`.
-- Substantive retries: `0`.
-- HO-002 remains never supplied to a decoder.
-- Inputs supplied: `0`.
-- Outputs: `0`.
-- Scores: `0`.
-- Reveals: `0`.
-- Empirical decode rates: `0`.
-
-The displayed model and effort settings are not verified backend identities.
-Sonnet qualification preceded HO-002 generation. Both TR-001 and TR-002 use
-Anthropic, so same-provider independence is not claimed, and the prospective
-selection chronology is not model-selection-blind.
-
-The later decoder receives only the frozen neutral instruction and sealed
-sequence. The complete raw output and execution metadata freeze before
-validity classification or scoring. The complete score freezes before any
-authorized reveal and reveal-stage commitment verification. Current ChatGPT,
-Codex, and qualification contexts are design-exposed and cannot be described
-as blind decoders.
-
-TR-001 remains closed incomplete and cannot receive a later output. No
-higher-layer content, carrier, distribution, or transmission is involved.
-D-009 remains Proposed.
+- TR-001 closed incomplete after one technical invalidity.
+- TR-002 used one technically invalid first run and one valid retry.
+- RUN-002 is valid but prior-exposed.
+- One valid output and one frozen score exist.
+- Level 0 — Recovered.
+- Level 1 — Not recovered.
+- Level 2 — Partially recovered.
+- Level 3 — Not recovered.
+- Level 4 — Not recovered.
+- No aggregate score exists.
+- Levels 5–9 are unscored.
+- Both commitments verified after score freeze.
+- Private values remain private.
+- No raw output or sealed content is public.
+- The result supports artificiality recovery and partial numeracy only under
+  the frozen criteria.
+- Framing, relations/arithmetic, and grammar/logic/query recovery were not
+  recovered.
+- Same-provider and prospective-model limitations remain.
+- No universal or higher-layer conclusion follows.
+- D-009 remains Proposed.
 
 ## Cooperative Surplus and Adoption Research
 
@@ -579,25 +565,19 @@ D-009 remains Proposed.
 
 The current working sequence is:
 
-1. Preserve all prior evidence and TR-001 closure.
-2. Preserve HO-002 and its offline backup.
-3. Preserve the private TR-002 packet and public packet commitment.
-4. Review and commit D-025 before execution.
-5. Back up the nine-file private TR-002 package before execution.
-6. Recheck exact Sonnet 5 / High and isolation gates.
-7. Use another new Claude Incognito Chat.
-8. Supply only the neutral instruction and sealed HO-002 sequence.
-9. Send one message and no follow-up.
-10. Preserve every run.
-11. Freeze output before validity classification and scoring.
-12. Freeze score before reveal.
-13. Verify both commitments at reveal stage.
-14. Publish no result without later authorization.
-15. Infer no universal probability or higher-layer success.
+1. Preserve both closed trials.
+2. Preserve all private evidence and post-reveal backup.
+3. Preserve the public result manifest.
+4. Keep raw response and sealed contents private.
+5. Treat the score vector as exposure-stratified and nonaggregate.
+6. Require a separate decision for post-hoc diagnostic analysis.
+7. Require a separate decision for SIG-002 or another model/provider trial.
+8. Keep Levels 5–9, Covenant encoding, carriers, and transmission separate.
 
-HO-002 remains never supplied to a decoder. Same-provider architecture,
-hidden backend identity, hidden platform state, and unprovable Incognito
-isolation remain limitations. One future run would be one bounded datapoint.
+Same-provider architecture, hidden backend identity, hidden platform state,
+unprovable Incognito isolation, prospective model selection, and the
+single-trial sample remain limitations. The result is one bounded,
+prior-exposed conditional datapoint.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.

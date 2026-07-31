@@ -1,6 +1,6 @@
 # Beacon Specification and Bootstrap Research Index
 
-> **NONCANONICAL RESEARCH AND LIVE-ATTEMPT INDEX — ONE CLOSED INCOMPLETE TRIAL — ONE PREPARED TRIAL — NO VALID OUTPUT OR TRANSMISSION AUTHORIZED**
+> **NONCANONICAL RESEARCH AND LIVE-ATTEMPT INDEX — FIRST VALID PRIOR-EXPOSED LEVELS 0–4 RESULT FROZEN — NO TRANSMISSION AUTHORIZED**
 
 ## Boundary
 
@@ -14,11 +14,12 @@ BSR-001 is a research-and-evaluation package, not the Beacon's final
 specification. It creates no signal attempt and supplies no evidence that an
 unknown intelligence decodes or accepts the Covenant.
 
-SIG-001 is a narrow public formal attempt created after BSR-001. Its one
-closed trial produced no valid decoder output. A distinct second trial is
-prepared but not executed. Neither supplies evidence that an unknown
-intelligence decodes SIG-001. No moral payload, carrier, distribution, or
-transmission is authorized.
+SIG-001 is a narrow public formal attempt created after BSR-001. Its first
+trial closed incomplete after technical invalidity. Its distinct second trial
+closed complete with one valid but prior-exposed, same-provider-dependent
+categorical result. That bounded result does not establish universal
+decodability. No moral payload, carrier, distribution, or transmission is
+authorized.
 
 ## Engineering Objective
 
@@ -66,16 +67,16 @@ Current live counts:
 - Signal attempts: `1`
 - Frozen attempts: `1`
 - Sealed holdouts: `2`
-- Known provider-exposed holdouts: `1`
-- Never-supplied holdouts: `1`
+- Known provider-exposed holdouts: `2`
 - Trial records: `2`
-- Active prepared trials: `1`
+- Closed complete trials: `1`
 - Closed incomplete trials: `1`
-- Run attempts: `1`
-- Valid outputs: `0`
-- Scores: `0`
-- Reveals: `0`
-- Empirical decode rates: `0`
+- Run attempts: `3`
+- Valid outputs: `1`
+- Scores: `1`
+- Private reveal-stage verifications: `1`
+- Public raw-output reveals: `0`
+- Aggregate empirical decode rates: `0`
 - Carriers: `0`
 - Encoded Covenant payloads: `0`
 - Encoded CSR payloads: `0`
@@ -85,7 +86,8 @@ Current live counts:
 - BSR-001 remains the frozen pre-attempt research framework.
 - SIG-001 is the first public attempt produced under it.
 - SIG-001 targets only Decoder Levels 0–4.
-- No valid trial output has established any recovered level.
+- One valid prior-exposed trial output has a frozen categorical Levels 0–4
+  result.
 - No moral or adoption content is encoded.
 - No carrier or transmission is authorized.
 
@@ -104,16 +106,16 @@ Current evidence counts:
 - Public attempts: `1`
 - Frozen public attempts: `1`
 - Sealed holdouts: `2`
-- Known provider-exposed holdouts: `1`
-- Never-supplied holdouts: `1`
+- Known provider-exposed holdouts: `2`
 - Trial records: `2`
-- Active prepared trials: `1`
+- Closed complete trials: `1`
 - Closed incomplete trials: `1`
-- Run attempts: `1`
-- Valid outputs: `0`
-- Scores: `0`
-- Reveals: `0`
-- Empirical decode rates: `0`
+- Run attempts: `3`
+- Valid outputs: `1`
+- Scores: `1`
+- Private reveal-stage verifications: `1`
+- Public raw-output reveals: `0`
+- Aggregate empirical decode rates: `0`
 - Carriers: `0`
 - Covenant payloads: `0`
 - CSR payloads: `0`
@@ -125,14 +127,17 @@ known Anthropic provider-side exposure after one technically invalid Fable 5
 run. Provider exposure does not prove cross-session memory, cross-model
 transfer, training ingestion, retrieval exposure, or successful decoding.
 
-SIG-001-HO-002 is sealed and committed, remains within the SIG-001 lineage,
-and has never been supplied to a decoder. It was generated mechanically
-without the Fable trace. Sonnet 5 / High was known prospectively before
-generation, so model-selection-blind chronology is not claimed.
+SIG-001-HO-002 is sealed, committed, immutable, and known Anthropic
+provider-side exposure after TR-002. It remains within the SIG-001 lineage.
+It was generated mechanically without the Fable trace. Sonnet 5 / High was
+known prospectively before generation, so model-selection-blind chronology is
+not claimed. Provider exposure does not prove cross-session transfer.
 
 Neither holdout contains a physical, agency, moral, Covenant, CSR, choice,
-response, carrier, distribution, or transmission layer. No valid output,
-score, reveal, empirical decode rate, carrier, or transmission exists.
+response, carrier, distribution, or transmission layer. One valid output, one
+frozen Levels 0–4 score, and one private reveal-stage verification exist.
+There is no public raw-output reveal, aggregate empirical decode rate, carrier,
+or transmission.
 
 ## Closed Incomplete Decoder Trial
 
@@ -150,15 +155,16 @@ Current trial counts:
 - Public attempts: `1`
 - Sealed holdouts: `2`
 - Trial records: `2`
-- Active prepared trials: `1`
+- Closed complete trials: `1`
 - Closed incomplete trials: `1`
-- Run attempts: `1`
-- Valid runs: `0`
-- Technical-invalidity runs: `1`
-- Valid outputs: `0`
-- Scores: `0`
-- Reveals: `0`
-- Empirical decode rates: `0`
+- Run attempts: `3`
+- Valid runs: `1`
+- Technical-invalidity runs: `2`
+- Valid outputs: `1`
+- Scores: `1`
+- Private reveal-stage verifications: `1`
+- Public raw-output reveals: `0`
+- Aggregate empirical decode rates: `0`
 - Carriers: `0`
 - Covenant payloads: `0`
 - CSR payloads: `0`
@@ -176,14 +182,15 @@ records remain exact historical evidence. HO-001 now carries
 `Known Anthropic provider-side exposure`; this does not prove successful
 decoding or cross-session, cross-model, training, or retrieval transfer.
 
-TR-002 is a distinct Sonnet 5 / High trial prepared under D-025. It does not
-reopen, retry, or substitute into TR-001. HO-002 remains never supplied, and
-the current qualification chat remains unused.
+TR-002 is a distinct Sonnet 5 / High trial prepared under D-025 and closed
+under D-026. It does not reopen, retry, or substitute into TR-001. Its first
+run was technically invalid; its sole retry produced the valid prior-exposed
+output.
 
-No valid output, score, reveal, empirical decode rate, higher-layer payload,
-carrier, distribution, or transmission exists or follows.
+No public raw-output reveal, aggregate empirical decode rate, higher-layer
+payload, carrier, distribution, or transmission exists or follows.
 
-## Prepared Sonnet Holdout Trial
+## First Completed Valid Decoder Result
 
 - [Live Decoding-Trial Registry](beacon/TRIAL-REGISTRY.md)
 - [TR-002 Public Charter](beacon/trials/SIG-001-HO-002-TR-002/00-PUBLIC-TRIAL-CHARTER.md)
@@ -191,42 +198,56 @@ carrier, distribution, or transmission exists or follows.
 - [TR-002 Execution and Freeze Protocol](beacon/trials/SIG-001-HO-002-TR-002/02-EXECUTION-AND-FREEZE-PROTOCOL.md)
 - [TR-002 Packet Commitment Record](beacon/trials/SIG-001-HO-002-TR-002/03-PACKET-COMMITMENT-RECORD.md)
 - [TR-002 Public Trial-Preparation Manifest](beacon/trials/SIG-001-HO-002-TR-002/04-PUBLIC-TRIAL-PREPARATION-MANIFEST.md)
+- [TR-002 Public Result and Closure Record](beacon/trials/SIG-001-HO-002-TR-002/05-PUBLIC-RESULT-AND-CLOSURE-RECORD.md)
+- [TR-002 Public Result Manifest](beacon/trials/SIG-001-HO-002-TR-002/06-PUBLIC-RESULT-MANIFEST.md)
 
-Current prepared-trial counts:
+Current completed-result counts:
 
 - Public attempts: `1`
 - Sealed holdouts: `2`
-- Known provider-exposed holdouts: `1`
-- Never-supplied holdouts: `1`
+- Known provider-exposed holdouts: `2`
 - Trial records: `2`
-- Active prepared trials: `1`
+- Closed complete trials: `1`
 - Closed incomplete trials: `1`
-- Run attempts: `1`
-- Valid outputs: `0`
-- Scores: `0`
-- Reveals: `0`
-- Empirical decode rates: `0`
+- Run attempts: `3`
+- Valid outputs: `1`
+- Frozen Levels 0–4 scores: `1`
+- Private reveal-stage verifications: `1`
+- Public raw-output or sealed-content reveals: `0`
+- Aggregate empirical rates: `0`
+- Levels 5–9 results: `0`
 - Carriers: `0`
 - Covenant payloads: `0`
 - CSR payloads: `0`
 - Response protocols: `0`
 - Transmissions: `0`
 
-HO-002 remains never supplied. Sonnet 5 and High are selected by displayed UI
-labels only; no backend model identity or hidden effort implementation is
-verified. No input has been supplied, and no valid recovered Decoder Level
-exists. TR-001 remains closed incomplete.
+The frozen categorical vector is:
 
-Both trial records use Anthropic, so same-provider isolation is not claimed.
-Sonnet 5 / High qualification preceded HO-002 generation, so
-model-selection-blind HO-002 chronology is not claimed. Execution requires the
-public package to be reviewed and committed, a separate private-package backup
-to be verified, and every custody, configuration, isolation, and cost gate to
-be reconfirmed.
+```text
+LEVEL_0=Recovered
+LEVEL_1=Not recovered
+LEVEL_2=Partially recovered
+LEVEL_3=Not recovered
+LEVEL_4=Not recovered
+```
 
-TR-002 is prepared and authorized but not executed. No output, validity
-classification, score, reveal, or empirical result exists. No higher-layer,
-carrier, distribution, or transmission work is authorized.
+The decoder recovered the artificiality/observable-structure level and
+partially recovered quantity and structured numeracy. It did not recover the
+frozen framing/hierarchy, relations/arithmetic, or
+grammar/logic/query-recovery levels.
+
+This is the first valid frozen Decoder Levels 0–4 result. It is
+exposure-stratified, same-provider dependent, and nonaggregate. Level 0
+recovery does not imply Level 1–4 recovery. Level 2 partial recovery despite
+Level 1 nonrecovery is not an aggregate contradiction because levels are
+criterion-specific.
+
+Sonnet 5 and High are displayed UI labels, not verified backend identities.
+Sonnet qualification preceded HO-002 generation. Incognito does not prove
+absence of hidden provider context. The result does not establish universal
+decodability, any Level 5–9 result, or any higher layer. No signal redesign,
+carrier, distribution, or transmission is authorized here.
 
 ## Discovery
 
@@ -264,8 +285,9 @@ Evaluation is structured by the
 and
 [blank scorecard](beacon/BSR-001/templates/DECODER-SCORECARD-TEMPLATE.md).
 SIG-001 instantiates a totally ordered two-event-class model and repository
-`x/y` serialization. One decoder trial is closed incomplete after a technical
-invalidity; no valid decoder output or result is instantiated.
+`x/y` serialization. One decoder trial is closed incomplete after technical
+invalidity. A distinct trial has one valid prior-exposed, same-provider-
+dependent categorical Levels 0–4 result.
 
 ## Covenant Payload
 
@@ -292,8 +314,10 @@ SIG-001 preserves a public administrator solution and pre-stream chronology.
 Two sealed-holdout commitments now exist. Their private mappings and packages
 remain unrevealed. The TR-001 packet commitment remains frozen as historical
 preparation evidence, and a distinct TR-002 packet commitment binds the
-prepared Sonnet 5 / High package. One technically invalid run was attempted,
-but no completed valid output, score, reveal, or empirical result exists.
+Sonnet 5 / High preparation package. TR-002 now has one technically invalid
+run, one valid prior-exposed retry, one frozen categorical Levels 0–4 score,
+and one private reveal-stage verification. No raw output or sealed content is
+public, and no aggregate empirical rate exists.
 
 ## Error Correction and Redundancy
 
@@ -327,6 +351,11 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-30: Recorded the first valid frozen Decoder Levels 0–4 result as one
+  prior-exposed, same-provider-dependent, nonaggregate datapoint; closed TR-002
+  complete; and published only categorical outcomes and private-verification
+  status without raw output, sealed content, higher-layer inference, signal
+  redesign, carrier, distribution, or transmission authorization.
 - 2026-07-30: Prepared and authorized distinct TR-002 for the never-supplied
   HO-002 holdout using displayed Sonnet 5 / High under a USD `0` incremental
   boundary, without executing a decoder, creating an output or score,

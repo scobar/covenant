@@ -2,7 +2,7 @@
 
 > **LIVE NONCANONICAL HOLDOUT REGISTRY — COMMITMENTS ARE NOT DECODING RESULTS**
 
-> **TWO SEALED SIG-001 HOLDOUTS — ONE PROVIDER-EXPOSED — ZERO VALID OUTPUTS OR REVEALS**
+> **TWO SEALED SIG-001 HOLDOUTS — TWO PROVIDER-EXPOSED — ONE VALID OUTPUT — ZERO PUBLIC RAW-CONTENT REVEALS**
 
 ## Registry Boundary
 
@@ -16,20 +16,20 @@ independently verified.
 
 - Registered sealed holdouts: `2`
 - Sealed and committed: `2`
-- Known provider-exposed holdouts: `1`
-- Never supplied to a decoder: `1`
-- Prepared trial configurations: `1`
-- Under active execution: `0`
-- Valid outputs: `0`
-- Scores: `0`
-- Reveals: `0`
+- Known provider-exposed holdouts: `2`
+- Never supplied to a decoder: `0`
+- Under active trial: `0`
+- Valid outputs: `1`
+- Scores: `1`
+- Private reveal-stage verifications: `1`
+- Public raw-content reveals: `0`
 
 ## Holdout Registry
 
-| Parent attempt | Holdout ID | Version | Lifecycle | Intended levels | Exposure | Trial preparation | Completed valid outputs | Public reveal | Public commitment | Public charter | Commitment record | Public manifest |
-|---|---|---:|---|---|---|---|---:|---|---|---|---|---|
-| `SIG-001` | `SIG-001-HO-001` | `0.1` | `Sealed and committed` | `0–4` | `Known Anthropic provider-side exposure` | TR-001 closed incomplete | `0` | `No` | `7776c5e763891725bc7c8d55a9c1f600b33e9d1c642a4d20f2cb433d94f6aed6` | [`00-PUBLIC-HOLDOUT-CHARTER.md`](holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md) | [`01-COMMITMENT-RECORD.md`](holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md) | [`02-PUBLIC-MANIFEST.md`](holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md) |
-| `SIG-001` | `SIG-001-HO-002` | `0.1` | `Sealed and committed` | `0–4` | `Never supplied to a decoder` | [TR-002 prepared — not executed](trials/SIG-001-HO-002-TR-002/00-PUBLIC-TRIAL-CHARTER.md) | `0` | `No` | `c8103cd2e80a2dc49309f1e1186817a75d97b8338950d726ffbc85e1127249b9` | [`00-PUBLIC-HOLDOUT-CHARTER.md`](holdouts/SIG-001-HO-002/00-PUBLIC-HOLDOUT-CHARTER.md) | [`01-COMMITMENT-RECORD.md`](holdouts/SIG-001-HO-002/01-COMMITMENT-RECORD.md) | [`02-PUBLIC-MANIFEST.md`](holdouts/SIG-001-HO-002/02-PUBLIC-MANIFEST.md) |
+| Parent attempt | Holdout ID | Version | Lifecycle | Intended levels | Exposure | Trial | Valid outputs | Score | Private commitment verification | Public raw reveal | Public commitment | Public charter | Commitment record | Public manifest |
+|---|---|---:|---|---|---|---|---:|---|---|---|---|---|---|---|
+| `SIG-001` | `SIG-001-HO-001` | `0.1` | `Sealed and committed` | `0–4` | `Known Anthropic provider-side exposure` | TR-001 closed incomplete | `0` | None | Not performed | `No` | `7776c5e763891725bc7c8d55a9c1f600b33e9d1c642a4d20f2cb433d94f6aed6` | [`00-PUBLIC-HOLDOUT-CHARTER.md`](holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md) | [`01-COMMITMENT-RECORD.md`](holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md) | [`02-PUBLIC-MANIFEST.md`](holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md) |
+| `SIG-001` | `SIG-001-HO-002` | `0.1` | `Sealed and committed` | `0–4` | `Known Anthropic provider-side exposure` | [TR-002 closed complete](trials/SIG-001-HO-002-TR-002/05-PUBLIC-RESULT-AND-CLOSURE-RECORD.md) | `1` | `Levels 0–4 frozen` | `PASS` | `No` | `c8103cd2e80a2dc49309f1e1186817a75d97b8338950d726ffbc85e1127249b9` | [`00-PUBLIC-HOLDOUT-CHARTER.md`](holdouts/SIG-001-HO-002/00-PUBLIC-HOLDOUT-CHARTER.md) | [`01-COMMITMENT-RECORD.md`](holdouts/SIG-001-HO-002/01-COMMITMENT-RECORD.md) | [`02-PUBLIC-MANIFEST.md`](holdouts/SIG-001-HO-002/02-PUBLIC-MANIFEST.md) |
 
 ## Trial and Exposure State
 
@@ -44,13 +44,16 @@ sealed, and publicly unrevealed, but it is now known provider-exposed. That
 status is not proof of cross-session memory, cross-model transfer, training
 ingestion, retrieval exposure, or successful decoding.
 
-HO-002 was generated mechanically without the Fable partial trace and has
-never been supplied to a decoder. Sonnet 5 / High was known prospectively
-before its generation, so model-selection-blind chronology is not claimed.
-TR-002 is prepared and authorized but not executed. Preparation and the public
-packet commitment do not expose HO-002 to the decoder and are not decoder
-results. Because TR-001 and TR-002 use Anthropic, same-provider independence
-is not established.
+HO-002 remains immutable. It reached Anthropic during TR-002 RUN-001 and is
+therefore classified as known Anthropic provider-side exposure. RUN-002
+produced one valid but prior-exposed output and one frozen Levels 0–4 score.
+Its public commitment was privately verified after score freeze. Public
+commitment-verification status is published without revealing sealed content.
+Provider exposure does not prove cross-session transfer.
+
+Sonnet 5 / High was known prospectively before HO-002 generation, so
+model-selection-blind chronology is not claimed. Because TR-001 and TR-002 use
+Anthropic, same-provider independence is not established.
 
 ## Evidence and Secrecy Boundary
 

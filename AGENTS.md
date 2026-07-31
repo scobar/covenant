@@ -633,6 +633,41 @@ Use this chronology:
 Do not grant Scott, ChatGPT, Codex, Anthropic, Claude, Fable, Sonnet, browser
 operator, decoder, scorer, or future model final interpretive authority.
 
+## Public Decoder-Result Integration Rules
+
+Require that:
+
+- Raw decoder output remains private unless a later decision explicitly
+  authorizes publication.
+- Public result records may include only frozen validity, exposure class,
+  categorical level outcomes, audit status, commitment-verification status,
+  and nonrevealing methodology.
+- Criterion counts, private query answers, mappings, examples, excerpts,
+  scorecard details, solutions, manifests, preimages, and nonces remain
+  private.
+- Technical-invalidity runs remain preserved and excluded from valid
+  denominators.
+- Prior-exposed results remain exposure-stratified.
+- A five-level vector is not an aggregate score.
+- Partial recovery at one level does not override nonrecovery at another.
+- Same-tooling agreement is not external independent validation.
+- Private reveal-stage verification does not equal public raw-content reveal.
+- Commitment verification cannot alter frozen output, validity, score, or
+  dissent.
+- A closed trial cannot receive a replacement output.
+- No third run follows after retry exhaustion.
+- A public result does not authorize post-hoc reasoning analysis, signal
+  redesign, another attempt, higher-layer work, carrier selection,
+  distribution, or transmission.
+- Any future post-hoc diagnostic analysis must preserve the frozen public
+  result and be separately authorized.
+- Any future SIG-002 design must distinguish hypothesis generation from
+  evaluation and preserve this result’s exposure and same-provider
+  limitations.
+
+Do not grant Scott, ChatGPT, Codex, Anthropic, Sonnet, a scorer, verifier, or
+future model final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:
