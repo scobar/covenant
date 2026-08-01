@@ -20,7 +20,10 @@ target does not instantiate a design, create SIG-002, or authorize execution.
 - Provider/model selections: `1`
 - Prepared paired-trial packages: `1`
 - Prepared opaque condition trials: `2`
+- Manual successor pair-execution authorizations: `1`
+- Conditions submitted: `0`
 - Executed successor trials: `0`
+- Executed successor runs: `0`
 - Trials: `0`
 - Outputs: `0`
 - Scores: `0`
@@ -46,7 +49,14 @@ trial package containing two opaque condition trials:
 [commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md),
 and [manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md).
 Its lifecycle is `Provider/model selected and paired trial prepared — execution
-not authorized`. Executions, outputs, scores, comparisons, and SIG-002 remain
+not authorized` at the D-032 preparation checkpoint. The later
+[D-033 public execution
+authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md)
+and its [frozen
+manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md)
+advance the live authorization lifecycle to
+`Manual paired execution authorized — not yet begun`. Conditions submitted,
+executed successor runs, outputs, scores, comparisons, and SIG-002 remain
 zero.
 
 ## Nonexecution boundary

@@ -38,6 +38,10 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Sealed unassigned successor holdouts: `2`
 - Successor provider/model selections: `1`
 - Prepared successor paired trials: `2`
+- Prepared successor opaque conditions: `2`
+- Manual execution authorizations: `1`
+- Submitted successor conditions: `0`
+- Executed successor runs: `0`
 - Executed successor trials: `0`
 - SIG-002 attempts: `0`
 - Signal redesigns: `0`
@@ -54,12 +58,17 @@ Frozen. No attempt is preferred merely because it is first or current.
 |---|---:|---|---|---|---|---|---:|---:|---|---|---|---|---|---|
 | `SIG-001` | `0.1` | `Frozen` | `0–4` | [`08-EVENT-STREAM.txt`](attempts/SIG-001/08-EVENT-STREAM.txt) | `b4e6a8b7a00b18e12e4816c44975ea0921cf4330504c744a72b8abf9dbf2b144` | `4884d0466c52c25a148a7b59239fa1539f27bdd2` | `0` | `0` | None | None | None | None | [`09-ATTEMPT-RECORD.md`](attempts/SIG-001/09-ATTEMPT-RECORD.md) | [`10-ATTEMPT-MANIFEST.md`](attempts/SIG-001/10-ATTEMPT-MANIFEST.md) |
 
-PTR-001 records one selected successor provider/model configuration and two
-prepared opaque condition trials:
+PTR-001 records one selected successor provider/model configuration, two
+prepared opaque conditions, and one later manual execution authorization:
 [public charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md)
-and [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md).
-Provider selection and paired-trial preparation do not create an attempt.
-Successor executions and SIG-002 attempts remain zero.
+and [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md),
+followed by the [D-033 public execution
+authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md)
+and its [frozen public
+manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md).
+Provider selection, paired-trial preparation, and execution authorization do
+not create a public signal attempt. Conditions submitted, successor run
+attempts, and SIG-002 attempts remain zero; no run follows automatically.
 
 ## Evidence Boundary
 

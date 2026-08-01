@@ -482,6 +482,70 @@ unblindings, and SIG-002 attempts remain `0`. D-032 creates no empirical
 result, Levels 5–9 analysis, higher layer, carrier, distribution, or
 transmission.
 
+## Authorized Manual Gemini Pair Execution
+
+- [PTR-001 Public Pair-Execution
+  Authorization](beacon/paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md)
+- [PTR-001 Public Pair-Execution Authorization
+  Manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md)
+
+> **PTR-001 v0.1 — MANUAL EXECUTION AUTHORIZED AFTER PUBLIC COMMIT — NO CONDITION SUBMITTED OR RESULT CREATED**
+
+D-033 authorizes later manual execution only after the public authorization
+and its frozen manifest are reviewed, committed, pushed, and local `main`
+again equals `origin/main`. The authorization lifecycle is
+`Manual paired execution authorized — not yet begun`; no run follows
+automatically.
+
+The exact pair configuration is Google through the Gemini web app, displayed
+model `3.1 Pro`, Extended Thinking enabled, browser-incognito Temporary Chat,
+the same personal account under the observed `Google AI Plus (2TB)` plan,
+backend identifier not exposed, no API or paid credits, authorized incremental
+spend USD `0`, and no fallback. The same configuration applies to both opaque
+conditions and any permitted technical retry.
+
+The private frozen execution order controls, and the operator learns only the
+next opaque condition label. The baseline/treatment mapping remains private.
+Immediately before each upload, a complete read-only live requalification must
+confirm the exact visible model, thinking, Temporary Chat, incognito,
+personalization, connected-context, tool/search, upload, payment, and empty-
+chat state. Any mismatch stops before submission.
+
+For each condition, the complete observable output and evidence freeze before
+validity, exposure, and contamination classification. Validity freezes before
+any technical-retry decision. At most one technical retry is permitted per
+condition, and substantive retries are prohibited. A contaminated substantive
+response does not authorize a cleaner retry.
+
+The first opaque condition, including any permitted technical retry and final
+validity freeze, must complete before the second condition is submitted. This
+preserves the cleanest available provider-exposure chronology. Prior-same-
+condition and prior-other-condition exposure are recorded separately, while
+same-provider dependence, unproven Temporary Chat isolation, and unknown
+backend identity remain explicit.
+
+No scoring occurs during manual execution. A separate later task may authorize
+fresh isolated condition-specific scoring only after both conditions' output
+and validity records freeze. Both scores must freeze before opaque comparison
+or mapping reveal. Public result integration and any public SIG-002 attempt
+remain separate later decisions.
+
+- Authorization records: `1`
+- Prepared opaque conditions: `2`
+- Conditions submitted: `0`
+- Run attempts: `0`
+- Outputs: `0`
+- Validity classifications: `0`
+- Technical retries used: `0`
+- Scores: `0`
+- Comparisons: `0`
+- Unblindings: `0`
+- SIG-002 attempts: `0`
+- Incremental spend: USD `0`
+
+No empirical result, Levels 5–9 analysis, higher layer, Covenant or CSR
+payload, carrier, distribution, or transmission follows from D-033.
+
 ## Discovery
 
 Receiver observability, capability, and motivation assumptions are explicit
@@ -584,6 +648,12 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-08-01: Added D-033 and the frozen PTR-001 public manual
+  pair-execution authorization, requiring exact live Gemini requalification,
+  first-condition completion before second-condition submission, separate
+  exposure fields, output/evidence-before-validity chronology, and later
+  scoring and unblinding gates while all execution and result counts remain
+  zero.
 - 2026-07-31: Added D-032 and PTR-001, selecting Google Gemini 3.1 Pro with
   Extended Thinking and preparing two opaque condition trials under a private
   random order, isolated-context, no-fallback, zero-cost protocol without

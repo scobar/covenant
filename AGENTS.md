@@ -888,6 +888,73 @@ Require that:
 Do not grant an operator, provider, model, decoder, scorer, reviewer, auditor,
 integrator, Scott, ChatGPT, Codex, or future actor final interpretive authority.
 
+## Manual Opaque Pair Execution Authorization Rules
+
+Require that:
+
+- An accepted, committed, and pushed public execution authorization exists
+  before either opaque condition is submitted, and local `main` equals
+  `origin/main`.
+- The complete private package has a verified offline backup and the removable
+  backup device is safely ejected, physically disconnected, and unavailable to
+  the active filesystem.
+- The exact selected provider, interface, displayed model, thinking setting,
+  account, plan, and zero-incremental-spend controls apply with no fallback.
+- A final read-only live qualification is completed immediately before every
+  run and stops before upload if any required field differs.
+- Every run uses one fresh browser-incognito Temporary Chat with no prior chat,
+  connected or personalized context, custom instruction, Gem, Notebook, Deep
+  Research, Chrome-tab context, browser control, manually activated search,
+  unrelated tool, or follow-up.
+- Only the next opaque condition label is exposed to the operator; the private
+  execution order and baseline/treatment mapping remain private.
+- The first condition, including any permitted technical retry and final
+  validity freeze, completes before the second condition is submitted.
+- Complete observable output and evidence freeze before validity, exposure,
+  and contamination classification.
+- Validity classification freezes before any technical-retry decision.
+- At most one technical retry is permitted per condition and zero substantive
+  retries are permitted.
+- A contaminated substantive output does not permit a cleaner retry.
+- Prior-same-condition and prior-other-condition provider exposure are
+  recorded separately; same-provider dependence and unproven Temporary Chat
+  isolation remain explicit.
+- No scoring occurs during manual execution.
+- Isolated scoring may begin only under a separate later accepted task after
+  both conditions' output and validity states freeze.
+- Both condition-specific scores freeze before comparison or unblinding.
+- Separate later accepted decisions govern scoring and comparison, public
+  result integration, and any public SIG-002 attempt.
+- Authorized incremental spend remains USD `0`.
+- No Levels 5–9 analysis, higher layer, Covenant or CSR payload, physical or
+  agency profile, shared executable model, response syntax, carrier,
+  distribution, or transmission follows.
+- Any private-metadata emission into a same-tooling transcript must be
+  preserved as a custody/provenance incident. Public disclosure,
+  trial-provider exposure, raw-content disclosure, and identity-metadata
+  disclosure must be classified separately.
+- Such an incident must not be erased by rewriting history or silently
+  rotating frozen artifacts.
+- When applicable, every future private run record must carry this exact
+  provenance block:
+
+```text
+NONTRIAL_SAME_TOOLING_METADATA_DISCLOSURE=True
+DISCLOSURE_CHANNEL=OpenAI Codex preparation transcript
+PUBLIC_REPOSITORY_DISCLOSURE=False
+GOOGLE_PROVIDER_DISCLOSURE=False
+ORDER_OR_MAPPING_DISCLOSED=False
+RAW_CONDITION_CONTENT_DISCLOSED=False
+```
+
+- Any later discovery of order, mapping, raw condition content, instruction,
+  solution, or scorecard disclosure is a stop condition requiring
+  architectural review before execution.
+
+Do not grant an operator, custodian, provider, model, decoder, scorer,
+reviewer, auditor, integrator, Scott, ChatGPT, Codex, or future actor final
+interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:

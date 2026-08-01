@@ -202,6 +202,11 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — public preparation commitment, parent commitments, counts, and nonclaims.
 - [PTR-001 Public Preparation Manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md)
   — frozen identities for the four public PTR-001 dependencies.
+- [PTR-001 Public Pair-Execution Authorization](beacon/paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md)
+  — D-033 manual execution boundary, final live qualification, sequential
+  condition completion, exposure, retry, and stop rules.
+- [PTR-001 Public Pair-Execution Authorization Manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md)
+  — frozen one-row public D-033 authorization identity and audit state.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -778,6 +783,47 @@ condition, or executing a model. A later accepted decision is required for
 execution; further separate decisions remain required for public result
 integration and SIG-002.
 
+## Manual Gemini Paired Execution Authorized
+
+> **PTR-001 v0.1 — MANUAL EXECUTION AUTHORIZED AFTER PUBLIC COMMIT — NO CONDITION SUBMITTED OR RESULT CREATED**
+
+D-033 authorizes Scott Barbian to perform the two opaque PTR-001 conditions
+manually only after D-033 and its frozen public authorization manifest are
+reviewed, committed, pushed, and local `main` again equals `origin/main`.
+
+The exact configuration is Google through the Gemini web app, displayed model
+`3.1 Pro`, Extended Thinking enabled, browser-incognito Temporary Chat, the
+same personal account under the observed `Google AI Plus (2TB)` plan, backend
+identifier not exposed, no API or paid credits, authorized incremental spend
+USD `0`, and no fallback. A complete read-only live qualification must pass
+immediately before each upload; any configuration, isolation, upload,
+payment, or upgrade mismatch stops before submission.
+
+- Authorization lifecycle: `Manual paired execution authorized — not yet begun`.
+- Prepared opaque conditions: `2`.
+- Conditions submitted, run attempts, outputs, validity classifications,
+  retries used, scores, comparisons, unblindings, and SIG-002 attempts: `0`.
+- The private frozen order controls, and the operator learns only the next
+  opaque label.
+- The baseline/treatment mapping remains private.
+- The first condition's output and evidence, any allowed technical retry, and
+  final validity state must freeze before the second condition is submitted.
+- Output and evidence freeze before validity; validity freezes before a
+  technical-retry decision.
+- At most one technical retry is permitted per condition; substantive retries
+  are prohibited.
+- Scoring and unblinding are not authorized. A later isolated scoring task may
+  begin only after both conditions' output and validity states freeze, and
+  both scores must freeze before comparison or mapping reveal.
+- No public result or SIG-002 follows automatically.
+- D-009 remains `Proposed`.
+
+Temporary Chat and incognito do not prove provider isolation or backend
+identity. Web/search behavior was not explicitly controllable; visible
+retrieval, grounding, citations, connected-app behavior, or other external
+tool use must be preserved and classified as contamination. No Levels 5–9,
+higher layer, carrier, distribution, or transmission is authorized.
+
 ## Cooperative Surplus and Adoption Research
 
 > **Protection is not a membership benefit. Cooperative surplus may be.**
@@ -827,19 +873,25 @@ The current working sequence is:
    as causal, empirical, decoder, provider, or public-attempt evidence.
 4. Treat D-032 as provider/model selection and paired-trial preparation only,
    not execution, output, scoring, comparison, unblinding, result, or SIG-002.
-5. Keep the Level 1 endpoint, Level 0/2 guardrails, denominator, threshold
+5. Treat D-033 as manual execution authorization that becomes operational only
+   after reviewed public commit, push, and clean `main`/`origin/main` parity;
+   it creates no run automatically.
+6. Perform the final live Gemini qualification immediately before each future
+   upload and stop before submission if any exact field differs.
+7. Complete the first opaque condition, including output/evidence freeze,
+   validity classification, and any authorized technical retry, before the
+   second condition is submitted.
+8. Keep the Level 1 endpoint, Level 0/2 guardrails, denominator, threshold
    policy, and nonaggregate comparison vocabulary frozen.
-6. Preserve private SDR-003 and PTR-001 mapping, order, raw artifacts, solution
+9. Preserve private SDR-003 and PTR-001 mapping, order, raw artifacts, solution
    keys, scorecard details, manifests, preimages, and nonces outside Git.
-7. Complete architectural review and back up all twenty-five private PTR-001
-   files before public commit.
-8. Keep execution behind a later accepted decision.
-9. Use the same provider/model/configuration with fresh isolated condition
-   contexts under any later authorized paired trial.
-10. Freeze each output and validity before scoring; freeze both
+10. Use the same provider/model/configuration with fresh isolated condition
+    contexts under the authorized paired trial and no fallback.
+11. Freeze each output and validity before scoring; freeze both
     condition-specific scores before unblinding or comparison, and report
     exposure strata explicitly.
-11. Require a separate later decision for any public result or SIG-002 attempt,
+12. Require separate later tasks for scoring and comparison and a separate
+    decision for any public result or SIG-002 attempt,
     Levels 5–9 work, higher layer, carrier, distribution, or transmission.
 
 Same-provider architecture, hidden backend identity, hidden platform state,

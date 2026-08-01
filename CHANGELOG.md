@@ -6,6 +6,8 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- PTR-001 public manual pair-execution authorization.
+- Frozen D-033 public authorization manifest.
 - PTR-001 public paired-trial charter.
 - Google provider/model selection record.
 - Paired execution and freeze protocol.
@@ -179,6 +181,16 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- D-033 now preserves a nonpublic same-tooling private-identity-metadata
+  custody/provenance incident separately from public-repository or Google
+  exposure, without changing any frozen pair artifact or execution count.
+- D-033 authorizes later manual execution only after public commit.
+- The first opaque condition, including any technical retry and validity
+  freeze, must complete before the second condition is submitted.
+- Final live Gemini qualification is required before each upload.
+- Scoring, comparison, unblinding, public result integration, and SIG-002
+  remain separate later gates.
+- No condition was submitted and no output or result was created.
 - D-032 selects Google Gemini 3.1 Pro with Extended Thinking for the future
   zero-cost opaque pair.
 - Trial guidance now records same-provider exposure asymmetry, Temporary Chat

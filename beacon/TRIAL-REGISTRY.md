@@ -27,24 +27,31 @@ output. Future models require distinct trial IDs and decisions.
 - Public raw-output reveals: `0`
 - Aggregate empirical decode rates: `0`
 
-## Prepared successor paired-trial packages
+## Successor paired-trial preparation and execution authorization
 
 - Existing executed/prepared attempt-associated trial records: unchanged
 - Prepared successor paired-trial packages: `1`
 - Prepared opaque condition trials: `2`
+- Manual pair-execution authorizations: `1`
+- Conditions submitted: `0`
 - Selected successor provider/model configurations: `1`
+- Successor run attempts: `0`
 - Successor trial executions: `0`
 - Successor outputs: `0`
+- Successor validity classifications: `0`
 - Successor scores: `0`
 - Successor comparisons: `0`
 - Successor unblindings: `0`
 
 | Package | Parent pair | Provider/configuration | Lifecycle | Prepared conditions | Executions | Outputs | Scores | Comparisons | Unblindings | Public records |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| `PTR-001 v0.1` | `SDR-003-PH-001` | Google Gemini web app; `3.1 Pro`; Extended Thinking | `Provider/model selected and paired trial prepared — execution not authorized` | `2` | `0` | `0` | `0` | `0` | `0` | [Charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md); [selection](paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md); [protocol](paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md); [commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md); [manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md) |
+| `PTR-001 v0.1` | `SDR-003-PH-001` | Google Gemini web app; `3.1 Pro`; Extended Thinking | `Manual paired execution authorized — not yet begun` | `2` | `0` | `0` | `0` | `0` | `0` | [Charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md); [selection](paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md); [protocol](paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md); [commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md); [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md); [D-033 authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md); [authorization manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md) |
 
-Preparation is not execution. Neither opaque condition trial is associated
-with a public SIG-002 attempt.
+Preparation and authorization are not execution. D-033 becomes operational
+only after public commit and clean `main`/`origin/main` parity. It requires the
+first condition's final validity state to freeze before the second condition
+is submitted. No run follows automatically, and neither opaque condition is
+associated with a public SIG-002 attempt.
 
 ## Trial registry
 

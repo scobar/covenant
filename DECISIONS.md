@@ -1305,6 +1305,123 @@
   into execution, SIG-002, Levels 5–9 work, higher-layer content, carrier
   selection, distribution, or transmission.
 
+### D-033 — Authorize manual execution of the two frozen opaque Gemini conditions only after public authorization commit
+
+- **Date:** 2026-08-01
+- **Status:** Accepted
+- **Question:** May Scott manually submit the two already frozen opaque
+  PTR-001 condition packets to the selected Google Gemini configuration, and
+  what chronology and stop rules govern those submissions?
+- **Decision:** Authorize Scott Barbian, as private custodian and manual
+  operator, to execute the two opaque PTR-001 conditions in the already frozen
+  private order only after this decision and its public authorization manifest
+  are reviewed, committed, pushed, and local `main` again equals
+  `origin/main`. Require a fresh browser-incognito Gemini Temporary Chat for
+  every run, the exact displayed model label `3.1 Pro`, `Extended Thinking`
+  enabled, the same personal Google account and observed `Google AI Plus
+  (2TB)` plan, no fallback model/provider/interface/API, and authorized
+  incremental spend fixed at USD 0. Immediately before each upload, require a
+  final live qualification check confirming Temporary Chat, the exact visible
+  model and thinking setting, no connected or personalized context, no
+  manually activated search or tools, file upload availability, no upgrade or
+  payment requirement, and no prior content or upload in that chat. Submit
+  only the next opaque condition’s frozen `unknown-sequence.txt`, paste only
+  its frozen instruction as the single substantive message, and send no
+  greeting, follow-up, clarification, correction, evaluation request, or
+  second substantive message. Freeze the complete observable output and
+  private execution evidence before closing the chat. Classify validity,
+  contamination, and provider exposure in a separately bounded task before
+  deciding whether the one frozen technical retry for that condition is
+  available. Permit zero substantive retries. Complete the first opaque
+  condition—including any authorized technical retry and final validity
+  freeze—before submitting the second condition, so a possible first-condition
+  retry does not follow provider exposure to the other condition. Record prior
+  same-condition and prior other-condition provider exposure separately.
+  Visible search, retrieval, grounding, citations, connected-app behavior, or
+  other external tool use is contamination and does not authorize a cleaner
+  retry. Refusal, uncertainty, criticism, low recovery, or an inconvenient
+  response never authorizes a retry. The exact configuration becoming
+  unavailable, a visible model/setting mismatch, payment or upgrade request,
+  packet-identity failure, evidence-preservation failure, or protocol
+  ambiguity requires stopping or indefinite dormancy rather than substitution.
+  Keep the baseline/treatment mapping and private execution order outside Git;
+  the operator may learn only the next opaque condition label. Preserve the
+  D-033 preparation-session emission of private dependency identity metadata
+  into the same-tooling OpenAI Codex transcript as a nonpublic custody/
+  provenance incident. Classify public-repository disclosure and Google
+  provider disclosure as false on current evidence, while not claiming zero
+  private disclosure within the Codex session. Do not treat one-way identity
+  metadata as raw condition content, an opaque-order or baseline/treatment
+  mapping reveal, an empirical result, or a Google contamination event. Do not
+  regenerate or rotate any frozen private artifact; doing so would not erase
+  the transcript and would unnecessarily disturb preregistered artifacts.
+  Require every future private run record to preserve:
+
+  ```text
+  NONTRIAL_SAME_TOOLING_METADATA_DISCLOSURE=True
+  DISCLOSURE_CHANNEL=OpenAI Codex preparation transcript
+  PUBLIC_REPOSITORY_DISCLOSURE=False
+  GOOGLE_PROVIDER_DISCLOSURE=False
+  ORDER_OR_MAPPING_DISCLOSED=False
+  RAW_CONDITION_CONTENT_DISCLOSED=False
+  ```
+
+  This decision authorizes manual submission and private output/evidence
+  preservation only.
+  It does not authorize condition scoring, cross-condition comparison,
+  baseline/treatment unblinding, public result integration, SIG-002, another
+  signal attempt or holdout, Levels 5–9 analysis, Covenant or CSR payload,
+  physical or agency profile, shared executable model, response syntax,
+  carrier, distribution, transmission, candidate preference, acceptance,
+  canonicality, supersession, or stabilization.
+- **Reasoning:** PTR-001 froze the provider configuration, exact condition
+  packets, private random order, evidence capture, validity, contamination,
+  exposure, retry, scoring, comparison, unblinding, stop, and dormancy rules
+  before execution. A separate committed authorization prevents preparation
+  from silently becoming execution. Completing the first opaque condition and
+  any technical retry before exposing the second condition preserves the
+  cleanest available provider-exposure chronology. Final live qualification
+  catches interface, availability, payment, and routing changes that could not
+  be frozen during D-032. Separate validity and later scoring tasks preserve
+  the output-before-judgment and score-before-unblinding boundaries. The
+  preparation-session incident distinguishes same-tooling identity-metadata
+  custody from public or provider exposure. One-way identity metadata does not
+  by itself reconstruct the private surface-novel condition bytes. Rotating the
+  pair would not remove the transcript record and would instead disturb frozen
+  preregistration without improving provenance.
+- **Alternatives considered:** Execute both conditions immediately under
+  D-032; execute the second condition before resolving a technical retry on the
+  first; use one chat for both; permit Flash or another provider as fallback;
+  activate search or connected tools; allow follow-up messages; score during
+  execution; reveal the condition mapping before scores freeze; defer all
+  execution indefinitely.
+- **Consequences:** The public Beacon records one manual paired-execution
+  authorization and zero submitted conditions, run attempts, outputs, validity
+  classifications, retries, scores, comparisons, unblindings, or SIG-002
+  attempts. After clean publication, Scott may execute only the first opaque
+  condition in the private order and must return to the frozen capture and
+  validity process before the second condition. Later accepted tasks are
+  required for isolated scoring, paired comparison and unblinding, public
+  result integration, and any public SIG-002 attempt. The public Beacon also
+  records one nonpublic same-tooling custody/provenance incident, public-
+  repository disclosure false, Google provider disclosure false, and zero
+  private Codex-session disclosure not claimed. No frozen private artifact or
+  commitment changes, and future private run records must carry the specified
+  provenance block.
+- **Revisit conditions:** Revisit if the exact model label or Extended Thinking
+  setting is unavailable, the interface requires payment or upgrade, Temporary
+  Chat or upload is unavailable, the visible configuration differs, provider
+  search/tool behavior appears, packet or commitment identity fails, output or
+  evidence cannot be frozen, the private order or baseline/treatment mapping
+  leaks, later evidence shows that the preparation incident disclosed the next
+  opaque condition label, raw condition content, instruction text, solution
+  content, or scorecard content, the incident is omitted from future
+  provenance, exposure fields cannot be represented honestly, the first-
+  condition retry cannot precede second-condition submission, or authorization
+  silently expands into scoring, comparison, unblinding, SIG-002, Levels 5–9
+  work, higher-layer content, carrier selection, distribution, or
+  transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

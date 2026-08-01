@@ -49,22 +49,27 @@ independently verified.
 |---|---|---|---|---|---|---|---|
 | `SDR-003-PH-001` | `A` and `B` | `Sealed and committed — unassigned successor pair` | `Never supplied` | None | Private | `No` | [Charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [blinding record](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [commitment record](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
 
-PTR-001 adds only this nonexecuting preparation state to the successor pair:
+PTR-001 and D-033 add this preparation and manual-authorization state to the
+successor pair without changing its sealed artifacts or commitments:
 
+- Provider/configuration: selected under D-032
 - Provider selected for future pair: `Google`
 - Displayed model: `3.1 Pro`
 - Extended Thinking: `True`
 - Trial preparation: `PTR-001 prepared`
+- Manual execution: authorized under D-033 after public commit
 - Conditions supplied to provider: `0`
 - Exposure: `Never supplied`
-- Trial: `None executed`
+- Trial run: `None`
 - Mapping: `Private`
 - Raw content public: `No`
 - PTR-001 records: [charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md);
   [selection](paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md);
   [protocol](paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md);
   [commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md);
-  [manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md).
+  [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md);
+  [D-033 authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md);
+  [authorization manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md).
 
 The sealed pair content and its three public commitments remain unchanged.
 
