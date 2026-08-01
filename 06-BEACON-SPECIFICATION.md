@@ -434,10 +434,53 @@ commitments and one overall pair commitment are public. Surface values, stream
 bytes and identities, mapping, profile, generator, solutions, detailed
 scorecard, private manifest identity, preimages, and nonces remain private.
 
-The conditions are sealed unassigned successor holdouts. Provider/model
-selections, trials, outputs, scores, comparisons, unblindings, SIG-002
-attempts, and higher-layer artifacts remain `0`. No carrier, distribution, or
-transmission follows.
+At the D-031 freeze, the conditions were sealed unassigned successor holdouts
+and provider/model selections, trials, outputs, scores, comparisons,
+unblindings, SIG-002 attempts, and higher-layer artifacts were `0`. No
+carrier, distribution, or transmission followed.
+
+## Prepared Zero-Cost Google Gemini Paired Trial
+
+- [PTR-001 Public Paired-Trial
+  Charter](beacon/paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md)
+- [Provider and Model Selection
+  Record](beacon/paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md)
+- [Execution and Freeze
+  Protocol](beacon/paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md)
+- [Paired-Trial Preparation Commitment
+  Record](beacon/paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md)
+- [Frozen Public Preparation
+  Manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md)
+
+> **PTR-001 v0.1 — GOOGLE GEMINI OPAQUE PAIRED TRIAL PREPARED — EXECUTION NOT AUTHORIZED**
+
+D-032 selects the Google Gemini web app with displayed model `3.1 Pro` and
+Extended Thinking enabled under the observed Google AI Plus (2TB) plan, with
+authorized incremental spend fixed at USD `0`. The same exact configuration
+is required for both opaque conditions; there is no fallback.
+
+Each condition requires its own fresh browser-incognito Temporary Chat without
+prior chats, connected context, personalization, manually activated tools, or
+follow-up. These controls do not prove backend identity, provider isolation,
+retention behavior, or routing. The second condition necessarily follows
+same-provider exposure to the first, and any retry follows exposure to the same
+condition; both exposure dimensions must be recorded separately. Visible
+search, grounding, retrieval, citations, or tool use is contamination.
+
+Output and evidence freeze before validity classification; validity freezes
+before any technical-retry decision. At most one technical retry is permitted
+per condition, with zero substantive retries. Each condition is scored in a
+fresh isolated context. Level 1 remains the primary endpoint, Levels 0 and 2
+remain nonregression guardrails, and Levels 3 and 4 remain exploratory. Both
+scores freeze before comparison and private unblinding.
+
+The public PTR-001 preparation commitment is
+`1de6dcbed650450b046a950d87e989370601249ac2bd7a98f6dffeddf9a5184a`. The execution order and mapping remain private.
+Provider/model selection and two-condition trial preparation are complete, but
+executions, outputs, validity classifications, scores, comparisons,
+unblindings, and SIG-002 attempts remain `0`. D-032 creates no empirical
+result, Levels 5–9 analysis, higher layer, carrier, distribution, or
+transmission.
 
 ## Discovery
 
@@ -541,6 +584,11 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-31: Added D-032 and PTR-001, selecting Google Gemini 3.1 Pro with
+  Extended Thinking and preparing two opaque condition trials under a private
+  random order, isolated-context, no-fallback, zero-cost protocol without
+  execution, output, score, unblinding, SIG-002, higher layer, carrier,
+  distribution, or transmission.
 - 2026-07-31: Added D-031 and SDR-003, deterministically serializing the exact
   SDR-002 symbolic pair under one fresh shared profile, independently
   reconstructing both streams, randomly assigning opaque Conditions A and B,

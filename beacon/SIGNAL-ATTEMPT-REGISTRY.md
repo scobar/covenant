@@ -36,6 +36,9 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Exact symbolic paired designs: `1`
 - Serialized successor condition streams: `2`
 - Sealed unassigned successor holdouts: `2`
+- Successor provider/model selections: `1`
+- Prepared successor paired trials: `2`
+- Executed successor trials: `0`
 - SIG-002 attempts: `0`
 - Signal redesigns: `0`
 - Aggregate empirical decode rates: `0`
@@ -50,6 +53,13 @@ Frozen. No attempt is preferred merely because it is first or current.
 | Attempt | Version | Lifecycle | Intended levels | Event stream | SHA-256 | Git blob | Trials | Holdouts | Carrier | Covenant payload | CSR payload | Supersedes | Attempt record | Manifest |
 |---|---:|---|---|---|---|---|---:|---:|---|---|---|---|---|---|
 | `SIG-001` | `0.1` | `Frozen` | `0–4` | [`08-EVENT-STREAM.txt`](attempts/SIG-001/08-EVENT-STREAM.txt) | `b4e6a8b7a00b18e12e4816c44975ea0921cf4330504c744a72b8abf9dbf2b144` | `4884d0466c52c25a148a7b59239fa1539f27bdd2` | `0` | `0` | None | None | None | None | [`09-ATTEMPT-RECORD.md`](attempts/SIG-001/09-ATTEMPT-RECORD.md) | [`10-ATTEMPT-MANIFEST.md`](attempts/SIG-001/10-ATTEMPT-MANIFEST.md) |
+
+PTR-001 records one selected successor provider/model configuration and two
+prepared opaque condition trials:
+[public charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md)
+and [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md).
+Provider selection and paired-trial preparation do not create an attempt.
+Successor executions and SIG-002 attempts remain zero.
 
 ## Evidence Boundary
 

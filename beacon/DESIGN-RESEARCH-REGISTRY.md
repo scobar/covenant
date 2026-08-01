@@ -17,10 +17,14 @@ target does not instantiate a design, create SIG-002, or authorize execution.
 - Serialized condition streams: `2`
 - Sealed unassigned successor holdouts: `2`
 - SIG-002 attempts: `0`
-- Provider/model selections: `0`
+- Provider/model selections: `1`
+- Prepared paired-trial packages: `1`
+- Prepared opaque condition trials: `2`
+- Executed successor trials: `0`
 - Trials: `0`
 - Outputs: `0`
 - Scores: `0`
+- Comparisons: `0`
 - Empirical results: `0`
 - Levels 5–9 analyses: `0`
 - Carriers: `0`
@@ -34,6 +38,17 @@ target does not instantiate a design, create SIG-002, or authorize execution.
 | `SDR-002` | `0.1` | `Exact symbolic pair selected and privately frozen — no stream or attempt` | Framing-cue locality | Nested local framing signatures | None | [Public charter](SDR-002/00-PUBLIC-EXACT-PAIR-CHARTER.md); [selection record](SDR-002/01-TREATMENT-FAMILY-SELECTION-RECORD.md); [commitment record](SDR-002/02-PRIVATE-DESIGN-COMMITMENT-RECORD.md); [preparation manifest](SDR-002/03-PUBLIC-EXACT-PAIR-PREPARATION-MANIFEST.md) |
 | `SDR-003` | `0.1` | `Surface-serialized opaque pair privately frozen — no provider or trial` | Framing-cue locality | Nested local framing signatures serialized as opaque Conditions A and B | None | [Public serialized-pair charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [opaque conditions and blinding](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [paired-holdout commitments](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [preparation manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
 
+PTR-001 records one later provider/model selection and one prepared paired-
+trial package containing two opaque condition trials:
+[charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md),
+[selection](paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md),
+[protocol](paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md),
+[commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md),
+and [manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md).
+Its lifecycle is `Provider/model selected and paired trial prepared — execution
+not authorized`. Executions, outputs, scores, comparisons, and SIG-002 remain
+zero.
+
 ## Nonexecution boundary
 
 SDR-001 and SDR-002 remain frozen historical packages at their respective
@@ -46,6 +61,7 @@ nonrevealing proof status, counts, and commitments.
 The SDR-003 pair is not associated with a public signal attempt or valid-trial
 denominator. Provider-independent replication and clean no-known-exposure
 holdouts remain future validity controls rather than the primary manipulated
-variable. Separate later accepted decisions are required for provider/model
-selection, trial preparation, execution, public SIG-002 creation, and result
-publication. No higher layer, carrier, distribution, or transmission follows.
+variable. Provider/model selection and trial preparation were later frozen in
+PTR-001. Separate accepted decisions remain required for execution, public
+SIG-002 creation, and result publication. No higher layer, carrier,
+distribution, or transmission follows.

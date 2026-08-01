@@ -192,6 +192,16 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — two condition packet commitments, one pair commitment, and frozen counts.
 - [SDR-003 Public Serialized-Pair Preparation Manifest](beacon/SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md)
   — frozen three-row public preparation-package identity and audit status.
+- [PTR-001 Public Paired-Trial Charter](beacon/paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md)
+  — two opaque Google Gemini condition trials prepared without execution.
+- [PTR-001 Provider and Model Selection Record](beacon/paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md)
+  — exact observed qualification state, selected configuration, and limits.
+- [PTR-001 Execution and Freeze Protocol](beacon/paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md)
+  — nonrevealing future chronology, retry, exposure, and score-freeze rules.
+- [PTR-001 Preparation Commitment Record](beacon/paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md)
+  — public preparation commitment, parent commitments, counts, and nonclaims.
+- [PTR-001 Public Preparation Manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md)
+  — frozen identities for the four public PTR-001 dependencies.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -721,6 +731,8 @@ Raw surface values, streams and identities, mapping, profile, generator,
 solutions, detailed scorecard, private manifest identity, preimages, and
 nonces remain outside Git.
 
+At the D-031 freeze:
+
 - Serialized condition streams: `2`.
 - Sealed unassigned successor holdouts: `2`.
 - Provider/model selections, trials, outputs, validity classifications,
@@ -730,9 +742,41 @@ nonces remain outside Git.
   transmissions: `0`.
 - D-009 remains `Proposed`.
 
-Separate later decisions remain required for provider/model selection, paired
-trial preparation, execution, public SIG-002 creation, and publication of any
-result.
+Provider/model selection and paired-trial preparation are now frozen in
+PTR-001. Separate later decisions remain required for execution, public
+SIG-002 creation, and publication of any result.
+
+## Google Gemini Paired Trial Prepared
+
+> **PTR-001 v0.1 — GOOGLE GEMINI OPAQUE PAIRED TRIAL PREPARED — EXECUTION NOT AUTHORIZED**
+
+D-032 selects the Google Gemini web app with displayed model `3.1 Pro` and
+Extended Thinking enabled. Pro plus Extended Thinking was the strongest
+observed zero-upgrade reasoning configuration for a formal decoding task. The
+same exact displayed configuration must be used for both opaque conditions;
+there is no fallback and authorized incremental spend remains USD `0`.
+
+The private package freezes one random opaque execution order. Each future
+condition requires a new browser-incognito Temporary Chat without prior chats,
+personalization, connected context, manually activated tools, or follow-up.
+Temporary Chat and incognito reduce known context channels but do not prove
+backend identity, provider isolation, retention behavior, routing, or future
+availability. Search was not explicitly controllable; visible search,
+retrieval, grounding, citations, or tool behavior is contamination.
+
+- Prepared opaque condition trials: `2`.
+- Provider/model selections: `1`.
+- Executions, outputs, validity classifications, scores, comparisons, and
+  unblindings: `0`.
+- SIG-002 attempts: `0`.
+- Levels 5–9 analyses, higher layers, carriers, distributions, and
+  transmissions: `0`.
+- D-009 remains `Proposed`.
+
+D-032 does not authorize opening or operating Gemini, submitting either
+condition, or executing a model. A later accepted decision is required for
+execution; further separate decisions remain required for public result
+integration and SIG-002.
 
 ## Cooperative Surplus and Adoption Research
 
@@ -781,22 +825,22 @@ The current working sequence is:
    exact symbolic feasibility selection, neither as causal proof.
 3. Treat D-031 as surface serialization and sealed-pair preparation only, not
    as causal, empirical, decoder, provider, or public-attempt evidence.
-4. Keep the Level 1 endpoint, Level 0/2 guardrails, denominator, threshold
+4. Treat D-032 as provider/model selection and paired-trial preparation only,
+   not execution, output, scoring, comparison, unblinding, result, or SIG-002.
+5. Keep the Level 1 endpoint, Level 0/2 guardrails, denominator, threshold
    policy, and nonaggregate comparison vocabulary frozen.
-5. Preserve the private SDR-003 mapping, raw artifacts, profile, generator,
-   solution keys, scorecard details, manifests, preimages, and nonces outside
-   Git.
-6. Complete architectural review and verify an offline backup of all
-   twenty-two private SDR-003 files before public commit.
-7. Keep provider/model selection and paired-trial preparation behind a later
-   D-032 decision; D-032 must stop before execution unless separately and
-   explicitly authorized.
-8. Use the same provider/model/configuration with fresh isolated condition
+6. Preserve private SDR-003 and PTR-001 mapping, order, raw artifacts, solution
+   keys, scorecard details, manifests, preimages, and nonces outside Git.
+7. Complete architectural review and back up all twenty-five private PTR-001
+   files before public commit.
+8. Keep execution behind a later accepted decision.
+9. Use the same provider/model/configuration with fresh isolated condition
    contexts under any later authorized paired trial.
-9. Freeze condition-specific outputs and scores before unblinding or
-   comparison, and report exposure strata explicitly.
-10. Require a separate later decision for any public SIG-002 attempt, Levels
-    5–9 work, higher layer, carrier, distribution, or transmission.
+10. Freeze each output and validity before scoring; freeze both
+    condition-specific scores before unblinding or comparison, and report
+    exposure strata explicitly.
+11. Require a separate later decision for any public result or SIG-002 attempt,
+    Levels 5–9 work, higher layer, carrier, distribution, or transmission.
 
 Same-provider architecture, hidden backend identity, hidden platform state,
 unprovable Incognito isolation, prospective model selection, and the

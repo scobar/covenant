@@ -49,9 +49,28 @@ independently verified.
 |---|---|---|---|---|---|---|---|
 | `SDR-003-PH-001` | `A` and `B` | `Sealed and committed — unassigned successor pair` | `Never supplied` | None | Private | `No` | [Charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [blinding record](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [commitment record](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
 
+PTR-001 adds only this nonexecuting preparation state to the successor pair:
+
+- Provider selected for future pair: `Google`
+- Displayed model: `3.1 Pro`
+- Extended Thinking: `True`
+- Trial preparation: `PTR-001 prepared`
+- Conditions supplied to provider: `0`
+- Exposure: `Never supplied`
+- Trial: `None executed`
+- Mapping: `Private`
+- Raw content public: `No`
+- PTR-001 records: [charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md);
+  [selection](paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md);
+  [protocol](paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md);
+  [commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md);
+  [manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md).
+
+The sealed pair content and its three public commitments remain unchanged.
+
 The two design-stage conditions are sealed artifacts but are not yet
-associated with a public signal attempt, provider/model selection, trial, or
-valid-trial denominator. Their private mapping must remain unavailable until
+associated with a public signal attempt, executed trial, or valid-trial
+denominator. Their private mapping must remain unavailable until
 any later separately authorized outputs and condition-specific scores freeze.
 
 ## Trial and Exposure State

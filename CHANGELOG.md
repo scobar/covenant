@@ -6,6 +6,11 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- PTR-001 public paired-trial charter.
+- Google provider/model selection record.
+- Paired execution and freeze protocol.
+- Private paired-trial preparation commitment record.
+- Frozen public PTR-001 preparation manifest.
 - SDR-003 public serialized-pair charter.
 - Opaque-condition and blinding record.
 - Paired-holdout commitment record.
@@ -174,6 +179,12 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- D-032 selects Google Gemini 3.1 Pro with Extended Thinking for the future
+  zero-cost opaque pair.
+- Trial guidance now records same-provider exposure asymmetry, Temporary Chat
+  limitations, tool/search contamination, and no-fallback rules.
+- Two condition trials are prepared but not executed.
+- No output, score, unblinding, public SIG-002, or empirical result was created.
 - D-031 records two surface-novel opaque paired holdouts.
 - Design guidance now separates exact symbolic design, surface serialization,
   provider selection, trial preparation, execution, and public attempt

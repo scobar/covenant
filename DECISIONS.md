@@ -1233,6 +1233,78 @@
   SIG-002, Levels 5–9 work, higher-layer content, carrier selection,
   distribution, or transmission.
 
+### D-032 — Select Google Gemini 3.1 Pro with Extended Thinking and prepare the zero-cost opaque paired trial without execution
+
+- **Date:** 2026-07-31
+- **Status:** Accepted
+- **Question:** Which exact zero-incremental-cost provider/model configuration
+  may be frozen for the two opaque SDR-003 conditions, and what trial
+  preparation may occur before any model execution?
+- **Decision:** Establish PTR-001 version 0.1 and paired-trial package
+  SDR-003-PH-001-PT-001. Select the Google Gemini web app using the displayed
+  model label `3.1 Pro` with the `Extended Thinking` option enabled, in a
+  browser-incognito Temporary Chat under the observed `Google AI Plus (2TB)`
+  plan, with authorized incremental spend fixed at USD 0. Use this exact
+  displayed configuration for both opaque conditions and permit no fallback to
+  3.5 Flash, 3.5 Flash-Lite, another model, another interface, API access, or
+  another provider. Preserve the backend identifier as not exposed and the
+  possibility of paid spillover, hidden routing, provider retention, and
+  search/tool behavior as unresolved limitations. Prepare two private
+  condition-specific operator packets by exact copy from SDR-003, copy the
+  corresponding private scoring sources, generate and freeze one random opaque
+  execution order without reading the baseline/treatment mapping, and freeze
+  execution, output/evidence capture, validity, contamination, exposure,
+  retry, isolated scoring, comparison, unblinding, stop, and dormancy
+  protocols. Require a fresh incognito Temporary Chat for each condition, one
+  exact file upload and one exact substantive message, no follow-up, no
+  manually enabled tools or connected context, output and evidence freeze
+  before validity classification, validity before any technical-retry
+  decision, a maximum of one technical retry per condition, zero substantive
+  retries, condition-specific score freeze before comparison, and both scores
+  before unblinding. Record prior-same-condition and prior-other-condition
+  provider exposure separately, because the second condition necessarily
+  follows provider exposure to the first and any retry follows exposure to the
+  same condition. Publish only nonrevealing provider/configuration,
+  chronology, count, commitment, and limitation records. This decision
+  authorizes provider/model selection and paired-trial preparation only. It
+  does not authorize opening or operating Gemini, uploading either condition,
+  sending a prompt, executing a model, creating an output, validity
+  classification, score, comparison, unblinding, public result, SIG-002,
+  another signal attempt or holdout, Levels 5–9 analysis, Covenant or CSR
+  payload, physical or agency profile, shared executable model, response
+  syntax, carrier, distribution, transmission, candidate preference,
+  acceptance, canonicality, supersession, or stabilization.
+- **Reasoning:** The pair and its opaque condition mapping were frozen before
+  provider selection. The strongest observed reasoning-oriented configuration
+  available without an upgrade is appropriate for a formal decoding test, and
+  keeping one exact displayed configuration across both conditions avoids a
+  model-capability confound. Temporary Chat, incognito, disabled connected
+  context, and separate chats reduce known context channels but do not prove
+  provider isolation or a hidden backend identity. Freezing the order,
+  exposure fields, retry policy, output chronology, and scoring isolation
+  before execution reduces favorable selection and retrospective
+  reinterpretation. A separate execution decision preserves the stop boundary.
+- **Alternatives considered:** Select 3.5 Flash for availability; use different
+  models for the two conditions; use one chat for both conditions; execute
+  immediately; use an API; select another provider; omit Extended Thinking;
+  permit a fallback after quota or routing failure; allow substantive retries;
+  disclose the condition mapping; defer provider selection.
+- **Consequences:** The public Beacon records one selected successor
+  provider/model configuration, one prepared paired-trial package, two
+  prepared opaque condition trials, one private execution order, and zero
+  executions, outputs, validity classifications, scores, comparisons,
+  unblindings, or SIG-002 attempts. The package may remain dormant if the exact
+  model/configuration is unavailable at zero incremental cost. A later accepted
+  decision is required before either condition is submitted.
+- **Revisit conditions:** Revisit if the selected label or thinking setting is
+  unavailable, the interface routes to another visible model, payment or an
+  upgrade is required, Temporary Chat or file upload is unavailable, provider
+  search/tool behavior cannot be classified, packet identities fail, the
+  execution order or mapping leaks, same-configuration execution cannot be
+  maintained, exposure asymmetry is omitted, or preparation silently expands
+  into execution, SIG-002, Levels 5–9 work, higher-layer content, carrier
+  selection, distribution, or transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

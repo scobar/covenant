@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-31
 
-**Current phase:** Surface-novel opaque paired holdouts privately frozen and publicly committed; no provider, trial, or SIG-002
+**Current phase:** Zero-cost Google Gemini opaque paired trial prepared; execution not authorized
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -329,6 +329,26 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
   - Git blob:
     `0629e9e7c72dceb55c5e0d04f095c9be034bde50`
   - Byte count: `3510`
+- D-032 accepted.
+- PTR-001 v0.1 and paired-trial package `SDR-003-PH-001-PT-001`
+  created.
+- Google Gemini web app selected.
+- Displayed model `3.1 Pro` with Extended Thinking selected for both opaque
+  conditions under the observed Google AI Plus (2TB) plan.
+- Exact user-observed qualification block frozen.
+- Two condition packets and three scoring sources copied and verified exactly.
+- One private random opaque execution order frozen.
+- Execution, evidence, validity, exposure, contamination, retry, isolated
+  scoring, comparison, unblinding, stop, and dormancy protocols frozen.
+- Private PTR-001 files: `25`; private manifest dependencies: `23`.
+- Public PTR-001 preparation commitment:
+  `1de6dcbed650450b046a950d87e989370601249ac2bd7a98f6dffeddf9a5184a`.
+- Public PTR-001 preparation-manifest identity:
+  - Raw SHA-256:
+    `abf3ddeada1e7859d636a0ba12e60de3992aa353f63fd40e3031a6e326eb4951`
+  - Git blob:
+    `3bdcee3a163e5f15d1fd3cb036998afc21615054`
+  - Byte count: `3247`
 
 ## Current Work
 
@@ -417,15 +437,46 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
 - Serialized successor condition streams: `2`.
 - Sealed unassigned successor holdouts: `2`.
 - SIG-002 attempts: `0`.
-- Provider/model selections: `0`.
+- Provider/model selections: `1`.
+- Prepared paired-trial packages: `1`.
+- Prepared opaque condition trials: `2`.
+- Executed successor trials: `0`.
 - Trials: `0`.
 - Outputs: `0`.
 - Scores: `0`.
+- Comparisons: `0`.
 - Empirical results: `0`.
 - Levels 5–9 analyses: `0`.
 - Carriers: `0`.
 - Transmissions: `0`.
 - Authorized incremental spend: USD `0`.
+
+### PTR-001
+
+- Trial package: `PTR-001 v0.1`.
+- Full trial ID: `SDR-003-PH-001-PT-001`.
+- Parent pair: `SDR-003-PH-001`.
+- Lifecycle:
+  `Provider/model selected and paired trial prepared — execution not authorized`.
+- Provider: Google.
+- Interface: Gemini web app.
+- Displayed model: `3.1 Pro`.
+- Extended Thinking: `True`.
+- Backend model identifier: not exposed.
+- Browser-incognito Temporary Chat required per condition.
+- Prepared opaque condition trials: `2`.
+- Valid outputs requested: `2`.
+- Technical retries maximum: `1 per condition`.
+- Substantive retries: `0`.
+- Trial executions: `0`.
+- Outputs: `0`.
+- Validity classifications: `0`.
+- Scores: `0`.
+- Comparisons: `0`.
+- Unblindings: `0`.
+- SIG-002 attempts: `0`.
+- Authorized incremental spend: USD `0`.
+- No fallback.
 
 ### TR-001
 
@@ -502,18 +553,20 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
 ## Next Proposed Architectural Work
 
 1. Architectural review before commit.
-2. Back up the twenty-two-file private SDR-003 package.
-3. Commit D-031 only after review and backup.
-4. A later D-032 may select a zero-cost provider/model configuration and
-   prepare paired trials.
-5. D-032 must not execute a model unless separately and explicitly authorized.
-6. A separate accepted decision remains required to create public SIG-002.
-7. No Levels 5–9, higher layer, or carrier.
+2. Back up the twenty-five-file private PTR-001 package.
+3. Commit D-032.
+4. A later D-033 may explicitly authorize the two manual Gemini condition
+   executions.
+5. D-033 must freeze each output and validity before scoring.
+6. Both scores must freeze before unblinding.
+7. A separate decision remains required for public result integration and
+   public SIG-002.
+8. No Levels 5–9, higher layer, or carrier.
 
 Same-provider architecture, unknown backend identity and platform state,
-unprovable Incognito isolation, one-run limits, private-package loss, and
-pending SDR-003 offline-backup verification remain open risks. DA-001 is
-same-tooling and post-hoc; one
+unproven Temporary Chat and Incognito isolation, hidden routing and retention,
+web-search control limits, private-package loss, and pending PTR-001 offline
+backup remain open risks. DA-001 is same-tooling and post-hoc; one
 completed diagnostic package cannot establish a universal receiver model or
 select a successor design.
 
@@ -603,6 +656,11 @@ select a successor design.
 | `beacon/SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md` | Private random mapping and output/score-before-unblinding boundary — no execution |
 | `beacon/SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md` | Two condition packet commitments and one overall pair commitment |
 | `beacon/SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md` | Frozen three-row SDR-003 public preparation manifest — noncanonical and nonexecuted |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md` | PTR-001 public charter — provider/model selected and paired trial prepared; execution not authorized |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md` | Exact Google Gemini qualification state, selected 3.1 Pro plus Extended Thinking configuration, and limitations |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md` | Nonrevealing future execution, evidence, validity, retry, scoring, comparison, and unblinding chronology |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md` | Public PTR-001 preparation commitment and zero-execution counts |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md` | Frozen four-row public PTR-001 preparation manifest — noncanonical; execution not authorized |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
 | `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; one valid prior-exposed output and frozen score |
 | `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical holdout registry — two attempt-associated and two unassigned successor holdouts |

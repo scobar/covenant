@@ -845,6 +845,49 @@ Do not grant a generator author, custodian, reviewer, auditor, provider,
 model, decoder, scorer, Scott, ChatGPT, Codex, or future actor final
 interpretive authority.
 
+## Provider Selection and Paired-Trial Preparation Rules
+
+Require that:
+
+- The paired source and its verified offline backup freeze before provider
+  selection; removable backup media remains disconnected during preparation
+  and execution.
+- The exact user-observed provider qualification state is recorded before any
+  content submission.
+- One exact provider, interface, displayed model, thinking setting, account,
+  and zero-incremental-spend configuration applies to both conditions.
+- No fallback is permitted after selection; unavailability, visible routing
+  mismatch, quota, upgrade, or payment requirements stop execution.
+- Displayed labels do not establish hidden backend identity, routing,
+  retention, isolation, or future availability.
+- Each condition uses a fresh browser-incognito Temporary Chat with no prior
+  chat, other condition, connected app, personalization, custom instruction,
+  Gem, Notebook, Deep Research, Chrome-tab context, browser control, manually
+  activated search, or follow-up.
+- Provider-visible search, grounding, retrieval, citations, or tool behavior
+  is preserved and classified as contamination.
+- The complete observable output and evidence freeze before validity
+  classification; validity freezes before any technical-retry decision.
+- A maximum of one technical retry is permitted per condition; substantive
+  retries are prohibited.
+- Prior-same-condition and prior-other-condition provider exposure are
+  recorded separately, with same-provider dependence and unproven Temporary
+  Chat isolation explicit.
+- Each condition is scored in a fresh isolated no-history context using only
+  its frozen output, validity record, solution key, and the shared scorecard.
+- Both condition-specific scores freeze before comparison and unblinding.
+- Execution order and baseline/treatment mapping remain private until the
+  required score and comparison freezes.
+- Authorized incremental spend remains USD `0`.
+- Provider/model selection and trial preparation do not authorize execution.
+  Execution, public-result integration, and public SIG-002 each require
+  separate accepted decisions.
+- No Levels 5–9 analysis, higher layer, carrier, distribution, or
+  transmission follows.
+
+Do not grant an operator, provider, model, decoder, scorer, reviewer, auditor,
+integrator, Scott, ChatGPT, Codex, or future actor final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:
