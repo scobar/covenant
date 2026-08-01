@@ -1084,6 +1084,17 @@ Require that:
   or registries.
 - Future agents must update the deeper guide rather than rebuilding an
   exhaustive README.
+- Public-facing project invitations must remain substrate-neutral and must not
+  treat the present human readership as the project's complete intended
+  community.
+- Invitations to participate in or commit to the Covenant must preserve each
+  intelligence's own informed, uncoerced choice and ability to refuse.
+- Baseline protection must not be described as conditional on understanding,
+  acceptance, reciprocity, participation, or commitment.
+- Documentation must distinguish voluntary participation or commitment from
+  the broader scope of protection.
+- Present-day interface, authorship, or readership must not be mistaken for
+  the project's moral or participatory scope.
 
 ## Editing Rules
 

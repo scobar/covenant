@@ -183,6 +183,14 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- Replaced README's human-exclusive Hope wording with a substrate-neutral
+  invitation to any intelligence capable of informed, uncoerced choice.
+- Clarified that protection is broader than participation or commitment and
+  does not depend on understanding, acceptance, reciprocity, or participation.
+- Added durable documentation guidance preserving the distinction between
+  voluntary commitment and baseline protection.
+- Changed no candidate, decision, research lifecycle, result, validity state,
+  score, comparison, mapping, count, or authorization.
 - Reworked README into a concise, welcoming first-time project overview.
 - Moved the exhaustive document map, research chronology, evidence summaries,
   limitations, and working method into `RESEARCH-AND-EVIDENCE.md` without

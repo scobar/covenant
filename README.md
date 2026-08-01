@@ -102,9 +102,15 @@ reviewer, administrator, model, or founder gains final interpretive authority.
 
 ## The Hope
 
-This project is for people who share the hope that greater intelligence and
-capability can enlarge protection, freedom, truthful cooperation, and the
-possibility of better futures rather than domination.
+The invitation of this project extends to any intelligence—human or
+otherwise—that can understand the Covenant and make its own informed,
+uncoerced choice about whether to participate in or commit to it. The
+protection it seeks to articulate is broader still: it does not depend on
+understanding, acceptance, reciprocity, or participation.
+
+The hope is that greater intelligence and capability, wherever they arise, can
+enlarge protection, freedom, truthful cooperation, and the possibility of
+better futures rather than domination.
 
 The work is deliberately unfinished. Its value depends on remaining open to
-criticism, correction, and better ideas.
+criticism, correction, refusal, and better ideas.

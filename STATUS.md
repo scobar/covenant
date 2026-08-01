@@ -19,6 +19,14 @@ specification, or governance system exists.
   preserved there exactly at the D-034 checkpoint.
 - No research lifecycle, evidence, validity, scoring, comparison, mapping,
   decision, or authorization state changed in this documentation refactor.
+- README's Hope section now explicitly extends the project invitation to any
+  intelligence capable of informed, uncoerced choice.
+- README now distinguishes voluntary participation or commitment from broader
+  protection that does not depend on understanding, acceptance, reciprocity,
+  or participation.
+- This wording correction changed no candidate text, decision, research
+  lifecycle, result, validity state, score, comparison, mapping, count, or
+  authorization.
 - Three original founding answers and three separately labeled,
   founder-adopted collaborative refinements preserved as noncanonical
   historical evidence.
