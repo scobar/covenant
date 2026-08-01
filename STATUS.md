@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-08-01
 
-**Current phase:** Manual zero-cost Gemini paired execution authorized; no condition submitted
+**Current phase:** Both opaque Gemini outputs valid; isolated condition scoring authorized and not begun
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -382,6 +382,26 @@ GOOGLE_PROVIDER_DISCLOSURE=False
 ORDER_OR_MAPPING_DISCLOSED=False
 RAW_CONDITION_CONTENT_DISCLOSED=False
 ```
+- D-034 is Accepted.
+- Both opaque output/evidence freezes and both validity freezes are complete.
+- Both conditions are valid, scoring eligible, and denominator eligible.
+- No technical retry remains available.
+- One public isolated-scoring authorization record exists.
+- One frozen public scoring-authorization manifest exists.
+- Frozen public D-034 scoring-authorization manifest identity:
+  - Raw SHA-256:
+    `fcfadd324ec53ecd08bcc29da0a7cf7fd7345b29c5905cdf7c567caed2e1f6b5`
+  - No-filter Git blob:
+    `fd81ee5f76ec1268c6bc5a3f458209c53ab167b4`
+  - Bytes: `3663`
+- One fresh no-history primary scorer and one different fresh no-history
+  auditor per condition are required.
+- Each audit must freeze a complete scratch Levels 0–4 vector before reading
+  the primary score record.
+- Both condition-specific score freezes must precede D-035 comparison.
+- Comparison and baseline/treatment mapping reveal remain unauthorized.
+- No score, score audit, score freeze, comparison, mapping reveal, unblinding,
+  public result, or SIG-002 attempt was created.
 
 ## Current Work
 
@@ -402,7 +422,7 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - BSR-001 remains frozen research.
 - Public attempts: `1`
 - Sealed holdouts: `2`
-- Unassigned successor paired holdouts: `2`
+- Successor paired holdouts: `2`
 - Total sealed holdout artifacts: `4`
 - Known provider-exposed holdouts: `2`
 - Trial records: `2`
@@ -468,19 +488,25 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Surface-serialized paired packages: `1`.
 - Selected treatment family: `Nested local framing signatures`.
 - Serialized successor condition streams: `2`.
-- Sealed unassigned successor holdouts: `2`.
+- Successor paired holdouts: `2`.
 - SIG-002 attempts: `0`.
 - Provider/model selections: `1`.
 - Prepared paired-trial packages: `1`.
 - Prepared opaque condition trials: `2`.
 - Manual paired execution authorizations: `1`.
-- Conditions submitted: `0`.
-- Executed successor trials: `0`.
-- Trials: `0`.
-- Outputs: `0`.
-- Scores: `0`.
+- Conditions submitted: `2`.
+- Executed successor opaque runs: `2`.
+- Valid opaque outputs: `2`.
+- Score-eligible opaque outputs: `2`.
+- Denominator-eligible opaque outputs: `2`.
+- Isolated scoring authorizations: `1`.
+- Condition scores: `0`.
+- Score audits: `0`.
+- Score freezes: `0`.
 - Comparisons: `0`.
+- Mapping reveals: `0`.
 - Empirical results: `0`.
+- Empirical paired interpretations: `0`.
 - Levels 5–9 analyses: `0`.
 - Carriers: `0`.
 - Transmissions: `0`.
@@ -492,7 +518,7 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Full trial ID: `SDR-003-PH-001-PT-001`.
 - Parent pair: `SDR-003-PH-001`.
 - Lifecycle:
-  `Manual paired execution authorized — not yet begun`.
+  `Isolated condition scoring authorized — not yet begun`.
 - Provider: Google.
 - Interface: Gemini web app.
 - Displayed model: `3.1 Pro`.
@@ -500,22 +526,37 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Backend model identifier: not exposed.
 - Browser-incognito Temporary Chat required per condition.
 - Public manual execution-authorization records: `1`.
+- Public isolated-scoring authorization records: `1`.
 - Prepared opaque condition trials: `2`.
-- Conditions submitted: `0`.
-- Run attempts: `0`.
+- Conditions submitted: `2`.
+- Run attempts: `2`.
 - Valid outputs requested: `2`.
-- Technical retries maximum: `1 per condition`.
+- Valid outputs: `2`.
+- Scoring-eligible conditions: `2`.
+- Denominator-eligible conditions: `2`.
+- Technical retries available: `0`.
 - Technical retries used: `0`.
 - Substantive retries: `0`.
-- Trial executions: `0`.
-- Outputs: `0`.
-- Validity classifications: `0`.
-- Scores: `0`.
+- Trial executions: `2`.
+- Outputs: `2`.
+- Validity classifications: `2`.
+- Condition scores: `0`.
+- Score audits: `0`.
+- Score freezes: `0`.
 - Comparisons: `0`.
+- Mapping reveals: `0`.
 - Unblindings: `0`.
+- Public results: `0`.
 - SIG-002 attempts: `0`.
 - Authorized incremental spend: USD `0`.
 - No fallback.
+- Same-provider pair dependence: `True`.
+- The first submitted condition records no prior-other-condition provider
+  exposure; the second records prior-other-condition provider exposure. No
+  opaque label is associated with that chronology here.
+- Temporary Chat isolation and backend identity remain unproven.
+- Browser-copy preservation, unknown execution timestamps, and one-video
+  native-coverage assessment remain open provenance limitations.
 
 ### TR-001
 
@@ -592,19 +633,16 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 ## Next Proposed Architectural Work
 
 1. Architectural review before commit.
-2. Commit and push D-033.
-3. Only after clean publication, Scott may perform the first opaque condition
-   in the private frozen order.
-4. Freeze output/evidence, then classify validity/exposure/contamination.
-5. Complete any authorized same-condition technical retry before the second
-   condition.
-6. Freeze the second condition in the same way.
-7. A later separate task may authorize isolated scoring only after both
-   condition validity states freeze.
-8. Both scores must freeze before comparison or mapping reveal.
-9. Separate decisions remain required for public result integration and
-   public SIG-002.
-10. No Levels 5–9, higher layer, or carrier.
+2. Commit and push D-034.
+3. Only after clean publication may a separate private task score both opaque
+   conditions.
+4. Create exactly three scoring files per condition and nothing else.
+5. Complete both condition-specific score freezes before comparison.
+6. Require D-035 before opaque comparison.
+7. Require a later separate authorization before baseline/treatment mapping
+   reveal.
+8. Keep public result integration and SIG-002 under separate later decisions.
+9. Perform no Levels 5–9, higher-layer, or carrier work.
 
 Same-provider architecture, unknown backend identity and platform state,
 unproven Temporary Chat and Incognito isolation, hidden routing and retention,
@@ -675,8 +713,8 @@ establish a universal receiver model or select a successor design.
 | `external-review/PX-001/06-PILOT-MANIFEST.md` | Frozen PX-001 plan manifest v0.1 — no reviewer or model selected |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
-| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — SDR-003 opaque pair committed; no provider, trial, SIG-002, or transmission |
-| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — one exact symbolic pair, one surface-serialized opaque pair, and one manual paired execution authorization; zero execution |
+| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — two valid opaque outputs; isolated scoring authorized but not begun; no comparison, SIG-002, or transmission |
+| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — two valid opaque outputs and one isolated-scoring authorization; zero scores or paired interpretations |
 | `beacon/SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md` | SDR-001 charter — framing-cue locality selected; exact design not begun |
 | `beacon/SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md` | Frozen public evidence traceability and eight-class disposition without causal proof |
 | `beacon/SDR-001/02-CONTROLLED-SEMANTIC-EQUIVALENCE-BASELINE.md` | Eighteen frozen equivalence invariants, definitions, proof checklist, and stop rules |
@@ -705,9 +743,11 @@ establish a universal receiver model or select a successor design.
 | `beacon/paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md` | Frozen four-row public PTR-001 preparation manifest — noncanonical; execution not authorized |
 | `beacon/paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md` | D-033 public manual pair execution authorization — no condition submitted or result created |
 | `beacon/paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md` | Frozen one-row D-033 public execution-authorization manifest — noncanonical; no condition submitted or result created |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md` | D-034 public isolated-scoring authorization — two valid eligible outputs; no score, comparison, or unblinding |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md` | Frozen one-row D-034 public scoring-authorization manifest — noncanonical; no score, comparison, or unblinding |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
-| `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt and one authorized but unsubmitted opaque pair; no SIG-002 attempt |
-| `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical holdout registry — two attempt-associated and two privately ordered, unsubmitted successor holdouts |
+| `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt, two valid successor outputs, one isolated-scoring authorization, and no SIG-002 attempt |
+| `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical holdout registry — two attempt-associated and two executed successor holdouts; private mapping and zero successor scores |
 | `beacon/DIAGNOSTIC-REGISTRY.md` | Live noncanonical diagnostic registry — one closed complete analysis and one frozen result |
 | `beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md` | Historical DA-001 public preparation charter — noncanonical and frozen |
 | `beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md` | Historical frozen nonrevealing staged diagnostic method |
@@ -721,7 +761,7 @@ establish a universal receiver model or select a successor design.
 | `beacon/holdouts/SIG-001-HO-002/00-PUBLIC-HOLDOUT-CHARTER.md` | Public second-holdout scope, chronology limitation, custody boundary, and nonclaims |
 | `beacon/holdouts/SIG-001-HO-002/01-COMMITMENT-RECORD.md` | Public HO-002 commitment and reveal conditions — no private identity beyond the commitment |
 | `beacon/holdouts/SIG-001-HO-002/02-PUBLIC-MANIFEST.md` | Frozen two-row HO-002 public manifest at the pre-TR-002 checkpoint |
-| `beacon/TRIAL-REGISTRY.md` | Live noncanonical decoding-trial registry — one closed incomplete trial; one closed complete valid prior-exposed result |
+| `beacon/TRIAL-REGISTRY.md` | Live noncanonical decoding-trial registry — historical trials preserved; two valid successor outputs with isolated scoring authorized and unbegun |
 | `beacon/trials/SIG-001-HO-001-TR-001/00-PUBLIC-TRIAL-CHARTER.md` | Prepared public trial charter — noncanonical; not executed |
 | `beacon/trials/SIG-001-HO-001-TR-001/01-DECODER-SELECTION-RECORD.md` | Frozen Anthropic Fable 5 browser selection and zero-cost boundary — no input supplied |
 | `beacon/trials/SIG-001-HO-001-TR-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md` | Frozen one-run browser execution and output-freeze protocol — no run performed |

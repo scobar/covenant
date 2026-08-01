@@ -6,6 +6,8 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- PTR-001 public isolated-scoring authorization.
+- Frozen D-034 public scoring-authorization manifest.
 - PTR-001 public manual pair-execution authorization.
 - Frozen D-033 public authorization manifest.
 - PTR-001 public paired-trial charter.
@@ -181,6 +183,16 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- D-034 authorizes later private categorical scoring of both valid opaque
+  conditions only after public commit.
+- Each condition requires a fresh primary scorer and separate scratch-before-
+  comparison auditor.
+- Level 1 remains primary, Levels 0 and 2 remain guardrails, Levels 3 and 4
+  remain exploratory, and no aggregate score is allowed.
+- Both condition score freezes must precede comparison.
+- Comparison, mapping reveal, public result integration, and SIG-002 remain
+  separate later gates.
+- No score, comparison, or unblinding was created.
 - D-033 now preserves a nonpublic same-tooling private-identity-metadata
   custody/provenance incident separately from public-repository or Google
   exposure, without changing any frozen pair artifact or execution count.

@@ -546,6 +546,51 @@ remain separate later decisions.
 No empirical result, Levels 5–9 analysis, higher layer, Covenant or CSR
 payload, carrier, distribution, or transmission follows from D-033.
 
+## Authorized Isolated Scoring of the Opaque Gemini Pair
+
+- [PTR-001 Public Isolated-Scoring
+  Authorization](beacon/paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md)
+- [PTR-001 Public Isolated-Scoring Authorization
+  Manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md)
+
+> **PTR-001 v0.1 — ISOLATED CONDITION SCORING AUTHORIZED AFTER PUBLIC COMMIT — NO SCORE, COMPARISON, OR UNBLINDING CREATED**
+
+Both opaque outputs and their output/evidence and validity freezes are
+complete. Both conditions are valid, scoring eligible, and denominator
+eligible; neither permits a technical retry. D-034 authorizes a later private
+scoring task only after the public authorization and its one-row manifest are
+reviewed, committed, pushed, and local `main` again equals `origin/main`.
+
+Each condition requires one fresh no-history primary scorer and one different
+fresh no-history auditor. A primary scorer receives only that condition's
+frozen raw output, frozen validity classification and freeze, corresponding
+private solution key, the shared scorecard, and the generic task label
+`OPAQUE_CONDITION_SCORE`. It receives no other condition or result, execution
+order, mapping, target, expected winner, prior score, diagnostic hint, or prior
+ChatGPT/Codex history. Both primary contexts launch before either result is
+supplied to another scoring context.
+
+Each auditor receives the same authorized source set and independently
+recomputes and freezes its complete scratch Levels 0–4 vector before reading
+the primary score record. A condition score freezes only after
+`PASS — exact agreement` or `PASS WITH PRESERVED DISSENT`; a
+`FAIL — condition score must not freeze` stops that condition and prohibits
+comparison.
+
+Level 1 framing/hierarchy is the primary endpoint. Level 0 artificiality and
+Level 2 structured numeracy are nonregression guardrails. Levels 3 and 4 are
+exploratory, Levels 5–9 are absent, and no aggregate score is allowed. Each
+primary record must preserve an explicit claim inventory, criterion-by-
+criterion adjudication, exact categorical vector, scorecard-required query and
+prediction accounting, and its contamination and validity boundary.
+
+Both condition-specific score freezes must complete before any paired
+comparison. D-035 is required before opaque comparison, and a later separate
+decision is required before mapping reveal. At D-034 completion, condition
+scores, score audits, score freezes, comparisons, mapping reveals,
+unblindings, public results, and SIG-002 attempts remain `0`. No higher layer,
+carrier, distribution, or transmission is authorized.
+
 ## Discovery
 
 Receiver observability, capability, and motivation assumptions are explicit
@@ -648,6 +693,11 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-08-01: Added D-034 and the frozen PTR-001 public isolated-scoring
+  authorization, requiring separate fresh no-history primary scorers and
+  scratch-before-comparison auditors, categorical Levels 0–4 only, both score
+  freezes before D-035 comparison, and a later mapping-reveal gate while all
+  score and result counts remain zero.
 - 2026-08-01: Added D-033 and the frozen PTR-001 public manual
   pair-execution authorization, requiring exact live Gemini requalification,
   first-condition completion before second-condition submission, separate

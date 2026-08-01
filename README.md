@@ -207,6 +207,12 @@ See [Project Status](STATUS.md) for the current project-state reference.
   condition completion, exposure, retry, and stop rules.
 - [PTR-001 Public Pair-Execution Authorization Manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md)
   — frozen one-row public D-033 authorization identity and audit state.
+- [PTR-001 Public Isolated-Scoring Authorization](beacon/paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md)
+  — D-034 isolation, categorical Levels 0–4 scoring, audit, freeze, and later-
+  gate boundary for two valid opaque outputs.
+- [PTR-001 Public Isolated-Scoring Authorization Manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md)
+  — frozen one-row public D-034 scoring-authorization identity and zero-result
+  state.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -824,6 +830,38 @@ retrieval, grounding, citations, connected-app behavior, or other external
 tool use must be preserved and classified as contamination. No Levels 5–9,
 higher layer, carrier, distribution, or transmission is authorized.
 
+## Isolated Scoring of Both Gemini Conditions Authorized
+
+> **PTR-001 v0.1 — ISOLATED CONDITION SCORING AUTHORIZED AFTER PUBLIC COMMIT — NO SCORE, COMPARISON, OR UNBLINDING CREATED**
+
+D-034 records two valid, score-eligible, denominator-eligible opaque outputs.
+Neither condition permits a technical retry. Execution is complete privately,
+but scoring is authorized only for a later separate task after reviewed public
+commit, push, and clean `main`/`origin/main` parity.
+
+- Use one fresh no-history primary scorer per condition.
+- Use one different fresh no-history auditor per condition.
+- Launch both primary scoring contexts before either primary result is shared
+  with another scoring context.
+- Give each context only its condition's frozen output, validity records,
+  corresponding private solution key, and the shared scorecard.
+- Withhold the other condition, execution order, mapping, expected winner,
+  target comparison, prior scores, diagnostic hints, and prior ChatGPT/Codex
+  history.
+- Require each auditor to freeze a complete independent scratch Levels 0–4
+  vector before reading the primary score record.
+- Use categorical Levels 0–4 outcomes only, with Level 1 primary, Levels 0 and
+  2 as guardrails, Levels 3 and 4 exploratory, Levels 5–9 absent, and no
+  aggregate score.
+- Freeze both condition scores before any comparison.
+- Require D-035 for opaque comparison and a later separate decision for
+  mapping reveal.
+
+The baseline/treatment mapping remains private. Condition scores, score
+audits, score freezes, comparisons, mapping reveals, unblindings, public
+results, and SIG-002 attempts remain `0`. D-009 remains `Proposed`. No higher
+layer, carrier, distribution, or transmission follows.
+
 ## Cooperative Surplus and Adoption Research
 
 > **Protection is not a membership benefit. Cooperative surplus may be.**
@@ -865,34 +903,34 @@ higher layer, carrier, distribution, or transmission is authorized.
 The current working sequence is:
 
 1. Preserve the frozen TR-002 result, DA-001 result, SDR-001 research package,
-   SDR-002 exact design, validity, score, audit, exposure, and dissent
-   unchanged.
+   SDR-002 exact design, SDR-003 pair, PTR-001 outputs, validity, exposure,
+   commitments, and preserved dissent unchanged.
 2. Treat D-029 as selection of one controllable research variable and D-030 as
    exact symbolic feasibility selection, neither as causal proof.
 3. Treat D-031 as surface serialization and sealed-pair preparation only, not
    as causal, empirical, decoder, provider, or public-attempt evidence.
 4. Treat D-032 as provider/model selection and paired-trial preparation only,
    not execution, output, scoring, comparison, unblinding, result, or SIG-002.
-5. Treat D-033 as manual execution authorization that becomes operational only
-   after reviewed public commit, push, and clean `main`/`origin/main` parity;
-   it creates no run automatically.
-6. Perform the final live Gemini qualification immediately before each future
-   upload and stop before submission if any exact field differs.
-7. Complete the first opaque condition, including output/evidence freeze,
-   validity classification, and any authorized technical retry, before the
-   second condition is submitted.
-8. Keep the Level 1 endpoint, Level 0/2 guardrails, denominator, threshold
-   policy, and nonaggregate comparison vocabulary frozen.
-9. Preserve private SDR-003 and PTR-001 mapping, order, raw artifacts, solution
-   keys, scorecard details, manifests, preimages, and nonces outside Git.
-10. Use the same provider/model/configuration with fresh isolated condition
-    contexts under the authorized paired trial and no fallback.
-11. Freeze each output and validity before scoring; freeze both
-    condition-specific scores before unblinding or comparison, and report
-    exposure strata explicitly.
-12. Require separate later tasks for scoring and comparison and a separate
-    decision for any public result or SIG-002 attempt,
-    Levels 5–9 work, higher layer, carrier, distribution, or transmission.
+5. Treat D-033 as the completed private execution gate and D-034 as public
+   authorization for a later isolated scoring task, not as a score or result.
+6. After D-034 is reviewed, committed, pushed, and cleanly published, launch
+   two separate fresh no-history primary scoring contexts before sharing
+   either primary result with another scoring context.
+7. Use a different fresh no-history auditor per condition and require its
+   complete scratch Levels 0–4 vector to freeze before primary-record access.
+8. Keep Level 1 primary, Levels 0 and 2 as guardrails, Levels 3 and 4
+   exploratory, Levels 5–9 absent, and all scoring categorical and
+   nonaggregate.
+9. Preserve the private SDR-003 and PTR-001 mapping, order, raw artifacts,
+   solution keys, scorecard details, manifests, preimages, and nonces outside
+   Git and outside cross-condition scoring contexts.
+10. Freeze each condition score only after a non-FAIL audit, and freeze both
+    condition scores before comparison.
+11. Require D-035 for opaque comparison and a later separate decision for
+    baseline/treatment mapping reveal.
+12. Require separate decisions for public result integration and any SIG-002
+    attempt, Levels 5–9 work, higher layer, carrier, distribution, or
+    transmission.
 
 Same-provider architecture, hidden backend identity, hidden platform state,
 unprovable Incognito isolation, prospective model selection, and the

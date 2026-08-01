@@ -35,14 +35,17 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Selected successor research targets: `1`
 - Exact symbolic paired designs: `1`
 - Serialized successor condition streams: `2`
-- Sealed unassigned successor holdouts: `2`
+- Successor paired holdouts: `2`
 - Successor provider/model selections: `1`
 - Prepared successor paired trials: `2`
 - Prepared successor opaque conditions: `2`
 - Manual execution authorizations: `1`
-- Submitted successor conditions: `0`
-- Executed successor runs: `0`
-- Executed successor trials: `0`
+- Submitted successor conditions: `2`
+- Executed successor opaque condition runs: `2`
+- Valid successor opaque outputs: `2`
+- Isolated scoring authorizations: `1`
+- Successor condition scores: `0`
+- Successor comparisons: `0`
 - SIG-002 attempts: `0`
 - Signal redesigns: `0`
 - Aggregate empirical decode rates: `0`
@@ -59,16 +62,21 @@ Frozen. No attempt is preferred merely because it is first or current.
 | `SIG-001` | `0.1` | `Frozen` | `0–4` | [`08-EVENT-STREAM.txt`](attempts/SIG-001/08-EVENT-STREAM.txt) | `b4e6a8b7a00b18e12e4816c44975ea0921cf4330504c744a72b8abf9dbf2b144` | `4884d0466c52c25a148a7b59239fa1539f27bdd2` | `0` | `0` | None | None | None | None | [`09-ATTEMPT-RECORD.md`](attempts/SIG-001/09-ATTEMPT-RECORD.md) | [`10-ATTEMPT-MANIFEST.md`](attempts/SIG-001/10-ATTEMPT-MANIFEST.md) |
 
 PTR-001 records one selected successor provider/model configuration, two
-prepared opaque conditions, and one later manual execution authorization:
+completed valid opaque condition runs, and one isolated-scoring authorization:
 [public charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md)
 and [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md),
 followed by the [D-033 public execution
 authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md)
 and its [frozen public
 manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md).
-Provider selection, paired-trial preparation, and execution authorization do
-not create a public signal attempt. Conditions submitted, successor run
-attempts, and SIG-002 attempts remain zero; no run follows automatically.
+The completed validity bundle is followed by the [D-034 isolated-scoring
+authorization](paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md)
+and its [frozen public
+manifest](paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md).
+Private execution and scoring authorization do not create a public signal
+attempt. Two valid successor outputs exist, while condition scores,
+comparisons, mapping reveals, public results, and SIG-002 attempts remain
+zero.
 
 ## Evidence Boundary
 
@@ -113,11 +121,11 @@ selection research and records
 exact symbolic pair under D-030 and
 [SDR-003](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md) as the later
 surface-serialized opaque pair under D-031. `Nested local framing signatures`
-was selected by a feasibility hard gate, not expected performance. The two
-SDR-003 condition streams are sealed unassigned successor holdouts, not a
-public attempt or valid-trial denominator. No public attempt, provider/model
-selection, trial, output, score, comparison, unblinding, or SIG-002 follows
-automatically.
+was selected by a feasibility hard gate, not expected performance. At that
+D-031 checkpoint, the two SDR-003 condition streams were sealed unassigned
+successor holdouts and were not a public attempt or valid-trial denominator.
+No public attempt, provider/model selection, trial, output, score, comparison,
+unblinding, or SIG-002 followed automatically from D-031.
 
 One valid output, one frozen categorical Levels 0–4 score, and one private
 reveal-stage verification exist. No aggregate empirical decode rate, public

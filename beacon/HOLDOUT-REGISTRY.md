@@ -4,7 +4,7 @@
 
 > **TWO SEALED SIG-001 HOLDOUTS — TWO PROVIDER-EXPOSED — ONE VALID OUTPUT — ZERO PUBLIC RAW-CONTENT REVEALS**
 
-> **TWO ADDITIONAL SEALED UNASSIGNED SDR-003 SUCCESSOR HOLDOUTS — NEVER SUPPLIED — PRIVATE CONDITION MAPPING**
+> **TWO ADDITIONAL SDR-003 SUCCESSOR HOLDOUTS — VALID OUTPUTS FROZEN — PRIVATE CONDITION MAPPING**
 
 ## Registry Boundary
 
@@ -30,11 +30,17 @@ independently verified.
 - Frozen diagnostic results: `1`
 - Signal redesigns: `0`
 - Existing attempt-associated holdouts: `2`
-- Unassigned successor paired holdouts: `2`
+- Successor paired holdouts: `2`
 - Total sealed holdout artifacts: `4`
-- Successor holdouts supplied to any provider: `0`
+- Successor holdouts supplied to a provider: `2`
 - Successor holdouts under trial: `0`
-- Successor outputs/scores/reveals: `0`
+- Successor valid outputs: `2`
+- Successor score-eligible outputs: `2`
+- Successor denominator-eligible outputs: `2`
+- Successor technical retries: `0`
+- Successor scores: `0`
+- Successor comparisons: `0`
+- Successor mapping reveals: `0`
 
 ## Holdout Registry
 
@@ -47,7 +53,7 @@ independently verified.
 
 | Pair | Conditions | Lifecycle | Exposure | Trial | Mapping | Raw content public | Public records |
 |---|---|---|---|---|---|---|---|
-| `SDR-003-PH-001` | `A` and `B` | `Sealed and committed — unassigned successor pair` | `Never supplied` | None | Private | `No` | [Charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [blinding record](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [commitment record](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
+| `SDR-003-PH-001` | `A` and `B` | `Valid outputs frozen — isolated scoring authorized and not begun` | `Same-provider pair dependence` | PTR-001 execution complete; scoring authorized but not begun | Private | `No` | [Charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [blinding record](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [commitment record](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
 
 PTR-001 and D-033 add this preparation and manual-authorization state to the
 successor pair without changing its sealed artifacts or commitments:
@@ -57,10 +63,16 @@ successor pair without changing its sealed artifacts or commitments:
 - Displayed model: `3.1 Pro`
 - Extended Thinking: `True`
 - Trial preparation: `PTR-001 prepared`
-- Manual execution: authorized under D-033 after public commit
-- Conditions supplied to provider: `0`
-- Exposure: `Never supplied`
-- Trial run: `None`
+- Manual execution: complete under the frozen D-033 protocol
+- Conditions supplied: `2`
+- Valid outputs: `2`
+- Technical retries: `0`
+- Scoring: authorized but not begun
+- Exposure: same-provider dependent; the first submitted condition records no
+  prior-other-condition provider exposure, while the second submitted
+  condition records prior-other-condition provider exposure, without
+  associating submission order with an opaque label
+- Trial run: `Complete; both validity freezes immutable`
 - Mapping: `Private`
 - Raw content public: `No`
 - PTR-001 records: [charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md);
@@ -69,14 +81,18 @@ successor pair without changing its sealed artifacts or commitments:
   [commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md);
   [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md);
   [D-033 authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md);
-  [authorization manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md).
+  [D-033 manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md);
+  [D-034 scoring authorization](paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md);
+  [D-034 manifest](paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md).
 
 The sealed pair content and its three public commitments remain unchanged.
 
-The two design-stage conditions are sealed artifacts but are not yet
-associated with a public signal attempt, executed trial, or valid-trial
-denominator. Their private mapping must remain unavailable until
-any later separately authorized outputs and condition-specific scores freeze.
+The two successor conditions remain sealed artifacts and are not associated
+with a public signal attempt. They now have two valid, score-eligible,
+denominator-eligible outputs, but no score, comparison, mapping reveal,
+unblinding, or public result. Their private mapping remains unavailable until
+both condition-specific scores freeze, D-035 separately authorizes opaque
+comparison, and a later decision separately authorizes mapping reveal.
 
 ## Trial and Exposure State
 
@@ -106,8 +122,9 @@ Anthropic, same-provider independence is not established.
 DA-001 was executed privately and is closed with one frozen diagnostic result.
 It did not reveal either attempt-associated holdout publicly, and neither
 holdout lifecycle, exposure class, score, or commitment changed. The later
-SDR-003 pair contains two unassigned successor holdouts created under D-031;
-they were never supplied and create no SIG-002 or signal redesign.
+SDR-003 pair contains two successor holdouts created under D-031. Their
+private executions and D-034 scoring authorization create no public signal
+attempt, comparison, mapping reveal, SIG-002, or signal redesign.
 
 ## Evidence and Secrecy Boundary
 

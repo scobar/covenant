@@ -955,6 +955,58 @@ Do not grant an operator, custodian, provider, model, decoder, scorer,
 reviewer, auditor, integrator, Scott, ChatGPT, Codex, or future actor final
 interpretive authority.
 
+## Isolated Opaque-Condition Scoring Authorization Rules
+
+Require that:
+
+- A reviewed, committed, and pushed public scoring authorization exists before
+  any solution key or shared scorecard is accessed, and local `main` equals
+  `origin/main`.
+- The complete post-validity/pre-scoring bundle has a verified offline backup,
+  and its removable media is safely ejected, physically disconnected, and
+  unavailable to the active filesystem.
+- Each scoring context receives only one condition's frozen raw output, its
+  frozen validity classification and freeze, its private solution key, and the
+  shared scorecard.
+- One fresh no-history primary scorer and one different fresh no-history
+  auditor are used per condition.
+- Both primary scorers launch in isolation before either primary result is
+  supplied to another scoring context.
+- Each auditor independently recomputes and freezes its complete scratch
+  Levels 0–4 vector before reading the primary score record.
+- No scorer or auditor receives the other condition, execution order, opaque-
+  label history where avoidable, baseline/treatment mapping, target result,
+  expected winner, prior model score, diagnostic hint, or prior ChatGPT or
+  Codex conversation history.
+- Scoring is categorical for Levels 0–4 only, with no aggregate, weighted,
+  averaged, or winner score.
+- Level 1 remains the primary endpoint, Levels 0 and 2 remain nonregression
+  guardrails, and Levels 3 and 4 remain exploratory.
+- Every authorized source identity verifies before scoring.
+- Each primary record includes an explicit claim inventory, criterion-by-
+  criterion adjudication, exact vector, required query and prediction
+  accounting, and contamination and validity boundary.
+- A condition score freezes only after `PASS — exact agreement` or
+  `PASS WITH PRESERVED DISSENT`; `FAIL — condition score must not freeze`
+  stops that condition and prohibits comparison.
+- No score is corrected, replaced, or favorably selected after freeze.
+- Both condition-specific scores freeze before cross-condition comparison.
+- D-035 separately authorizes any opaque comparison.
+- A later separate decision after opaque comparison authorizes any mapping
+  reveal.
+- The same-tooling Codex metadata incident, ChatGPT opaque-order/label
+  disclosure, exposure asymmetry, same-provider dependence, unproven
+  Temporary Chat isolation, unproven backend identity, browser-copy limits,
+  unknown execution timestamps, and one-video native-coverage limitation
+  remain preserved.
+- Authorized incremental spend remains USD `0`.
+- No SIG-002, Levels 5–9 work, higher layer, Covenant or CSR payload, physical
+  or agency profile, shared executable model, response syntax, carrier,
+  distribution, or transmission follows.
+
+Do not grant any primary scorer, auditor, custodian, provider, model, Scott,
+ChatGPT, Codex, or future actor final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:

@@ -1422,6 +1422,85 @@
   work, higher-layer content, carrier selection, distribution, or
   transmission.
 
+### D-034 — Authorize isolated scoring of both frozen valid opaque conditions before any comparison or mapping reveal
+
+- **Date:** 2026-08-01
+- **Status:** Accepted
+- **Question:** May the two valid, score-eligible PTR-001 opaque Gemini outputs
+  now be scored privately, and what isolation and freeze boundaries must hold
+  before any paired comparison or baseline/treatment reveal?
+- **Decision:** Authorize a later separately bounded private task to score each
+  frozen opaque condition under the already frozen PTR-001 solution key and
+  shared scorecard, only after this decision and its public manifest are
+  reviewed, committed, pushed, and local `main` again equals `origin/main`.
+  Require one fresh no-history primary scorer and one different fresh
+  no-history auditor per condition. Each primary scorer receives only that
+  condition's frozen raw output, frozen validity records, corresponding
+  private solution key, and the shared scorecard; it receives no other
+  condition, execution order, opaque-label history where avoidable,
+  baseline/treatment mapping, expected winner, target comparison, prior model
+  score, public diagnostic conclusion as a hint, or prior ChatGPT/Codex
+  conversation history. Launch both primary scoring contexts before
+  cross-condition score disclosure. Each scorer must inventory explicit
+  claims and adjudicate every frozen Levels 0–4 criterion before assigning the
+  categorical vector. Level 1 framing/hierarchy recovery remains the primary
+  endpoint; Level 0 artificiality and Level 2 structured numeracy remain
+  nonregression guardrails; Levels 3 and 4 remain exploratory; Levels 5–9
+  remain absent; and no aggregate, weighted, averaged, or winner score may be
+  calculated. For each condition, require the independent auditor to
+  recompute and freeze its own complete scratch vector before reading the
+  primary score record. Permit score freeze only on `PASS — exact agreement`
+  or `PASS WITH PRESERVED DISSENT`; a `FAIL — condition score must not freeze`
+  stops that condition and prohibits paired comparison. Preserve all source
+  identities, validity and exposure fields, same-provider limitations,
+  one-video native-coverage limitation, unknown execution timestamps,
+  same-tooling metadata incident, and ChatGPT opaque-order/label disclosure.
+  Create exactly one private score record, one private scoring-audit record,
+  and one score-freeze record per condition. Freeze both condition-specific
+  scores before any cross-condition comparison begins. Keep the
+  baseline/treatment mapping unopened. This decision authorizes isolated
+  private categorical scoring only after publication. It does not authorize
+  scoring during the D-034 documentation task, cross-condition comparison,
+  favorable selection, baseline/treatment reveal, unblinding, public result
+  integration, SIG-002, another signal attempt or holdout, Levels 5–9
+  analysis, Covenant or CSR payload, physical or agency profile, shared
+  executable model, response syntax, carrier, distribution, transmission,
+  candidate preference, acceptance, canonicality, supersession, or
+  stabilization.
+- **Reasoning:** Both opaque condition runs now have immutable output/evidence
+  and validity freezes, both are valid, scoring eligible, and denominator
+  eligible, and neither permits a technical retry. Scoring them separately
+  before any comparison or mapping reveal preserves the preregistered
+  single-variable experiment and reduces hindsight, favorable selection, and
+  cross-condition interpretive contamination. Fresh no-history contexts are
+  required because opaque labels/order entered a ChatGPT support conversation,
+  even though the baseline/treatment mapping and substantive private content
+  did not. Independent scratch-before-comparison audits provide a second
+  bounded adjudication without treating same-tooling agreement as external
+  validation. A separate D-035 keeps opaque comparison distinct from scoring,
+  and a later decision keeps mapping reveal distinct from opaque comparison.
+- **Alternatives considered:** Compare the raw responses before scoring; score
+  both in one context; reveal the mapping first; use one scorer without audit;
+  calculate an aggregate score; select favorable interpretations; permit
+  rescoring after comparison; treat the one-video run as automatically
+  invalid; defer scoring indefinitely.
+- **Consequences:** The public Beacon records two valid score-eligible opaque
+  outputs and one isolated-scoring authorization, while score, comparison,
+  mapping-reveal, unblinding, public-result, and SIG-002 counts remain zero.
+  After clean publication, a separate private scoring task may create exactly
+  three frozen scoring records per condition. Both condition-specific score
+  freezes are prerequisites for D-035.
+- **Revisit conditions:** Revisit if either output, validity record, solution
+  key, scorecard, preparation package, or commitment identity fails; if the
+  mapping or other condition is exposed to a scorer; if a scorer receives
+  conversation history, a target outcome, or prior score; if the audit does
+  not independently freeze a scratch vector before comparison; if a score is
+  corrected after freeze; if a condition receives a FAIL audit; if an
+  aggregate or favorable-selection method appears; if comparison or mapping
+  reveal begins before both score freezes; or if authorization silently
+  expands into public result integration, SIG-002, Levels 5–9 work,
+  higher-layer content, carrier selection, distribution, or transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization
