@@ -5,3 +5,4 @@ external-review/**/*.md text eol=lf
 beacon/**/*.md text eol=lf
 beacon/**/*.txt text eol=lf
 cooperation/**/*.md text eol=lf
+RESEARCH-AND-EVIDENCE.md text eol=lf

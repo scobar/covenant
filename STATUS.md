@@ -12,6 +12,13 @@ specification, or governance system exists.
 - Public repository created.
 - Founding Charter v0.0 committed.
 - Initial documentation scaffold prepared by this task.
+- README streamlined as the concise public landing page.
+- `RESEARCH-AND-EVIDENCE.md` created as the detailed public research,
+  evidence, and repository guide.
+- The former README content from `## Document Map` through end of file is
+  preserved there exactly at the D-034 checkpoint.
+- No research lifecycle, evidence, validity, scoring, comparison, mapping,
+  decision, or authorization state changed in this documentation refactor.
 - Three original founding answers and three separately labeled,
   founder-adopted collaborative refinements preserved as noncanonical
   historical evidence.
@@ -654,6 +661,8 @@ establish a universal receiver model or select a successor design.
 
 | Document | Status |
 | --- | --- |
+| `README.md` | Concise first-time public landing page — exploratory and noncanonical |
+| `RESEARCH-AND-EVIDENCE.md` | Detailed noncanonical public research, evidence, and repository guide — former README content from `## Document Map` through EOF preserved exactly at the D-034 checkpoint |
 | `00-FOUNDING-CHARTER.md` | Existing founding record |
 | `00A-FOUNDING-STATEMENTS.md` | Historical founding evidence — noncanonical |
 | `01-MORAL-KERNEL.md` | Candidate MK-0.1 — noncanonical; under adversarial review |

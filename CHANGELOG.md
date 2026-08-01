@@ -183,6 +183,14 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- Reworked README into a concise, welcoming first-time project overview.
+- Moved the exhaustive document map, research chronology, evidence summaries,
+  limitations, and working method into `RESEARCH-AND-EVIDENCE.md` without
+  deleting the prior public material.
+- Added repository guidance to keep future process proof out of the landing
+  page.
+- Changed no research result, candidate lifecycle, validity state, score,
+  comparison, decision, or authorization.
 - D-034 authorizes later private categorical scoring of both valid opaque
   conditions only after public commit.
 - Each condition requires a fresh primary scorer and separate scratch-before-

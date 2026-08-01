@@ -1059,6 +1059,32 @@ Do not grant Scott, ChatGPT, Codex, an administrator, a participant, a
 counterparty, a powerful entity, or a future model final interpretive
 authority.
 
+## README and Research-Guide Rules
+
+Require that:
+
+- README is the first-time public landing page, not the exhaustive evidence
+  ledger.
+- README remains concise, inviting, noncanonical, and understandable without
+  prior knowledge of the repository.
+- The complete Founding Ethos block remains byte-exact unless a later explicit
+  provenance-preserving decision authorizes otherwise.
+- Detailed document maps, hashes, manifests, trial chronology, case matrices,
+  audit proof, package counts, and working-method history belong in
+  `RESEARCH-AND-EVIDENCE.md`, STATUS, DECISIONS, registries, manifests, or their
+  scoped source records.
+- New research milestones should not automatically expand README.
+- README changes are appropriate only when the project-level purpose,
+  invitation, broad workstreams, major public state, or first-step navigation
+  changes.
+- Moving detail out of README is not deletion; the deeper guide must preserve
+  the displaced public material and resolving links.
+- `RESEARCH-AND-EVIDENCE.md` is a navigation and evidence companion, not a
+  replacement for exact payloads, STATUS, DECISIONS, manifests, commitments,
+  or registries.
+- Future agents must update the deeper guide rather than rebuilding an
+  exhaustive README.
+
 ## Editing Rules
 
 - Make the smallest authorized change.
