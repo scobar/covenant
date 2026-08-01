@@ -400,6 +400,45 @@ required for serialization, attempt creation, sealed holdouts, trial
 preparation, and execution. No higher layer, carrier, distribution, or
 transmission follows.
 
+## Surface-Serialized Opaque Successor Pair
+
+- [SDR-003 Public Serialized-Pair
+  Charter](beacon/SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md)
+- [Opaque Conditions and Blinding
+  Record](beacon/SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md)
+- [Paired Holdout Commitment
+  Record](beacon/SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md)
+- [Frozen Public Preparation
+  Manifest](beacon/SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md)
+
+> **SDR-003 v0.1 — SURFACE-NOVEL OPAQUE PAIRED HOLDOUTS PRIVATELY FROZEN — NO PROVIDER, TRIAL, OUTPUT, SCORE, UNBLINDING, OR SIG-002 ATTEMPT**
+
+D-031 applies one fresh shared surface profile deterministically to the exact
+SDR-002 pair and freezes two private surface-novel streams as opaque
+`Condition A` and `Condition B`. The selected family remains
+`Nested local framing signatures`; the random baseline/treatment mapping is
+private.
+
+Mechanical checks preserve the eighteen invariants, semantic graph, truth
+assignments, cue-instance bijection, cue multiset, framing-event count and byte
+budget, stable-slot nonframing bytes, ordered nonframing projection, total
+length, event counts, and unique intended parse for each condition. Both
+canonical streams were reconstructed exactly by separate deterministic audit
+processes before opaque assignment. These are preparation proofs, not evidence
+of decoding success or treatment benefit.
+
+Level 1 remains the primary endpoint with the same denominator and threshold
+policy. Level 0 and Level 2 remain nonregression guardrails; Levels 3 and 4
+remain exploratory; Levels 5–9 remain absent. Two condition packet
+commitments and one overall pair commitment are public. Surface values, stream
+bytes and identities, mapping, profile, generator, solutions, detailed
+scorecard, private manifest identity, preimages, and nonces remain private.
+
+The conditions are sealed unassigned successor holdouts. Provider/model
+selections, trials, outputs, scores, comparisons, unblindings, SIG-002
+attempts, and higher-layer artifacts remain `0`. No carrier, distribution, or
+transmission follows.
+
 ## Discovery
 
 Receiver observability, capability, and motivation assumptions are explicit
@@ -502,6 +541,12 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-07-31: Added D-031 and SDR-003, deterministically serializing the exact
+  SDR-002 symbolic pair under one fresh shared profile, independently
+  reconstructing both streams, randomly assigning opaque Conditions A and B,
+  and publicly committing two sealed unassigned successor holdouts without a
+  provider/model selection, trial, result, SIG-002, higher layer, carrier,
+  distribution, or transmission.
 - 2026-07-31: Added D-030 and SDR-002, selecting `Nested local framing
   signatures` through frozen feasibility gates and publicly committing one
   privately frozen exact symbolic pair without creating a surface

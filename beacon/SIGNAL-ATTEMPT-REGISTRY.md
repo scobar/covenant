@@ -31,10 +31,11 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Diagnostic plans: `1`
 - Executed diagnostics: `1`
 - Frozen diagnostic results: `1`
-- Design-research packages: `2`
+- Design-research packages: `3`
 - Selected successor research targets: `1`
 - Exact symbolic paired designs: `1`
-- Serialized successor streams: `0`
+- Serialized successor condition streams: `2`
+- Sealed unassigned successor holdouts: `2`
 - SIG-002 attempts: `0`
 - Signal redesigns: `0`
 - Aggregate empirical decode rates: `0`
@@ -90,10 +91,14 @@ registry](DESIGN-RESEARCH-REGISTRY.md) preserves
 [SDR-001](SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md) as frozen target-
 selection research and records
 [SDR-002](SDR-002/00-PUBLIC-EXACT-PAIR-CHARTER.md) as one privately frozen
-exact symbolic pair under D-030. `Nested local framing signatures` was selected
-by a feasibility hard gate, not expected performance. No serialized successor
-stream, attempt, holdout, provider/model selection, trial, output, score, or
-SIG-002 follows automatically.
+exact symbolic pair under D-030 and
+[SDR-003](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md) as the later
+surface-serialized opaque pair under D-031. `Nested local framing signatures`
+was selected by a feasibility hard gate, not expected performance. The two
+SDR-003 condition streams are sealed unassigned successor holdouts, not a
+public attempt or valid-trial denominator. No public attempt, provider/model
+selection, trial, output, score, comparison, unblinding, or SIG-002 follows
+automatically.
 
 One valid output, one frozen categorical Levels 0–4 score, and one private
 reveal-stage verification exist. No aggregate empirical decode rate, public

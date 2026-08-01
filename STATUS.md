@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-07-31
 
-**Current phase:** One exact symbolic framing-locality pair privately frozen and publicly committed; no serialized stream or SIG-002
+**Current phase:** Surface-novel opaque paired holdouts privately frozen and publicly committed; no provider, trial, or SIG-002
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -304,6 +304,31 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
   - Git blob:
     `ee440b63a42f9b8131f9096a7d376ed572dbf56a`
   - Byte count: `2711`
+- D-031 accepted.
+- SDR-003 v0.1 and paired-holdout package `SDR-003-PH-001` created.
+- One fresh shared surface profile frozen from a one-time operating-system
+  cryptographic draw under predrawn allowed-set and rejection rules.
+- One deterministic offline serializer and inverse validator frozen.
+- Two canonical streams independently reconstructed exactly by R1 and R2.
+- Opaque Condition A/B assignment randomly frozen after canonical stream and
+  reconstruction freeze; mapping remains private.
+- Condition A packet commitment:
+  `e171c1d208e333b3c12025c8289c39d539d5126bcfffbfae859e442a946a5737`.
+- Condition B packet commitment:
+  `dfd5480bb9d87e8f9f612c627048258cfdbac0135273e0ec32078e626bbd8870`.
+- Overall SDR-003 pair commitment:
+  `f140a6ac403a1183c56cedb4e2eeada4a4cd7d53be8979f5e2e21a88e3d2bd71`.
+- All eighteen invariants and the surface-level semantic, cue, framing-budget,
+  nonframing, length, count, novelty, and unique-parse proofs passed.
+- Shared Levels 0–4 scorecard, Level 0/2 guardrails, and dormant future paired-
+  trial protocol frozen.
+- Private SDR-003 files: `22`; private manifest dependencies: `18`.
+- Public SDR-003 preparation-manifest identity:
+  - Raw SHA-256:
+    `675c2eb6669f70b72cf29c0f3eaa918bd958b23dafa70e0ca4e30eea58ce58a3`
+  - Git blob:
+    `0629e9e7c72dceb55c5e0d04f095c9be034bde50`
+  - Byte count: `3510`
 
 ## Current Work
 
@@ -324,6 +349,8 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
 - BSR-001 remains frozen research.
 - Public attempts: `1`
 - Sealed holdouts: `2`
+- Unassigned successor paired holdouts: `2`
+- Total sealed holdout artifacts: `4`
 - Known provider-exposed holdouts: `2`
 - Trial records: `2`
 - Closed complete trials: `1`
@@ -379,13 +406,17 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
   (frozen historical research).
 - SDR-002 lifecycle:
   `Exact symbolic pair selected and privately frozen — no stream or attempt`.
-- Registered design-research packages: `2`.
+- SDR-003 lifecycle:
+  `Surface-serialized opaque pair privately frozen — no provider or trial`.
+- Pair ID: `SDR-003-PH-001`.
+- Registered design-research packages: `3`.
 - Selected primary research targets: `1`.
 - Exact symbolic paired designs: `1`.
+- Surface-serialized paired packages: `1`.
 - Selected treatment family: `Nested local framing signatures`.
-- Serialized candidate streams: `0`.
+- Serialized successor condition streams: `2`.
+- Sealed unassigned successor holdouts: `2`.
 - SIG-002 attempts: `0`.
-- Successor holdouts: `0`.
 - Provider/model selections: `0`.
 - Trials: `0`.
 - Outputs: `0`.
@@ -471,17 +502,18 @@ FAMILY_16=Provider safeguard or interface interruption effects|Supported
 ## Next Proposed Architectural Work
 
 1. Architectural review before commit.
-2. Back up and verify the eighteen-file private SDR-002 package offline.
-3. Commit D-030 only after review and backup.
-4. A later D-031 may authorize deterministic surface serialization and paired
-   sealed-holdout generation.
-5. D-031 must still stop before any model trial.
-6. A later separate SIG-002 decision remains required for a public attempt.
-7. Add no higher layer or carrier.
+2. Back up the twenty-two-file private SDR-003 package.
+3. Commit D-031 only after review and backup.
+4. A later D-032 may select a zero-cost provider/model configuration and
+   prepare paired trials.
+5. D-032 must not execute a model unless separately and explicitly authorized.
+6. A separate accepted decision remains required to create public SIG-002.
+7. No Levels 5–9, higher layer, or carrier.
 
 Same-provider architecture, unknown backend identity and platform state,
 unprovable Incognito isolation, one-run limits, private-package loss, and
-backup integrity remain open risks. DA-001 is same-tooling and post-hoc; one
+pending SDR-003 offline-backup verification remain open risks. DA-001 is
+same-tooling and post-hoc; one
 completed diagnostic package cannot establish a universal receiver model or
 select a successor design.
 
@@ -548,8 +580,8 @@ select a successor design.
 | `external-review/PX-001/06-PILOT-MANIFEST.md` | Frozen PX-001 plan manifest v0.1 — no reviewer or model selected |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
-| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — DA-001 closed with a frozen nonrevealing result; no SIG-002 or transmission |
-| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — one selected target, one exact symbolic pair, and zero execution |
+| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — SDR-003 opaque pair committed; no provider, trial, SIG-002, or transmission |
+| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — one exact symbolic pair and one surface-serialized opaque pair; zero execution |
 | `beacon/SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md` | SDR-001 charter — framing-cue locality selected; exact design not begun |
 | `beacon/SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md` | Frozen public evidence traceability and eight-class disposition without causal proof |
 | `beacon/SDR-001/02-CONTROLLED-SEMANTIC-EQUIVALENCE-BASELINE.md` | Eighteen frozen equivalence invariants, definitions, proof checklist, and stop rules |
@@ -567,9 +599,13 @@ select a successor design.
 | `beacon/SDR-002/01-TREATMENT-FAMILY-SELECTION-RECORD.md` | Six-family hard-gate selection record — nested local framing signatures uniquely selected |
 | `beacon/SDR-002/02-PRIVATE-DESIGN-COMMITMENT-RECORD.md` | Public commitment to the eighteen-file private exact-design package |
 | `beacon/SDR-002/03-PUBLIC-EXACT-PAIR-PREPARATION-MANIFEST.md` | Frozen three-row public SDR-002 preparation manifest — noncanonical and nonexecuted |
+| `beacon/SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md` | SDR-003 public charter — two opaque surface-novel conditions privately frozen; no provider or trial |
+| `beacon/SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md` | Private random mapping and output/score-before-unblinding boundary — no execution |
+| `beacon/SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md` | Two condition packet commitments and one overall pair commitment |
+| `beacon/SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md` | Frozen three-row SDR-003 public preparation manifest — noncanonical and nonexecuted |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
 | `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; one valid prior-exposed output and frozen score |
-| `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical sealed-holdout registry — two commitments; two provider-exposed; one private reveal-stage verification |
+| `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical holdout registry — two attempt-associated and two unassigned successor holdouts |
 | `beacon/DIAGNOSTIC-REGISTRY.md` | Live noncanonical diagnostic registry — one closed complete analysis and one frozen result |
 | `beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md` | Historical DA-001 public preparation charter — noncanonical and frozen |
 | `beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md` | Historical frozen nonrevealing staged diagnostic method |

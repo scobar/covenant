@@ -183,6 +183,15 @@ See [Project Status](STATUS.md) for the current project-state reference.
   — public cryptographic commitment and private-package counts.
 - [SDR-002 Public Exact-Pair Preparation Manifest](beacon/SDR-002/03-PUBLIC-EXACT-PAIR-PREPARATION-MANIFEST.md)
   — frozen three-row public package identity and audit status.
+- [SDR-003 Public Serialized-Pair Charter](beacon/SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md)
+  — public scope, eighteen-invariant boundary, lifecycle, and nonexecution.
+- [SDR-003 Opaque Conditions and Blinding Record](beacon/SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md)
+  — Condition A/B assignment chronology and future score-before-unblinding
+  controls.
+- [SDR-003 Paired Holdout Commitment Record](beacon/SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md)
+  — two condition packet commitments, one pair commitment, and frozen counts.
+- [SDR-003 Public Serialized-Pair Preparation Manifest](beacon/SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md)
+  — frozen three-row public preparation-package identity and audit status.
 - [SIG-001 Attempt Charter](beacon/attempts/SIG-001/00-ATTEMPT-CHARTER.md) —
   scope, intended Decoder Levels 0–4, and non-goals.
 - [SIG-001 Pretrial Scorecard](beacon/attempts/SIG-001/04-PRETRIAL-SCORECARD.md)
@@ -690,6 +699,41 @@ Separate later decisions remain required for surface serialization, sealed
 holdout generation, provider/model selection, trial preparation, execution,
 and any public SIG-002 attempt.
 
+## Surface-Novel Opaque Paired Holdouts Privately Frozen
+
+> **SDR-003 v0.1 — SURFACE-NOVEL OPAQUE PAIRED HOLDOUTS PRIVATELY FROZEN — NO PROVIDER, TRIAL, OUTPUT, SCORE, UNBLINDING, OR SIG-002 ATTEMPT**
+
+D-031 deterministically serializes the exact SDR-002 pair under one fresh
+shared surface profile. The selected family remains
+`Nested local framing signatures`. Both canonical streams froze and were
+independently reconstructed exactly before a fresh random assignment to
+opaque `Condition A` and `Condition B`; the mapping remains private.
+
+The pair preserves all eighteen invariants, the complete cue-instance
+bijection and matched cue/event budgets, exact stable-slot nonframing bytes,
+the byte-identical nonframing projection, equal total length and counts, and
+one intended parse per condition. Surface novelty against SIG-001 and both
+prior sealed holdouts was mechanically verified. These are design-control
+results, not empirical evidence or proof of treatment benefit.
+
+Two condition packet commitments and one overall pair commitment are public.
+Raw surface values, streams and identities, mapping, profile, generator,
+solutions, detailed scorecard, private manifest identity, preimages, and
+nonces remain outside Git.
+
+- Serialized condition streams: `2`.
+- Sealed unassigned successor holdouts: `2`.
+- Provider/model selections, trials, outputs, validity classifications,
+  scores, comparisons, and unblindings: `0`.
+- SIG-002 attempts: `0`.
+- Levels 5–9 analyses, higher layers, carriers, distributions, and
+  transmissions: `0`.
+- D-009 remains `Proposed`.
+
+Separate later decisions remain required for provider/model selection, paired
+trial preparation, execution, public SIG-002 creation, and publication of any
+result.
+
 ## Cooperative Surplus and Adoption Research
 
 > **Protection is not a membership benefit. Cooperative surplus may be.**
@@ -731,24 +775,25 @@ and any public SIG-002 attempt.
 The current working sequence is:
 
 1. Preserve the frozen TR-002 result, DA-001 result, SDR-001 research package,
-   validity, score, audit, exposure, and dissent unchanged.
+   SDR-002 exact design, validity, score, audit, exposure, and dissent
+   unchanged.
 2. Treat D-029 as selection of one controllable research variable and D-030 as
    exact symbolic feasibility selection, neither as causal proof.
-3. Preserve the privately frozen SDR-002 pair, all eighteen invariants,
-   cue-instance bijection, cue multiset, event budget, nonframing identity, and
-   unique parses.
+3. Treat D-031 as surface serialization and sealed-pair preparation only, not
+   as causal, empirical, decoder, provider, or public-attempt evidence.
 4. Keep the Level 1 endpoint, Level 0/2 guardrails, denominator, threshold
    policy, and nonaggregate comparison vocabulary frozen.
-5. Complete architectural review and verify an offline backup of all eighteen
-   private files before public commit.
-6. Keep deterministic surface serialization and paired sealed-holdout
-   generation behind a later D-031 decision.
-7. If later authorized, generate both opaque surface-novel conditions from the
-   one frozen source and stop on any equivalence, identity, novelty, or parse
-   mismatch.
-8. Keep provider/model selection and model-trial execution behind later
-   separate decisions; D-031 must stop before any trial.
-9. Freeze candidate-specific outputs and scores before unblinding or
+5. Preserve the private SDR-003 mapping, raw artifacts, profile, generator,
+   solution keys, scorecard details, manifests, preimages, and nonces outside
+   Git.
+6. Complete architectural review and verify an offline backup of all
+   twenty-two private SDR-003 files before public commit.
+7. Keep provider/model selection and paired-trial preparation behind a later
+   D-032 decision; D-032 must stop before execution unless separately and
+   explicitly authorized.
+8. Use the same provider/model/configuration with fresh isolated condition
+   contexts under any later authorized paired trial.
+9. Freeze condition-specific outputs and scores before unblinding or
    comparison, and report exposure strata explicitly.
 10. Require a separate later decision for any public SIG-002 attempt, Levels
     5–9 work, higher layer, carrier, distribution, or transmission.

@@ -1169,6 +1169,70 @@
   or a later task silently expands into a model trial, SIG-002 attempt, higher
   layer, carrier, distribution, or transmission.
 
+### D-031 — Serialize the frozen symbolic pair into opaque surface-novel paired holdouts before provider selection or SIG-002
+
+- **Date:** 2026-07-31
+- **Status:** Accepted
+- **Question:** May the privately frozen SDR-002 symbolic baseline/treatment
+  pair be deterministically serialized into sealed opaque condition artifacts
+  before any provider, trial, or public successor attempt is selected?
+- **Decision:** Establish SDR-003 version 0.1 and paired-holdout package
+  SDR-003-PH-001. Generate one fresh shared surface-serialization profile from
+  operating-system cryptographic randomness under frozen allowed-set and
+  rejection rules; apply it deterministically to both SDR-002 conditions;
+  preserve the same semantic graph, truth assignments, framing-cue instances
+  and multiplicities, framing-event count and byte budget, stable-slot
+  nonframing bytes, total length, scoring denominator, validity rules, and
+  Level 0 and Level 2 guardrails; and change only the frozen framing-cue
+  locality placement. Require independent exact reconstruction of both
+  canonical streams before a fresh random assignment to opaque Condition A and
+  Condition B. Freeze one shared neutral instruction, condition-specific
+  private solution keys, one shared Levels 0–4 scorecard, a private condition
+  mapping, two condition packet commitments, and one overall pair commitment.
+  Keep all surface values, stream bytes and identities, mapping, generator,
+  profile, scorecard details, solutions, manifests, preimages, and nonces
+  outside Git and unpublished. Treat the two conditions as sealed unassigned
+  successor holdouts, not as a public signal attempt or empirical result. This
+  decision does not authorize provider or model selection, browser or API
+  activation, trial preparation, prompt execution, output, validity
+  classification, score, comparison, unblinding, publication of raw content,
+  SIG-002, another signal attempt, Levels 5–9 analysis, Covenant or CSR
+  payload, physical or agency profile, shared executable model, response
+  syntax, carrier, distribution, transmission, candidate preference,
+  acceptance, canonicality, supersession, or stabilization.
+- **Reasoning:** D-030 established one exact symbolic pair with matched
+  semantic content, cue multiset, event budget, nonframing content, and unique
+  parses, but no empirical comparison is possible until both conditions have
+  exact surface representations. One shared fresh profile and deterministic
+  generator preserve the single-variable experiment while surface novelty
+  reduces direct reuse of earlier artifacts. Independent reconstruction and
+  opaque post-freeze assignment reduce construction and selection errors.
+  Freezing the pair before provider selection preserves the possibility of a
+  cleaner future comparison without claiming provider independence or
+  no-known-exposure evidence.
+- **Alternatives considered:** Select a provider before serialization; publish
+  the symbolic maps; serialize each condition with a different profile;
+  regenerate values until they appear easier; alter cue count or content during
+  serialization; reuse SIG-001 or prior holdout values; create SIG-002 now;
+  execute one or both conditions immediately; defer all surface serialization.
+- **Consequences:** The public Beacon records one privately frozen
+  surface-serialized opaque pair, two sealed unassigned successor holdouts, two
+  condition packet commitments, one pair commitment, and zero providers,
+  trials, outputs, scores, comparisons, unblindings, or SIG-002 attempts. A
+  later accepted decision may select one zero-cost provider/model
+  configuration and prepare a paired trial while preserving the mapping and
+  raw artifacts privately. If later verification cannot reproduce the exact
+  streams, mapping, equality proofs, or commitments, the project must stop
+  rather than execute or reinterpret the pair.
+- **Revisit conditions:** Revisit if a commitment or dependency identity
+  fails, either stream cannot be reconstructed exactly, semantic or
+  nonframing equality fails, cue multiset or event budget differs, a unique
+  parse fails, condition mapping leaks before score freeze, either condition
+  reaches a provider before authorization, a provider or trial is selected
+  inside D-031, raw values leak publicly, or the package silently expands into
+  SIG-002, Levels 5–9 work, higher-layer content, carrier selection,
+  distribution, or transmission.
+
 ## Open Decisions
 
 ### D-009 — Minimum adversarial coverage before provisional stabilization

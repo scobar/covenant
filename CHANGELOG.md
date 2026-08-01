@@ -6,6 +6,10 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- SDR-003 public serialized-pair charter.
+- Opaque-condition and blinding record.
+- Paired-holdout commitment record.
+- Frozen public SDR-003 preparation manifest.
 - SDR-002 public exact-pair charter.
 - Treatment-family selection record.
 - Private design commitment record.
@@ -170,6 +174,13 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- D-031 records two surface-novel opaque paired holdouts.
+- Design guidance now separates exact symbolic design, surface serialization,
+  provider selection, trial preparation, execution, and public attempt
+  creation.
+- Holdout registry now distinguishes unassigned successor pairs from
+  attempt-associated holdouts.
+- No provider, trial, result, or SIG-002 was created.
 - D-030 records one uniquely qualifying treatment family.
 - One exact symbolic paired design is privately frozen.
 - Design-research guidance now separates symbolic pair design from

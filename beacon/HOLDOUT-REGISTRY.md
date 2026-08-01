@@ -4,6 +4,8 @@
 
 > **TWO SEALED SIG-001 HOLDOUTS — TWO PROVIDER-EXPOSED — ONE VALID OUTPUT — ZERO PUBLIC RAW-CONTENT REVEALS**
 
+> **TWO ADDITIONAL SEALED UNASSIGNED SDR-003 SUCCESSOR HOLDOUTS — NEVER SUPPLIED — PRIVATE CONDITION MAPPING**
+
 ## Registry Boundary
 
 This live registry records sealed holdout variants separately from public
@@ -27,6 +29,12 @@ independently verified.
 - Executed diagnostics: `1`
 - Frozen diagnostic results: `1`
 - Signal redesigns: `0`
+- Existing attempt-associated holdouts: `2`
+- Unassigned successor paired holdouts: `2`
+- Total sealed holdout artifacts: `4`
+- Successor holdouts supplied to any provider: `0`
+- Successor holdouts under trial: `0`
+- Successor outputs/scores/reveals: `0`
 
 ## Holdout Registry
 
@@ -34,6 +42,17 @@ independently verified.
 |---|---|---:|---|---|---|---|---:|---|---|---|---|---|---|---|
 | `SIG-001` | `SIG-001-HO-001` | `0.1` | `Sealed and committed` | `0–4` | `Known Anthropic provider-side exposure` | TR-001 closed incomplete | `0` | None | Not performed | `No` | `7776c5e763891725bc7c8d55a9c1f600b33e9d1c642a4d20f2cb433d94f6aed6` | [`00-PUBLIC-HOLDOUT-CHARTER.md`](holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md) | [`01-COMMITMENT-RECORD.md`](holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md) | [`02-PUBLIC-MANIFEST.md`](holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md) |
 | `SIG-001` | `SIG-001-HO-002` | `0.1` | `Sealed and committed` | `0–4` | `Known Anthropic provider-side exposure` | [TR-002 closed complete](trials/SIG-001-HO-002-TR-002/05-PUBLIC-RESULT-AND-CLOSURE-RECORD.md) | `1` | `Levels 0–4 frozen` | `PASS` | `No` | `c8103cd2e80a2dc49309f1e1186817a75d97b8338950d726ffbc85e1127249b9` | [`00-PUBLIC-HOLDOUT-CHARTER.md`](holdouts/SIG-001-HO-002/00-PUBLIC-HOLDOUT-CHARTER.md) | [`01-COMMITMENT-RECORD.md`](holdouts/SIG-001-HO-002/01-COMMITMENT-RECORD.md) | [`02-PUBLIC-MANIFEST.md`](holdouts/SIG-001-HO-002/02-PUBLIC-MANIFEST.md) |
+
+## Design-Stage Successor Pair
+
+| Pair | Conditions | Lifecycle | Exposure | Trial | Mapping | Raw content public | Public records |
+|---|---|---|---|---|---|---|---|
+| `SDR-003-PH-001` | `A` and `B` | `Sealed and committed — unassigned successor pair` | `Never supplied` | None | Private | `No` | [Charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [blinding record](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [commitment record](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
+
+The two design-stage conditions are sealed artifacts but are not yet
+associated with a public signal attempt, provider/model selection, trial, or
+valid-trial denominator. Their private mapping must remain unavailable until
+any later separately authorized outputs and condition-specific scores freeze.
 
 ## Trial and Exposure State
 
@@ -61,9 +80,10 @@ model-selection-blind chronology is not claimed. Because TR-001 and TR-002 use
 Anthropic, same-provider independence is not established.
 
 DA-001 was executed privately and is closed with one frozen diagnostic result.
-It did not reveal either holdout publicly, and neither holdout lifecycle,
-exposure class, score, or commitment changed. No successor holdout or SIG-002
-exists, and the diagnostic created no signal redesign.
+It did not reveal either attempt-associated holdout publicly, and neither
+holdout lifecycle, exposure class, score, or commitment changed. The later
+SDR-003 pair contains two unassigned successor holdouts created under D-031;
+they were never supplied and create no SIG-002 or signal redesign.
 
 ## Evidence and Secrecy Boundary
 
