@@ -1,8 +1,8 @@
 # Project Status
 
-**Last updated:** 2026-08-01
+**Last updated:** 2026-08-02
 
-**Current phase:** Both opaque Gemini outputs valid; isolated condition scoring authorized and not begun
+**Current phase:** PTR-001 closed incomplete at scoring; one audit FAIL prohibits comparison; BBIL real-candidate execution remains unauthorized
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -435,6 +435,53 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Comparison and baseline/treatment mapping reveal remain unauthorized.
 - No score, score audit, score freeze, comparison, mapping reveal, unblinding,
   public result, or SIG-002 attempt was created.
+- D-035 is Accepted.
+- PTR-001 lifecycle:
+  `Closed incomplete — scoring audit disagreement`.
+- D-034 scoring completed, but pair scoring remained incomplete because one
+  audit FAIL prevented the second score freeze.
+- Opaque conditions executed: `2`.
+- Valid outputs: `2`.
+- Validity freezes: `2`.
+- Primary score records: `2`.
+- Scoring audits: `2`.
+- Score freezes: `1`.
+- Exact-pass audits: `0`.
+- Non-FAIL audits with preserved dissent: `1`.
+- Audit FAILs: `1`.
+- Audits preserving dissent: `2`.
+- Audit mapping-access attestations — explicit false: `1`.
+- Audit mapping-access attestations — explicit true: `0`.
+- Audit mapping-access attestations — absent: `1`.
+- Audit mapping-access attestations — ambiguous: `0`.
+- Pair comparisons: `0`.
+- Mapping reveals: `0`.
+- Unblindings: `0`.
+- Public score vectors: `0`.
+- Public raw outputs: `0`.
+- SIG-002 attempts: `0`.
+- Authorized incremental spend: USD `0`.
+- Task-level scoring provenance reported no mapping access; this remains
+  separate from the per-audit mapping fields.
+- No comparison, mapping-reveal, or unblinding artifact exists.
+- The baseline/treatment mapping remains private and publicly unrevealed.
+- The prior D-035 preparation session disclosed one criterion-level row from
+  one private score record into an OpenAI Codex transcript.
+- Public repository disclosure: `False`.
+- Google-provider disclosure: `False`.
+- Condition association disclosed: `False`.
+- Full score vector disclosed: `False`.
+- The exact row is not public and is not reconstructed by the closure.
+- Aggregate discrepancy resolution established the exact `25`-file
+  preparation scope and `23` dependencies without changing a private file.
+- BBIL remains architecture/synthetic-only, and no current PTR-001 result may
+  be used for real-candidate optimization.
+- Frozen public PTR-001 scoring-closure manifest identity:
+  - Raw SHA-256:
+    `d4125a841010e07bff93cd3efe7ddd1050673f17515bcb8752f6b628e1c2f3fc`
+  - No-filter Git blob:
+    `640ff94f4a09d73cbe615ddb61434bf2e354a404`
+  - Bytes: `5445`
 
 ## Current Work
 
@@ -533,11 +580,20 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Score-eligible opaque outputs: `2`.
 - Denominator-eligible opaque outputs: `2`.
 - Isolated scoring authorizations: `1`.
-- Condition scores: `0`.
-- Score audits: `0`.
-- Score freezes: `0`.
+- Primary score records: `2`.
+- Score audits: `2`.
+- Score freezes: `1`.
+- Non-FAIL audits with preserved dissent: `1`.
+- Audit FAILs: `1`.
+- Audits preserving dissent: `2`.
+- Audit mapping-access attestations — explicit false: `1`.
+- Audit mapping-access attestations — explicit true: `0`.
+- Audit mapping-access attestations — absent: `1`.
+- Audit mapping-access attestations — ambiguous: `0`.
 - Comparisons: `0`.
 - Mapping reveals: `0`.
+- Unblindings: `0`.
+- Public score vectors: `0`.
 - Empirical results: `0`.
 - Empirical paired interpretations: `0`.
 - Levels 5–9 analyses: `0`.
@@ -561,9 +617,12 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Synthetic capability probes: `1`.
 - Synthetic probe outcome:
   `PASS WITH LIMITATIONS — no detected leak; one or more isolation controls unverified`.
-- D-034 isolated scoring remains the next empirical gate.
-- D-035 remains reserved for opaque comparison after both score freezes.
-- Mapping reveal and real BBIL adaptive execution remain unauthorized.
+- D-034 isolated scoring is complete, but one audit FAIL prevented the second
+  score freeze.
+- D-035 closes PTR-001 incomplete and retires its comparison and mapping-
+  reveal gates.
+- Real BBIL adaptive execution remains unauthorized, and current PTR-001
+  results may not be used for real-candidate optimization.
 - SIG-002 attempts, Levels 5–9 analyses, carriers, and transmissions: `0`.
 - Authorized incremental spend: USD `0`.
 
@@ -573,7 +632,7 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Full trial ID: `SDR-003-PH-001-PT-001`.
 - Parent pair: `SDR-003-PH-001`.
 - Lifecycle:
-  `Isolated condition scoring authorized — not yet begun`.
+  `Closed incomplete — scoring audit disagreement`.
 - Provider: Google.
 - Interface: Gemini web app.
 - Displayed model: `3.1 Pro`.
@@ -582,11 +641,14 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Browser-incognito Temporary Chat required per condition.
 - Public manual execution-authorization records: `1`.
 - Public isolated-scoring authorization records: `1`.
+- Public scoring-incompletion and closure records: `1`.
+- D-035 status: `Accepted`.
 - Prepared opaque condition trials: `2`.
 - Conditions submitted: `2`.
 - Run attempts: `2`.
 - Valid outputs requested: `2`.
 - Valid outputs: `2`.
+- Validity freezes: `2`.
 - Scoring-eligible conditions: `2`.
 - Denominator-eligible conditions: `2`.
 - Technical retries available: `0`.
@@ -595,12 +657,22 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Trial executions: `2`.
 - Outputs: `2`.
 - Validity classifications: `2`.
-- Condition scores: `0`.
-- Score audits: `0`.
-- Score freezes: `0`.
+- Primary score records: `2`.
+- Score audits: `2`.
+- Score freezes: `1`.
+- Exact-pass audits: `0`.
+- Non-FAIL audits with preserved dissent: `1`.
+- Audit FAILs: `1`.
+- Audits preserving dissent: `2`.
+- Audit mapping-access attestations — explicit false: `1`.
+- Audit mapping-access attestations — explicit true: `0`.
+- Audit mapping-access attestations — absent: `1`.
+- Audit mapping-access attestations — ambiguous: `0`.
 - Comparisons: `0`.
 - Mapping reveals: `0`.
 - Unblindings: `0`.
+- Public score vectors: `0`.
+- Public raw outputs: `0`.
 - Public results: `0`.
 - SIG-002 attempts: `0`.
 - Authorized incremental spend: USD `0`.
@@ -612,6 +684,21 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Temporary Chat isolation and backend identity remain unproven.
 - Browser-copy preservation, unknown execution timestamps, and one-video
   native-coverage assessment remain open provenance limitations.
+- One audit explicitly denies mapping access and one contains no mapping-
+  access assertion; neither is associated with an opaque condition.
+- Task-level scoring provenance reported no mapping access. It remains
+  separate from the asymmetric audit-record fields.
+- No comparison, mapping-reveal, or unblinding artifact exists.
+- The baseline/treatment mapping remains private and publicly unrevealed.
+- One audit FAIL prevented the second score freeze, so no paired or informal
+  comparison is permitted and PTR-001 cannot be revived for comparison.
+- The prior D-035 preparation transcript contains one criterion-level row from
+  one private score record. It is a preserved nonpublic same-tooling custody/
+  provenance incident, not a public-repository or Google-provider disclosure.
+- No condition association or full vector was disclosed.
+- The exact preparation scope was resolved at `25` files and `23`
+  dependencies.
+- No current PTR-001 result may be used in BBIL real-candidate optimization.
 
 ### TR-001
 
@@ -687,17 +774,12 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 
 ## Next Proposed Architectural Work
 
-1. Architectural review of BBIL-001 and its public diff before staging.
-2. After review, publish BBIL-001 through the human-controlled Git workflow.
-3. After BBIL-001 review and publication, resume the already authorized D-034
-   private isolated scoring of both opaque conditions.
-4. Create exactly three scoring files per condition and nothing else.
-5. Complete both condition-specific score freezes before comparison.
-6. Require D-035 before opaque comparison.
-7. Require a later separate authorization before baseline/treatment mapping
-   reveal.
-8. Keep public result integration and SIG-002 under separate later decisions.
-9. Perform no Levels 5–9, higher-layer, or carrier work.
+1. Architectural review before commit.
+2. Commit and push D-035 closure.
+3. Optionally prepare a separate scoring-disagreement diagnostic decision.
+4. Validate improved scorecard and provenance agreement on synthetic fixtures.
+5. Do not revive PTR-001 comparison or mapping reveal.
+6. Real BBIL execution remains separately unauthorized.
 
 Same-provider architecture, unknown backend identity and platform state,
 unproven Temporary Chat and Incognito isolation, hidden routing and retention,
@@ -770,8 +852,8 @@ establish a universal receiver model or select a successor design.
 | `external-review/PX-001/06-PILOT-MANIFEST.md` | Frozen PX-001 plan manifest v0.1 — no reviewer or model selected |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
-| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — two valid opaque outputs; isolated scoring authorized but not begun; no comparison, SIG-002, or transmission |
-| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — two valid opaque outputs and one isolated-scoring authorization; zero scores or paired interpretations |
+| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — PTR-001 closed incomplete after one audit FAIL; no comparison, SIG-002, or transmission |
+| `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — two valid outputs, two primaries, two audits, one freeze, and zero paired interpretations |
 | `beacon/SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md` | SDR-001 charter — framing-cue locality selected; exact design not begun |
 | `beacon/SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md` | Frozen public evidence traceability and eight-class disposition without causal proof |
 | `beacon/SDR-001/02-CONTROLLED-SEMANTIC-EQUIVALENCE-BASELINE.md` | Eighteen frozen equivalence invariants, definitions, proof checklist, and stop rules |
@@ -802,9 +884,11 @@ establish a universal receiver model or select a successor design.
 | `beacon/paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md` | Frozen one-row D-033 public execution-authorization manifest — noncanonical; no condition submitted or result created |
 | `beacon/paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md` | D-034 public isolated-scoring authorization — two valid eligible outputs; no score, comparison, or unblinding |
 | `beacon/paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md` | Frozen one-row D-034 public scoring-authorization manifest — noncanonical; no score, comparison, or unblinding |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/09-PUBLIC-SCORING-INCOMPLETION-AND-CLOSURE-RECORD.md` | D-035 public scoring-incompletion and closure record — one score freeze, one audit FAIL, no comparison or mapping reveal |
+| `beacon/paired-trials/SDR-003-PH-001-PT-001/10-PUBLIC-SCORING-CLOSURE-MANIFEST.md` | Frozen one-row PTR-001 public scoring-closure manifest |
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
-| `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt, two valid successor outputs, one isolated-scoring authorization, and no SIG-002 attempt |
-| `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical holdout registry — two attempt-associated and two executed successor holdouts; private mapping and zero successor scores |
+| `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; PTR-001 closed incomplete; no SIG-002 attempt |
+| `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical holdout registry — two attempt-associated and two executed successor holdouts; private mapping; one successor score freeze |
 | `beacon/DIAGNOSTIC-REGISTRY.md` | Live noncanonical diagnostic registry — one closed complete analysis and one frozen result |
 | `beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md` | Historical DA-001 public preparation charter — noncanonical and frozen |
 | `beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md` | Historical frozen nonrevealing staged diagnostic method |
@@ -818,7 +902,7 @@ establish a universal receiver model or select a successor design.
 | `beacon/holdouts/SIG-001-HO-002/00-PUBLIC-HOLDOUT-CHARTER.md` | Public second-holdout scope, chronology limitation, custody boundary, and nonclaims |
 | `beacon/holdouts/SIG-001-HO-002/01-COMMITMENT-RECORD.md` | Public HO-002 commitment and reveal conditions — no private identity beyond the commitment |
 | `beacon/holdouts/SIG-001-HO-002/02-PUBLIC-MANIFEST.md` | Frozen two-row HO-002 public manifest at the pre-TR-002 checkpoint |
-| `beacon/TRIAL-REGISTRY.md` | Live noncanonical decoding-trial registry — historical trials preserved; two valid successor outputs with isolated scoring authorized and unbegun |
+| `beacon/TRIAL-REGISTRY.md` | Live noncanonical decoding-trial registry — historical trials preserved; PTR-001 closed incomplete after one audit FAIL |
 | `beacon/trials/SIG-001-HO-001-TR-001/00-PUBLIC-TRIAL-CHARTER.md` | Prepared public trial charter — noncanonical; not executed |
 | `beacon/trials/SIG-001-HO-001-TR-001/01-DECODER-SELECTION-RECORD.md` | Frozen Anthropic Fable 5 browser selection and zero-cost boundary — no input supplied |
 | `beacon/trials/SIG-001-HO-001-TR-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md` | Frozen one-run browser execution and output-freeze protocol — no run performed |

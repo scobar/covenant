@@ -991,7 +991,8 @@ Require that:
   stops that condition and prohibits comparison.
 - No score is corrected, replaced, or favorably selected after freeze.
 - Both condition-specific scores freeze before cross-condition comparison.
-- D-035 separately authorizes any opaque comparison.
+- Any opaque comparison requires a separate accepted decision. D-035 closes
+  PTR-001 and authorizes no comparison.
 - A later separate decision after opaque comparison authorizes any mapping
   reveal.
 - The same-tooling Codex metadata incident, ChatGPT opaque-order/label
@@ -1006,6 +1007,39 @@ Require that:
 
 Do not grant any primary scorer, auditor, custodian, provider, model, Scott,
 ChatGPT, Codex, or future actor final interpretive authority.
+
+## Scoring-Audit FAIL, Provenance-Asymmetry, and Pair-Closure Rules
+
+Require that:
+
+- No condition score freezes after a `FAIL` audit.
+- No third adjudicator, replacement scorer or auditor, averaging, correction,
+  or favorable rerun may rescue a failed score.
+- No cross-condition comparison, informal comparison, mapping reveal, or
+  winner inference may use a single frozen score.
+- Both original primary and audit judgments remain preserved.
+- Unless validity separately failed, an audit FAIL is classified as a scoring-
+  measurement reproducibility failure rather than a decoder-validity failure.
+- Missing per-audit provenance fields remain missing and visible.
+- A frozen audit record is never backfilled to create apparent symmetry.
+- Explicit false, explicit true, absent, and ambiguous mapping-access
+  attestations remain distinct categories.
+- Per-audit attestations, task-level coordinator provenance, and artifact
+  absence remain separate evidence layers.
+- An absent mapping-access attestation is neither proof of access nor
+  equivalent to an explicit denial.
+- Diagnostic work requires separate accepted authorization and cannot rescue,
+  replace, compare, unblind, or revive a closed pair.
+- Future scoring and provenance instruments are validated on synthetic
+  fixtures before real use.
+- Broad private-text search and private-header inspection are prohibited for
+  closure verification.
+- Final closure may rely on a fixed, owner-attested aggregate report without
+  reopening private semantic evidence.
+- Accidental same-tooling private-detail disclosure is preserved and
+  classified rather than hidden.
+- No actor gains final interpretive authority from scoring, audit, custody,
+  closure, or diagnostic work.
 
 ## Beacon Blind Iteration Lab Rules
 

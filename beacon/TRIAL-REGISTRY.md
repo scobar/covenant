@@ -27,7 +27,7 @@ output. Future models require distinct trial IDs and decisions.
 - Public raw-output reveals: `0`
 - Aggregate empirical decode rates: `0`
 
-## Successor paired-trial scoring authorization
+## Successor paired-trial scoring closure
 
 - Existing executed/prepared attempt-associated trial records: unchanged
 - Paired trial packages: `1`
@@ -42,22 +42,35 @@ output. Future models require distinct trial IDs and decisions.
 - Score-eligible successor conditions: `2`
 - Denominator-eligible successor conditions: `2`
 - Isolated scoring authorizations: `1`
-- Condition scores: `0`
-- Score audits: `0`
-- Score freezes: `0`
+- Primary score records: `2`
+- Score audits: `2`
+- Score freezes: `1`
+- Non-FAIL audits with preserved dissent: `1`
+- Audit FAILs: `1`
+- Audits preserving dissent: `2`
+- Audit mapping-access attestations — explicit false: `1`
+- Audit mapping-access attestations — explicit true: `0`
+- Audit mapping-access attestations — absent: `1`
+- Audit mapping-access attestations — ambiguous: `0`
 - Successor comparisons: `0`
+- Successor mapping reveals: `0`
 - Successor unblindings: `0`
+- Successor public score vectors: `0`
+- SIG-002 attempts: `0`
 
 | Package | Parent pair | Provider/configuration | Lifecycle | Prepared conditions | Executions | Outputs | Scores | Comparisons | Unblindings | Public records |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| `PTR-001 v0.1` | `SDR-003-PH-001` | Google Gemini web app; `3.1 Pro`; Extended Thinking | `Isolated condition scoring authorized — not yet begun` | `2` | `2` | `2` | `0` | `0` | `0` | [Charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md); [selection](paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md); [protocol](paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md); [commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md); [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md); [D-033 authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md); [D-033 manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md); [D-034 scoring authorization](paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md); [D-034 manifest](paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md) |
+| `PTR-001 v0.1` | `SDR-003-PH-001` | Google Gemini web app; `3.1 Pro`; Extended Thinking | `Closed incomplete — scoring audit disagreement` | `2` | `2` | `2` | `1 freeze` | `0` | `0` | [Charter](paired-trials/SDR-003-PH-001-PT-001/00-PUBLIC-PAIRED-TRIAL-CHARTER.md); [selection](paired-trials/SDR-003-PH-001-PT-001/01-PROVIDER-AND-MODEL-SELECTION-RECORD.md); [protocol](paired-trials/SDR-003-PH-001-PT-001/02-EXECUTION-AND-FREEZE-PROTOCOL.md); [commitment](paired-trials/SDR-003-PH-001-PT-001/03-PAIRED-TRIAL-COMMITMENT-RECORD.md); [preparation manifest](paired-trials/SDR-003-PH-001-PT-001/04-PUBLIC-PAIRED-TRIAL-PREPARATION-MANIFEST.md); [D-033 authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md); [D-033 manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md); [D-034 scoring authorization](paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md); [D-034 manifest](paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md); [D-035 scoring closure](paired-trials/SDR-003-PH-001-PT-001/09-PUBLIC-SCORING-INCOMPLETION-AND-CLOSURE-RECORD.md) |
 
-Private execution is complete. Both opaque outputs are valid, score eligible,
-and denominator eligible, and neither permits a technical retry. D-034
-authorizes a later private scoring task only after public commit and clean
-`main`/`origin/main` parity. Scoring remains unbegun; both score freezes must
-precede D-035 comparison, the mapping remains private, and neither opaque
-condition is associated with a public SIG-002 attempt.
+Private execution and isolated scoring are complete. Both opaque outputs are
+valid, score eligible, and denominator eligible, and neither permits a
+technical retry. Two primary records and two audits exist. One non-FAIL audit
+with preserved dissent permitted one score freeze; one FAIL prevented the
+second. D-035 closes PTR-001 incomplete and prohibits comparison or mapping
+reveal. One audit explicitly denies mapping access and one is silent, without
+condition association. Task-level no-mapping provenance remains separate. The
+mapping remains private and publicly unrevealed, and neither opaque condition
+is associated with a public SIG-002 attempt.
 
 ## Trial registry
 

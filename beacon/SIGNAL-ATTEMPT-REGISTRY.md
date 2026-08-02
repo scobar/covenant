@@ -44,8 +44,20 @@ Frozen. No attempt is preferred merely because it is first or current.
 - Executed successor opaque condition runs: `2`
 - Valid successor opaque outputs: `2`
 - Isolated scoring authorizations: `1`
-- Successor condition scores: `0`
+- Successor primary score records: `2`
+- Successor scoring audits: `2`
+- Successor score freezes: `1`
+- Successor non-FAIL audits with preserved dissent: `1`
+- Successor audit FAILs: `1`
+- Successor audits preserving dissent: `2`
+- Audit mapping-access attestations — explicit false: `1`
+- Audit mapping-access attestations — explicit true: `0`
+- Audit mapping-access attestations — absent: `1`
+- Audit mapping-access attestations — ambiguous: `0`
 - Successor comparisons: `0`
+- Successor mapping reveals: `0`
+- Successor unblindings: `0`
+- Successor public score vectors: `0`
 - SIG-002 attempts: `0`
 - Signal redesigns: `0`
 - Aggregate empirical decode rates: `0`
@@ -73,10 +85,14 @@ The completed validity bundle is followed by the [D-034 isolated-scoring
 authorization](paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md)
 and its [frozen public
 manifest](paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md).
-Private execution and scoring authorization do not create a public signal
-attempt. Two valid successor outputs exist, while condition scores,
-comparisons, mapping reveals, public results, and SIG-002 attempts remain
-zero.
+The later [D-035 public scoring-closure
+record](paired-trials/SDR-003-PH-001-PT-001/09-PUBLIC-SCORING-INCOMPLETION-AND-CLOSURE-RECORD.md)
+closes PTR-001 incomplete after two primaries and two audits produced one
+non-FAIL audit with preserved dissent, one FAIL, and only one score freeze.
+One audit explicitly denies mapping access and one is silent; neither is
+associated with an opaque condition. Private execution and closure do not
+create a public signal attempt. Comparisons, mapping reveals, unblindings,
+public score vectors, public results, and SIG-002 attempts remain zero.
 
 ## Evidence Boundary
 

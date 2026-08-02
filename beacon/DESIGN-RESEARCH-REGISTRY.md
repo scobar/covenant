@@ -37,8 +37,20 @@ target does not instantiate a design, create SIG-002, or authorize execution.
 - Executed successor runs: `2`
 - Valid opaque outputs: `2`
 - Isolated scoring authorizations: `1`
-- Condition scores: `0`
+- Primary score records: `2`
+- Scoring audits: `2`
+- Score freezes: `1`
+- Non-FAIL audits with preserved dissent: `1`
+- Audit FAILs: `1`
+- Audits preserving dissent: `2`
+- Audit mapping-access attestations — explicit false: `1`
+- Audit mapping-access attestations — explicit true: `0`
+- Audit mapping-access attestations — absent: `1`
+- Audit mapping-access attestations — ambiguous: `0`
 - Comparisons: `0`
+- Mapping reveals: `0`
+- Unblindings: `0`
+- Public score vectors: `0`
 - Empirical results: `0`
 - Empirical paired interpretations: `0`
 - Levels 5–9 analyses: `0`
@@ -81,11 +93,15 @@ advanced the live authorization lifecycle through manual execution. The later
 authorization](paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md)
 and its [frozen
 manifest](paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md)
-advance the live lifecycle to
-`Isolated condition scoring authorized — not yet begun`. Two valid,
-score-eligible, denominator-eligible opaque outputs exist. Scores,
-comparisons, empirical paired interpretations, mapping reveals, and SIG-002
-remain zero.
+advanced the live lifecycle through isolated scoring. The later [D-035 scoring
+closure](paired-trials/SDR-003-PH-001-PT-001/09-PUBLIC-SCORING-INCOMPLETION-AND-CLOSURE-RECORD.md)
+sets the lifecycle to `Closed incomplete — scoring audit disagreement`. Two
+valid outputs, two primary records, two audits, one non-FAIL audit with
+preserved dissent, one FAIL, and one score freeze exist. The audit records
+contain one explicit false and one absent mapping-access attestation, without
+condition association. Comparisons, empirical paired interpretations, mapping
+reveals, unblindings, public score vectors, and SIG-002 remain zero. The
+current result may not be used to optimize a real BBIL candidate.
 
 ## Nonexecution boundary
 
@@ -101,8 +117,9 @@ The SDR-003 pair is not associated with a public signal attempt. Provider-
 independent replication and clean no-known-exposure holdouts remain future
 validity controls rather than the primary manipulated variable. Provider/model
 selection and trial preparation were later frozen in PTR-001; private
-execution is now complete, and isolated scoring is authorized but unbegun.
-D-035 is required for opaque comparison, a later decision is required for
-mapping reveal, and separate accepted decisions remain required for public
-SIG-002 creation and result publication. No higher layer, carrier,
-distribution, or transmission follows.
+execution and isolated scoring are complete. D-035 closes PTR-001 incomplete
+because one audit FAIL prevented the second score freeze. Comparison and
+mapping reveal are prohibited, and PTR-001 cannot be revived. Separate
+accepted decisions remain required for any scoring-disagreement diagnostic,
+real BBIL execution, public SIG-002 creation, or future result publication. No
+higher layer, carrier, distribution, or transmission follows.

@@ -832,13 +832,15 @@ commit, push, and clean `main`/`origin/main` parity.
   2 as guardrails, Levels 3 and 4 exploratory, Levels 5–9 absent, and no
   aggregate score.
 - Freeze both condition scores before any comparison.
-- Require D-035 for opaque comparison and a later separate decision for
+- Require a separate accepted decision for opaque comparison and another for
   mapping reveal.
 
 The baseline/treatment mapping remains private. Condition scores, score
 audits, score freezes, comparisons, mapping reveals, unblindings, public
-results, and SIG-002 attempts remain `0`. D-009 remains `Proposed`. No higher
-layer, carrier, distribution, or transmission follows.
+results, and SIG-002 attempts remained `0` at D-034 publication. Later scoring
+did not produce the required second freeze; D-035 now closes PTR-001
+incomplete and prohibits comparison or mapping reveal. D-009 remains
+`Proposed`. No higher layer, carrier, distribution, or transmission follows.
 
 ## Cooperative Surplus and Adoption Research
 
@@ -881,34 +883,31 @@ layer, carrier, distribution, or transmission follows.
 The current working sequence is:
 
 1. Preserve the frozen TR-002 result, DA-001 result, SDR-001 research package,
-   SDR-002 exact design, SDR-003 pair, PTR-001 outputs, validity, exposure,
-   commitments, and preserved dissent unchanged.
+   SDR-002 exact design, SDR-003 pair, and every frozen PTR-001 output,
+   validity, exposure, primary, audit, freeze, commitment, and dissent record.
 2. Treat D-029 as selection of one controllable research variable and D-030 as
    exact symbolic feasibility selection, neither as causal proof.
 3. Treat D-031 as surface serialization and sealed-pair preparation only, not
    as causal, empirical, decoder, provider, or public-attempt evidence.
-4. Treat D-032 as provider/model selection and paired-trial preparation only,
-   not execution, output, scoring, comparison, unblinding, result, or SIG-002.
-5. Treat D-033 as the completed private execution gate and D-034 as public
-   authorization for a later isolated scoring task, not as a score or result.
-6. After D-034 is reviewed, committed, pushed, and cleanly published, launch
-   two separate fresh no-history primary scoring contexts before sharing
-   either primary result with another scoring context.
-7. Use a different fresh no-history auditor per condition and require its
-   complete scratch Levels 0–4 vector to freeze before primary-record access.
-8. Keep Level 1 primary, Levels 0 and 2 as guardrails, Levels 3 and 4
-   exploratory, Levels 5–9 absent, and all scoring categorical and
-   nonaggregate.
-9. Preserve the private SDR-003 and PTR-001 mapping, order, raw artifacts,
+4. Preserve D-032 as provider/model selection and preparation, D-033 as the
+   execution authorization, and D-034 as the isolated-scoring authorization.
+5. Apply D-035 as the terminal PTR-001 scoring closure: one non-FAIL audit
+   froze one score, one FAIL prevented the other, and no paired interpretation
+   exists.
+6. Preserve one explicit false and one absent per-audit mapping-access
+   attestation without backfilling either record.
+7. Keep task-level no-mapping provenance separate from per-record fields and
+   artifact absence.
+8. Preserve the private SDR-003 and PTR-001 mapping, order, raw artifacts,
    solution keys, scorecard details, manifests, preimages, and nonces outside
-   Git and outside cross-condition scoring contexts.
-10. Freeze each condition score only after a non-FAIL audit, and freeze both
-    condition scores before comparison.
-11. Require D-035 for opaque comparison and a later separate decision for
-    baseline/treatment mapping reveal.
-12. Require separate decisions for public result integration and any SIG-002
-    attempt, Levels 5–9 work, higher layer, carrier, distribution, or
-    transmission.
+   Git.
+9. Do not compare, reveal, unblind, publish a score vector, or revive PTR-001.
+10. Require a separate accepted decision for any scoring-disagreement
+    diagnostic, and validate improved instruments on synthetic fixtures.
+11. Keep BBIL real-candidate execution and current-result optimization
+    unauthorized.
+12. Require separate decisions for any SIG-002 attempt, Levels 5–9 work,
+    higher layer, carrier, distribution, or transmission.
 
 Same-provider architecture, hidden backend identity, hidden platform state,
 unprovable Incognito isolation, prospective model selection, and the
@@ -935,8 +934,41 @@ unverified`. That label is orchestration evidence only: it is not a real
 Beacon candidate, run, score, holdout, empirical result, clean-holdout claim,
 provider-independent validation, or real-candidate authorization. The
 [next-gate record](beacon/BBIL-001/09-NEXT-GATE-AND-NONEXECUTION.md) preserves
-D-034 scoring as the next empirical gate, D-035 as the later opaque-comparison
-gate, and a separate mapping-reveal decision. The frozen
-[research manifest](beacon/BBIL-001/10-RESEARCH-MANIFEST.md) binds the seventeen
+the historical pre-scoring gate sequence. Later D-035 closes PTR-001
+incomplete, so that pair cannot proceed to comparison or mapping reveal. The
+frozen [research manifest](beacon/BBIL-001/10-RESEARCH-MANIFEST.md) binds the seventeen
 architecture, template, and portable-skill dependencies without changing the
 historically preserved former README tail above.
+
+## Post-Refactor Research Update — PTR-001 Scoring Closure
+
+[D-035](DECISIONS.md) closes PTR-001 as
+`Closed incomplete — scoring audit disagreement`. Two valid opaque outputs and
+two validity freezes proceeded through two fresh primary scorers and two
+separate scratch-before-comparison auditors. One non-FAIL audit with preserved
+dissent permitted one score freeze; one `FAIL — condition score must not
+freeze` prevented the second. Both audits preserve dissent, and no exact-pass
+audit exists.
+
+The FAIL is a scoring-measurement reproducibility failure, not a decoder-
+validity failure or evidence for or against either opaque design condition.
+The single frozen score has no paired interpretation. No comparison, mapping
+reveal, unblinding, public score vector, public raw output, or SIG-002 attempt
+exists.
+
+Per-audit mapping provenance contains one explicit false assertion, zero
+explicit true assertions, one absent assertion, and zero ambiguous assertions.
+The completed scoring task’s coordinator-level no-mapping report remains
+separate same-tooling process provenance, and no comparison, mapping-reveal,
+or unblinding artifact exists. The mapping remains private and publicly
+unrevealed.
+
+The [public closure
+record](beacon/paired-trials/SDR-003-PH-001-PT-001/09-PUBLIC-SCORING-INCOMPLETION-AND-CLOSURE-RECORD.md)
+also preserves the prior nonpublic same-tooling D-035 preparation incident in
+which one criterion-level score row entered an OpenAI Codex transcript. It
+publishes neither that row nor a condition association. A future scoring-
+disagreement diagnostic would require a separate accepted decision, may
+classify disagreement mechanisms only, and cannot rescore, compare, reveal,
+unblind, or revive PTR-001. Any improved scorecard and provenance instrument
+must first be validated on synthetic fixtures.

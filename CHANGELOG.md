@@ -6,6 +6,9 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- PTR-001 public scoring-incompletion and closure record.
+- Frozen one-row public scoring-closure manifest.
+- D-035 pair-closure decision.
 - BBIL-001 draft blind-iteration architecture.
 - Context-honesty ledger and subagent information-flow model.
 - Adaptive-development versus sealed-validation separation.
@@ -190,6 +193,18 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- Closed PTR-001 incomplete after one scoring-audit FAIL prevented the second
+  score freeze.
+- Preserved the sole non-FAIL score freeze without permitting paired
+  interpretation.
+- Preserved one explicit false and one absent per-audit mapping-access
+  attestation without retroactive normalization.
+- Kept task-level no-mapping provenance separate from per-audit fields.
+- Retired PTR-001 comparison and mapping-reveal gates.
+- Preserved the prior nonpublic D-035 criterion-row transcript incident.
+- Authorized no diagnostic, rescore, comparison, mapping reveal, BBIL real
+  execution, SIG-002, Levels 5–9, higher layer, payload, carrier,
+  distribution, or transmission.
 - Added durable rules preventing absolute zero-context claims.
 - Classified Codex adaptive results as same-tooling development evidence rather
   than clean holdout evidence.

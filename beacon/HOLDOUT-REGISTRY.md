@@ -38,9 +38,21 @@ independently verified.
 - Successor score-eligible outputs: `2`
 - Successor denominator-eligible outputs: `2`
 - Successor technical retries: `0`
-- Successor scores: `0`
+- Successor primary score records: `2`
+- Successor scoring audits: `2`
+- Successor score freezes: `1`
+- Successor non-FAIL audits with preserved dissent: `1`
+- Successor audit FAILs: `1`
+- Successor audits preserving dissent: `2`
+- Audit mapping-access attestations — explicit false: `1`
+- Audit mapping-access attestations — explicit true: `0`
+- Audit mapping-access attestations — absent: `1`
+- Audit mapping-access attestations — ambiguous: `0`
 - Successor comparisons: `0`
 - Successor mapping reveals: `0`
+- Successor unblindings: `0`
+- Successor public score vectors: `0`
+- SIG-002 attempts: `0`
 
 ## Holdout Registry
 
@@ -53,7 +65,7 @@ independently verified.
 
 | Pair | Conditions | Lifecycle | Exposure | Trial | Mapping | Raw content public | Public records |
 |---|---|---|---|---|---|---|---|
-| `SDR-003-PH-001` | `A` and `B` | `Valid outputs frozen — isolated scoring authorized and not begun` | `Same-provider pair dependence` | PTR-001 execution complete; scoring authorized but not begun | Private | `No` | [Charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [blinding record](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [commitment record](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
+| `SDR-003-PH-001` | `A` and `B` | `Closed incomplete — scoring audit disagreement` | `Same-provider pair dependence` | PTR-001 execution and isolated scoring complete; one audit FAIL prohibited comparison | Private and publicly unrevealed | `No` | [Charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [blinding record](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [commitment record](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
 
 PTR-001 and D-033 add this preparation and manual-authorization state to the
 successor pair without changing its sealed artifacts or commitments:
@@ -67,7 +79,10 @@ successor pair without changing its sealed artifacts or commitments:
 - Conditions supplied: `2`
 - Valid outputs: `2`
 - Technical retries: `0`
-- Scoring: authorized but not begun
+- Scoring: completed through two primary records and two audits; one score
+  freeze and one audit FAIL
+- Mapping-access attestations: one explicit false, zero explicit true, one
+  absent, and zero ambiguous, without condition association
 - Exposure: same-provider dependent; the first submitted condition records no
   prior-other-condition provider exposure, while the second submitted
   condition records prior-other-condition provider exposure, without
@@ -83,16 +98,19 @@ successor pair without changing its sealed artifacts or commitments:
   [D-033 authorization](paired-trials/SDR-003-PH-001-PT-001/05-PUBLIC-PAIR-EXECUTION-AUTHORIZATION.md);
   [D-033 manifest](paired-trials/SDR-003-PH-001-PT-001/06-PUBLIC-PAIR-EXECUTION-AUTHORIZATION-MANIFEST.md);
   [D-034 scoring authorization](paired-trials/SDR-003-PH-001-PT-001/07-PUBLIC-ISOLATED-SCORING-AUTHORIZATION.md);
-  [D-034 manifest](paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md).
+  [D-034 manifest](paired-trials/SDR-003-PH-001-PT-001/08-PUBLIC-ISOLATED-SCORING-AUTHORIZATION-MANIFEST.md);
+  [D-035 scoring closure](paired-trials/SDR-003-PH-001-PT-001/09-PUBLIC-SCORING-INCOMPLETION-AND-CLOSURE-RECORD.md).
 
 The sealed pair content and its three public commitments remain unchanged.
 
 The two successor conditions remain sealed artifacts and are not associated
-with a public signal attempt. They now have two valid, score-eligible,
-denominator-eligible outputs, but no score, comparison, mapping reveal,
-unblinding, or public result. Their private mapping remains unavailable until
-both condition-specific scores freeze, D-035 separately authorizes opaque
-comparison, and a later decision separately authorizes mapping reveal.
+with a public signal attempt. They have two valid outputs, two primary score
+records, two audits, and only one score freeze. One non-FAIL audit with
+preserved dissent permitted that freeze; one FAIL prohibited the other. The
+pair is closed incomplete and cannot be compared or revived for mapping
+reveal. Its mapping remains private and publicly unrevealed. Comparisons,
+mapping reveals, unblindings, public score vectors, and public results remain
+zero.
 
 ## Trial and Exposure State
 

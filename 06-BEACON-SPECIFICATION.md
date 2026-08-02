@@ -632,12 +632,41 @@ primary record must preserve an explicit claim inventory, criterion-by-
 criterion adjudication, exact categorical vector, scorecard-required query and
 prediction accounting, and its contamination and validity boundary.
 
-Both condition-specific score freezes must complete before any paired
-comparison. D-035 is required before opaque comparison, and a later separate
-decision is required before mapping reveal. At D-034 completion, condition
+Under D-034, both condition-specific score freezes were prerequisites for any
+later paired comparison, which would also have required a separate decision
+and a still-later mapping-reveal decision. At D-034 publication, condition
 scores, score audits, score freezes, comparisons, mapping reveals,
-unblindings, public results, and SIG-002 attempts remain `0`. No higher layer,
-carrier, distribution, or transmission is authorized.
+unblindings, public results, and SIG-002 attempts remained `0`. Later scoring
+failed the two-freeze prerequisite; the closure branch below governs PTR-001.
+No higher layer, carrier, distribution, or transmission is authorized.
+
+## Scoring-Failure Branch and PTR-001 Closure
+
+- [PTR-001 public scoring-incompletion and closure
+  record](beacon/paired-trials/SDR-003-PH-001-PT-001/09-PUBLIC-SCORING-INCOMPLETION-AND-CLOSURE-RECORD.md)
+- [PTR-001 public scoring-closure
+  manifest](beacon/paired-trials/SDR-003-PH-001-PT-001/10-PUBLIC-SCORING-CLOSURE-MANIFEST.md)
+
+Two non-FAIL condition-score freezes are mandatory before a pair may be
+compared. If one audit returns `FAIL — condition score must not freeze`, the
+pair closes incomplete unless a predeclared alternative existed before result
+access. No replacement or tie-breaking adjudicator, averaging, correction,
+favorable rerun, or one-score comparison is permitted.
+
+Per-audit provenance asymmetry remains visible. An explicit false assertion,
+an explicit true assertion, an absent assertion, and an ambiguous assertion
+are not interchangeable. Task-level coordinator provenance and per-record
+attestations remain separate, as does the mechanical absence of comparison,
+mapping-reveal, and unblinding artifacts.
+
+A fixed owner-attested aggregate report may support public closure without
+reopening private semantic evidence. PTR-001 is therefore
+`Closed incomplete — scoring audit disagreement`: two valid outputs produced
+two primary records and two audits, but only one score froze after one
+non-FAIL audit with preserved dissent; one FAIL prevented the other freeze.
+The audit records contain one explicit false and one absent mapping-access
+attestation. No comparison, mapping reveal, unblinding, public score vector,
+or SIG-002 attempt exists. PTR-001 cannot be revived for comparison.
 
 ## Discovery
 
@@ -741,6 +770,11 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-08-02: Added D-035 and closed PTR-001 incomplete after one scoring-
+  audit FAIL prevented the required second score freeze; preserved one
+  explicit false and one absent per-audit mapping-access attestation; and
+  prohibited comparison, mapping reveal, unblinding, replacement scoring,
+  public vectors, and PTR-001 revival.
 - 2026-08-01: Added D-034 and the frozen PTR-001 public isolated-scoring
   authorization, requiring separate fresh no-history primary scorers and
   scratch-before-comparison auditors, categorical Levels 0–4 only, both score
