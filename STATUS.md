@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-08-02
 
-**Current phase:** PTR-001 closed incomplete at scoring; one audit FAIL prohibits comparison; BBIL real-candidate execution remains unauthorized
+**Current phase:** PTR-001 remains closed incomplete; SDA-001 scoring-disagreement diagnostic prepared but not executed; BBIL real-candidate execution remains unauthorized
 
 **Canonical status:** No canonical moral kernel, choice protocol, Beacon
 specification, or governance system exists.
@@ -482,6 +482,28 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
   - No-filter Git blob:
     `640ff94f4a09d73cbe615ddb61434bf2e354a404`
   - Bytes: `5445`
+- D-036 is Accepted.
+- Twelve-file private SDA-001 preparation package created.
+- Ten private preparation-manifest dependency rows verified.
+- Sixteen-family pre-evidence disagreement taxonomy frozen with no family
+  status assigned.
+- Observation-before-truth, lane-isolated truth-relative diagnosis,
+  frozen-record synthesis, scratch-before-synthesis audit, and result-freeze
+  chronology frozen.
+- Six-module, twelve-fixture future synthetic reproducibility-validation plan
+  prepared without creating a fixture or executing a synthetic run.
+- SDA-001 public charter, staged method, commitment record, and preparation
+  manifest prepared.
+- Frozen public SDA-001 diagnostic-preparation manifest identity:
+  - Raw SHA-256:
+    `b4a0a83829d71250e9ab1409a3922e2a289574ac104de3d2341aaeac082b6a7f`
+  - No-filter Git blob:
+    `67c512e84c6b30786d4e45e1c6d9fed9fc6e393d`
+  - Bytes: `3982`
+  - Dependency rows verified: `3/3`
+- No diagnostic execution or private source-content access occurred.
+- No PTR-001 score, audit, score freeze, validity, exposure, comparison,
+  mapping, unblinding, or closure state changed.
 
 ## Current Work
 
@@ -552,6 +574,39 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Validity changes: `0`.
 - Dissent changes: `0`.
 - Public raw-evidence reveals: `0`.
+
+### SDA-001
+
+- Lifecycle: `Prepared — diagnostic not executed`.
+- Source opaque lanes: `2`.
+- Private preparation files: `12`.
+- Private manifest dependencies: `10`.
+- Disagreement families: `16`.
+- Observation records: `0`.
+- Truth-relative mechanism records: `0`.
+- Cross-lane syntheses: `0`.
+- Diagnostic audits: `0`.
+- Diagnostic result freezes: `0`.
+- Synthetic modules: `6`.
+- Synthetic fixtures created: `0`.
+- Synthetic runs: `0`.
+- PTR-001 score changes: `0`.
+- PTR-001 audit changes: `0`.
+- PTR-001 score-freeze changes: `0`.
+- Pair comparisons: `0`.
+- Mapping reveals: `0`.
+- Unblindings: `0`.
+- Real BBIL candidates: `0`.
+- Real BBIL runs: `0`.
+- SIG-002 attempts: `0`.
+- Levels 5–9 analyses: `0`.
+- Carriers: `0`.
+- Transmissions: `0`.
+- Authorized incremental spend: USD `0`.
+- Diagnostic execution requires a later separate accepted decision.
+- Synthetic fixture creation and execution require another later decision.
+- Real BBIL use requires a still-later accepted decision after a `READY`
+  synthetic result.
 
 ### Successor design research
 
@@ -775,11 +830,12 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 ## Next Proposed Architectural Work
 
 1. Architectural review before commit.
-2. Commit and push D-035 closure.
-3. Optionally prepare a separate scoring-disagreement diagnostic decision.
-4. Validate improved scorecard and provenance agreement on synthetic fixtures.
-5. Do not revive PTR-001 comparison or mapping reveal.
-6. Real BBIL execution remains separately unauthorized.
+2. Back up the twelve-file private SDA-001 package offline.
+3. Commit and push D-036 preparation.
+4. Only after clean publication may a separate task execute SDA-001.
+5. Diagnostic execution cannot rescore or compare PTR-001.
+6. A later decision is required before synthetic fixture creation/execution.
+7. Real BBIL remains unauthorized.
 
 Same-provider architecture, unknown backend identity and platform state,
 unproven Temporary Chat and Incognito isolation, hidden routing and retention,
@@ -852,7 +908,7 @@ establish a universal receiver model or select a successor design.
 | `external-review/PX-001/06-PILOT-MANIFEST.md` | Frozen PX-001 plan manifest v0.1 — no reviewer or model selected |
 | `04-INTERPRETIVE-LAYERS.md` | Draft preliminary allocation register — noncanonical |
 | `05-CHOICE-PROTOCOL.md` | Draft case-triggered requirements inventory — noncanonical |
-| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — PTR-001 closed incomplete after one audit FAIL; no comparison, SIG-002, or transmission |
+| `06-BEACON-SPECIFICATION.md` | Noncanonical Beacon research and live-evidence index — PTR-001 closed incomplete; SDA-001 prepared but not executed; no comparison, real BBIL run, SIG-002, or transmission |
 | `beacon/DESIGN-RESEARCH-REGISTRY.md` | Live noncanonical successor-design research registry — two valid outputs, two primaries, two audits, one freeze, and zero paired interpretations |
 | `beacon/SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md` | SDR-001 charter — framing-cue locality selected; exact design not begun |
 | `beacon/SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md` | Frozen public evidence traceability and eight-class disposition without causal proof |
@@ -889,13 +945,17 @@ establish a universal receiver model or select a successor design.
 | `07-EVIDENCE-AND-GOVERNANCE.md` | Draft case-triggered requirements inventory — noncanonical |
 | `beacon/SIGNAL-ATTEMPT-REGISTRY.md` | Live noncanonical signal-attempt registry — one Frozen attempt; PTR-001 closed incomplete; no SIG-002 attempt |
 | `beacon/HOLDOUT-REGISTRY.md` | Live noncanonical holdout registry — two attempt-associated and two executed successor holdouts; private mapping; one successor score freeze |
-| `beacon/DIAGNOSTIC-REGISTRY.md` | Live noncanonical diagnostic registry — one closed complete analysis and one frozen result |
+| `beacon/DIAGNOSTIC-REGISTRY.md` | Live noncanonical diagnostic registry — one closed complete analysis, one prepared scoring-disagreement diagnostic, and one frozen result |
 | `beacon/diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md` | Historical DA-001 public preparation charter — noncanonical and frozen |
 | `beacon/diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md` | Historical frozen nonrevealing staged diagnostic method |
 | `beacon/diagnostics/DA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md` | Public commitment to the private DA-001 preparation package |
 | `beacon/diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md` | Frozen three-row historical public DA-001 preparation manifest |
 | `beacon/diagnostics/DA-001/04-PUBLIC-DIAGNOSTIC-RESULT-AND-CLOSURE-RECORD.md` | Nonrevealing frozen DA-001 diagnostic vector, bounded findings, limits, and closure |
 | `beacon/diagnostics/DA-001/05-PUBLIC-DIAGNOSTIC-RESULT-MANIFEST.md` | Frozen one-row public DA-001 result manifest |
+| `beacon/diagnostics/SDA-001/00-PUBLIC-SCORING-DISAGREEMENT-DIAGNOSTIC-CHARTER.md` | SDA-001 public charter — diagnostic prepared, not executed; no rescore, comparison, mapping reveal, or real BBIL run |
+| `beacon/diagnostics/SDA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md` | Frozen observation-before-truth, lane-isolated diagnosis, synthesis, audit, and later synthetic-validation method |
+| `beacon/diagnostics/SDA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md` | Public commitment to the twelve-file private SDA-001 preparation package |
+| `beacon/diagnostics/SDA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md` | Frozen three-row public SDA-001 preparation manifest — noncanonical and nonexecuted |
 | `beacon/holdouts/SIG-001-HO-001/00-PUBLIC-HOLDOUT-CHARTER.md` | Public sealed-holdout scope and nonclaims — noncanonical; no trial |
 | `beacon/holdouts/SIG-001-HO-001/01-COMMITMENT-RECORD.md` | Public SIG-001-HO-001 commitment and reveal conditions — no private identity beyond the commitment |
 | `beacon/holdouts/SIG-001-HO-001/02-PUBLIC-MANIFEST.md` | Frozen two-row public holdout manifest — noncanonical; no decoding trial |

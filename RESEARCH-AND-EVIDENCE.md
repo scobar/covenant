@@ -972,3 +972,36 @@ disagreement diagnostic would require a separate accepted decision, may
 classify disagreement mechanisms only, and cannot rescore, compare, reveal,
 unblind, or revive PTR-001. Any improved scorecard and provenance instrument
 must first be validated on synthetic fixtures.
+
+## Post-Refactor Research Update — SDA-001 Preparation
+
+[D-036](DECISIONS.md) prepares
+[SDA-001](beacon/diagnostics/SDA-001/00-PUBLIC-SCORING-DISAGREEMENT-DIAGNOSTIC-CHARTER.md)
+as a private scoring-disagreement diagnostic without executing it. PTR-001
+remains `Closed incomplete — scoring audit disagreement`; its two primary
+judgments, two audits, two auditor scratch results, sole score freeze, failed
+unfrozen score, decoder-validity state, and one-explicit-false/one-absent
+mapping-attestation asymmetry remain unchanged.
+
+The preregistration freezes sixteen disagreement-mechanism families before
+scoring-content access, two random neutral diagnostic lanes, a role-based
+access matrix, observation-before-truth, lane-isolated truth-relative
+diagnosis, frozen-record cross-lane synthesis, and an independent scratch-
+before-synthesis audit. The prior nonpublic D-035 criterion-row transcript
+incident remains provenance history and is excluded as substantive diagnostic
+evidence.
+
+The private package contains twelve files and a ten-row dependency manifest.
+Its public commitment binds the private canonical preparation preimage without
+publishing the nonce, preimage, private manifest identity, source identities,
+lane aliases, scores, vectors, criteria, mapping, or result. No private
+scoring content was semantically opened during preparation.
+
+A later separate decision is required to execute SDA-001. Another later
+decision is required to create or run the planned twelve synthetic fixtures
+across six modules. Any revised scoring/provenance instrument remains a
+hypothesis until the synthetic plan returns `READY`; even then, a still-later
+accepted decision is required for a real BBIL candidate. No diagnostic result,
+rescore, condition comparison, mapping reveal, unblinding, fixture, synthetic
+run, real BBIL run, SIG-002, Levels 5–9 analysis, higher layer, payload,
+carrier, distribution, or transmission follows from preparation.

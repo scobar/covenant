@@ -1041,6 +1041,54 @@ Require that:
 - No actor gains final interpretive authority from scoring, audit, custody,
   closure, or diagnostic work.
 
+## Scoring-Disagreement Diagnostic Preparation Rules
+
+Require that:
+
+- Public accepted authorization exists before private scoring-disagreement
+  diagnostic preparation.
+- The complete relevant private state has a verified offline backup, and its
+  removable medium is safely ejected, physically disconnected, and unavailable
+  to the active filesystem throughout preparation.
+- The exact source inventory, role-based access matrix, disagreement taxonomy,
+  and synthetic expected-behavior classes freeze before scoring-content
+  access.
+- Fresh cryptographically random neutral lane aliases are used.
+- No role packet or alias encodes an A/B label, execution order,
+  baseline/treatment mapping, audit outcome, exposure chronology, or
+  score-freeze hint.
+- Preparation remains content-blind and limited to mechanical identity,
+  custody, shape, format, and access-matrix operations.
+- Observation of primary/auditor divergence occurs before scoring-truth
+  access.
+- Truth-relative diagnosis remains lane-isolated until its records freeze.
+- Cross-lane synthesis receives frozen diagnostic records rather than
+  unbounded raw evidence.
+- A different fresh auditor freezes a complete independent scratch mechanism
+  vector before synthesis access.
+- No replacement score, arbitration, averaging, third adjudicator, condition
+  comparison, mapping access or reveal, winner inference, or scorecard change
+  is permitted.
+- Both original primary and auditor judgments and the sole score freeze remain
+  immutable.
+- Explicit false, explicit true, absent, and ambiguous mapping-access
+  attestations remain distinct; the mapping-attestation asymmetry is
+  preserved without lane association or retroactive completion.
+- The prior same-tooling transcript incident is preserved as provenance but
+  excluded from substantive diagnostic evidence.
+- Every future instrument change remains a hypothesis until a separately
+  authorized synthetic validation passes.
+- A revised instrument freezes before synthetic fixture exposure, and
+  synthetic validation precedes real use.
+- Real BBIL candidate execution requires a later accepted decision and a
+  `READY` synthetic result.
+- Preparation, diagnostic execution, instrument revision, fixture creation,
+  synthetic execution, and real BBIL work remain separate authorization
+  stages.
+- No diagnostic coordinator, observer, diagnostician, synthesizer, auditor,
+  scorer, Scott, ChatGPT, Codex, provider, model, or future actor gains final
+  interpretive authority.
+
 ## Beacon Blind Iteration Lab Rules
 
 Require that:

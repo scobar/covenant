@@ -6,6 +6,10 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- D-036 scoring-disagreement diagnostic preparation decision.
+- SDA-001 public charter, staged method, commitment, and preparation manifest.
+- Private sixteen-family diagnostic taxonomy and access matrix.
+- Twelve-fixture future synthetic reproducibility-validation plan.
 - PTR-001 public scoring-incompletion and closure record.
 - Frozen one-row public scoring-closure manifest.
 - D-035 pair-closure decision.
@@ -193,6 +197,12 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- Preserved PTR-001 as closed incomplete.
+- Separated diagnostic explanation from rescoring and comparison.
+- Required synthetic validation before future real scoring or BBIL use.
+- Authorized no diagnostic execution, fixture creation, score change,
+  comparison, mapping reveal, real BBIL run, SIG-002, Levels 5–9, higher layer,
+  payload, carrier, distribution, or transmission.
 - Closed PTR-001 incomplete after one scoring-audit FAIL prevented the second
   score freeze.
 - Preserved the sole non-FAIL score freeze without permitting paired

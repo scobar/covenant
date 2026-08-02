@@ -668,6 +668,44 @@ The audit records contain one explicit false and one absent mapping-access
 attestation. No comparison, mapping reveal, unblinding, public score vector,
 or SIG-002 attempt exists. PTR-001 cannot be revived for comparison.
 
+## PTR-001 Scoring-Disagreement Diagnostic
+
+- [SDA-001 public diagnostic
+  charter](beacon/diagnostics/SDA-001/00-PUBLIC-SCORING-DISAGREEMENT-DIAGNOSTIC-CHARTER.md)
+- [SDA-001 staged method and blinding
+  protocol](beacon/diagnostics/SDA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md)
+- [SDA-001 diagnostic commitment
+  record](beacon/diagnostics/SDA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md)
+- [SDA-001 public preparation
+  manifest](beacon/diagnostics/SDA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md)
+
+D-035 remains terminal: PTR-001 closed incomplete because its scoring method
+did not reproduce under one independent scratch-before-comparison audit. This
+is a measurement-reproducibility failure, not a treatment result or a change to
+decoder validity.
+
+D-036 prepares SDA-001 v0.1 without executing it. The private preregistration
+freezes sixteen disagreement-mechanism families, two random neutral lanes, a
+role-based access matrix, observation-before-truth, lane-isolated
+truth-relative diagnosis, frozen-record synthesis, and a scratch-before-
+synthesis audit. A non-FAIL diagnostic audit would be required before a later
+private result could freeze.
+
+The future diagnostic may explain disagreement mechanisms but cannot select a
+correct score, replace or average either judgment, add a third adjudicator,
+compare the conditions, inspect or reveal the baseline/treatment mapping,
+unblind, change PTR-001, or infer a winner. The one-explicit-false/one-absent
+mapping-attestation asymmetry and the prior nonpublic same-tooling transcript
+incident remain preserved.
+
+A separate later decision is required to execute SDA-001. Another later
+decision is required to create and run twelve synthetic fixtures across six
+modules. A revised scoring/provenance instrument must return `READY` on those
+controls before a still-later decision could authorize real use. Preparation
+creates no readiness result and authorizes no real BBIL candidate or run,
+SIG-002, Levels 5–9 analysis, higher layer, payload, carrier, distribution, or
+transmission.
+
 ## Discovery
 
 Receiver observability, capability, and motivation assumptions are explicit
@@ -770,6 +808,12 @@ our-universe-specific physical profile.
 
 ## Revision History
 
+- 2026-08-02: Added D-036 and prepared SDA-001 as a content-blind,
+  sixteen-family scoring-disagreement diagnostic with observation-before-
+  truth, lane-isolated truth-relative diagnosis, scratch-before-synthesis
+  audit, and a separate twelve-fixture synthetic validation plan; authorized
+  no execution, rescoring, comparison, mapping reveal, real BBIL run, SIG-002,
+  or higher-layer work.
 - 2026-08-02: Added D-035 and closed PTR-001 incomplete after one scoring-
   audit FAIL prevented the required second score freeze; preserved one
   explicit false and one absent per-audit mapping-access attestation; and

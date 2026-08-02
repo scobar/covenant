@@ -10,26 +10,25 @@ preparation records remain frozen and unchanged after closure.
 
 ## Counts
 
-- Registered diagnostic plans: `1`
-- Prepared diagnostic plans: `0`
+- Registered diagnostic plans: `2`
+- Prepared diagnostic plans: `1`
 - Closed complete diagnostics: `1`
 - Executed analyses: `1`
 - Observation records: `3`
 - Truth-relative diagnostics: `3`
-- Cross-run syntheses: `1`
+- Cross-run or lane syntheses: `1`
 - Diagnostic audits: `1`
 - Frozen diagnostic results: `1`
-- Signal redesigns: `0`
-- SIG-002 attempts: `0`
-- Model runs: `0`
 - Score changes: `0`
-- Public raw-evidence reveals: `0`
+- SIG-002 attempts: `0`
+- Real BBIL runs: `0`
 
 ## Registered Diagnostics
 
 | Diagnostic | Version | Related trials | Lifecycle | Result | Audit | Public raw evidence | Signal design | Public records |
 |---|---:|---|---|---|---|---|---|---|
 | `DA-001` | `0.1` | `TR-001`; `TR-002` | `Closed complete — private diagnostic result frozen` | `Sixteen-family vector frozen` | `PASS WITH PRESERVED DISSENT` | `No` | `None` | [Charter](diagnostics/DA-001/00-PUBLIC-DIAGNOSTIC-CHARTER.md); [staged method](diagnostics/DA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md); [commitment](diagnostics/DA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md); [preparation manifest](diagnostics/DA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md); [result and closure](diagnostics/DA-001/04-PUBLIC-DIAGNOSTIC-RESULT-AND-CLOSURE-RECORD.md); [result manifest](diagnostics/DA-001/05-PUBLIC-DIAGNOSTIC-RESULT-MANIFEST.md) |
+| `SDA-001` | `0.1` | `PTR-001` | `Prepared — diagnostic not executed` | `None` | `None` | `No` | `None` | [Charter](diagnostics/SDA-001/00-PUBLIC-SCORING-DISAGREEMENT-DIAGNOSTIC-CHARTER.md); [staged method](diagnostics/SDA-001/01-STAGED-METHOD-AND-BLINDING-PROTOCOL.md); [commitment](diagnostics/SDA-001/02-DIAGNOSTIC-COMMITMENT-RECORD.md); [preparation manifest](diagnostics/SDA-001/03-PUBLIC-DIAGNOSTIC-PREPARATION-MANIFEST.md) |
 
 DA-001 reopens no trial, changes no validity, score, or dissent, and authorizes
 no new run or signal design. Its public preparation package is historical and
