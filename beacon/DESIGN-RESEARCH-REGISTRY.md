@@ -10,7 +10,19 @@ target does not instantiate a design, create SIG-002, or authorize execution.
 
 ## Counts
 
-- Registered design-research packages: `3`
+- Registered design-research packages: `4`
+- Blind-iteration lab architectures: `1`
+- Synthetic capability probes: `1`
+- Real BBIL candidate designs: `0`
+- Real BBIL blind-decoder runs: `0`
+- Real BBIL validity classifications: `0`
+- Real BBIL scores: `0`
+- Real BBIL score audits: `0`
+- BBIL adaptive generations: `0`
+- BBIL confirmation rounds: `0`
+- BBIL sealed validations: `0`
+- BBIL new holdouts: `0`
+- BBIL provider-independent replications: `0`
 - Selected primary research targets: `1`
 - Exact symbolic paired designs: `1`
 - Surface-serialized paired packages: `1`
@@ -32,14 +44,24 @@ target does not instantiate a design, create SIG-002, or authorize execution.
 - Levels 5–9 analyses: `0`
 - Carriers: `0`
 - Transmissions: `0`
+- Authorized BBIL incremental spend: `USD 0`
 
-## Registered package
+## Registered packages
 
 | Package | Version | Lifecycle | Selected target | Exact design | Attempt | Records |
 | --- | ---: | --- | --- | --- | --- | --- |
 | `SDR-001` | `0.1` | `Research target selected — exact design not begun` | Framing-cue locality under controlled semantic equivalence and a matched framing-cue multiset | None | None | [Charter](SDR-001/00-SUCCESSOR-DESIGN-RESEARCH-CHARTER.md); [decision basis](SDR-001/01-DECISION-BASIS-AND-TRACEABILITY.md); [equivalence baseline](SDR-001/02-CONTROLLED-SEMANTIC-EQUIVALENCE-BASELINE.md); [hypothesis](SDR-001/03-PRIMARY-FRAMING-LOCALITY-HYPOTHESIS.md); [treatment families](SDR-001/04-TREATMENT-FAMILY-SPACE.md); [paired architecture](SDR-001/05-PAIRED-EXPERIMENT-ARCHITECTURE.md); [scorecard continuity](SDR-001/06-SCORECARD-CONTINUITY-AND-GUARDRAILS.md); [holdout/provider plan](SDR-001/07-HOLDOUT-PROVIDER-AND-CONTAMINATION-PLAN.md); [overfitting rules](SDR-001/08-OVERFITTING-AND-STOP-RULES.md); [next gate](SDR-001/09-NEXT-GATE-AND-NONEXECUTION.md); [research manifest](SDR-001/10-RESEARCH-MANIFEST.md); [treatment template](SDR-001/templates/TREATMENT-CANDIDATE-RECORD-TEMPLATE.md); [paired-protocol template](SDR-001/templates/PAIRED-EXPERIMENT-PROTOCOL-TEMPLATE.md) |
 | `SDR-002` | `0.1` | `Exact symbolic pair selected and privately frozen — no stream or attempt` | Framing-cue locality | Nested local framing signatures | None | [Public charter](SDR-002/00-PUBLIC-EXACT-PAIR-CHARTER.md); [selection record](SDR-002/01-TREATMENT-FAMILY-SELECTION-RECORD.md); [commitment record](SDR-002/02-PRIVATE-DESIGN-COMMITMENT-RECORD.md); [preparation manifest](SDR-002/03-PUBLIC-EXACT-PAIR-PREPARATION-MANIFEST.md) |
 | `SDR-003` | `0.1` | `Surface-serialized opaque pair privately frozen — no provider or trial` | Framing-cue locality | Nested local framing signatures serialized as opaque Conditions A and B | None | [Public serialized-pair charter](SDR-003/00-PUBLIC-SERIALIZED-PAIR-CHARTER.md); [opaque conditions and blinding](SDR-003/01-OPAQUE-CONDITIONS-AND-BLINDING-RECORD.md); [paired-holdout commitments](SDR-003/02-PAIRED-HOLDOUT-COMMITMENT-RECORD.md); [preparation manifest](SDR-003/03-PUBLIC-SERIALIZED-PAIR-PREPARATION-MANIFEST.md) |
+| `BBIL-001` | `0.1` | `Architecture prepared — real-candidate execution not authorized` | Context-honest same-tooling iteration with a separate sealed-validation lane | None | None | [Charter](BBIL-001/00-PUBLIC-LAB-CHARTER.md); [context honesty](BBIL-001/01-CONTEXT-HONESTY-AND-BLINDING.md); [roles](BBIL-001/02-SUBAGENT-ROLES-AND-INFORMATION-FLOW.md); [lanes](BBIL-001/03-ADAPTIVE-DEVELOPMENT-AND-SEALED-VALIDATION-LANES.md); [candidate gates](BBIL-001/04-CANDIDATE-GENERATION-AND-EQUIVALENCE-GATES.md); [decoder protocol](BBIL-001/05-BLIND-DECODER-VALIDITY-AND-CUSTODY-PROTOCOL.md); [scoring and selection](BBIL-001/06-SCORING-AUDIT-SELECTION-AND-SUCCESSIVE-HALVING.md); [canary controls](BBIL-001/07-CANARY-LEAKAGE-AND-TOOL-CONTROL.md); [synthetic probe](BBIL-001/08-SYNTHETIC-CAPABILITY-PROBE-RECORD.md); [next gate](BBIL-001/09-NEXT-GATE-AND-NONEXECUTION.md); [manifest](BBIL-001/10-RESEARCH-MANIFEST.md); [templates](BBIL-001/templates/CONTEXT-HONESTY-LEDGER-TEMPLATE.txt); [portable skill](BBIL-001/skill/SKILL.md) |
+
+BBIL-001 contains one synthetic capability probe with outcome
+`PASS WITH LIMITATIONS — no detected leak; one or more isolation controls
+unverified`. It contains no real candidate, run, validity classification,
+score, score audit, generation, confirmation, sealed validation, new holdout,
+provider-independent replication, SIG-002 attempt, Levels 5–9 analysis,
+carrier, or transmission. Adaptive Codex evidence is same-tooling development
+evidence and never clean holdout evidence.
 
 PTR-001 records one later provider/model selection and one prepared paired-
 trial package containing two opaque condition trials:

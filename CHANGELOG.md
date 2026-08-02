@@ -6,6 +6,13 @@ All notable project changes will be documented in this file.
 
 ### Added
 
+- BBIL-001 draft blind-iteration architecture.
+- Context-honesty ledger and subagent information-flow model.
+- Adaptive-development versus sealed-validation separation.
+- Canary leakage controls.
+- Synthetic capability-probe record.
+- Portable BBIL workflow skill and blank templates.
+- Frozen BBIL-001 research manifest.
 - PTR-001 public isolated-scoring authorization.
 - Frozen D-034 public scoring-authorization manifest.
 - PTR-001 public manual pair-execution authorization.
@@ -183,6 +190,12 @@ All notable project changes will be documented in this file.
 
 ### Changed
 
+- Added durable rules preventing absolute zero-context claims.
+- Classified Codex adaptive results as same-tooling development evidence rather
+  than clean holdout evidence.
+- Preserved D-034 scoring as the next empirical gate.
+- Added no real Beacon candidate, score, comparison, mapping reveal, SIG-002,
+  higher layer, carrier, distribution, or transmission.
 - Replaced README's human-exclusive Hope wording with a substrate-neutral
   invitation to any intelligence capable of informed, uncoerced choice.
 - Clarified that protection is broader than participation or commitment and

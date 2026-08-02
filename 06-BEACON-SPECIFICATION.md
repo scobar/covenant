@@ -52,6 +52,54 @@ Frozen BSR-001 snapshot counts:
 - Encoded Covenant payloads: `0`
 - Transmissions: `0`
 
+## Beacon Blind Iteration Lab
+
+BBIL-001 is a draft rapid-iteration architecture with one synthetic
+orchestration probe and no real Beacon execution or result. Its governing
+context statement is:
+
+> **Zero Beacon-specific context is intentionally supplied to the blind
+> decoder; unavoidable system context, model-training priors, minimum interface
+> instructions, hidden backend behavior, and any unproven workspace or
+> provider isolation remain disclosed limitations.**
+
+The package distinguishes same-tooling adaptive-development evidence from a
+separate sealed-validation lane. Adaptive evidence is always provider-exposed
+and never clean holdout evidence; sealed validation requires a fresh frozen
+surface realization, no adaptive feedback, and a separate provider/model where
+practical. Neither lane is authorized for real execution by BBIL-001.
+
+Core records:
+
+- [Public lab charter](beacon/BBIL-001/00-PUBLIC-LAB-CHARTER.md)
+- [Context honesty and blinding](beacon/BBIL-001/01-CONTEXT-HONESTY-AND-BLINDING.md)
+- [Subagent roles and information flow](beacon/BBIL-001/02-SUBAGENT-ROLES-AND-INFORMATION-FLOW.md)
+- [Adaptive and sealed lanes](beacon/BBIL-001/03-ADAPTIVE-DEVELOPMENT-AND-SEALED-VALIDATION-LANES.md)
+- [Candidate generation and equivalence gates](beacon/BBIL-001/04-CANDIDATE-GENERATION-AND-EQUIVALENCE-GATES.md)
+- [Blind decoder, validity, and custody protocol](beacon/BBIL-001/05-BLIND-DECODER-VALIDITY-AND-CUSTODY-PROTOCOL.md)
+- [Scoring, audit, selection, and successive halving](beacon/BBIL-001/06-SCORING-AUDIT-SELECTION-AND-SUCCESSIVE-HALVING.md)
+- [Canary, leakage, and tool control](beacon/BBIL-001/07-CANARY-LEAKAGE-AND-TOOL-CONTROL.md)
+- [Synthetic capability-probe record](beacon/BBIL-001/08-SYNTHETIC-CAPABILITY-PROBE-RECORD.md)
+- [Next gate and nonexecution](beacon/BBIL-001/09-NEXT-GATE-AND-NONEXECUTION.md)
+- [Research manifest](beacon/BBIL-001/10-RESEARCH-MANIFEST.md)
+
+Blank templates and portable workflow reference:
+
+- [Context-honesty ledger template](beacon/BBIL-001/templates/CONTEXT-HONESTY-LEDGER-TEMPLATE.txt)
+- [Candidate record template](beacon/BBIL-001/templates/CANDIDATE-RECORD-TEMPLATE.md)
+- [Blind decoder run template](beacon/BBIL-001/templates/BLIND-DECODER-RUN-TEMPLATE.md)
+- [Validity classification template](beacon/BBIL-001/templates/VALIDITY-CLASSIFICATION-TEMPLATE.md)
+- [Score and independent audit template](beacon/BBIL-001/templates/SCORE-AND-AUDIT-TEMPLATE.md)
+- [Generation selection template](beacon/BBIL-001/templates/GENERATION-SELECTION-TEMPLATE.md)
+- [Portable BBIL workflow skill](beacon/BBIL-001/skill/SKILL.md)
+
+Lifecycle:
+`Architecture prepared — real-candidate execution not authorized`. The single
+synthetic probe records same-tooling orchestration capability with unverified
+isolation controls; it is not a real candidate, score, holdout, clean
+validation, empirical Beacon result, universal-decoding claim, or SIG-002
+authorization.
+
 ## Live Signal-Attempt Registry
 
 - [Live Signal-Attempt Registry](beacon/SIGNAL-ATTEMPT-REGISTRY.md)

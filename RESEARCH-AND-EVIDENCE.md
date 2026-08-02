@@ -918,3 +918,25 @@ external independent validation or prove the selected research target causal.
 
 The framework and all Covenant text remain incomplete and challengeable unless
 a recorded decision accurately establishes a later status.
+
+## Post-Refactor Research Update — BBIL-001
+
+[BBIL-001](beacon/BBIL-001/00-PUBLIC-LAB-CHARTER.md) prepares a draft
+context-honest blind-iteration architecture and records one bounded
+[synthetic capability probe](beacon/BBIL-001/08-SYNTHETIC-CAPABILITY-PROBE-RECORD.md).
+It separates provider-exposed same-tooling
+[adaptive development](beacon/BBIL-001/03-ADAPTIVE-DEVELOPMENT-AND-SEALED-VALIDATION-LANES.md)
+from a fresh, nonadaptive sealed-validation lane and freezes ten distinct
+[information-flow roles](beacon/BBIL-001/02-SUBAGENT-ROLES-AND-INFORMATION-FLOW.md).
+
+The synthetic probe records
+`PASS WITH LIMITATIONS — no detected leak; one or more isolation controls
+unverified`. That label is orchestration evidence only: it is not a real
+Beacon candidate, run, score, holdout, empirical result, clean-holdout claim,
+provider-independent validation, or real-candidate authorization. The
+[next-gate record](beacon/BBIL-001/09-NEXT-GATE-AND-NONEXECUTION.md) preserves
+D-034 scoring as the next empirical gate, D-035 as the later opaque-comparison
+gate, and a separate mapping-reveal decision. The frozen
+[research manifest](beacon/BBIL-001/10-RESEARCH-MANIFEST.md) binds the seventeen
+architecture, template, and portable-skill dependencies without changing the
+historically preserved former README tail above.

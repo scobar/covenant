@@ -1007,6 +1007,55 @@ Require that:
 Do not grant any primary scorer, auditor, custodian, provider, model, Scott,
 ChatGPT, Codex, or future actor final interpretive authority.
 
+## Beacon Blind Iteration Lab Rules
+
+Require that:
+
+- No absolute zero-context claim is made. Use this governing statement:
+
+  > **Zero Beacon-specific context is intentionally supplied to the blind
+  > decoder; unavoidable system context, model-training priors, minimum
+  > interface instructions, hidden backend behavior, and any unproven
+  > workspace or provider isolation remain disclosed limitations.**
+
+- Every blind-decoder run carries the exact context-honesty ledger frozen in
+  `beacon/BBIL-001/01-CONTEXT-HONESTY-AND-BLINDING.md`.
+- A blind decoder receives one candidate packet and the frozen neutral
+  instruction only.
+- Exposed no-history, tool, repository, source, and network controls are used
+  where available.
+- Requested, unavailable, and unverified controls remain labeled requested,
+  unavailable, or unverified rather than being represented as enforced.
+- Canary scans detect declared leaks but do not prove isolation when clean.
+- Adaptive Codex results are same-tooling development evidence.
+- Every adaptively exposed candidate is provider-exposed and can never become
+  clean holdout evidence.
+- Adaptive development remains separate from a sealed-validation lane with a
+  fresh surface realization and no adaptive feedback.
+- Every candidate changes one declared manipulated variable.
+- Construction, semantic equivalence, framing-budget, unique-parse, exact-
+  reconstruction, novelty, and leakage gates pass before decoder exposure.
+- Validity freezes before scoring.
+- Each eligible output receives one fresh primary scorer and one independent
+  scratch-before-comparison auditor.
+- Scoring is categorical for Levels 0–4 only.
+- Level 1 is primary; Levels 0 and 2 are nonregression guardrails; Levels 3
+  and 4 are exploratory.
+- No aggregate score, hidden winner score, majority rule, favorable-output
+  selection, or favorable-candidate selection is permitted.
+- At most two adaptive generations occur without a later explicit
+  architectural review.
+- No real candidate generation, decoder execution, validity classification,
+  scoring, selection, confirmation, or sealed validation occurs before a
+  later accepted decision.
+- No SIG-002, Levels 5–9 analysis, higher layer, payload, carrier,
+  distribution, or transmission follows from BBIL-001 preparation.
+
+Do not grant a coordinator, candidate designer, construction auditor, packet
+custodian, blind decoder, validity classifier, scorer, scoring auditor,
+selector, sealed-validation custodian, Scott, ChatGPT, Codex, provider, model,
+or future actor final interpretive authority.
+
 ## Cooperative-Surplus and Adoption Research Rules
 
 Require that:

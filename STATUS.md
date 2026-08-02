@@ -27,6 +27,24 @@ specification, or governance system exists.
 - This wording correction changed no candidate text, decision, research
   lifecycle, result, validity state, score, comparison, mapping, count, or
   authorization.
+- BBIL-001 draft blind-iteration architecture prepared with seventeen frozen
+  pre-manifest dependencies and six blank templates.
+- One tightly bounded synthetic Codex-subagent capability probe completed.
+- Synthetic probe outcome:
+  `PASS WITH LIMITATIONS — no detected leak; one or more isolation controls unverified`.
+- Synthetic validity classification: `Indeterminate`; repository/tool use and
+  project-context leakage detected: `False`; absence of such use proven:
+  `False`.
+- Synthetic scoring audit: `PASS — exact agreement`.
+- The probe is same-tooling OpenAI/Codex development evidence, not a real
+  Beacon result, clean holdout, provider-independent replication, or authority
+  to execute a real candidate.
+- Frozen BBIL-001 research manifest identity:
+  - Raw SHA-256:
+    `396110358c8dde46885c424ac3eca77f5c9a71a677d96d3d9d304bfb9eaa509f`
+  - No-filter Git blob:
+    `1e82ed0836d186d1232045e44434838989d2fa57`
+  - Bytes: `7797`
 - Three original founding answers and three separately labeled,
   founder-adopted collaborative refinements preserved as noncanonical
   historical evidence.
@@ -527,6 +545,28 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 - Transmissions: `0`.
 - Authorized incremental spend: USD `0`.
 
+### BBIL-001
+
+- Lifecycle: `Architecture prepared — real-candidate execution not authorized`.
+- Real BBIL candidates: `0`.
+- Real BBIL blind-decoder runs: `0`.
+- Real BBIL validity classifications: `0`.
+- Real BBIL scores: `0`.
+- Real BBIL score audits: `0`.
+- Adaptive generations: `0`.
+- Confirmation rounds: `0`.
+- Sealed validations: `0`.
+- New holdouts: `0`.
+- Provider-independent replications: `0`.
+- Synthetic capability probes: `1`.
+- Synthetic probe outcome:
+  `PASS WITH LIMITATIONS — no detected leak; one or more isolation controls unverified`.
+- D-034 isolated scoring remains the next empirical gate.
+- D-035 remains reserved for opaque comparison after both score freezes.
+- Mapping reveal and real BBIL adaptive execution remain unauthorized.
+- SIG-002 attempts, Levels 5–9 analyses, carriers, and transmissions: `0`.
+- Authorized incremental spend: USD `0`.
+
 ### PTR-001
 
 - Trial package: `PTR-001 v0.1`.
@@ -647,10 +687,10 @@ RAW_CONDITION_CONTENT_DISCLOSED=False
 
 ## Next Proposed Architectural Work
 
-1. Architectural review before commit.
-2. Commit and push D-034.
-3. Only after clean publication may a separate private task score both opaque
-   conditions.
+1. Architectural review of BBIL-001 and its public diff before staging.
+2. After review, publish BBIL-001 through the human-controlled Git workflow.
+3. After BBIL-001 review and publication, resume the already authorized D-034
+   private isolated scoring of both opaque conditions.
 4. Create exactly three scoring files per condition and nothing else.
 5. Complete both condition-specific score freezes before comparison.
 6. Require D-035 before opaque comparison.
